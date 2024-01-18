@@ -40,7 +40,6 @@ DEV = (configure['userinfo']['androiddev1'])
 timeout= 20.0  
 root_path = os.path.dirname(os.path.realpath(__file__))
 
-# TICKET : https://plumedesign.atlassian.net/browse/THRIV-1311
 
 
 ############################################################

@@ -98,18 +98,6 @@ class PWBFunc:
         #Step 4 : Test API /pwb/GetFallEventSummary
         #curl -k -H "Content-Type:application/json" -d '{"pingTest": {"action": 1,"ipVersion": 4,"host": "10.10.10.100","count": 3,"size": 64,"timeout": 60,"interval": "1",}}' -u admin:password https://10.10.10.8:8443/api/v1/ping_test_start
         # 
-        """
-        curl -X 'POST' \
-          'https://thrive-dog1-usw2-api.data.plume.tech/pwb/GetFallEventSummary' \
-          -H 'accept: application/json' \
-          -H 'Authorization: Bearer eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6ZTIyMDZiN2QtMDk1YS00M2QxLTgxMzUtODZhMTc5NmI1OTA5IiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6SlVtQnFiMmRxT3lRZFdFS3VSR1hYWnZrN2RMTUEwUmJYaENtOUVHb1gwZW00aHRCWlVCNnZLMkF0cVN6cXVVViJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODY2MzM0OTcsImlhdCI6MTY4NjU0NzA5N30.FgoFMwJC-kz2WfyTGKbFiz5JkyC8vMlRm8aZMcIpROa8y9TpRmxiNXuShUAvXNEQKcb7-WndcBG7g72DjhJSsLldSewMS8Ck2bgb5G1cLofL6JepcTHrZxEuxJ-9ESLnlOGGYqCZEzJfdqlYkbSutsMwf02D7Dwr2RWVpVgCC8uOSavDQUPJ5OlMPzenBVGGDhbntUdCZiEC1pc6oyj7gK_ndL4m_KigNho9a0WZ00asVzB7qHDJQNpodLx4nvfbf6ZQHNNYn_J9PWZ3TRLTSTjZ8eQTXVjh5i1SM9T50hbkNCFxGxmGEEYFhWoZAEBwndc-KjdS9QbB6Am7448MFA' \
-          -H 'Content-Type: application/json' \
-          -d '{
-          "userId": "62a2d6708a13a8000a1b40b9",
-          "startTime": 1686500000,
-          "endTime": 1686547498
-        }'
-        """
  
         return ToGetFallEventSummary(apiNameGetFallEventSummary, finaltokenid, startTime, endTime)
 
@@ -121,19 +109,7 @@ class PWBFunc:
         #Step 4 : Test API /pwb/GetFallEventList
         #curl -k -H "Content-Type:application/json" -d '{"pingTest": {"action": 1,"ipVersion": 4,"host": "10.10.10.100","count": 3,"size": 64,"timeout": 60,"interval": "1",}}' -u admin:password https://10.10.10.8:8443/api/v1/ping_test_start
         # 
-        """
-        curl -X 'POST' \
-          'https://thrive-dog1-usw2-api.data.plume.tech/pwb/GetFallEventList' \
-          -H 'accept: application/json' \
-          -H 'Authorization: Bearer eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6ZTIyMDZiN2QtMDk1YS00M2QxLTgxMzUtODZhMTc5NmI1OTA5IiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6SlVtQnFiMmRxT3lRZFdFS3VSR1hYWnZrN2RMTUEwUmJYaENtOUVHb1gwZW00aHRCWlVCNnZLMkF0cVN6cXVVViJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODY2MzM0OTcsImlhdCI6MTY4NjU0NzA5N30.FgoFMwJC-kz2WfyTGKbFiz5JkyC8vMlRm8aZMcIpROa8y9TpRmxiNXuShUAvXNEQKcb7-WndcBG7g72DjhJSsLldSewMS8Ck2bgb5G1cLofL6JepcTHrZxEuxJ-9ESLnlOGGYqCZEzJfdqlYkbSutsMwf02D7Dwr2RWVpVgCC8uOSavDQUPJ5OlMPzenBVGGDhbntUdCZiEC1pc6oyj7gK_ndL4m_KigNho9a0WZ00asVzB7qHDJQNpodLx4nvfbf6ZQHNNYn_J9PWZ3TRLTSTjZ8eQTXVjh5i1SM9T50hbkNCFxGxmGEEYFhWoZAEBwndc-KjdS9QbB6Am7448MFA' \
-          -H 'Content-Type: application/json' \
-          -d '{
-          "userId": "62a2d6708a13a8000a1b40b9",
-          "startTime": 1686500000,
-          "endTime": 1686547498
-        }'
-        """
- 
+
         return ToGetFallEventList(apiNameGetFallEventList, finaltokenid, startTime, endTime)        
  
 class TestAPI(TestAPIWrap):
@@ -197,9 +173,6 @@ class TestAPI(TestAPIWrap):
 
         ## API Part
         # Cloud Part 
-        logdef.info("#########################################################################\n")
-        logdef.info("# API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)\n")
-        logdef.info("# ---------------------------------------------------------------- #)\n")
         self.result = PWBFunc().CloudLoginProcess()
         logdef.info("Step 1 :  PlumeCloudLogin\n")
         Data1 = self.result['data']

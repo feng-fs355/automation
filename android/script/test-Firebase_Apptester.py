@@ -49,8 +49,6 @@ userpassword = (configure['userinfo']['pwd'])
 timeout= 30.0  
 root_path = os.path.dirname(os.path.realpath(__file__))
 
-# TICKET : https://plumedesign.atlassian.net/browse/THRIV-2511
-
 
 class PWBFunc:
 
@@ -451,10 +449,7 @@ class TestAPI(TestAPIWrap):
         cmd = "adb -s "+str(DEV)+" shell am force-stop com.plumewifi.plume.dogfood"
         command = os.popen(cmd)
         time.sleep(1.5)
-        logdef.info("################################################################################################\n")
-        logdef.info("#  Test case : THRIV-2580 :  [Thrive Automation][script] Trigger FireBase in the Android phone #     (FireBase App)  #)\n")        
-        logdef.info("################################################################################################)\n") 
-        print(f'Scan \"PlumeF\"')
+
         global checkpoint
         global d 
         global device   

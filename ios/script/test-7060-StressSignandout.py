@@ -184,8 +184,6 @@ class TestAPI(TestAPIWrap):
     def test_beacon_func(self):
 
         # Cloud first 
-        logdef.info("#########################################################################\n")
-        logdef.info("# API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)\n")
         logdef.info("# ---------------------------------------------------------------- #)\n")
         """   
         List app bundle refernce as below:
