@@ -1,0 +1,212 @@
+C:\script>
+C:\script>
+C:\script>python -m pytest -vv test-6051-HomePass_AddPlumeRing_try.py
+======================================================================== test session starts ========================================================================
+platform win32 -- Python 3.10.9, pytest-7.2.0, pluggy-1.0.0 -- C:\Python310\python.exe
+cachedir: .pytest_cache
+metadata: {'Python': '3.10.9', 'Platform': 'Windows-10-10.0.22621-SP0', 'Packages': {'pytest': '7.2.0', 'pluggy': '1.0.0'}, 'Plugins': {'allure-pytest': '2.12.0', 'html': '3.2.0', 'loop': '1.0.6', 'metadata': '2.0.4', 'repeat': '0.9.1'}, 'JAVA_HOME': 'C:\\Program Files\\OpenJDK\\jdk-8.0.352.08-hotspot\\'}
+rootdir: C:\script
+plugins: allure-pytest-2.12.0, html-3.2.0, loop-1.0.6, metadata-2.0.4, repeat-0.9.1
+collected 1 item
+
+
+============================================================================== Loop # 1 ==============================================================================
+
+test-6051-HomePass_AddPlumeRing_try.py::TestAPI::test_beacon_func - run[1] FAILED                                                                              [100%]
+
+============================================================================= FAILURES ==============================================================================
+_____________________________________________________________________ TestAPI.test_beacon_func ______________________________________________________________________
+
+self = <test-6051-HomePass_AddPlumeRing_try.TestAPI object at 0x0000023A8283CF10>
+
+    def test_beacon_func(self):
+
+        """
+        BLE beacon scan via Android Phone (Nordic App)
+
+        """
+        # Re-initial adb interface
+        cmd = 'adb kill-server'
+        command = os.popen(cmd)
+        time.sleep(1.5)
+        cmd = 'adb start-server'
+        command = os.popen(cmd)
+        time.sleep(1.5)
+        cmd = 'adb devices'
+        command = os.popen(cmd)
+        time.sleep(1.5)
+        # Force to stop the HomePass APP
+        cmd = 'adb shell am force-stop com.plumewifi.plume.dogfood'
+        command = os.popen(cmd)
+        time.sleep(1.5)
+
+        logdef.info("##################################################################\n")
+        logdef.info("#  Test case : ( BLE beacon scan via Android Phone (HomePass App)  #)\n")
+        logdef.info("##################################################################)\n")
+        logdef.info("##################################################################")
+        print(f'Scan \"PlumeF\"')
+        global checkpoint
+        global d
+        # get android phone serial number
+        d = Device(DEV)
+        time.sleep(3)
+        print(d.info)
+        # turn on the screen
+        d.screen.on()
+        time.sleep(1.5)
+        # swipe up to unlock the screen
+        d.swipe(530,2150,630,1080)
+        time.sleep(3)
+        # backtohome
+        d.press.home()
+        time.sleep(3)
+        d.press.recent()
+        time.sleep(3)
+        PWBFunc().CleanAPP(d)
+        time.sleep(5)
+        print(d.info)
+        # Lanch HomePass app
+        PWBFunc().HomePass(d)
+        time.sleep(15)
+        # Lanch HomePass app via cmd
+        cmd = 'adb shell am start -n com.plumewifi.plume.dogfood/com.plume.residential.ui.main.MainActivity'
+        command = os.popen(cmd)
+        time.sleep(15)
+        # Click ManuSetting button
+        PWBFunc().ManuSetting(d)
+        time.sleep(5)
+        # Click AddPlumeRing button
+        PWBFunc().AddPlumeRing(d)
+        time.sleep(5)
+        # Scan ring
+        PWBFunc().ScanRing(d)
+        time.sleep(25)
+        # Sarch target ring to connect
+        PWBFunc().TARGET(d)
+        time.sleep(10)
+        # Setup yourself
+>       PWBFunc().SetupYourself(d)
+
+test-6051-HomePass_AddPlumeRing_try.py:339:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+test-6051-HomePass_AddPlumeRing_try.py:216: in SetupYourself
+    if d(text="Year of birth",className="android.widget.TextView").right(text="Select").exists:
+C:\Python310\lib\site-packages\uiautomator\__init__.py:1196: in right
+    return self.__view_beside(onrightof, **kwargs)
+C:\Python310\lib\site-packages\uiautomator\__init__.py:1217: in __view_beside
+    bounds = self.info["bounds"]
+C:\Python310\lib\site-packages\uiautomator\__init__.py:908: in info
+    return self.jsonrpc.objInfo(self.selector)
+C:\Python310\lib\site-packages\uiautomator\__init__.py:427: in wrapper
+    return _method_obj(*args, **kwargs)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <uiautomator.JsonRPCMethod object at 0x0000023A8283EFE0>
+args = ({'mask': 17, 'childOrSibling': [], 'childOrSiblingSelector': [], 'text': 'Year of birth', 'className': 'android.widget.TextView'},), kwargs = {}
+data = {'id': 'b418ecddd9c489b452fcf13477abb3e0', 'jsonrpc': '2.0', 'method': 'objInfo', 'params': ({'mask': 17, 'childOrSibling': [], 'childOrSiblingSelector': [], 'text': 'Year of birth', 'className': 'android.widget.TextView'},)}
+jsonresult = {'error': {'code': -32001, 'data': 'UiSelector[TEXT=Year of birth, CLASS=android.widget.TextView]', 'message': 'androidx.test.uiautomator.UiObjectNotFoundException'}, 'id': 'b418ecddd9c489b452fcf13477abb3e0', 'jsonrpc': '2.0'}
+res = <urllib3.response.HTTPResponse object at 0x0000023A8283EBC0>
+
+    def __call__(self, *args, **kwargs):
+        if args and kwargs:
+            raise SyntaxError("Could not accept both *args and **kwargs as JSONRPC parameters.")
+        data = {"jsonrpc": "2.0", "method": self.method, "id": self.id()}
+        if args:
+            data["params"] = args
+        elif kwargs:
+            data["params"] = kwargs
+        jsonresult = {"result": ""}
+        if os.name == "nt":
+            res = self.pool.urlopen("POST",
+                                    self.url,
+                                    headers={"Content-Type": "application/json"},
+                                    body=json.dumps(data).encode("utf-8"),
+                                    timeout=self.timeout)
+            jsonresult = json.loads(res.data.decode("utf-8"))
+        else:
+            result = None
+            try:
+                req = urllib2.Request(self.url,
+                                      json.dumps(data).encode("utf-8"),
+                                      {"Content-type": "application/json"})
+                result = urllib2.urlopen(req, timeout=self.timeout)
+                jsonresult = json.loads(result.read().decode("utf-8"))
+            finally:
+                if result is not None:
+                    result.close()
+        if "error" in jsonresult and jsonresult["error"]:
+            raise JsonRPCError(
+                jsonresult["error"]["code"],
+>               "%s: %s" % (jsonresult["error"]["data"]["exceptionTypeName"], jsonresult["error"]["message"])
+            )
+E           TypeError: string indices must be integers
+
+C:\Python310\lib\site-packages\uiautomator\__init__.py:132: TypeError
+------------------------------------------------------------------------ Captured log setup -------------------------------------------------------------------------
+DEBUG    logcon:runnerWrapper.py:548 ======================================== Star to run: <TestAPI> ========================================
+DEBUG    logcon:runnerWrapper.py:554 ======================================== Star to run: <test_beacon_func> ========================================
+----------------------------------------------------------------------- Captured stdout call ------------------------------------------------------------------------
+Scan "PlumeF"
+{'currentPackageName': 'com.android.systemui', 'displayHeight': 2132, 'displayRotation': 0, 'displaySizeDpX': 360, 'displaySizeDpY': 780, 'displayWidth': 1080, 'productName': 'RMX1971', 'screenOn': True, 'sdkInt': 30, 'naturalOrientation': True}
+{'currentPackageName': 'com.oppo.launcher', 'displayHeight': 2132, 'displayRotation': 0, 'displaySizeDpX': 360, 'displaySizeDpY': 780, 'displayWidth': 1080, 'productName': 'RMX1971', 'screenOn': True, 'sdkInt': 30, 'naturalOrientation': True}
+----------------------------------------------------------------------- Captured stderr call ------------------------------------------------------------------------
+* daemon not running; starting now at tcp:5037
+* daemon started successfully
+Warning: Activity not started, intent has been delivered to currently running top-most instance.
+------------------------------------------------------------------------- Captured log call -------------------------------------------------------------------------
+INFO     logcon:test-6051-HomePass_AddPlumeRing_try.py:294 ##################################################################
+
+INFO     logcon:test-6051-HomePass_AddPlumeRing_try.py:295 #  Test case : ( BLE beacon scan via Android Phone (HomePass App)  #)
+
+INFO     logcon:test-6051-HomePass_AddPlumeRing_try.py:296 ##################################################################)
+
+INFO     logcon:test-6051-HomePass_AddPlumeRing_try.py:297 ##################################################################
+WARNING  urllib3.connectionpool:connectionpool.py:812 Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023A8283DA80>: Failed to establish a new connection: [WinError 10061] 無法連線，因為目標電腦拒絕連線。')': /jsonrpc/0
+WARNING  urllib3.connectionpool:connectionpool.py:812 Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023A8283DC60>: Failed to establish a new connection: [WinError 10061] 無法連線，因為目標電腦拒絕連線。')': /jsonrpc/0
+WARNING  urllib3.connectionpool:connectionpool.py:812 Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023A8283DDE0>: Failed to establish a new connection: [WinError 10061] 無法連線，因為目標電腦拒絕連線。')': /jsonrpc/0
+DEBUG    logcon:test-6051-HomePass_AddPlumeRing_try.py:84 Lanch the HomePass APP successfully.
+DEBUG    logcon:test-6051-HomePass_AddPlumeRing_try.py:97 Failed to go to Manu & Settines!
+DEBUG    logcon:test-6051-HomePass_AddPlumeRing_try.py:143 Failed to click Add Plume Ring button!
+DEBUG    logcon:test-6051-HomePass_AddPlumeRing_try.py:153 Failed to click Next button!
+DEBUG    logcon:test-6051-HomePass_AddPlumeRing_try.py:175 Detect connect Failed!
+DEBUG    logcon:test-6051-HomePass_AddPlumeRing_try.py:192 click Try again button successfully!
+DEBUG    logcon:test-6051-HomePass_AddPlumeRing_try.py:192 click Try again button successfully!
+DEBUG    logcon:test-6051-HomePass_AddPlumeRing_try.py:192 click Try again button successfully!
+DEBUG    logcon:test-6051-HomePass_AddPlumeRing_try.py:192 click Try again button successfully!
+DEBUG    logcon:test-6051-HomePass_AddPlumeRing_try.py:192 click Try again button successfully!
+DEBUG    logcon:test-6051-HomePass_AddPlumeRing_try.py:192 click Try again button successfully!
+DEBUG    logcon:test-6051-HomePass_AddPlumeRing_try.py:192 click Try again button successfully!
+DEBUG    logcon:test-6051-HomePass_AddPlumeRing_try.py:192 click Try again button successfully!
+DEBUG    logcon:test-6051-HomePass_AddPlumeRing_try.py:192 click Try again button successfully!
+DEBUG    logcon:test-6051-HomePass_AddPlumeRing_try.py:192 click Try again button successfully!
+INFO     logcon:test-6051-HomePass_AddPlumeRing_try.py:180 Try again more than 10 times, cannot find a ring to add
+----------------------------------------------------------------------- Captured log teardown -----------------------------------------------------------------------
+DEBUG    logcon:runnerWrapper.py:557 teardown_method
+DEBUG    logcon:runnerWrapper.py:551 teardown_class
+====================================================================== short test summary info ======================================================================
+FAILED test-6051-HomePass_AddPlumeRing_try.py::TestAPI::test_beacon_func - run[1] - TypeError: string indices must be integers
+=================================================================== 1 failed in 437.50s (0:07:17) ===================================================================
+
+C:\script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

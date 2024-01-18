@@ -1,0 +1,41 @@
+To detect a "hands up" notification using UiAutomator in Python, you can follow these steps:
+
+Import the necessary modules:
+
+from uiautomator import Device
+import time
+Initialize the UiAutomator device object:
+
+d = Device()
+Enable the UiAutomator notification listener:
+
+d.server.adb.cmd("notification", "listen").run()
+time.sleep(2)  # Wait for the notification listener to start
+Perform an action that triggers the "hands up" notification.
+
+Check for the presence of the notification using the UiAutomator API:
+
+notification = d.server.adb.cmd("shell", "dumpsys", "notification").communicate()[0]
+if "Your Hands Are Up" in notification:
+    print("Hands up notification detected!")
+Here's a complete example:
+
+
+from uiautomator import Device
+import time
+
+d = Device()
+
+# Enable the UiAutomator notification listener
+d.server.adb.cmd("notification", "listen").run()
+time.sleep(2)  # Wait for the notification listener to start
+
+# Perform an action that triggers the "hands up" notification
+
+# Check for the presence of the notification
+notification = d.server.adb.cmd("shell", "dumpsys", "notification").communicate()[0]
+if "Your Hands Are Up" in notification:
+    print("Hands up notification detected!")
+
+Make sure you have the uiautomator module installed before running this code. 
+You can install it using pip: pip install uiautomator. Also, note that the code assumes that your device is connected and accessible via ADB.

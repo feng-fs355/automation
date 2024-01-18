@@ -1,0 +1,84 @@
+
+
+Pre-condition 1:
+Web page: https://portal.pwb.plume-dev.com/home/swagger
+
+Please setting token via web page first and don't close this web page when you need execute API
+
+1.  call /pwb/PlumeCloudLogin to get PlumeAccessToken and Home userId with your homepass email address/password
+2.  call /pwb/AuthenticateWithPlumeToken to get the PWB accessToken with the PlumeAccessToken and userId from #1.
+3.  add the PWB cloud accessToken from #2 to Authorize icon(In the Web page).
+
+
+"data": {
+    "id": "bmplgN5mjC5L9OptCbCqIIh2K2lh9AlHR62gHvnRIMJPb1pIBEWCGJqS0kDIYJay",   // This is the PlumeAccessToken to use in the /pwb/AuthenticateWithPlumeToken request in #2.
+    "ttl": 3600,
+    "created": "2022-03-10T01:53:32.925Z",
+    "userId": "62226a3c38beb79efce0d2ee",      //This is the homepass userid to use in #2.
+    "expireAt": "2022-03-10T02:53:32.925Z",
+
+
+Example as below:
+
+
+"id": "vcDPsvrTJ2L1CLm44FFNbFdlev5QZ4r5tFirKE9ZRegi2x3Aa9XNJhe3Wt8altHA",
+
+    "user": {
+      "id": "62e89e5391a0ca000a6d18b7",
+
+data": {
+    "email": "mhsieh@plume.com",
+    "userGroup": "admin",
+    "userName": "mhsieh",
+    "userId": "62e89e5391a0ca000a6d18b7",
+    "accessToken": "eyJraWQiOiJ1cy13ZXN0LTIxIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6ZWM0YjUwNmItMDJiOC00NmRjLWFmOTgtNjkxMzk2YTgxYzYyIiwiYXVkIjoidXMtd2VzdC0yOjYxZWY2YjcyLTk0NzctNDYzYy1iOTQ2LWFhODk3MDhiZTg3ZCIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwicHdiLnBsdW1lLmNvbSIsInB3Yi5wbHVtZS5jb206dXMtd2VzdC0yOjYxZWY2YjcyLTk0NzctNDYzYy1iOTQ2LWFhODk3MDhiZTg3ZDpVNTdIV3VoVkNnTXdYVXVGU293eU5yQVZ4TTJQSXptSlh5cDA1NzNlTDlVVnozTmVZSkViYVhqcXlZWFg5cTU2Il0sImlzcyI6Imh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tIiwiaHR0cHM6Ly9jb2duaXRvLWlkZW50aXR5LmFtYXpvbmF3cy5jb20vaWRlbnRpdHktcG9vbC1hcm4iOiJhcm46YXdzOmNvZ25pdG8taWRlbnRpdHk6dXMtd2VzdC0yOjY0Mzc5NTA3NzcxNTppZGVudGl0eXBvb2wvdXMtd2VzdC0yOjYxZWY2YjcyLTk0NzctNDYzYy1iOTQ2LWFhODk3MDhiZTg3ZCIsImV4cCI6MTY2MDAwMzQzNSwiaWF0IjoxNjU5OTE3MDM1fQ.JHAgjaZRl8CJb_beFWmDiU2uldbphub2Ksx8KA6FnLPxTxyl9CS3NRQUd-Yzu5ZJy1P3iq5UV9iSAoXUhBpwh2l8e68n-DywmjolB4ZQYhC3bIMMffc-MGLozPDAyI036Dv7sgzZ48ugh1R_MVLuuRpmW8lGplGjX0Oj1Ls1FEDsJVM0u_O6RCMW7IkLksK8TYRF6W0zIvTVxEQAQZwFsEo3zen8Ja10tnTDWlYPFoEWgavsmGTF6VDQ6tGL_vfe-iOc3xLW1ZJVOcv6AeYu4lh2BBBGwdfjxDZ5EgBmcQklmG4x8dhnddXiLd88R-3tt--0bPP9m_l5f632Tgq_MQ"
+
+
+"accessToken": "eyJraWQiOiJ1cy13ZXN0LTIxIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6NzA5MGNmNGUtNzk2MS00ZWY4LWJhYmMtODA2N2Q5ZmI0YzA0IiwiYXVkIjoidXMtd2VzdC0yOjYxZWY2YjcyLTk0NzctNDYzYy1iOTQ2LWFhODk3MDhiZTg3ZCIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwicHdiLnBsdW1lLmNvbSIsInB3Yi5wbHVtZS5jb206dXMtd2VzdC0yOjYxZWY2YjcyLTk0NzctNDYzYy1iOTQ2LWFhODk3MDhiZTg3ZDp2Y0RQc3ZyVEoyTDFDTG00NEZGTmJGZGxldjVRWjRyNXRGaXJLRTlaUmVnaTJ4M0FhOVhOSmhlM1d0OGFsdEhBIl0sImlzcyI6Imh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tIiwiaHR0cHM6Ly9jb2duaXRvLWlkZW50aXR5LmFtYXpvbmF3cy5jb20vaWRlbnRpdHktcG9vbC1hcm4iOiJhcm46YXdzOmNvZ25pdG8taWRlbnRpdHk6dXMtd2VzdC0yOjY0Mzc5NTA3NzcxNTppZGVudGl0eXBvb2wvdXMtd2VzdC0yOjYxZWY2YjcyLTk0NzctNDYzYy1iOTQ2LWFhODk3MDhiZTg3ZCIsImV4cCI6MTY1OTY2OTUxMSwiaWF0IjoxNjU5NTgzMTExfQ.km1KuOj6GuqwSC_BN0AGOIZ2ERePxvJ54R68qw8FKmKtJ4dUtmAwTLjNi4JYAwCMCH42PdyUmwOY-Ikkf2vIuRBnR_35Torqs_XYa1YHvry9yhU4XKgxYZGYMXefdC7vmqPQYQDhiJyxXsArAhQgzfAC4aoJzOZQbLTD_-D4gCmnLD-LAhHzxEdBE7Em6r8wECbRxOwqEyh4eG9gJORESaFbeyzkl7qKZPdx3huPvmSDyr-rXFzHvK0TReFnGO_9jhty_Gk2qug-IlsqiCxkhPWmQzSKTS-HW7lVKJQH7faKk5GeSHKPoPhDnBWXtlN49E2oFZveDDfe4kqpiVoKbw"
+
+
+ Pre-condition 2:
+
+Installation
+Install pygatt with pip from PyPI:
+
+$ pip install pygatt
+The BlueZ backend is not supported by default as it requires pexpect, which can only be installed in a UNIX-based environment. If you wish to use that backend, install the optional dependencies with:
+
+$ pip install "pygatt[GATTTOOL]"
+
+Linux / Mac
+
+1. It's in python3 (Has been moved to python3)
+2. Install python packages: 
+
+   requests, toml, pytest, pytest-html, pytest-timeout, assertpy, Flask
+    
+   python3 -m pip install pytest-repeat 
+   #requests-kerberos
+
+   #pandas
+
+3. To run whole suites:
+    python -m pytest or pytest
+4. To run one suite:
+    pytest test_xxxx.py --html=report.html or python -m pytest test_xxxx.py --html=report.html
+
+    or py.test test_xxxx.py --html=report.html -vv
+
+    
+5.  Additional report object (include dashboard / overview)
+    mac: brew install allure
+    linux : pip install allure
+
+     python -m pytest test_GetDeviceStatusByUser.py --alluredir=./test_report ./tests
+
+     allure serve ./test_report
+
+   
+
+pip3 install pygatt --use-pep517 
+pip3 install "pygatt[GATTTOOL]"
+pip3 install "setuptools<58.0.0"
+pip3 install django-celery
+pip3 install pybluez

@@ -1,0 +1,1414 @@
+2023-07-18 15:01:51 [INFO   ][ln-47 ]: Start to load config file
+2023-07-18 15:01:51 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+4@plume.com', 'pwd': 'plume1234', 'devuserid': '64895a7f924521000b2d7ac7', 'sn': 'KD8F00003C', 'devid': '60B4F7B306AD', 'mac': '60:B4:F7:B3:06:AD', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-07-18 15:01:52 [DEBUG  ][ln-877]: ======================================== Star to run: <TestAPI> ========================================
+2023-07-18 15:01:52 [DEBUG  ][ln-883]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-18 15:01:55 [INFO   ][ln-102]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.25.121'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': None}
+2023-07-18 15:02:00 [INFO   ][ln-112]: Size(width=390, height=844)
+2023-07-18 15:02:11 [INFO   ][ln-137]: Test completed
+2023-07-18 15:02:19 [DEBUG  ][ln-886]: teardown_method
+2023-07-18 15:02:19 [DEBUG  ][ln-880]: teardown_class
+2023-07-18 15:03:34 [INFO   ][ln-47 ]: Start to load config file
+2023-07-18 15:03:34 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+4@plume.com', 'pwd': 'plume1234', 'devuserid': '64895a7f924521000b2d7ac7', 'sn': 'KD8F00003C', 'devid': '60B4F7B306AD', 'mac': '60:B4:F7:B3:06:AD', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-07-18 15:03:35 [DEBUG  ][ln-877]: ======================================== Star to run: <TestAPI> ========================================
+2023-07-18 15:03:35 [DEBUG  ][ln-883]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-18 15:03:35 [INFO   ][ln-102]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.25.121'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': None}
+2023-07-18 15:03:40 [INFO   ][ln-112]: Size(width=390, height=844)
+2023-07-18 15:04:00 [INFO   ][ln-137]: Test completed
+2023-07-18 15:04:08 [DEBUG  ][ln-886]: teardown_method
+2023-07-18 15:04:08 [DEBUG  ][ln-880]: teardown_class
+2023-07-18 15:09:32 [INFO   ][ln-47 ]: Start to load config file
+2023-07-18 15:09:32 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+4@plume.com', 'pwd': 'plume1234', 'devuserid': '64895a7f924521000b2d7ac7', 'sn': 'KD8F00003C', 'devid': '60B4F7B306AD', 'mac': '60:B4:F7:B3:06:AD', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-07-18 15:09:33 [DEBUG  ][ln-877]: ======================================== Star to run: <TestAPI> ========================================
+2023-07-18 15:09:33 [DEBUG  ][ln-883]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-18 15:09:33 [INFO   ][ln-102]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.25.121'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': None}
+2023-07-18 15:09:37 [INFO   ][ln-112]: Size(width=390, height=844)
+2023-07-18 15:10:05 [INFO   ][ln-142]: Test completed
+2023-07-18 15:10:07 [DEBUG  ][ln-886]: teardown_method
+2023-07-18 15:10:07 [DEBUG  ][ln-880]: teardown_class
+2023-07-18 15:34:46 [INFO   ][ln-47 ]: Start to load config file
+2023-07-18 15:34:46 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+4@plume.com', 'pwd': 'plume1234', 'devuserid': '64895a7f924521000b2d7ac7', 'sn': 'KD8F00003C', 'devid': '60B4F7B306AD', 'mac': '60:B4:F7:B3:06:AD', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-07-18 15:34:46 [DEBUG  ][ln-877]: ======================================== Star to run: <TestAPI> ========================================
+2023-07-18 15:34:46 [DEBUG  ][ln-883]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-18 15:34:46 [INFO   ][ln-102]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.25.121'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': None}
+2023-07-18 15:34:51 [INFO   ][ln-112]: Size(width=390, height=844)
+2023-07-18 15:35:19 [INFO   ][ln-142]: Test completed
+2023-07-18 15:35:20 [DEBUG  ][ln-886]: teardown_method
+2023-07-18 15:35:20 [DEBUG  ][ln-880]: teardown_class
+2023-07-18 15:58:54 [INFO   ][ln-47 ]: Start to load config file
+2023-07-18 15:58:54 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+4@plume.com', 'pwd': 'plume1234', 'devuserid': '64895a7f924521000b2d7ac7', 'sn': 'KD8F00003C', 'devid': '60B4F7B306AD', 'mac': '60:B4:F7:B3:06:AD', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-07-18 15:58:55 [DEBUG  ][ln-877]: ======================================== Star to run: <TestAPI> ========================================
+2023-07-18 15:58:55 [DEBUG  ][ln-883]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-18 15:58:58 [INFO   ][ln-102]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '192.168.1.117'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': None}
+2023-07-18 15:58:58 [DEBUG  ][ln-886]: teardown_method
+2023-07-18 15:58:58 [DEBUG  ][ln-880]: teardown_class
+2023-07-18 15:59:17 [INFO   ][ln-47 ]: Start to load config file
+2023-07-18 15:59:17 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+4@plume.com', 'pwd': 'plume1234', 'devuserid': '64895a7f924521000b2d7ac7', 'sn': 'KD8F00003C', 'devid': '60B4F7B306AD', 'mac': '60:B4:F7:B3:06:AD', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-07-18 15:59:18 [DEBUG  ][ln-877]: ======================================== Star to run: <TestAPI> ========================================
+2023-07-18 15:59:18 [DEBUG  ][ln-883]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-18 15:59:18 [INFO   ][ln-102]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '192.168.1.117'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': None}
+2023-07-18 15:59:18 [DEBUG  ][ln-886]: teardown_method
+2023-07-18 15:59:18 [DEBUG  ][ln-880]: teardown_class
+2023-07-18 19:47:58 [INFO   ][ln-47 ]: Start to load config file
+2023-07-18 19:47:58 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+4@plume.com', 'pwd': 'plume1234', 'devuserid': '64895a7f924521000b2d7ac7', 'sn': 'KD8F00003C', 'devid': '60B4F7B306AD', 'mac': '60:B4:F7:B3:06:AD', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-07-18 19:47:59 [DEBUG  ][ln-877]: ======================================== Star to run: <TestAPI> ========================================
+2023-07-18 19:47:59 [DEBUG  ][ln-883]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-18 19:47:59 [INFO   ][ln-148]: #########################################################################
+
+2023-07-18 19:47:59 [INFO   ][ln-149]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-18 19:47:59 [INFO   ][ln-150]: # ---------------------------------------------------------------- #)
+
+2023-07-18 19:47:59 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-18 19:48:02 [INFO   ][ln-152]: Step 1 :  PlumeCloudLogin
+
+2023-07-18 19:48:02 [INFO   ][ln-156]: T1tSy1C9BqnG2oEYHtYgtw44AA25CDF0vHbguLMAHSpVoDwhuJI1wb9DoULvHJrD
+2023-07-18 19:48:02 [INFO   ][ln-159]: 64895a7f924521000b2d7ac7
+2023-07-18 19:48:02 [INFO   ][ln-160]: 
+
+2023-07-18 19:48:02 [INFO   ][ln-161]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-18 19:48:02 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-18 19:48:06 [INFO   ][ln-166]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6NzdjMjBjMGEtZDU0YS00OTAwLWJlYmItNThmYTI5YTUxMWQwIiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6VDF0U3kxQzlCcW5HMm9FWUh0WWd0dzQ0QUEyNUNERjB2SGJndUxNQUhTcFZvRHdodUpJMXdiOURvVUx2SEpyRCJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODk3NjcyODQsImlhdCI6MTY4OTY4MDg4NH0.SQk8eF36au0QTv6UDSYM9MN-bbm2Uypj2hh6pnwdev4RjW-BEPmsp-VjKLTsas7jtBRAVf6DSQ2OMea_r62qrpNKpJ-grzlVoEARlc3ZkqHB1DlPHJNJJYR3-rGZD_AcEhWzuaQRhgmLwMsCHjcCfdmznBtla50g4wNtpCjtOPRkA0rwHH8aPqPcURB9p5dt1QiINya8tt4R5QwpH4eEoLnC6sniLHsjzppaa1l_L5ovnfVA8tSWlI6txTf22TlM56nyFzUkda5hJ-CKCnSTLW71QFofFoNdd_jEVsn_Ncn-E4wiMfLAfWsyNXYWnRVBAADP3ON0iFt0bsInTaPdEA
+2023-07-18 19:48:06 [INFO   ][ln-167]: 
+
+2023-07-18 19:48:06 [INFO   ][ln-170]: 2023
+2023-07-18 19:48:06 [INFO   ][ln-171]: 7
+2023-07-18 19:48:06 [INFO   ][ln-172]: 18
+2023-07-18 19:48:06 [INFO   ][ln-174]: 2023-07-18 00:00:00
+2023-07-18 19:48:06 [INFO   ][ln-96 ]: 1689609600
+2023-07-18 19:48:06 [INFO   ][ln-97 ]: 1689692400
+2023-07-18 19:48:06 [DEBUG  ][ln-886]: teardown_method
+2023-07-18 19:48:06 [DEBUG  ][ln-880]: teardown_class
+2023-07-18 19:48:56 [INFO   ][ln-47 ]: Start to load config file
+2023-07-18 19:48:56 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+4@plume.com', 'pwd': 'plume1234', 'devuserid': '64895a7f924521000b2d7ac7', 'sn': 'KD8F00003C', 'devid': '60B4F7B306AD', 'mac': '60:B4:F7:B3:06:AD', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-07-18 19:48:57 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-07-18 19:48:57 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-18 19:48:57 [INFO   ][ln-148]: #########################################################################
+
+2023-07-18 19:48:57 [INFO   ][ln-149]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-18 19:48:57 [INFO   ][ln-150]: # ---------------------------------------------------------------- #)
+
+2023-07-18 19:48:57 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-18 19:48:59 [INFO   ][ln-152]: Step 1 :  PlumeCloudLogin
+
+2023-07-18 19:48:59 [INFO   ][ln-156]: VNFnun671CExX0wgExNqOtD8DxBaGIujjBn9Dq2pDpWNpEqe6dAhbT0BFqYcEZ6x
+2023-07-18 19:48:59 [INFO   ][ln-159]: 64895a7f924521000b2d7ac7
+2023-07-18 19:48:59 [INFO   ][ln-160]: 
+
+2023-07-18 19:48:59 [INFO   ][ln-161]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-18 19:48:59 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-18 19:49:02 [INFO   ][ln-166]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6YzA0NDA5ZTAtODYxZi00ZDhiLWFjNGYtZTNkOTRjMmYwMTE2IiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6Vk5GbnVuNjcxQ0V4WDB3Z0V4TnFPdEQ4RHhCYUdJdWpqQm45RHEycERwV05wRXFlNmRBaGJUMEJGcVljRVo2eCJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODk3NjczNDAsImlhdCI6MTY4OTY4MDk0MH0.MZ0NihskFIJoVMc2eYK4B1wiTYkBNKoOmrjqvXtiSdbWtlqg3dzVqksr-H_reF8NIw2u2RDZVokRSsA_S9ku2rTZV_1cOxknJvKviTINP3eXnsjg9opbClXxcMrUp3Xoj99Yg2-ydjByuFifkQObio2tYELmSKdvfep1tyknrbFoKIEP3VqNg8q-H6pXigF8JS0sCUohByl_ZpZHXiPnlAhedrHorb9GECMy1JGvz0_YUP_VNiZfBjgV29N1CmEw6ytyBQZueyhhIDamwDm2kg2JcHjtuvdgINmyUdhgc6GcJILvQ5lwIv6NUSIs3aQTLQXijq2GR-WxdYpCvr4rdQ
+2023-07-18 19:49:02 [INFO   ][ln-167]: 
+
+2023-07-18 19:49:02 [INFO   ][ln-170]: 2023
+2023-07-18 19:49:02 [INFO   ][ln-171]: 7
+2023-07-18 19:49:02 [INFO   ][ln-172]: 18
+2023-07-18 19:49:02 [INFO   ][ln-174]: 2023-07-18 00:00:00
+2023-07-18 19:49:02 [INFO   ][ln-96 ]: 1689609600
+2023-07-18 19:49:02 [INFO   ][ln-97 ]: 1689692400
+2023-07-18 19:49:02 [INFO   ][ln-474]: GetFallEventSummary
+2023-07-18 19:49:02 [INFO   ][ln-491]: GetFallEventSummary
+2023-07-18 19:49:07 [DEBUG  ][ln-980]: teardown_method
+2023-07-18 19:49:07 [DEBUG  ][ln-974]: teardown_class
+2023-07-18 19:51:11 [INFO   ][ln-47 ]: Start to load config file
+2023-07-18 19:51:11 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+4@plume.com', 'pwd': 'plume1234', 'devuserid': '64895a7f924521000b2d7ac7', 'sn': 'KD8F00003C', 'devid': '60B4F7B306AD', 'mac': '60:B4:F7:B3:06:AD', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-07-18 19:51:12 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-07-18 19:51:12 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-18 19:51:12 [INFO   ][ln-148]: #########################################################################
+
+2023-07-18 19:51:12 [INFO   ][ln-149]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-18 19:51:12 [INFO   ][ln-150]: # ---------------------------------------------------------------- #)
+
+2023-07-18 19:51:12 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-18 19:51:14 [INFO   ][ln-152]: Step 1 :  PlumeCloudLogin
+
+2023-07-18 19:51:14 [INFO   ][ln-156]: QxKex00gchLXDlLe70Whbnezci8kEQ3NRKviHr6F4FP5EVscwLAtRlCWmJtxh8JY
+2023-07-18 19:51:14 [INFO   ][ln-159]: 64895a7f924521000b2d7ac7
+2023-07-18 19:51:14 [INFO   ][ln-160]: 
+
+2023-07-18 19:51:14 [INFO   ][ln-161]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-18 19:51:14 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-18 19:51:18 [INFO   ][ln-166]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6M2E3OGNhMGMtNGJkYi00MDRhLTkxN2YtN2E2ZTExOTI2NWE3IiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6UXhLZXgwMGdjaExYRGxMZTcwV2hibmV6Y2k4a0VRM05SS3ZpSHI2RjRGUDVFVnNjd0xBdFJsQ1dtSnR4aDhKWSJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODk3Njc0NzUsImlhdCI6MTY4OTY4MTA3NX0.JUOnSiYDfhTl1BTqK_7iQkKzYVZo8kpAjeQ96YPZl2R2Zz_SOCCDY0CEYi24pS2a7uEL0WaSMUyyqk1iNsoyYvfxot6VAB4A-j9OS-X1E914LEmcQ4-zHduYFO-9nvIIzMtl70j3h5FcdISVLbnSl_XJWvjitWj8zmTaRCZF6v3wxTVAHiurJVpGIIDcGQrTqhsi_Gj8V_l2CXe3Ls2JgLkhxu2YIDHY5lCtAeL-O2Fz3mXXsM-gwSrckECBnT4oV9ieMEBmqq2j8tx8p5JsSHlgxNEb0SSQnkxBQqyPTKUfWs_u5S3cB95sy6SX9GyuDP4IYjPUOJp1CG7rHyeGRQ
+2023-07-18 19:51:18 [INFO   ][ln-167]: 
+
+2023-07-18 19:51:18 [INFO   ][ln-170]: 2023
+2023-07-18 19:51:18 [INFO   ][ln-171]: 7
+2023-07-18 19:51:18 [INFO   ][ln-172]: 18
+2023-07-18 19:51:18 [INFO   ][ln-174]: 2023-07-18 00:00:00
+2023-07-18 19:51:18 [INFO   ][ln-96 ]: 1689609600
+2023-07-18 19:51:18 [INFO   ][ln-97 ]: 1689692400
+2023-07-18 19:51:18 [INFO   ][ln-474]: GetFallEventSummary
+2023-07-18 19:51:18 [INFO   ][ln-491]: GetFallEventSummary
+2023-07-18 19:51:21 [DEBUG  ][ln-980]: teardown_method
+2023-07-18 19:51:21 [DEBUG  ][ln-974]: teardown_class
+2023-07-18 19:52:56 [INFO   ][ln-47 ]: Start to load config file
+2023-07-18 19:52:56 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+4@plume.com', 'pwd': 'plume1234', 'devuserid': '64895a7f924521000b2d7ac7', 'sn': 'KD8F00003C', 'devid': '60B4F7B306AD', 'mac': '60:B4:F7:B3:06:AD', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-07-18 19:52:56 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-07-18 19:52:56 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-18 19:52:56 [INFO   ][ln-148]: #########################################################################
+
+2023-07-18 19:52:56 [INFO   ][ln-149]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-18 19:52:56 [INFO   ][ln-150]: # ---------------------------------------------------------------- #)
+
+2023-07-18 19:52:56 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-18 19:52:59 [INFO   ][ln-152]: Step 1 :  PlumeCloudLogin
+
+2023-07-18 19:52:59 [INFO   ][ln-156]: s1Aocxd3kLpCItcbYXw7ZwvcECac15YkvWYkoiu9P25dhOLXYR91npEKe5Wb53xF
+2023-07-18 19:52:59 [INFO   ][ln-159]: 64895a7f924521000b2d7ac7
+2023-07-18 19:52:59 [INFO   ][ln-160]: 
+
+2023-07-18 19:52:59 [INFO   ][ln-161]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-18 19:52:59 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-18 19:53:02 [INFO   ][ln-166]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6OWRkZDQ4NDAtNGFiYy00OGY3LWI3OGQtOGRjMWI4YmRjMTU1IiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6czFBb2N4ZDNrTHBDSXRjYllYdzdad3ZjRUNhYzE1WWt2V1lrb2l1OVAyNWRoT0xYWVI5MW5wRUtlNVdiNTN4RiJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODk3Njc1NzksImlhdCI6MTY4OTY4MTE3OX0.cqzw6y8BkJRxFFPE2xGsUNqWXGCjCVywtRBYYi868AsQBai_EkCgS5-MidJcaqfJ4O8YheCerk5tZXk7qDRbGtuv3ESpDjQd-iCx60xSVJmZpxIauqWswjGapDWXT1zlc7RxXUwMmBFYM_ClrcPz8xrNw0HrQvnYgO_Mzc4sJt8P8QKukKY3ohh_2xkV3p_UGKHFFH_jhmPlYIAoxqsPIm-zXvAcJdLJeUUSrww4ypI2vhpMqmXUO8WO3ZpxPPbDB9lMSykJ3lbZBi-rYpUrwxBKmJb3s_08FaiLGy_s0reCTKMJFxa6RcaOeWCLYG-U94FymzwWBwRk1w1JOwSEdA
+2023-07-18 19:53:02 [INFO   ][ln-167]: 
+
+2023-07-18 19:53:02 [INFO   ][ln-170]: 2023
+2023-07-18 19:53:02 [INFO   ][ln-171]: 7
+2023-07-18 19:53:02 [INFO   ][ln-172]: 18
+2023-07-18 19:53:02 [INFO   ][ln-174]: 2023-07-18 00:00:00
+2023-07-18 19:53:02 [INFO   ][ln-96 ]: 1689609600
+2023-07-18 19:53:02 [INFO   ][ln-97 ]: 1689692400
+2023-07-18 19:53:02 [INFO   ][ln-474]: GetFallEventSummary
+2023-07-18 19:53:02 [INFO   ][ln-491]: GetFallEventSummary
+2023-07-18 19:53:06 [INFO   ][ln-181]: {'userId': '64895a7f924521000b2d7ac7', 'startTime': 1689609600, 'endTime': 1689695999, 'utcTimeOffset': 8, 'fallCountList': []}
+2023-07-18 19:53:06 [INFO   ][ln-119]: 1689609600
+2023-07-18 19:53:06 [INFO   ][ln-120]: 1689692400
+2023-07-18 19:53:06 [INFO   ][ln-426]: GetFallEventList
+2023-07-18 19:53:06 [INFO   ][ln-443]: GetFallEventList
+2023-07-18 19:53:11 [INFO   ][ln-192]: {'startTime': 1689609600, 'endTime': 1689692400, 'userId': '64895a7f924521000b2d7ac7', 'fallEventList': []}
+2023-07-18 19:53:11 [DEBUG  ][ln-980]: teardown_method
+2023-07-18 19:53:11 [DEBUG  ][ln-974]: teardown_class
+2023-07-18 19:54:17 [INFO   ][ln-47 ]: Start to load config file
+2023-07-18 19:54:17 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+4@plume.com', 'pwd': 'plume1234', 'devuserid': '64895a7f924521000b2d7ac7', 'sn': 'KD8F00003C', 'devid': '60B4F7B306AD', 'mac': '60:B4:F7:B3:06:AD', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-07-18 19:54:17 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-07-18 19:54:17 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-18 19:54:17 [INFO   ][ln-148]: #########################################################################
+
+2023-07-18 19:54:17 [INFO   ][ln-149]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-18 19:54:17 [INFO   ][ln-150]: # ---------------------------------------------------------------- #)
+
+2023-07-18 19:54:17 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-18 19:54:20 [INFO   ][ln-152]: Step 1 :  PlumeCloudLogin
+
+2023-07-18 19:54:20 [INFO   ][ln-156]: 3JEjHwpS1TN366zR033zkg52oXH1WONQl7wWbNPav61TAMgZU2iqKTpI9RbBHCkq
+2023-07-18 19:54:20 [INFO   ][ln-159]: 64895a7f924521000b2d7ac7
+2023-07-18 19:54:20 [INFO   ][ln-160]: 
+
+2023-07-18 19:54:20 [INFO   ][ln-161]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-18 19:54:20 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-18 19:54:24 [INFO   ][ln-166]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6ODMzZmNjZGEtZTA4Zi00Nzg0LThmYTMtNTI2NTJjOWUxMWY1IiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6M0pFakh3cFMxVE4zNjZ6UjAzM3prZzUyb1hIMVdPTlFsN3dXYk5QYXY2MVRBTWdaVTJpcUtUcEk5UmJCSENrcSJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODk3Njc2NjEsImlhdCI6MTY4OTY4MTI2MX0.AcWSca0tNG5VdsNkYRLXcNaGc0nQh_8luJrWkRje6513OqsVvqzj2URHpn8TfRN2P4a4J3yluUGedgvPhtTVh3OQSXGCwtgPtluaX309jKpOPJcpnVZUM7WYiv0sUBaZ8NoCUSg9R8RmapeIre7OjKfn-cP4kYL-tPLnI_u3fji7QuI_uc3VFs_c_taNIf4zSWhbywZETYickhnQZvm9JhkNfJiCgFLBqRAW6mP2GKPQNfky4AXt_WHEN61bkRMWtdv7rJYjzZRGUm4BQ33iUafskJ5M1HLdbW92AdXyhXfwTFqYjYulIspGxR5S0iR3q-ljMNTFcAzgzrciMITx8w
+2023-07-18 19:54:24 [INFO   ][ln-167]: 
+
+2023-07-18 19:54:24 [INFO   ][ln-170]: 2023
+2023-07-18 19:54:24 [INFO   ][ln-171]: 7
+2023-07-18 19:54:24 [INFO   ][ln-172]: 18
+2023-07-18 19:54:24 [INFO   ][ln-174]: 2023-07-18 00:00:00
+2023-07-18 19:54:24 [INFO   ][ln-96 ]: 1689609600
+2023-07-18 19:54:24 [INFO   ][ln-97 ]: 1689692400
+2023-07-18 19:54:24 [INFO   ][ln-474]: GetFallEventSummary
+2023-07-18 19:54:24 [INFO   ][ln-491]: GetFallEventSummary
+2023-07-18 19:54:27 [INFO   ][ln-181]: {'userId': '64895a7f924521000b2d7ac7', 'startTime': 1689609600, 'endTime': 1689695999, 'utcTimeOffset': 8, 'fallCountList': []}
+2023-07-18 19:54:27 [INFO   ][ln-119]: 1689609600
+2023-07-18 19:54:27 [INFO   ][ln-120]: 1689692400
+2023-07-18 19:54:27 [INFO   ][ln-426]: GetFallEventList
+2023-07-18 19:54:27 [INFO   ][ln-443]: GetFallEventList
+2023-07-18 19:54:30 [INFO   ][ln-192]: {'startTime': 1689609600, 'endTime': 1689692400, 'userId': '64895a7f924521000b2d7ac7', 'fallEventList': []}
+2023-07-18 19:54:30 [DEBUG  ][ln-980]: teardown_method
+2023-07-18 19:54:30 [DEBUG  ][ln-974]: teardown_class
+2023-07-18 19:55:09 [INFO   ][ln-47 ]: Start to load config file
+2023-07-18 19:55:09 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+4@plume.com', 'pwd': 'plume1234', 'devuserid': '64895a7f924521000b2d7ac7', 'sn': 'KD8F00003C', 'devid': '60B4F7B306AD', 'mac': '60:B4:F7:B3:06:AD', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-07-18 19:55:09 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-07-18 19:55:09 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-18 19:55:09 [INFO   ][ln-148]: #########################################################################
+
+2023-07-18 19:55:09 [INFO   ][ln-149]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-18 19:55:09 [INFO   ][ln-150]: # ---------------------------------------------------------------- #)
+
+2023-07-18 19:55:09 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-18 19:55:12 [INFO   ][ln-152]: Step 1 :  PlumeCloudLogin
+
+2023-07-18 19:55:12 [INFO   ][ln-156]: EBljGJ8LPJ1jIcuAxgFxEElkgm9wXB0AzhjEHP0d3DDhClaPYfYfQu5hD3X8wCWt
+2023-07-18 19:55:12 [INFO   ][ln-159]: 64895a7f924521000b2d7ac7
+2023-07-18 19:55:12 [INFO   ][ln-160]: 
+
+2023-07-18 19:55:12 [INFO   ][ln-161]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-18 19:55:12 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-18 19:55:15 [INFO   ][ln-166]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6ZThhYTI0ZmEtYWM3OS00OTM0LWFhNTQtODdiM2ZiYTQ2NTZmIiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6RUJsakdKOExQSjFqSWN1QXhnRnhFRWxrZ205d1hCMEF6aGpFSFAwZDNERGhDbGFQWWZZZlF1NWhEM1g4d0NXdCJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODk3Njc3MTIsImlhdCI6MTY4OTY4MTMxMn0.KHY0h640Q4pftOvx_eJ4dQ7-swWRuQpgEZKQAuB8W6mCHBBGRbcyB0Loa3wQKKC-kB2CvqkqaVWSDbLc4xxDSTpUklsAIY3NKgt2sfPBLyhuYiXgZXNs5pOp_iLzBYVwkdPRbLTYTI2RfDPub9j_OSzpAEWOxYPFy6wMhN3Cjf_lgxslouJQCDqJKWuMAW8VwJqPO0S00f4PURBKRwUaYxv2OydJjBK3HCwx6IEZHVZsTtJVxqPN_Ixf87B7VhfY9FIYSIIP2I9MPU9ShyoqEiesOAuL-5bVULXP1ceYv7hsxrhGfHo2LzcLuzjmBoxvRI57r2SMZzr68aQuxOabmw
+2023-07-18 19:55:15 [INFO   ][ln-167]: 
+
+2023-07-18 19:55:15 [INFO   ][ln-170]: 2023
+2023-07-18 19:55:15 [INFO   ][ln-171]: 7
+2023-07-18 19:55:15 [INFO   ][ln-172]: 18
+2023-07-18 19:55:15 [INFO   ][ln-174]: 2023-07-18 00:00:00
+2023-07-18 19:55:15 [INFO   ][ln-96 ]: 1689609600
+2023-07-18 19:55:15 [INFO   ][ln-97 ]: 1689692400
+2023-07-18 19:55:15 [INFO   ][ln-474]: GetFallEventSummary
+2023-07-18 19:55:15 [INFO   ][ln-491]: GetFallEventSummary
+2023-07-18 19:55:18 [INFO   ][ln-181]: {'userId': '64895a7f924521000b2d7ac7', 'startTime': 1689609600, 'endTime': 1689695999, 'utcTimeOffset': 8, 'fallCountList': []}
+2023-07-18 19:55:18 [INFO   ][ln-119]: 1689609600
+2023-07-18 19:55:18 [INFO   ][ln-120]: 1689692400
+2023-07-18 19:55:18 [INFO   ][ln-426]: GetFallEventList
+2023-07-18 19:55:18 [INFO   ][ln-443]: GetFallEventList
+2023-07-18 19:55:21 [INFO   ][ln-192]: {'startTime': 1689609600, 'endTime': 1689692400, 'userId': '64895a7f924521000b2d7ac7', 'fallEventList': []}
+2023-07-18 19:55:21 [INFO   ][ln-223]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.13.151'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': None}
+2023-07-18 19:55:21 [DEBUG  ][ln-980]: teardown_method
+2023-07-18 19:55:21 [DEBUG  ][ln-974]: teardown_class
+2023-07-18 19:56:28 [INFO   ][ln-47 ]: Start to load config file
+2023-07-18 19:56:28 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+4@plume.com', 'pwd': 'plume1234', 'devuserid': '64895a7f924521000b2d7ac7', 'sn': 'KD8F00003C', 'devid': '60B4F7B306AD', 'mac': '60:B4:F7:B3:06:AD', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-07-18 19:56:28 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-07-18 19:56:28 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-18 19:56:28 [INFO   ][ln-148]: #########################################################################
+
+2023-07-18 19:56:28 [INFO   ][ln-149]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-18 19:56:28 [INFO   ][ln-150]: # ---------------------------------------------------------------- #)
+
+2023-07-18 19:56:28 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-18 19:56:31 [INFO   ][ln-152]: Step 1 :  PlumeCloudLogin
+
+2023-07-18 19:56:31 [INFO   ][ln-156]: mKrvTxnqHd0mdFEteyHEpNmtjfYiUsB45yypACcxyfWAzi3Ha3HG0FsNoA1f0MMv
+2023-07-18 19:56:31 [INFO   ][ln-159]: 64895a7f924521000b2d7ac7
+2023-07-18 19:56:31 [INFO   ][ln-160]: 
+
+2023-07-18 19:56:31 [INFO   ][ln-161]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-18 19:56:31 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-18 19:56:34 [INFO   ][ln-166]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6ZGU1MjkzZjItMTM0Mi00OTUxLWIzZmItZmYyN2Q5NDk0OGYzIiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6bUtydlR4bnFIZDBtZEZFdGV5SEVwTm10amZZaVVzQjQ1eXlwQUNjeHlmV0F6aTNIYTNIRzBGc05vQTFmME1NdiJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODk3Njc3OTEsImlhdCI6MTY4OTY4MTM5MX0.RZ3Tm3MzCAc7ejhztqFxmhh_eAb0jeCVLqK0lLTewPlKHljKSzl-VuhV7Op0qrsy6fh-vEhm7gUGuN_kcXaTTa8d7CvZvPb6ATyg9LNo-rHwCc0ysGRZqTNsrMbYvQMl_A1zjzXaMj7LzHuRuQFSktgnfHEzkps4wu6q6JYRvuLrA1VCJ-9NIKrFWlwMFnuq0qaVffx9EjsXr5Oy6kY8n-jGGiPN8Kc2zul4TCrKwxJwJpeLFLBGFFMEGFQrPYwyppTkwTqd_MFbyDnuL7baqm1sdACeSUS95K7V_AnEFpEmG1uM3aX9Zl2Zfyv0CYlRI0cR9C7xUPqTrGsnzz4kDQ
+2023-07-18 19:56:34 [INFO   ][ln-167]: 
+
+2023-07-18 19:56:34 [INFO   ][ln-170]: 2023
+2023-07-18 19:56:34 [INFO   ][ln-171]: 7
+2023-07-18 19:56:34 [INFO   ][ln-172]: 18
+2023-07-18 19:56:34 [INFO   ][ln-174]: 2023-07-18 00:00:00
+2023-07-18 19:56:34 [INFO   ][ln-96 ]: 1689609600
+2023-07-18 19:56:34 [INFO   ][ln-97 ]: 1689692400
+2023-07-18 19:56:34 [INFO   ][ln-474]: GetFallEventSummary
+2023-07-18 19:56:34 [INFO   ][ln-491]: GetFallEventSummary
+2023-07-18 19:56:37 [INFO   ][ln-181]: {'userId': '64895a7f924521000b2d7ac7', 'startTime': 1689609600, 'endTime': 1689695999, 'utcTimeOffset': 8, 'fallCountList': []}
+2023-07-18 19:56:37 [INFO   ][ln-119]: 1689609600
+2023-07-18 19:56:37 [INFO   ][ln-120]: 1689692400
+2023-07-18 19:56:37 [INFO   ][ln-426]: GetFallEventList
+2023-07-18 19:56:37 [INFO   ][ln-443]: GetFallEventList
+2023-07-18 19:56:40 [INFO   ][ln-192]: {'startTime': 1689609600, 'endTime': 1689692400, 'userId': '64895a7f924521000b2d7ac7', 'fallEventList': []}
+2023-07-18 19:56:40 [INFO   ][ln-223]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.13.151'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': None}
+2023-07-18 19:56:46 [INFO   ][ln-234]: Size(width=390, height=844)
+2023-07-18 19:57:10 [INFO   ][ln-265]: Test completed
+2023-07-18 19:57:12 [DEBUG  ][ln-980]: teardown_method
+2023-07-18 19:57:12 [DEBUG  ][ln-974]: teardown_class
+2023-07-18 19:58:55 [INFO   ][ln-47 ]: Start to load config file
+2023-07-18 19:58:55 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+4@plume.com', 'pwd': 'plume1234', 'devuserid': '64895a7f924521000b2d7ac7', 'sn': 'KD8F00003C', 'devid': '60B4F7B306AD', 'mac': '60:B4:F7:B3:06:AD', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-07-18 19:58:56 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-07-18 19:58:56 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-18 19:58:56 [INFO   ][ln-148]: #########################################################################
+
+2023-07-18 19:58:56 [INFO   ][ln-149]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-18 19:58:56 [INFO   ][ln-150]: # ---------------------------------------------------------------- #)
+
+2023-07-18 19:58:56 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-18 19:58:59 [INFO   ][ln-152]: Step 1 :  PlumeCloudLogin
+
+2023-07-18 19:58:59 [INFO   ][ln-156]: bcFWL8i6elupBiYFIiB6Je8PiHX6TWsDqo4vWgX181Nu3pspxm3IdrSfSn0RBuYq
+2023-07-18 19:58:59 [INFO   ][ln-159]: 64895a7f924521000b2d7ac7
+2023-07-18 19:58:59 [INFO   ][ln-160]: 
+
+2023-07-18 19:58:59 [INFO   ][ln-161]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-18 19:58:59 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-18 19:59:02 [INFO   ][ln-166]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6YzhkODc4YmUtMzM5Zi00N2RlLWJiZmMtOTMwZTg3ZGRhYmY4IiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6YmNGV0w4aTZlbHVwQmlZRklpQjZKZThQaUhYNlRXc0RxbzR2V2dYMTgxTnUzcHNweG0zSWRyU2ZTbjBSQnVZcSJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODk3Njc5MzksImlhdCI6MTY4OTY4MTUzOX0.G1fKrC-iceDkZfYSh9JeL4PcJAsi61YxYfXeAhhpVPQYgiz2dpVA6xxFjSJac9qG0W8CdkWFk6MNclAFSa3S3nE4v0hXiqq1DR5QUi3whenKbLS9l5_XAHrzb6YpsQoZtgC0O0dNVjW56V_R5bDycDRxP2C4SiSV_h0sf8HapNYkF-ZJ-e003gOrsTNLRpoSXk24K2IuZoPxWVvB4DQY413PNDftWCyxOVrMB9t1n7t7fUVgirvx-WM7KQW0gZl1IenUhjIYaAEMTqv6kl4_ChgpBfnu44OzUgcRrk5ZEU0z58868GOGk3RGkg6aiASwexw9JxyjULUDzNlBNRaK2A
+2023-07-18 19:59:02 [INFO   ][ln-167]: 
+
+2023-07-18 19:59:02 [INFO   ][ln-170]: 2023
+2023-07-18 19:59:02 [INFO   ][ln-171]: 7
+2023-07-18 19:59:02 [INFO   ][ln-172]: 18
+2023-07-18 19:59:02 [INFO   ][ln-174]: 2023-07-18 00:00:00
+2023-07-18 19:59:02 [INFO   ][ln-96 ]: 1689609600
+2023-07-18 19:59:02 [INFO   ][ln-97 ]: 1689692400
+2023-07-18 19:59:02 [INFO   ][ln-474]: GetFallEventSummary
+2023-07-18 19:59:02 [INFO   ][ln-491]: GetFallEventSummary
+2023-07-18 19:59:06 [INFO   ][ln-181]: {'userId': '64895a7f924521000b2d7ac7', 'startTime': 1689609600, 'endTime': 1689695999, 'utcTimeOffset': 8, 'fallCountList': []}
+2023-07-18 19:59:06 [INFO   ][ln-119]: 1689609600
+2023-07-18 19:59:06 [INFO   ][ln-120]: 1689692400
+2023-07-18 19:59:06 [INFO   ][ln-426]: GetFallEventList
+2023-07-18 19:59:06 [INFO   ][ln-443]: GetFallEventList
+2023-07-18 19:59:09 [INFO   ][ln-192]: {'startTime': 1689609600, 'endTime': 1689692400, 'userId': '64895a7f924521000b2d7ac7', 'fallEventList': []}
+2023-07-18 19:59:09 [INFO   ][ln-223]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.13.151'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': None}
+2023-07-18 19:59:14 [INFO   ][ln-234]: Size(width=390, height=844)
+2023-07-18 19:59:49 [INFO   ][ln-269]: Test completed
+2023-07-18 19:59:51 [DEBUG  ][ln-980]: teardown_method
+2023-07-18 19:59:51 [DEBUG  ][ln-974]: teardown_class
+2023-07-18 20:33:51 [INFO   ][ln-47 ]: Start to load config file
+2023-07-18 20:33:51 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+4@plume.com', 'pwd': 'plume1234', 'devuserid': '64895a7f924521000b2d7ac7', 'sn': 'KD8F00003C', 'devid': '60B4F7B306AD', 'mac': '60:B4:F7:B3:06:AD', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-07-18 20:33:52 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-07-18 20:33:52 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-18 20:33:52 [INFO   ][ln-154]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.13.151'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': 'ED4354AD-C63B-48D0-A895-F850E7365603'}
+2023-07-18 20:33:57 [INFO   ][ln-165]: Size(width=390, height=844)
+2023-07-18 20:34:31 [INFO   ][ln-200]: #########################################################################
+
+2023-07-18 20:34:31 [INFO   ][ln-201]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-18 20:34:31 [INFO   ][ln-202]: # ---------------------------------------------------------------- #)
+
+2023-07-18 20:34:31 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-18 20:34:35 [INFO   ][ln-204]: Step 1 :  PlumeCloudLogin
+
+2023-07-18 20:34:35 [INFO   ][ln-208]: jXn9HYvoEPrJmMtNsSWd8YiW9dW3arZNTet4gL6DHOngPbuzlG38rz27TT00lNNu
+2023-07-18 20:34:35 [INFO   ][ln-211]: 64895a7f924521000b2d7ac7
+2023-07-18 20:34:35 [INFO   ][ln-212]: 
+
+2023-07-18 20:34:35 [INFO   ][ln-213]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-18 20:34:35 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-18 20:34:39 [INFO   ][ln-218]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6NWFlM2NlZGYtM2ViOS00YThhLWI1YjEtOTQzYTc0MjliZmJiIiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6alhuOUhZdm9FUHJKbU10TnNTV2Q4WWlXOWRXM2FyWk5UZXQ0Z0w2REhPbmdQYnV6bEczOHJ6MjdUVDAwbE5OdSJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODk3NzAwNzcsImlhdCI6MTY4OTY4MzY3N30.PfJjmaC1RfeGP4e2lvf2eJuDn3_gF4VdE74XFukgMjT-6OVe_6vQ87EuZMwftCici87aa5c2uFgzf-V_YlTgPka_27BEUAaZUD5-hpzuZ-m03v-k_1jLMIPm8Zcm0ThXvG459FBZ8Thkd6DyvcgwwAIlyhCCdVtRKxQ37lr6sHcwv-Et4WDYPcCAH3Pz6dFR_DLOyxjg9Be8V0Mgcd7M6O4drNpcMrHrPv_RS70FXs7wJ3PUChNLA7gra5h09pNtGBhdyc7zjh-ciEdToOUaw--wkIaB9LqHgyboj4fkJ6TCGdlQDLu5V8hFgZ_1olA-odR3Pgn-cnoNhHiMyS_oRg
+2023-07-18 20:34:39 [INFO   ][ln-219]: 
+
+2023-07-18 20:34:39 [INFO   ][ln-223]: Yesterday Fail event has been detected
+2023-07-18 20:34:39 [INFO   ][ln-225]: 2023
+2023-07-18 20:34:39 [INFO   ][ln-226]: 7
+2023-07-18 20:34:39 [INFO   ][ln-227]: 17
+2023-07-18 20:34:39 [INFO   ][ln-229]: 2023-07-17 00:00:00
+2023-07-18 20:34:39 [INFO   ][ln-96 ]: 1689523200
+2023-07-18 20:34:39 [INFO   ][ln-97 ]: 1689606000
+2023-07-18 20:34:39 [INFO   ][ln-474]: GetFallEventSummary
+2023-07-18 20:34:39 [INFO   ][ln-491]: GetFallEventSummary
+2023-07-18 20:34:45 [INFO   ][ln-247]: {'userId': '64895a7f924521000b2d7ac7', 'startTime': 1689523200, 'endTime': 1689609599, 'utcTimeOffset': 8, 'fallCountList': [{'fallCount': 1, 'fallDate': 1689523200}]}
+2023-07-18 20:34:45 [INFO   ][ln-119]: 1689523200
+2023-07-18 20:34:45 [INFO   ][ln-120]: 1689606000
+2023-07-18 20:34:45 [INFO   ][ln-426]: GetFallEventList
+2023-07-18 20:34:45 [INFO   ][ln-443]: GetFallEventList
+2023-07-18 20:34:50 [INFO   ][ln-258]: {'startTime': 1689523200, 'endTime': 1689606000, 'userId': '64895a7f924521000b2d7ac7', 'fallEventList': [{'eventId': 'fall_64895a7f924521000b2d7ac7_kd90300027_1689586442', 'userId': '64895a7f924521000b2d7ac7', 'eventTime': 1689586442, 'fallType': 'Unknown', 'detectionType': 1, 'deviceId': 'kd90300027'}]}
+2023-07-18 20:34:50 [INFO   ][ln-284]: Test completed
+2023-07-18 20:34:52 [DEBUG  ][ln-980]: teardown_method
+2023-07-18 20:34:52 [DEBUG  ][ln-974]: teardown_class
+2023-07-18 21:05:19 [INFO   ][ln-47 ]: Start to load config file
+2023-07-18 21:05:19 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+4@plume.com', 'pwd': 'plume1234', 'devuserid': '64895a7f924521000b2d7ac7', 'sn': 'KD8F00003C', 'devid': '60B4F7B306AD', 'mac': '60:B4:F7:B3:06:AD', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-07-18 21:05:20 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-07-18 21:05:20 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-18 21:05:20 [INFO   ][ln-154]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.13.151'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': None}
+2023-07-18 21:05:26 [INFO   ][ln-165]: Size(width=390, height=844)
+2023-07-18 21:06:00 [INFO   ][ln-200]: #########################################################################
+
+2023-07-18 21:06:00 [INFO   ][ln-201]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-18 21:06:00 [INFO   ][ln-202]: # ---------------------------------------------------------------- #)
+
+2023-07-18 21:06:00 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-18 21:06:04 [INFO   ][ln-204]: Step 1 :  PlumeCloudLogin
+
+2023-07-18 21:06:04 [INFO   ][ln-208]: 2sH2ANhKxbmFa8egxI7zigdn0TP8txXAIdGCU9uw05rNuFbDtFnNo6QiAsaUNX9Q
+2023-07-18 21:06:04 [INFO   ][ln-211]: 64895a7f924521000b2d7ac7
+2023-07-18 21:06:04 [INFO   ][ln-212]: 
+
+2023-07-18 21:06:04 [INFO   ][ln-213]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-18 21:06:04 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-18 21:06:08 [INFO   ][ln-218]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6MWU1YTc3ZDAtYTBmYS00ZTBkLWE0YWQtNWY3MTk1Nzk5ZTU0IiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6MnNIMkFOaEt4Ym1GYThlZ3hJN3ppZ2RuMFRQOHR4WEFJZEdDVTl1dzA1ck51RmJEdEZuTm82UWlBc2FVTlg5USJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODk3NzE5NjYsImlhdCI6MTY4OTY4NTU2Nn0.E14Al-3y1LzuMyCapUpviiG954smYIF3R__F7ntdyvuTFf-nY0rDFlJp1UIx1pp1FpEfc9Vhq2OzEYsgJnTn2pre2tJ2EllL88oL6D1AWSMqLIMqWnPx0_BtZkWO8z-bH_nZSVsb6yqHn8bD4sia9ymvEvruLtvUacOuiaNf8ws8Z7McQhi0FpWqOxG-2swplD0wJdUaMkG3esHXBFniCAe2Mqo3jVGkt3FFL0CbYqjXTWIoZbzsa_-uQKBS6uNmEtuodH9sCUJ42fNTNCc3fIkU01SgzvHqI_LFiTBkexd9DpR2g8yfHGueQBVS4x9eDz08u0kFaNjcFTufLgO1qw
+2023-07-18 21:06:08 [INFO   ][ln-219]: 
+
+2023-07-18 21:06:08 [INFO   ][ln-223]: Yesterday Fail event has been detected
+2023-07-18 21:06:08 [INFO   ][ln-225]: 2023
+2023-07-18 21:06:08 [INFO   ][ln-226]: 7
+2023-07-18 21:06:08 [INFO   ][ln-227]: 17
+2023-07-18 21:06:08 [INFO   ][ln-228]: Yesterday's Date:
+2023-07-18 21:06:08 [DEBUG  ][ln-980]: teardown_method
+2023-07-18 21:06:08 [DEBUG  ][ln-974]: teardown_class
+2023-07-18 21:10:15 [INFO   ][ln-47 ]: Start to load config file
+2023-07-18 21:10:15 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+4@plume.com', 'pwd': 'plume1234', 'devuserid': '64895a7f924521000b2d7ac7', 'sn': 'KD8F00003C', 'devid': '60B4F7B306AD', 'mac': '60:B4:F7:B3:06:AD', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-07-18 21:10:16 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-07-18 21:10:16 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-18 21:10:16 [INFO   ][ln-154]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.13.151'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': '36005E2E-9220-4518-8FA9-7263565D2971'}
+2023-07-18 21:10:21 [INFO   ][ln-165]: Size(width=390, height=844)
+2023-07-18 21:10:55 [INFO   ][ln-200]: #########################################################################
+
+2023-07-18 21:10:55 [INFO   ][ln-201]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-18 21:10:55 [INFO   ][ln-202]: # ---------------------------------------------------------------- #)
+
+2023-07-18 21:10:55 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-18 21:10:58 [INFO   ][ln-204]: Step 1 :  PlumeCloudLogin
+
+2023-07-18 21:10:58 [INFO   ][ln-208]: GWVjXeqqv8hlbuRYyojA1B2LKvxcFvrFrGJ90QNfI6uoQXT742GIGMXEnmiBSxN0
+2023-07-18 21:10:58 [INFO   ][ln-211]: 64895a7f924521000b2d7ac7
+2023-07-18 21:10:58 [INFO   ][ln-212]: 
+
+2023-07-18 21:10:58 [INFO   ][ln-213]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-18 21:10:58 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-18 21:11:01 [INFO   ][ln-218]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6YzMzOGY1NzgtOWIzNS00ZDhhLWI0NmUtYmRlNTE0NTE0MDc4IiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6R1dWalhlcXF2OGhsYnVSWXlvakExQjJMS3Z4Y0Z2ckZyR0o5MFFOZkk2dW9RWFQ3NDJHSUdNWEVubWlCU3hOMCJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODk3NzIyNTksImlhdCI6MTY4OTY4NTg1OX0.PETkqnq1z0AfDcMzcULEBCsV9yF3ivIJA5mBbzhQ1iv4mXOfipnIHH1anlAfPppELSVLVmj0ciqIt0eAMnWqSxZjo1gZEpCyt-ttIvBcQQFIu6y4Losoq8zW9gEt3EwjyvN4xG-v6ljnlJ3GB8cMNa_BFh1-iRqSmg34-UpzDAZYFQvYA5oWUaRJCT1va-PvEpeCWfD8OLkhICaitEnaFkPMDV53VVj4AHPWuCNooabsrASN8GnQiUaGvlvZl5j4XmhuVLn4sqhIYL6h6EyAO4SqsAcHRpIn3aMFrFOH2MRCIooo2fCygI-3J7BPiRQIExVI0Hcvuws_rdXuHKwFTg
+2023-07-18 21:11:01 [INFO   ][ln-219]: 
+
+2023-07-18 21:11:02 [INFO   ][ln-223]: Yesterday Fail event has been detected
+2023-07-18 21:11:02 [INFO   ][ln-225]: 2023
+2023-07-18 21:11:02 [INFO   ][ln-226]: 7
+2023-07-18 21:11:02 [INFO   ][ln-227]: 17
+2023-07-18 21:11:02 [INFO   ][ln-229]: 2023-07-17 00:00:00
+2023-07-18 21:11:02 [INFO   ][ln-234]: Yesterday's Timestamp Range:
+2023-07-18 21:11:02 [INFO   ][ln-235]: 1689523200
+2023-07-18 21:11:02 [INFO   ][ln-236]: 1689606000
+2023-07-18 21:11:02 [INFO   ][ln-119]: 1689523200
+2023-07-18 21:11:02 [INFO   ][ln-120]: 1689606000
+2023-07-18 21:11:02 [INFO   ][ln-426]: GetFallEventList
+2023-07-18 21:11:02 [INFO   ][ln-443]: GetFallEventList
+2023-07-18 21:11:07 [INFO   ][ln-241]: {'startTime': 1689523200, 'endTime': 1689606000, 'userId': '64895a7f924521000b2d7ac7', 'fallEventList': [{'eventId': 'fall_64895a7f924521000b2d7ac7_kd90300027_1689586442', 'userId': '64895a7f924521000b2d7ac7', 'eventTime': 1689586442, 'fallType': 'Unknown', 'detectionType': 1, 'deviceId': 'kd90300027'}]}
+2023-07-18 21:11:07 [INFO   ][ln-243]: ####################################
+2023-07-18 21:11:07 [INFO   ][ln-244]: [{'eventId': 'fall_64895a7f924521000b2d7ac7_kd90300027_1689586442', 'userId': '64895a7f924521000b2d7ac7', 'eventTime': 1689586442, 'fallType': 'Unknown', 'detectionType': 1, 'deviceId': 'kd90300027'}]
+2023-07-18 21:11:07 [INFO   ][ln-245]: ####################################
+2023-07-18 21:11:07 [INFO   ][ln-247]: The eventTime get from Backend API : 
+2023-07-18 21:11:08 [DEBUG  ][ln-980]: teardown_method
+2023-07-18 21:11:08 [DEBUG  ][ln-974]: teardown_class
+2023-07-18 21:34:38 [INFO   ][ln-47 ]: Start to load config file
+2023-07-18 21:34:38 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+4@plume.com', 'pwd': 'plume1234', 'devuserid': '64895a7f924521000b2d7ac7', 'sn': 'KD8F00003C', 'devid': '60B4F7B306AD', 'mac': '60:B4:F7:B3:06:AD', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-07-18 21:34:38 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-07-18 21:34:38 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-18 21:34:38 [INFO   ][ln-154]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.13.151'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': '36005E2E-9220-4518-8FA9-7263565D2971'}
+2023-07-18 21:34:44 [INFO   ][ln-165]: Size(width=390, height=844)
+2023-07-18 21:35:19 [INFO   ][ln-200]: #########################################################################
+
+2023-07-18 21:35:19 [INFO   ][ln-201]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-18 21:35:19 [INFO   ][ln-202]: # ---------------------------------------------------------------- #)
+
+2023-07-18 21:35:19 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-18 21:35:23 [INFO   ][ln-204]: Step 1 :  PlumeCloudLogin
+
+2023-07-18 21:35:23 [INFO   ][ln-208]: NbXM6BZAPe7e9kkzjAfyThy8ddFFx6BPjrI3D9QQNL2kEFtCyaoSLtOXNK7Ieng3
+2023-07-18 21:35:23 [INFO   ][ln-211]: 64895a7f924521000b2d7ac7
+2023-07-18 21:35:23 [INFO   ][ln-212]: 
+
+2023-07-18 21:35:23 [INFO   ][ln-213]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-18 21:35:23 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-18 21:35:27 [INFO   ][ln-218]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6NjFiZWZhZDItZjRmYS00NTM2LTk1ODMtYmMzMmFkOTBjMTk0IiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6TmJYTTZCWkFQZTdlOWtrempBZnlUaHk4ZGRGRng2QlBqckkzRDlRUU5MMmtFRnRDeWFvU0x0T1hOSzdJZW5nMyJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODk3NzM3MjQsImlhdCI6MTY4OTY4NzMyNH0.DfAqON1R6nmhZfgaRFUjYdRhLAUVxNoWj5kzWISQT1SukRwOhN-HAOv2O-SpEzCHOR5F5wYgCUEjwtIU59B3XiB_COXZTHvllZ21tISduHbckPRa_w-RqwHmEN_yDhRgrXOIldjHGk8dh5nXpL8jQ6liv1PDLQb6q5uL40N39PuSCz1KytrjamnbxS6fFmlYchadgO0sthTlsHlGdNi-9Ji_0zSSGTJXadPfBJsTi0U5OiHw9gDdbR-AKUQJPTCYBGYxZ6JUNaZDu2d-RQxDuuTuGu7enSYPg9QJZiWemSiW9wxR_jqyUGgH-ZSnB2Q1JOdmImY879_xg83TBeZpuQ
+2023-07-18 21:35:27 [INFO   ][ln-219]: 
+
+2023-07-18 21:35:27 [INFO   ][ln-223]: Yesterday Fail event has been detected
+2023-07-18 21:35:27 [INFO   ][ln-225]: 2023
+2023-07-18 21:35:27 [INFO   ][ln-226]: 7
+2023-07-18 21:35:27 [INFO   ][ln-227]: 17
+2023-07-18 21:35:27 [INFO   ][ln-229]: 2023-07-17 00:00:00
+2023-07-18 21:35:27 [INFO   ][ln-234]: Yesterday's Timestamp Range:
+2023-07-18 21:35:27 [INFO   ][ln-235]: 1689523200
+2023-07-18 21:35:27 [INFO   ][ln-236]: 1689606000
+2023-07-18 21:35:27 [INFO   ][ln-119]: 1689523200
+2023-07-18 21:35:27 [INFO   ][ln-120]: 1689606000
+2023-07-18 21:35:27 [INFO   ][ln-426]: GetFallEventList
+2023-07-18 21:35:27 [INFO   ][ln-443]: GetFallEventList
+2023-07-18 21:35:33 [INFO   ][ln-241]: {'startTime': 1689523200, 'endTime': 1689606000, 'userId': '64895a7f924521000b2d7ac7', 'fallEventList': [{'eventId': 'fall_64895a7f924521000b2d7ac7_kd90300027_1689586442', 'userId': '64895a7f924521000b2d7ac7', 'eventTime': 1689586442, 'fallType': 'Unknown', 'detectionType': 1, 'deviceId': 'kd90300027'}]}
+2023-07-18 21:35:33 [INFO   ][ln-243]: ####################################
+2023-07-18 21:35:33 [INFO   ][ln-244]: [{'eventId': 'fall_64895a7f924521000b2d7ac7_kd90300027_1689586442', 'userId': '64895a7f924521000b2d7ac7', 'eventTime': 1689586442, 'fallType': 'Unknown', 'detectionType': 1, 'deviceId': 'kd90300027'}]
+2023-07-18 21:35:33 [INFO   ][ln-245]: ####################################
+2023-07-18 21:35:33 [INFO   ][ln-247]: The eventTime get from Backend API : 
+2023-07-18 21:35:33 [INFO   ][ln-251]: The numbers of eventId  : 1
+2023-07-18 21:35:33 [INFO   ][ln-256]: 1689586442 is within yesterday's time range.
+2023-07-18 21:35:33 [INFO   ][ln-263]: ##################################################################
+
+
+2023-07-18 21:35:33 [INFO   ][ln-264]: PASS : L1_Fall event -> FrontEnd and Backend are the same
+
+
+2023-07-18 21:35:33 [INFO   ][ln-265]: ##################################################################
+
+
+2023-07-18 21:35:34 [DEBUG  ][ln-980]: teardown_method
+2023-07-18 21:35:34 [DEBUG  ][ln-974]: teardown_class
+2023-07-18 21:37:32 [INFO   ][ln-47 ]: Start to load config file
+2023-07-18 21:37:32 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+4@plume.com', 'pwd': 'plume1234', 'devuserid': '64895a7f924521000b2d7ac7', 'sn': 'KD8F00003C', 'devid': '60B4F7B306AD', 'mac': '60:B4:F7:B3:06:AD', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-07-18 21:37:32 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-07-18 21:37:32 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-18 21:37:32 [INFO   ][ln-154]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.13.151'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': '36005E2E-9220-4518-8FA9-7263565D2971'}
+2023-07-18 21:37:39 [INFO   ][ln-165]: Size(width=390, height=844)
+2023-07-18 21:38:13 [INFO   ][ln-200]: #########################################################################
+
+2023-07-18 21:38:13 [INFO   ][ln-201]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-18 21:38:13 [INFO   ][ln-202]: # ---------------------------------------------------------------- #)
+
+2023-07-18 21:38:13 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-18 21:38:16 [INFO   ][ln-204]: Step 1 :  PlumeCloudLogin
+
+2023-07-18 21:38:16 [INFO   ][ln-208]: l8pEZGEMRKD4IendcWMBuGC1fy9vj3BlQIOaiontv2OpFGOTh8cXEZ3bE8vFwNLe
+2023-07-18 21:38:16 [INFO   ][ln-211]: 64895a7f924521000b2d7ac7
+2023-07-18 21:38:16 [INFO   ][ln-212]: 
+
+2023-07-18 21:38:16 [INFO   ][ln-213]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-18 21:38:16 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-18 21:38:19 [INFO   ][ln-218]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6MmJhZWQ0ODQtMTQ4YS00ZTBjLTk2YjYtOTMzZGQzNDMzMTNkIiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6bDhwRVpHRU1SS0Q0SWVuZGNXTUJ1R0MxZnk5dmozQmxRSU9haW9udHYyT3BGR09UaDhjWEVaM2JFOHZGd05MZSJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODk3NzM4OTcsImlhdCI6MTY4OTY4NzQ5N30.JlYW5y2XwY73gYmSPpLcmPB4KyrjPthA7IWEzTvpvcWi6PZwP-9UbUIGUrJWeDQgbiG5TYNHrXmWLdAkB-DFpsJClBiwIiSKvJJhUDjdc5uKsnvPQc9zL6UZSOVVjOvy4r-K3bBBw0x_RlY7VFoewOjOb4TZkqXNQ0kuIaTnfIq0Nr8_1wx15e-CAGH-ydRUo4Vaj_HFh2GmGCa4wll_9_B2T0GpsK4PKWkf55hfpbO4HyGKVKugv5o758sNufsnCfQOc2e1nDFl_sIGc7SJndtly5BhpUelgZlqyUWUT9m2uduBEIHPrqtWycCNQreRgQZsYpzhBhCPw6RS7m8dGw
+2023-07-18 21:38:19 [INFO   ][ln-219]: 
+
+2023-07-18 21:38:19 [INFO   ][ln-223]: Yesterday Fail event has been detected
+2023-07-18 21:38:19 [INFO   ][ln-225]: 2023
+2023-07-18 21:38:19 [INFO   ][ln-226]: 7
+2023-07-18 21:38:19 [INFO   ][ln-227]: 17
+2023-07-18 21:38:19 [INFO   ][ln-229]: 2023-07-17 00:00:00
+2023-07-18 21:38:19 [INFO   ][ln-234]: Yesterday's Timestamp Range:
+2023-07-18 21:38:19 [INFO   ][ln-235]: 1689523200
+2023-07-18 21:38:19 [INFO   ][ln-236]: 1689606000
+2023-07-18 21:38:19 [INFO   ][ln-119]: 1689523200
+2023-07-18 21:38:19 [INFO   ][ln-120]: 1689606000
+2023-07-18 21:38:19 [INFO   ][ln-426]: GetFallEventList
+2023-07-18 21:38:19 [INFO   ][ln-443]: GetFallEventList
+2023-07-18 21:38:25 [INFO   ][ln-241]: {'startTime': 1689523200, 'endTime': 1689606000, 'userId': '64895a7f924521000b2d7ac7', 'fallEventList': [{'eventId': 'fall_64895a7f924521000b2d7ac7_kd90300027_1689586442', 'userId': '64895a7f924521000b2d7ac7', 'eventTime': 1689586442, 'fallType': 'Unknown', 'detectionType': 1, 'deviceId': 'kd90300027'}]}
+2023-07-18 21:38:25 [INFO   ][ln-243]: ####################################
+2023-07-18 21:38:25 [INFO   ][ln-244]: [{'eventId': 'fall_64895a7f924521000b2d7ac7_kd90300027_1689586442', 'userId': '64895a7f924521000b2d7ac7', 'eventTime': 1689586442, 'fallType': 'Unknown', 'detectionType': 1, 'deviceId': 'kd90300027'}]
+2023-07-18 21:38:25 [INFO   ][ln-245]: ####################################
+2023-07-18 21:38:25 [INFO   ][ln-247]: The eventTime get from Backend API : 
+2023-07-18 21:38:25 [INFO   ][ln-251]: The numbers of eventId  : 1
+2023-07-18 21:38:25 [INFO   ][ln-256]: 1689586442 is within yesterday's time range.
+2023-07-18 21:38:25 [INFO   ][ln-263]: ##################################################################
+
+
+2023-07-18 21:38:25 [INFO   ][ln-264]: PASS : L1_Fall event -> FrontEnd and Backend are the same
+
+
+2023-07-18 21:38:25 [INFO   ][ln-265]: ##################################################################
+
+
+2023-07-18 21:38:25 [INFO   ][ln-290]: ##########################################################
+2023-07-18 21:38:25 [INFO   ][ln-291]: The L1 FALL count get from HomePASS IOS is : 1
+2023-07-18 21:38:25 [INFO   ][ln-292]: ###########################################################
+2023-07-18 21:38:25 [INFO   ][ln-96 ]: 1689523200
+2023-07-18 21:38:25 [INFO   ][ln-97 ]: 1689606000
+2023-07-18 21:38:25 [INFO   ][ln-474]: GetFallEventSummary
+2023-07-18 21:38:25 [INFO   ][ln-491]: GetFallEventSummary
+2023-07-18 21:38:30 [INFO   ][ln-312]: {'userId': '64895a7f924521000b2d7ac7', 'startTime': 1689523200, 'endTime': 1689609599, 'utcTimeOffset': 8, 'fallCountList': [{'fallCount': 1, 'fallDate': 1689523200}]}
+2023-07-18 21:38:30 [INFO   ][ln-314]: ####################################
+2023-07-18 21:38:30 [INFO   ][ln-315]: [{'fallCount': 1, 'fallDate': 1689523200}]
+2023-07-18 21:38:30 [INFO   ][ln-316]: ####################################
+2023-07-18 21:38:30 [INFO   ][ln-318]: The fallCount get from Backend API : 
+2023-07-18 21:38:30 [INFO   ][ln-319]: 1
+2023-07-18 21:38:30 [INFO   ][ln-336]: Test completed
+2023-07-18 21:38:32 [DEBUG  ][ln-980]: teardown_method
+2023-07-18 21:38:32 [DEBUG  ][ln-974]: teardown_class
+2023-07-18 21:44:09 [INFO   ][ln-47 ]: Start to load config file
+2023-07-18 21:44:09 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+4@plume.com', 'pwd': 'plume1234', 'devuserid': '64895a7f924521000b2d7ac7', 'sn': 'KD8F00003C', 'devid': '60B4F7B306AD', 'mac': '60:B4:F7:B3:06:AD', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-07-18 21:44:09 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-07-18 21:44:09 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-18 21:44:09 [INFO   ][ln-154]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.13.151'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': None}
+2023-07-18 21:44:14 [INFO   ][ln-165]: Size(width=390, height=844)
+2023-07-18 21:44:49 [INFO   ][ln-200]: #########################################################################
+
+2023-07-18 21:44:49 [INFO   ][ln-201]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-18 21:44:49 [INFO   ][ln-202]: # ---------------------------------------------------------------- #)
+
+2023-07-18 21:44:49 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-18 21:44:52 [INFO   ][ln-204]: Step 1 :  PlumeCloudLogin
+
+2023-07-18 21:44:52 [INFO   ][ln-208]: uLkLP6kZO5MA8YdGtxMOPqdbi43jXJ4MJBHXMg5gg1EbsV0O4CuZ4tXuJpw2dvxk
+2023-07-18 21:44:52 [INFO   ][ln-211]: 64895a7f924521000b2d7ac7
+2023-07-18 21:44:52 [INFO   ][ln-212]: 
+
+2023-07-18 21:44:52 [INFO   ][ln-213]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-18 21:44:52 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-18 21:44:57 [INFO   ][ln-218]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6MjM1OTkyNjItNjYxMy00YTg5LWE5YjYtOTUwZTUxZjdmZjk2IiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6dUxrTFA2a1pPNU1BOFlkR3R4TU9QcWRiaTQzalhKNE1KQkhYTWc1Z2cxRWJzVjBPNEN1WjR0WHVKcHcyZHZ4ayJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODk3NzQyOTQsImlhdCI6MTY4OTY4Nzg5NH0.KNXHNRD0GfR4U3tBHULAva_qBHUEKt64HNSM04O8oelxpb6uH9qf_PfD9l9_jV4gErLjhn9h7cZ46tW0z0oxivxZ4-uaH_Fxxgtgp0keCq9rCyzvtYSPxAeRcp_-A8QiQf-ltRwd3mR2aVgv3aqXRYvZPu_1yVW0bR1J9v0KK7ING3zWIeM4IMLqaiINY9zFSyxnpzpE6WUDCVB_O38wd20Zp35m-7RGKJZ0PkAF-gCr6sJUV92GpjcmBjMi7w-7J3Art0kbgJ-ivJ9iIPRyuUr0LX28s7SSn5k3z17jomJ4jSUOinx3HBdhY-WpiJvKOJqrAobd3P5D2cTQcIt3-A
+2023-07-18 21:44:57 [INFO   ][ln-219]: 
+
+2023-07-18 21:44:57 [INFO   ][ln-223]: Yesterday Fail event has been detected
+2023-07-18 21:44:57 [INFO   ][ln-225]: 2023
+2023-07-18 21:44:57 [INFO   ][ln-226]: 7
+2023-07-18 21:44:57 [INFO   ][ln-227]: 17
+2023-07-18 21:44:57 [INFO   ][ln-229]: 2023-07-17 00:00:00
+2023-07-18 21:44:57 [INFO   ][ln-234]: Yesterday's Timestamp Range:
+2023-07-18 21:44:57 [INFO   ][ln-235]: 1689523200
+2023-07-18 21:44:57 [INFO   ][ln-236]: 1689606000
+2023-07-18 21:44:57 [INFO   ][ln-119]: 1689523200
+2023-07-18 21:44:57 [INFO   ][ln-120]: 1689606000
+2023-07-18 21:44:57 [INFO   ][ln-426]: GetFallEventList
+2023-07-18 21:44:57 [INFO   ][ln-443]: GetFallEventList
+2023-07-18 21:45:02 [INFO   ][ln-241]: {'startTime': 1689523200, 'endTime': 1689606000, 'userId': '64895a7f924521000b2d7ac7', 'fallEventList': [{'eventId': 'fall_64895a7f924521000b2d7ac7_kd90300027_1689586442', 'userId': '64895a7f924521000b2d7ac7', 'eventTime': 1689586442, 'fallType': 'Unknown', 'detectionType': 1, 'deviceId': 'kd90300027'}]}
+2023-07-18 21:45:02 [INFO   ][ln-243]: ####################################
+2023-07-18 21:45:02 [INFO   ][ln-244]: [{'eventId': 'fall_64895a7f924521000b2d7ac7_kd90300027_1689586442', 'userId': '64895a7f924521000b2d7ac7', 'eventTime': 1689586442, 'fallType': 'Unknown', 'detectionType': 1, 'deviceId': 'kd90300027'}]
+2023-07-18 21:45:02 [INFO   ][ln-245]: ####################################
+2023-07-18 21:45:02 [INFO   ][ln-247]: The eventTime get from Backend API : 
+2023-07-18 21:45:02 [INFO   ][ln-251]: The numbers of eventId  : 1
+2023-07-18 21:45:02 [INFO   ][ln-256]: 1689586442 is within yesterday's time range.
+2023-07-18 21:45:02 [INFO   ][ln-263]: ##################################################################
+
+
+2023-07-18 21:45:02 [INFO   ][ln-264]: PASS : L1_Fall event display info -> FrontEnd and Backend are the same
+
+
+2023-07-18 21:45:02 [INFO   ][ln-265]: ##################################################################
+
+
+2023-07-18 21:45:03 [INFO   ][ln-290]: ##########################################################
+2023-07-18 21:45:03 [INFO   ][ln-291]: The L1 FALL count get from HomePASS IOS is : 1
+2023-07-18 21:45:03 [INFO   ][ln-292]: ###########################################################
+2023-07-18 21:45:03 [INFO   ][ln-96 ]: 1689523200
+2023-07-18 21:45:03 [INFO   ][ln-97 ]: 1689606000
+2023-07-18 21:45:03 [INFO   ][ln-474]: GetFallEventSummary
+2023-07-18 21:45:03 [INFO   ][ln-491]: GetFallEventSummary
+2023-07-18 21:45:07 [INFO   ][ln-312]: {'userId': '64895a7f924521000b2d7ac7', 'startTime': 1689523200, 'endTime': 1689609599, 'utcTimeOffset': 8, 'fallCountList': [{'fallCount': 1, 'fallDate': 1689523200}]}
+2023-07-18 21:45:07 [INFO   ][ln-314]: ####################################
+2023-07-18 21:45:07 [INFO   ][ln-315]: [{'fallCount': 1, 'fallDate': 1689523200}]
+2023-07-18 21:45:07 [INFO   ][ln-316]: ####################################
+2023-07-18 21:45:07 [INFO   ][ln-318]: The fallCount get from Backend API : 
+2023-07-18 21:45:07 [INFO   ][ln-319]: 1
+2023-07-18 21:45:07 [INFO   ][ln-327]: ##################################################################
+
+
+2023-07-18 21:45:07 [INFO   ][ln-328]: PASS : L1_FALL count  -> FrontEnd and Backend are the same
+
+
+2023-07-18 21:45:07 [INFO   ][ln-329]: ##################################################################
+
+
+2023-07-18 21:45:07 [INFO   ][ln-341]: Test completed
+2023-07-18 21:45:10 [DEBUG  ][ln-980]: teardown_method
+2023-07-18 21:45:10 [DEBUG  ][ln-974]: teardown_class
+2023-07-18 22:12:57 [INFO   ][ln-47 ]: Start to load config file
+2023-07-18 22:12:57 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+4@plume.com', 'pwd': 'plume1234', 'devuserid': '64895a7f924521000b2d7ac7', 'sn': 'KD8F00003C', 'devid': '60B4F7B306AD', 'mac': '60:B4:F7:B3:06:AD', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-07-18 22:12:57 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-07-18 22:12:57 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-18 22:12:57 [INFO   ][ln-154]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.13.151'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': None}
+2023-07-18 22:13:02 [INFO   ][ln-165]: Size(width=390, height=844)
+2023-07-18 22:13:36 [INFO   ][ln-200]: #########################################################################
+
+2023-07-18 22:13:36 [INFO   ][ln-201]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-18 22:13:36 [INFO   ][ln-202]: # ---------------------------------------------------------------- #)
+
+2023-07-18 22:13:36 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-18 22:13:40 [INFO   ][ln-204]: Step 1 :  PlumeCloudLogin
+
+2023-07-18 22:13:40 [INFO   ][ln-208]: K0Hm23cocM3qsrTCWdIl2X2dkkQd4ArJF2Xqw9cgHpIAuklzES1uoTEEl9bCm7Ka
+2023-07-18 22:13:40 [INFO   ][ln-211]: 64895a7f924521000b2d7ac7
+2023-07-18 22:13:40 [INFO   ][ln-212]: 
+
+2023-07-18 22:13:40 [INFO   ][ln-213]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-18 22:13:40 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-18 22:13:44 [INFO   ][ln-218]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6ZjcwOTdmMGEtOGQwYi00M2RkLTlkNmQtYzUwNjVjYmEwZTE5IiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6SzBIbTIzY29jTTNxc3JUQ1dkSWwyWDJka2tRZDRBckpGMlhxdzljZ0hwSUF1a2x6RVMxdW9URUVsOWJDbTdLYSJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODk3NzYwMjEsImlhdCI6MTY4OTY4OTYyMX0.Tmh2e6GYQN9yQL5mgSdQAZwYrlOk1OCdexT7Wx8FA111F6C39xor48FLR1rjf4-Ar8FdBHBpXnzzeA4XlaKlD4FiHgK7Annzd4ZGXVD9llEYXVhNlan61OfgYAo5x12nudilCskOtRWLOxBtTwBhRqZs9Wj7g6_JG-hjXkDcgDsl4yYyD6fQxdnypreRKZbb8zq9D6NxoZH2TkB9WuFzCXfnGkOTtN6ET5K543rqM8yjOXhJGQ7cXmWuYKUNAzoydqZNYZ0oXh_DjGcR_V5ABwP_M7gWFn0DHGbe8-CSkvjfzioEnLuNE8OvWOgF8mefl9R1sdIAd0F997KD-ZtirA
+2023-07-18 22:13:44 [INFO   ][ln-219]: 
+
+2023-07-18 22:13:44 [INFO   ][ln-223]: Yesterday Fail event has been detected
+2023-07-18 22:13:44 [INFO   ][ln-225]: 2023
+2023-07-18 22:13:44 [INFO   ][ln-226]: 7
+2023-07-18 22:13:44 [INFO   ][ln-227]: 17
+2023-07-18 22:13:44 [INFO   ][ln-229]: 2023-07-17 00:00:00
+2023-07-18 22:13:44 [INFO   ][ln-234]: Yesterday's Timestamp Range:
+2023-07-18 22:13:44 [INFO   ][ln-235]: 1689523200
+2023-07-18 22:13:44 [INFO   ][ln-236]: 1689606000
+2023-07-18 22:13:44 [INFO   ][ln-119]: 1689523200
+2023-07-18 22:13:44 [INFO   ][ln-120]: 1689606000
+2023-07-18 22:13:44 [INFO   ][ln-426]: GetFallEventList
+2023-07-18 22:13:44 [INFO   ][ln-443]: GetFallEventList
+2023-07-18 22:13:50 [INFO   ][ln-241]: {'startTime': 1689523200, 'endTime': 1689606000, 'userId': '64895a7f924521000b2d7ac7', 'fallEventList': [{'eventId': 'fall_64895a7f924521000b2d7ac7_kd90300027_1689586442', 'userId': '64895a7f924521000b2d7ac7', 'eventTime': 1689586442, 'fallType': 'Unknown', 'detectionType': 1, 'deviceId': 'kd90300027'}]}
+2023-07-18 22:13:50 [INFO   ][ln-243]: ####################################
+2023-07-18 22:13:50 [INFO   ][ln-244]: [{'eventId': 'fall_64895a7f924521000b2d7ac7_kd90300027_1689586442', 'userId': '64895a7f924521000b2d7ac7', 'eventTime': 1689586442, 'fallType': 'Unknown', 'detectionType': 1, 'deviceId': 'kd90300027'}]
+2023-07-18 22:13:50 [INFO   ][ln-245]: ####################################
+2023-07-18 22:13:50 [INFO   ][ln-247]: The eventTime get from Backend API : 
+2023-07-18 22:13:50 [INFO   ][ln-251]: The numbers of eventId  : 1
+2023-07-18 22:13:50 [INFO   ][ln-256]: 1689586442 is within yesterday's time range.
+2023-07-18 22:13:50 [INFO   ][ln-263]: ##################################################################
+
+
+2023-07-18 22:13:50 [INFO   ][ln-264]: PASS : L1_Fall event display info -> FrontEnd and Backend are the same
+
+
+2023-07-18 22:13:50 [INFO   ][ln-265]: ##################################################################
+
+
+2023-07-18 22:13:51 [INFO   ][ln-290]: ##########################################################
+2023-07-18 22:13:51 [INFO   ][ln-291]: The L1 FALL count get from HomePASS IOS is : 1
+2023-07-18 22:13:51 [INFO   ][ln-292]: ###########################################################
+2023-07-18 22:13:51 [INFO   ][ln-96 ]: 1689523200
+2023-07-18 22:13:51 [INFO   ][ln-97 ]: 1689606000
+2023-07-18 22:13:51 [INFO   ][ln-474]: GetFallEventSummary
+2023-07-18 22:13:51 [INFO   ][ln-491]: GetFallEventSummary
+2023-07-18 22:13:56 [INFO   ][ln-312]: {'userId': '64895a7f924521000b2d7ac7', 'startTime': 1689523200, 'endTime': 1689609599, 'utcTimeOffset': 8, 'fallCountList': [{'fallCount': 1, 'fallDate': 1689523200}]}
+2023-07-18 22:13:56 [INFO   ][ln-314]: ####################################
+2023-07-18 22:13:56 [INFO   ][ln-315]: [{'fallCount': 1, 'fallDate': 1689523200}]
+2023-07-18 22:13:56 [INFO   ][ln-316]: ####################################
+2023-07-18 22:13:56 [INFO   ][ln-318]: The fallCount get from Backend API : 
+2023-07-18 22:13:56 [INFO   ][ln-319]: 1
+2023-07-18 22:13:56 [INFO   ][ln-327]: ##################################################################
+
+
+2023-07-18 22:13:56 [INFO   ][ln-328]: PASS : L1_FALL count  -> FrontEnd and Backend are the same
+
+
+2023-07-18 22:13:56 [INFO   ][ln-329]: ##################################################################
+
+
+2023-07-18 22:13:56 [INFO   ][ln-341]: Test completed
+2023-07-18 22:13:58 [DEBUG  ][ln-980]: teardown_method
+2023-07-18 22:13:58 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-18 22:13:58 [INFO   ][ln-154]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.13.151'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': None}
+2023-07-18 22:14:03 [INFO   ][ln-165]: Size(width=390, height=844)
+2023-07-18 22:14:37 [INFO   ][ln-200]: #########################################################################
+
+2023-07-18 22:14:37 [INFO   ][ln-201]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-18 22:14:37 [INFO   ][ln-202]: # ---------------------------------------------------------------- #)
+
+2023-07-18 22:14:37 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-18 22:14:40 [INFO   ][ln-204]: Step 1 :  PlumeCloudLogin
+
+2023-07-18 22:14:40 [INFO   ][ln-208]: ANzxs7WOVHnXW1XJuJkfWi7Ez0VpC7JySmoNWTpkMzylZNBvEuvyql9uGcTYauCd
+2023-07-18 22:14:40 [INFO   ][ln-211]: 64895a7f924521000b2d7ac7
+2023-07-18 22:14:40 [INFO   ][ln-212]: 
+
+2023-07-18 22:14:40 [INFO   ][ln-213]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-18 22:14:40 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-18 22:14:44 [INFO   ][ln-218]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6ZDJjYzE5ZjEtMzRhYy00NTE0LWFlNDktYTc2N2NiYmZkZTQxIiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6QU56eHM3V09WSG5YVzFYSnVKa2ZXaTdFejBWcEM3SnlTbW9OV1Rwa016eWxaTkJ2RXV2eXFsOXVHY1RZYXVDZCJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODk3NzYwODIsImlhdCI6MTY4OTY4OTY4Mn0.fNMUrOwyvxDAk54sxM5JoROrjmpg_7_B22MTnVa9r3Ew0LkAIUmsyyYPE2I0IekHoWt1pToXjnvBZscgMbwaQZ16-Z4AYUn8xB6ILDjPbUwwrCAnA419iKifrCu66IN6pQaScm_vjpm0bT95g8LE8M5h06jELwGigIzCDiPYZVPqDh7WR-64SdPTvPoOsYMMPjSHryUzEJ1TUf28JhEbaKaw5YX_SBENL11UVSe4fus-H8HpwOppsAnjZbO-IL29ZAfTmfpvzdwR_bCUYuA26Fp-1sUNUJBJ5yWTEDi97nPC5bNOqW8uth2LawLZy3jQOffserCIs0KInzEj-0Yqlg
+2023-07-18 22:14:44 [INFO   ][ln-219]: 
+
+2023-07-18 22:14:45 [INFO   ][ln-223]: Yesterday Fail event has been detected
+2023-07-18 22:14:45 [INFO   ][ln-225]: 2023
+2023-07-18 22:14:45 [INFO   ][ln-226]: 7
+2023-07-18 22:14:45 [INFO   ][ln-227]: 17
+2023-07-18 22:14:45 [INFO   ][ln-229]: 2023-07-17 00:00:00
+2023-07-18 22:14:45 [INFO   ][ln-234]: Yesterday's Timestamp Range:
+2023-07-18 22:14:45 [INFO   ][ln-235]: 1689523200
+2023-07-18 22:14:45 [INFO   ][ln-236]: 1689606000
+2023-07-18 22:14:45 [INFO   ][ln-119]: 1689523200
+2023-07-18 22:14:45 [INFO   ][ln-120]: 1689606000
+2023-07-18 22:14:45 [INFO   ][ln-426]: GetFallEventList
+2023-07-18 22:14:45 [INFO   ][ln-443]: GetFallEventList
+2023-07-18 22:14:49 [INFO   ][ln-241]: {'startTime': 1689523200, 'endTime': 1689606000, 'userId': '64895a7f924521000b2d7ac7', 'fallEventList': [{'eventId': 'fall_64895a7f924521000b2d7ac7_kd90300027_1689586442', 'userId': '64895a7f924521000b2d7ac7', 'eventTime': 1689586442, 'fallType': 'Unknown', 'detectionType': 1, 'deviceId': 'kd90300027'}]}
+2023-07-18 22:14:49 [INFO   ][ln-243]: ####################################
+2023-07-18 22:14:49 [INFO   ][ln-244]: [{'eventId': 'fall_64895a7f924521000b2d7ac7_kd90300027_1689586442', 'userId': '64895a7f924521000b2d7ac7', 'eventTime': 1689586442, 'fallType': 'Unknown', 'detectionType': 1, 'deviceId': 'kd90300027'}]
+2023-07-18 22:14:49 [INFO   ][ln-245]: ####################################
+2023-07-18 22:14:49 [INFO   ][ln-247]: The eventTime get from Backend API : 
+2023-07-18 22:14:49 [INFO   ][ln-251]: The numbers of eventId  : 1
+2023-07-18 22:14:49 [INFO   ][ln-256]: 1689586442 is within yesterday's time range.
+2023-07-18 22:14:49 [INFO   ][ln-263]: ##################################################################
+
+
+2023-07-18 22:14:49 [INFO   ][ln-264]: PASS : L1_Fall event display info -> FrontEnd and Backend are the same
+
+
+2023-07-18 22:14:49 [INFO   ][ln-265]: ##################################################################
+
+
+2023-07-18 22:14:50 [INFO   ][ln-290]: ##########################################################
+2023-07-18 22:14:50 [INFO   ][ln-291]: The L1 FALL count get from HomePASS IOS is : 1
+2023-07-18 22:14:50 [INFO   ][ln-292]: ###########################################################
+2023-07-18 22:14:50 [INFO   ][ln-96 ]: 1689523200
+2023-07-18 22:14:50 [INFO   ][ln-97 ]: 1689606000
+2023-07-18 22:14:50 [INFO   ][ln-474]: GetFallEventSummary
+2023-07-18 22:14:50 [INFO   ][ln-491]: GetFallEventSummary
+2023-07-18 22:14:54 [INFO   ][ln-312]: {'userId': '64895a7f924521000b2d7ac7', 'startTime': 1689523200, 'endTime': 1689609599, 'utcTimeOffset': 8, 'fallCountList': [{'fallCount': 1, 'fallDate': 1689523200}]}
+2023-07-18 22:14:54 [INFO   ][ln-314]: ####################################
+2023-07-18 22:14:54 [INFO   ][ln-315]: [{'fallCount': 1, 'fallDate': 1689523200}]
+2023-07-18 22:14:54 [INFO   ][ln-316]: ####################################
+2023-07-18 22:14:54 [INFO   ][ln-318]: The fallCount get from Backend API : 
+2023-07-18 22:14:54 [INFO   ][ln-319]: 1
+2023-07-18 22:14:54 [INFO   ][ln-327]: ##################################################################
+
+
+2023-07-18 22:14:54 [INFO   ][ln-328]: PASS : L1_FALL count  -> FrontEnd and Backend are the same
+
+
+2023-07-18 22:14:54 [INFO   ][ln-329]: ##################################################################
+
+
+2023-07-18 22:14:54 [INFO   ][ln-341]: Test completed
+2023-07-18 22:14:56 [DEBUG  ][ln-980]: teardown_method
+2023-07-18 22:14:56 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-18 22:14:56 [INFO   ][ln-154]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.13.151'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': None}
+2023-07-18 22:15:00 [INFO   ][ln-165]: Size(width=390, height=844)
+2023-07-18 22:15:35 [INFO   ][ln-200]: #########################################################################
+
+2023-07-18 22:15:35 [INFO   ][ln-201]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-18 22:15:35 [INFO   ][ln-202]: # ---------------------------------------------------------------- #)
+
+2023-07-18 22:15:35 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-18 22:15:37 [INFO   ][ln-204]: Step 1 :  PlumeCloudLogin
+
+2023-07-18 22:15:37 [INFO   ][ln-208]: yV6rq3hAK5f1RYTgGFQLQCh8VncgrhG3HTNunPpjfC54KxuSz35wXx7FVHjTw8Kt
+2023-07-18 22:15:37 [INFO   ][ln-211]: 64895a7f924521000b2d7ac7
+2023-07-18 22:15:37 [INFO   ][ln-212]: 
+
+2023-07-18 22:15:37 [INFO   ][ln-213]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-18 22:15:37 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-18 22:15:41 [INFO   ][ln-218]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6Yzg4NjJkOWQtNzEzNS00ZjU2LTgzMTEtYzljZWJjYjg1ZDQ5IiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6eVY2cnEzaEFLNWYxUllUZ0dGUUxRQ2g4Vm5jZ3JoRzNIVE51blBwamZDNTRLeHVTejM1d1h4N0ZWSGpUdzhLdCJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODk3NzYxMzgsImlhdCI6MTY4OTY4OTczOH0.f8EdFcf3M-AjGcg9NRt5bHIVt_A1o2QwdT-2LxC-DWhuHf_SQCxtJGASyqGcDTeHSy6dodoGvQr_ITXKkXTXTC_Z3K5naDScX07hi-vj5CCi3k2HVJAp9WSXOEpgFhbVpTNsxgFeHZUL2wS3PJuRhiStSLzETvwkZ_68r9K95IFZWFpXvGA0F0nwQf_bfFhkciuXbrOVS8giREqnj0bJvDnLrZ79x4kvPw8yYQGj6ksRunGzbIKqCMV_nQZHublEo-pRt1l1a-3KbAhUBsD_fS9qb5d1eJalV_7QmYiN1OUz-77-ozs0tr_2JBNuqPEXXbDQ0KnZos4XeSdOFcgm5g
+2023-07-18 22:15:41 [INFO   ][ln-219]: 
+
+2023-07-18 22:15:41 [INFO   ][ln-223]: Yesterday Fail event has been detected
+2023-07-18 22:15:41 [INFO   ][ln-225]: 2023
+2023-07-18 22:15:41 [INFO   ][ln-226]: 7
+2023-07-18 22:15:41 [INFO   ][ln-227]: 17
+2023-07-18 22:15:41 [INFO   ][ln-229]: 2023-07-17 00:00:00
+2023-07-18 22:15:41 [INFO   ][ln-234]: Yesterday's Timestamp Range:
+2023-07-18 22:15:41 [INFO   ][ln-235]: 1689523200
+2023-07-18 22:15:41 [INFO   ][ln-236]: 1689606000
+2023-07-18 22:15:41 [INFO   ][ln-119]: 1689523200
+2023-07-18 22:15:41 [INFO   ][ln-120]: 1689606000
+2023-07-18 22:15:41 [INFO   ][ln-426]: GetFallEventList
+2023-07-18 22:15:41 [INFO   ][ln-443]: GetFallEventList
+2023-07-18 22:15:44 [INFO   ][ln-241]: {'startTime': 1689523200, 'endTime': 1689606000, 'userId': '64895a7f924521000b2d7ac7', 'fallEventList': [{'eventId': 'fall_64895a7f924521000b2d7ac7_kd90300027_1689586442', 'userId': '64895a7f924521000b2d7ac7', 'eventTime': 1689586442, 'fallType': 'Unknown', 'detectionType': 1, 'deviceId': 'kd90300027'}]}
+2023-07-18 22:15:44 [INFO   ][ln-243]: ####################################
+2023-07-18 22:15:44 [INFO   ][ln-244]: [{'eventId': 'fall_64895a7f924521000b2d7ac7_kd90300027_1689586442', 'userId': '64895a7f924521000b2d7ac7', 'eventTime': 1689586442, 'fallType': 'Unknown', 'detectionType': 1, 'deviceId': 'kd90300027'}]
+2023-07-18 22:15:44 [INFO   ][ln-245]: ####################################
+2023-07-18 22:15:44 [INFO   ][ln-247]: The eventTime get from Backend API : 
+2023-07-18 22:15:44 [INFO   ][ln-251]: The numbers of eventId  : 1
+2023-07-18 22:15:44 [INFO   ][ln-256]: 1689586442 is within yesterday's time range.
+2023-07-18 22:15:44 [INFO   ][ln-263]: ##################################################################
+
+
+2023-07-18 22:15:44 [INFO   ][ln-264]: PASS : L1_Fall event display info -> FrontEnd and Backend are the same
+
+
+2023-07-18 22:15:44 [INFO   ][ln-265]: ##################################################################
+
+
+2023-07-18 22:15:45 [INFO   ][ln-290]: ##########################################################
+2023-07-18 22:15:45 [INFO   ][ln-291]: The L1 FALL count get from HomePASS IOS is : 1
+2023-07-18 22:15:45 [INFO   ][ln-292]: ###########################################################
+2023-07-18 22:15:45 [INFO   ][ln-96 ]: 1689523200
+2023-07-18 22:15:45 [INFO   ][ln-97 ]: 1689606000
+2023-07-18 22:15:45 [INFO   ][ln-474]: GetFallEventSummary
+2023-07-18 22:15:45 [INFO   ][ln-491]: GetFallEventSummary
+2023-07-18 22:15:49 [INFO   ][ln-312]: {'userId': '64895a7f924521000b2d7ac7', 'startTime': 1689523200, 'endTime': 1689609599, 'utcTimeOffset': 8, 'fallCountList': [{'fallCount': 1, 'fallDate': 1689523200}]}
+2023-07-18 22:15:49 [INFO   ][ln-314]: ####################################
+2023-07-18 22:15:49 [INFO   ][ln-315]: [{'fallCount': 1, 'fallDate': 1689523200}]
+2023-07-18 22:15:49 [INFO   ][ln-316]: ####################################
+2023-07-18 22:15:49 [INFO   ][ln-318]: The fallCount get from Backend API : 
+2023-07-18 22:15:49 [INFO   ][ln-319]: 1
+2023-07-18 22:15:49 [INFO   ][ln-327]: ##################################################################
+
+
+2023-07-18 22:15:49 [INFO   ][ln-328]: PASS : L1_FALL count  -> FrontEnd and Backend are the same
+
+
+2023-07-18 22:15:49 [INFO   ][ln-329]: ##################################################################
+
+
+2023-07-18 22:15:49 [INFO   ][ln-341]: Test completed
+2023-07-18 22:15:51 [DEBUG  ][ln-980]: teardown_method
+2023-07-18 22:15:51 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-18 22:15:51 [INFO   ][ln-154]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.13.151'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': None}
+2023-07-18 22:15:56 [INFO   ][ln-165]: Size(width=390, height=844)
+2023-07-18 22:16:30 [INFO   ][ln-200]: #########################################################################
+
+2023-07-18 22:16:30 [INFO   ][ln-201]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-18 22:16:30 [INFO   ][ln-202]: # ---------------------------------------------------------------- #)
+
+2023-07-18 22:16:30 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-18 22:16:33 [INFO   ][ln-204]: Step 1 :  PlumeCloudLogin
+
+2023-07-18 22:16:33 [INFO   ][ln-208]: 6mwaAvgTXFoFQu8629RY2mmBluPTBYpw5XVtFzSCiCG7UdA4okQ4oFQREKJYLfhD
+2023-07-18 22:16:33 [INFO   ][ln-211]: 64895a7f924521000b2d7ac7
+2023-07-18 22:16:33 [INFO   ][ln-212]: 
+
+2023-07-18 22:16:33 [INFO   ][ln-213]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-18 22:16:33 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-18 22:16:36 [INFO   ][ln-218]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6OGYyNzdlYmItMjZkOC00NWE2LWFlYTgtOWU4YTllM2U1NWYxIiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6Nm13YUF2Z1RYRm9GUXU4NjI5UlkybW1CbHVQVEJZcHc1WFZ0RnpTQ2lDRzdVZEE0b2tRNG9GUVJFS0pZTGZoRCJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODk3NzYxOTMsImlhdCI6MTY4OTY4OTc5M30.ApzxMvVDYtPfwbj2DeZSSkTnl3sbDdorB0bn5iJXJiXkMQYElxfiHe3Ozoru1fHwgZQjjdrE94vfjhIahGwuuG5A584wtZJM6DgdYB0vZ_h-JRG-dSTj6JK_Lt2gFnZKLaZtIKut668g_o_mAwlzlPa2_i-a-32MHmU0XVsRv8GxwIKVQnOvGBwzZnKAFT10O52u205_6xyxoyY8LWxjiQuyzTnCf3E2NLOHJaHwS2hFD9BBivNfMm47eFUlIehDVsiDwOeMN7JDj_lnCzEXYPKvPNcLvWEHbJ61IRb8AV27gtcj2xiIxyy_gqVFfMBxNIhWUSTNbfK3AGBC4vuDNQ
+2023-07-18 22:16:36 [INFO   ][ln-219]: 
+
+2023-07-18 22:16:36 [INFO   ][ln-223]: Yesterday Fail event has been detected
+2023-07-18 22:16:36 [INFO   ][ln-225]: 2023
+2023-07-18 22:16:36 [INFO   ][ln-226]: 7
+2023-07-18 22:16:36 [INFO   ][ln-227]: 17
+2023-07-18 22:16:36 [INFO   ][ln-229]: 2023-07-17 00:00:00
+2023-07-18 22:16:36 [INFO   ][ln-234]: Yesterday's Timestamp Range:
+2023-07-18 22:16:36 [INFO   ][ln-235]: 1689523200
+2023-07-18 22:16:36 [INFO   ][ln-236]: 1689606000
+2023-07-18 22:16:36 [INFO   ][ln-119]: 1689523200
+2023-07-18 22:16:36 [INFO   ][ln-120]: 1689606000
+2023-07-18 22:16:36 [INFO   ][ln-426]: GetFallEventList
+2023-07-18 22:16:36 [INFO   ][ln-443]: GetFallEventList
+2023-07-18 22:16:39 [INFO   ][ln-241]: {'startTime': 1689523200, 'endTime': 1689606000, 'userId': '64895a7f924521000b2d7ac7', 'fallEventList': [{'eventId': 'fall_64895a7f924521000b2d7ac7_kd90300027_1689586442', 'userId': '64895a7f924521000b2d7ac7', 'eventTime': 1689586442, 'fallType': 'Unknown', 'detectionType': 1, 'deviceId': 'kd90300027'}]}
+2023-07-18 22:16:39 [INFO   ][ln-243]: ####################################
+2023-07-18 22:16:39 [INFO   ][ln-244]: [{'eventId': 'fall_64895a7f924521000b2d7ac7_kd90300027_1689586442', 'userId': '64895a7f924521000b2d7ac7', 'eventTime': 1689586442, 'fallType': 'Unknown', 'detectionType': 1, 'deviceId': 'kd90300027'}]
+2023-07-18 22:16:39 [INFO   ][ln-245]: ####################################
+2023-07-18 22:16:39 [INFO   ][ln-247]: The eventTime get from Backend API : 
+2023-07-18 22:16:39 [INFO   ][ln-251]: The numbers of eventId  : 1
+2023-07-18 22:16:39 [INFO   ][ln-256]: 1689586442 is within yesterday's time range.
+2023-07-18 22:16:39 [INFO   ][ln-263]: ##################################################################
+
+
+2023-07-18 22:16:39 [INFO   ][ln-264]: PASS : L1_Fall event display info -> FrontEnd and Backend are the same
+
+
+2023-07-18 22:16:39 [INFO   ][ln-265]: ##################################################################
+
+
+2023-07-18 22:16:40 [INFO   ][ln-290]: ##########################################################
+2023-07-18 22:16:40 [INFO   ][ln-291]: The L1 FALL count get from HomePASS IOS is : 1
+2023-07-18 22:16:40 [INFO   ][ln-292]: ###########################################################
+2023-07-18 22:16:40 [INFO   ][ln-96 ]: 1689523200
+2023-07-18 22:16:40 [INFO   ][ln-97 ]: 1689606000
+2023-07-18 22:16:40 [INFO   ][ln-474]: GetFallEventSummary
+2023-07-18 22:16:40 [INFO   ][ln-491]: GetFallEventSummary
+2023-07-18 22:16:43 [INFO   ][ln-312]: {'userId': '64895a7f924521000b2d7ac7', 'startTime': 1689523200, 'endTime': 1689609599, 'utcTimeOffset': 8, 'fallCountList': [{'fallCount': 1, 'fallDate': 1689523200}]}
+2023-07-18 22:16:43 [INFO   ][ln-314]: ####################################
+2023-07-18 22:16:43 [INFO   ][ln-315]: [{'fallCount': 1, 'fallDate': 1689523200}]
+2023-07-18 22:16:43 [INFO   ][ln-316]: ####################################
+2023-07-18 22:16:43 [INFO   ][ln-318]: The fallCount get from Backend API : 
+2023-07-18 22:16:43 [INFO   ][ln-319]: 1
+2023-07-18 22:16:43 [INFO   ][ln-327]: ##################################################################
+
+
+2023-07-18 22:16:43 [INFO   ][ln-328]: PASS : L1_FALL count  -> FrontEnd and Backend are the same
+
+
+2023-07-18 22:16:43 [INFO   ][ln-329]: ##################################################################
+
+
+2023-07-18 22:16:43 [INFO   ][ln-341]: Test completed
+2023-07-18 22:16:45 [DEBUG  ][ln-980]: teardown_method
+2023-07-18 22:16:45 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-18 22:16:45 [INFO   ][ln-154]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.13.151'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': None}
+2023-07-18 22:16:50 [INFO   ][ln-165]: Size(width=390, height=844)
+2023-07-18 22:17:24 [INFO   ][ln-200]: #########################################################################
+
+2023-07-18 22:17:24 [INFO   ][ln-201]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-18 22:17:24 [INFO   ][ln-202]: # ---------------------------------------------------------------- #)
+
+2023-07-18 22:17:24 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-18 22:17:27 [INFO   ][ln-204]: Step 1 :  PlumeCloudLogin
+
+2023-07-18 22:17:27 [INFO   ][ln-208]: bGsLv192XjsCQuITu8x6DWpqhUNeyEdIEJJNH0aB9AAPSQJT0lt4gcPOky5feEAl
+2023-07-18 22:17:27 [INFO   ][ln-211]: 64895a7f924521000b2d7ac7
+2023-07-18 22:17:27 [INFO   ][ln-212]: 
+
+2023-07-18 22:17:27 [INFO   ][ln-213]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-18 22:17:27 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-18 22:17:30 [INFO   ][ln-218]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6Mzg1NWY0ZTgtMTU4MC00YTEyLWJiNWMtYjhjMjZhYmIzODE1IiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6YkdzTHYxOTJYanNDUXVJVHU4eDZEV3BxaFVOZXlFZElFSkpOSDBhQjlBQVBTUUpUMGx0NGdjUE9reTVmZUVBbCJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODk3NzYyNDgsImlhdCI6MTY4OTY4OTg0OH0.Cy9xKEXZfJdfJ4xiSKq3CklV3_h1jGiyVIaf515PfXqoZ7CdVIeKSg2xZ3KKYkm85Gy1aQLp-kMQrPsfRouU6FgLcezPJB8rV_UnQ8PU0DgrJ0Dunh420LPmKpSitv1A6yot6qHD4U3NhzS7qyVuvnhmN4H6M--ulckjaewi-QAQH6CsTqdWcbylRWAzfEKdwoyjEUufv8bGU8j7rx7gNvvJqYG_GJe0cWEi43_gLQ4QYO6IzdXobp2fi7mOmXipdCVITVK120-GWKqMEWglX8tnrp4zRgdc7BY8ioUpqWL_P-9N6X-I85CGFgtwH9Z_yH-xLvpc3tSwfw9R8NjISg
+2023-07-18 22:17:30 [INFO   ][ln-219]: 
+
+2023-07-18 22:17:31 [INFO   ][ln-223]: Yesterday Fail event has been detected
+2023-07-18 22:17:31 [INFO   ][ln-225]: 2023
+2023-07-18 22:17:31 [INFO   ][ln-226]: 7
+2023-07-18 22:17:31 [INFO   ][ln-227]: 17
+2023-07-18 22:17:31 [INFO   ][ln-229]: 2023-07-17 00:00:00
+2023-07-18 22:17:31 [INFO   ][ln-234]: Yesterday's Timestamp Range:
+2023-07-18 22:17:31 [INFO   ][ln-235]: 1689523200
+2023-07-18 22:17:31 [INFO   ][ln-236]: 1689606000
+2023-07-18 22:17:31 [INFO   ][ln-119]: 1689523200
+2023-07-18 22:17:31 [INFO   ][ln-120]: 1689606000
+2023-07-18 22:17:31 [INFO   ][ln-426]: GetFallEventList
+2023-07-18 22:17:31 [INFO   ][ln-443]: GetFallEventList
+2023-07-18 22:17:34 [INFO   ][ln-241]: {'startTime': 1689523200, 'endTime': 1689606000, 'userId': '64895a7f924521000b2d7ac7', 'fallEventList': [{'eventId': 'fall_64895a7f924521000b2d7ac7_kd90300027_1689586442', 'userId': '64895a7f924521000b2d7ac7', 'eventTime': 1689586442, 'fallType': 'Unknown', 'detectionType': 1, 'deviceId': 'kd90300027'}]}
+2023-07-18 22:17:34 [INFO   ][ln-243]: ####################################
+2023-07-18 22:17:34 [INFO   ][ln-244]: [{'eventId': 'fall_64895a7f924521000b2d7ac7_kd90300027_1689586442', 'userId': '64895a7f924521000b2d7ac7', 'eventTime': 1689586442, 'fallType': 'Unknown', 'detectionType': 1, 'deviceId': 'kd90300027'}]
+2023-07-18 22:17:34 [INFO   ][ln-245]: ####################################
+2023-07-18 22:17:34 [INFO   ][ln-247]: The eventTime get from Backend API : 
+2023-07-18 22:17:34 [INFO   ][ln-251]: The numbers of eventId  : 1
+2023-07-18 22:17:34 [INFO   ][ln-256]: 1689586442 is within yesterday's time range.
+2023-07-18 22:17:34 [INFO   ][ln-263]: ##################################################################
+
+
+2023-07-18 22:17:34 [INFO   ][ln-264]: PASS : L1_Fall event display info -> FrontEnd and Backend are the same
+
+
+2023-07-18 22:17:34 [INFO   ][ln-265]: ##################################################################
+
+
+2023-07-18 22:17:35 [INFO   ][ln-290]: ##########################################################
+2023-07-18 22:17:35 [INFO   ][ln-291]: The L1 FALL count get from HomePASS IOS is : 1
+2023-07-18 22:17:35 [INFO   ][ln-292]: ###########################################################
+2023-07-18 22:17:35 [INFO   ][ln-96 ]: 1689523200
+2023-07-18 22:17:35 [INFO   ][ln-97 ]: 1689606000
+2023-07-18 22:17:35 [INFO   ][ln-474]: GetFallEventSummary
+2023-07-18 22:17:35 [INFO   ][ln-491]: GetFallEventSummary
+2023-07-18 22:17:38 [INFO   ][ln-312]: {'userId': '64895a7f924521000b2d7ac7', 'startTime': 1689523200, 'endTime': 1689609599, 'utcTimeOffset': 8, 'fallCountList': [{'fallCount': 1, 'fallDate': 1689523200}]}
+2023-07-18 22:17:38 [INFO   ][ln-314]: ####################################
+2023-07-18 22:17:38 [INFO   ][ln-315]: [{'fallCount': 1, 'fallDate': 1689523200}]
+2023-07-18 22:17:38 [INFO   ][ln-316]: ####################################
+2023-07-18 22:17:38 [INFO   ][ln-318]: The fallCount get from Backend API : 
+2023-07-18 22:17:38 [INFO   ][ln-319]: 1
+2023-07-18 22:17:38 [INFO   ][ln-327]: ##################################################################
+
+
+2023-07-18 22:17:38 [INFO   ][ln-328]: PASS : L1_FALL count  -> FrontEnd and Backend are the same
+
+
+2023-07-18 22:17:38 [INFO   ][ln-329]: ##################################################################
+
+
+2023-07-18 22:17:38 [INFO   ][ln-341]: Test completed
+2023-07-18 22:17:40 [DEBUG  ][ln-980]: teardown_method
+2023-07-18 22:17:40 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-18 22:17:40 [INFO   ][ln-154]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.13.151'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': None}
+2023-07-18 22:17:45 [INFO   ][ln-165]: Size(width=390, height=844)
+2023-07-18 22:18:20 [INFO   ][ln-200]: #########################################################################
+
+2023-07-18 22:18:20 [INFO   ][ln-201]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-18 22:18:20 [INFO   ][ln-202]: # ---------------------------------------------------------------- #)
+
+2023-07-18 22:18:20 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-18 22:18:22 [INFO   ][ln-204]: Step 1 :  PlumeCloudLogin
+
+2023-07-18 22:18:22 [INFO   ][ln-208]: e2C2FxXmhRfeXnutJLZ1CGfk97yVAOVSlLB5HgiHypAAqZyByYjIBnotyQP9TyMu
+2023-07-18 22:18:22 [INFO   ][ln-211]: 64895a7f924521000b2d7ac7
+2023-07-18 22:18:22 [INFO   ][ln-212]: 
+
+2023-07-18 22:18:22 [INFO   ][ln-213]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-18 22:18:22 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-18 22:18:25 [INFO   ][ln-218]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6YWU2NWE4MmUtZWM3ZC00MTgyLTkyZGItZTY2ZmMxNzMzNDU4IiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6ZTJDMkZ4WG1oUmZlWG51dEpMWjFDR2ZrOTd5VkFPVlNsTEI1SGdpSHlwQUFxWnlCeVlqSUJub3R5UVA5VHlNdSJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODk3NzYzMDMsImlhdCI6MTY4OTY4OTkwM30.GjDx477nf2d6AqHDghWBCoEj4b6_oDXhjoharnhEppX35I1-IoMpO7XYlukkJwPyOJRmv94SjHTMIjgWXuLvxx8VAgELISP_mpVMEjXUpfPMnKtahK-LcJL_7p0arcI6YpiuZcyZJWZSYpcQ_7UPXlczp-VKKY66bpBPa8RUZ1w9ayGaX3myuD44H4RTA2nxD6O91b3AMdH4UpFFVUP2BvzQuIYb2Ec_hYK4x4CX1G3LXyW8_6P17jN2rRkK7kxou_r01_Vg6J-5MS3R8mKcS-H2oQJeP6w_1Ezk_TtlyRMom_NgYaRYlOeCT6xMXndROE1tLXQ_TBQCh6jN-0cteQ
+2023-07-18 22:18:25 [INFO   ][ln-219]: 
+
+2023-07-18 22:18:26 [INFO   ][ln-223]: Yesterday Fail event has been detected
+2023-07-18 22:18:26 [INFO   ][ln-225]: 2023
+2023-07-18 22:18:26 [INFO   ][ln-226]: 7
+2023-07-18 22:18:26 [INFO   ][ln-227]: 17
+2023-07-18 22:18:26 [INFO   ][ln-229]: 2023-07-17 00:00:00
+2023-07-18 22:18:26 [INFO   ][ln-234]: Yesterday's Timestamp Range:
+2023-07-18 22:18:26 [INFO   ][ln-235]: 1689523200
+2023-07-18 22:18:26 [INFO   ][ln-236]: 1689606000
+2023-07-18 22:18:26 [INFO   ][ln-119]: 1689523200
+2023-07-18 22:18:26 [INFO   ][ln-120]: 1689606000
+2023-07-18 22:18:26 [INFO   ][ln-426]: GetFallEventList
+2023-07-18 22:18:26 [INFO   ][ln-443]: GetFallEventList
+2023-07-18 22:18:29 [INFO   ][ln-241]: {'startTime': 1689523200, 'endTime': 1689606000, 'userId': '64895a7f924521000b2d7ac7', 'fallEventList': [{'eventId': 'fall_64895a7f924521000b2d7ac7_kd90300027_1689586442', 'userId': '64895a7f924521000b2d7ac7', 'eventTime': 1689586442, 'fallType': 'Unknown', 'detectionType': 1, 'deviceId': 'kd90300027'}]}
+2023-07-18 22:18:29 [INFO   ][ln-243]: ####################################
+2023-07-18 22:18:29 [INFO   ][ln-244]: [{'eventId': 'fall_64895a7f924521000b2d7ac7_kd90300027_1689586442', 'userId': '64895a7f924521000b2d7ac7', 'eventTime': 1689586442, 'fallType': 'Unknown', 'detectionType': 1, 'deviceId': 'kd90300027'}]
+2023-07-18 22:18:29 [INFO   ][ln-245]: ####################################
+2023-07-18 22:18:29 [INFO   ][ln-247]: The eventTime get from Backend API : 
+2023-07-18 22:18:29 [INFO   ][ln-251]: The numbers of eventId  : 1
+2023-07-18 22:18:29 [INFO   ][ln-256]: 1689586442 is within yesterday's time range.
+2023-07-18 22:18:29 [INFO   ][ln-263]: ##################################################################
+
+
+2023-07-18 22:18:29 [INFO   ][ln-264]: PASS : L1_Fall event display info -> FrontEnd and Backend are the same
+
+
+2023-07-18 22:18:29 [INFO   ][ln-265]: ##################################################################
+
+
+2023-07-18 22:18:30 [INFO   ][ln-290]: ##########################################################
+2023-07-18 22:18:30 [INFO   ][ln-291]: The L1 FALL count get from HomePASS IOS is : 1
+2023-07-18 22:18:30 [INFO   ][ln-292]: ###########################################################
+2023-07-18 22:18:30 [INFO   ][ln-96 ]: 1689523200
+2023-07-18 22:18:30 [INFO   ][ln-97 ]: 1689606000
+2023-07-18 22:18:30 [INFO   ][ln-474]: GetFallEventSummary
+2023-07-18 22:18:30 [INFO   ][ln-491]: GetFallEventSummary
+2023-07-18 22:18:33 [INFO   ][ln-312]: {'userId': '64895a7f924521000b2d7ac7', 'startTime': 1689523200, 'endTime': 1689609599, 'utcTimeOffset': 8, 'fallCountList': [{'fallCount': 1, 'fallDate': 1689523200}]}
+2023-07-18 22:18:33 [INFO   ][ln-314]: ####################################
+2023-07-18 22:18:33 [INFO   ][ln-315]: [{'fallCount': 1, 'fallDate': 1689523200}]
+2023-07-18 22:18:33 [INFO   ][ln-316]: ####################################
+2023-07-18 22:18:33 [INFO   ][ln-318]: The fallCount get from Backend API : 
+2023-07-18 22:18:33 [INFO   ][ln-319]: 1
+2023-07-18 22:18:33 [INFO   ][ln-327]: ##################################################################
+
+
+2023-07-18 22:18:33 [INFO   ][ln-328]: PASS : L1_FALL count  -> FrontEnd and Backend are the same
+
+
+2023-07-18 22:18:33 [INFO   ][ln-329]: ##################################################################
+
+
+2023-07-18 22:18:33 [INFO   ][ln-341]: Test completed
+2023-07-18 22:18:34 [DEBUG  ][ln-980]: teardown_method
+2023-07-18 22:18:34 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-18 22:18:34 [INFO   ][ln-154]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.13.151'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': None}
+2023-07-18 22:18:39 [INFO   ][ln-165]: Size(width=390, height=844)
+2023-07-18 22:19:14 [INFO   ][ln-200]: #########################################################################
+
+2023-07-18 22:19:14 [INFO   ][ln-201]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-18 22:19:14 [INFO   ][ln-202]: # ---------------------------------------------------------------- #)
+
+2023-07-18 22:19:14 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-18 22:19:16 [INFO   ][ln-204]: Step 1 :  PlumeCloudLogin
+
+2023-07-18 22:19:16 [INFO   ][ln-208]: 9klPN0HcU9s2VKGOwxooHQZ8gqhpUKfeabHPoXarsBDXQ8yDsyFcuezvMUbBCNaf
+2023-07-18 22:19:16 [INFO   ][ln-211]: 64895a7f924521000b2d7ac7
+2023-07-18 22:19:16 [INFO   ][ln-212]: 
+
+2023-07-18 22:19:16 [INFO   ][ln-213]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-18 22:19:16 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-18 22:19:20 [INFO   ][ln-218]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6OTI0ZTkxMWUtZjdkMS00ODNlLWFmYzItYTM0ODEyNWFlNTk3IiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6OWtsUE4wSGNVOXMyVktHT3d4b29IUVo4Z3FocFVLZmVhYkhQb1hhcnNCRFhROHlEc3lGY3VlenZNVWJCQ05hZiJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODk3NzYzNTcsImlhdCI6MTY4OTY4OTk1N30.BzVGfwk1R3w0BT9R2NjnQ6lBMMgCl94OI4n7dov2rzSqqz8mt2Azqlvvp2D3hpWrT5cfWuHCc_UQ9HTyDsqRCFG9A3KQzfIYmf26kUNzNYe4m1TVTHQU6XnYl1zApSDwJ094htQp7tHd5Znj2wuCkL22spq7auOIjjsZ0kW0L1TimJPajuT1yzbAsSCVWrWQ3zxYNCsdXQR92Y4zp83U1pc_9Cys2oq7U3v5XfhPgCQOgfwpvYKku503_GTHsoKcZH6fuWjGJP5YRgtb7j0dAY-a5MgOup4f4veILMKstQ9yo5GyWeJkPZWJAEgadY8CbRp24_zBy3ONbkRkofR4KA
+2023-07-18 22:19:20 [INFO   ][ln-219]: 
+
+2023-07-18 22:19:20 [INFO   ][ln-223]: Yesterday Fail event has been detected
+2023-07-18 22:19:20 [INFO   ][ln-225]: 2023
+2023-07-18 22:19:20 [INFO   ][ln-226]: 7
+2023-07-18 22:19:20 [INFO   ][ln-227]: 17
+2023-07-18 22:19:20 [INFO   ][ln-229]: 2023-07-17 00:00:00
+2023-07-18 22:19:20 [INFO   ][ln-234]: Yesterday's Timestamp Range:
+2023-07-18 22:19:20 [INFO   ][ln-235]: 1689523200
+2023-07-18 22:19:20 [INFO   ][ln-236]: 1689606000
+2023-07-18 22:19:20 [INFO   ][ln-119]: 1689523200
+2023-07-18 22:19:20 [INFO   ][ln-120]: 1689606000
+2023-07-18 22:19:20 [INFO   ][ln-426]: GetFallEventList
+2023-07-18 22:19:20 [INFO   ][ln-443]: GetFallEventList
+2023-07-18 22:19:23 [INFO   ][ln-241]: {'startTime': 1689523200, 'endTime': 1689606000, 'userId': '64895a7f924521000b2d7ac7', 'fallEventList': [{'eventId': 'fall_64895a7f924521000b2d7ac7_kd90300027_1689586442', 'userId': '64895a7f924521000b2d7ac7', 'eventTime': 1689586442, 'fallType': 'Unknown', 'detectionType': 1, 'deviceId': 'kd90300027'}]}
+2023-07-18 22:19:23 [INFO   ][ln-243]: ####################################
+2023-07-18 22:19:23 [INFO   ][ln-244]: [{'eventId': 'fall_64895a7f924521000b2d7ac7_kd90300027_1689586442', 'userId': '64895a7f924521000b2d7ac7', 'eventTime': 1689586442, 'fallType': 'Unknown', 'detectionType': 1, 'deviceId': 'kd90300027'}]
+2023-07-18 22:19:23 [INFO   ][ln-245]: ####################################
+2023-07-18 22:19:23 [INFO   ][ln-247]: The eventTime get from Backend API : 
+2023-07-18 22:19:23 [INFO   ][ln-251]: The numbers of eventId  : 1
+2023-07-18 22:19:23 [INFO   ][ln-256]: 1689586442 is within yesterday's time range.
+2023-07-18 22:19:23 [INFO   ][ln-263]: ##################################################################
+
+
+2023-07-18 22:19:23 [INFO   ][ln-264]: PASS : L1_Fall event display info -> FrontEnd and Backend are the same
+
+
+2023-07-18 22:19:23 [INFO   ][ln-265]: ##################################################################
+
+
+2023-07-18 22:19:24 [INFO   ][ln-290]: ##########################################################
+2023-07-18 22:19:24 [INFO   ][ln-291]: The L1 FALL count get from HomePASS IOS is : 1
+2023-07-18 22:19:24 [INFO   ][ln-292]: ###########################################################
+2023-07-18 22:19:24 [INFO   ][ln-96 ]: 1689523200
+2023-07-18 22:19:24 [INFO   ][ln-97 ]: 1689606000
+2023-07-18 22:19:24 [INFO   ][ln-474]: GetFallEventSummary
+2023-07-18 22:19:24 [INFO   ][ln-491]: GetFallEventSummary
+2023-07-18 22:19:27 [INFO   ][ln-312]: {'userId': '64895a7f924521000b2d7ac7', 'startTime': 1689523200, 'endTime': 1689609599, 'utcTimeOffset': 8, 'fallCountList': [{'fallCount': 1, 'fallDate': 1689523200}]}
+2023-07-18 22:19:27 [INFO   ][ln-314]: ####################################
+2023-07-18 22:19:27 [INFO   ][ln-315]: [{'fallCount': 1, 'fallDate': 1689523200}]
+2023-07-18 22:19:27 [INFO   ][ln-316]: ####################################
+2023-07-18 22:19:27 [INFO   ][ln-318]: The fallCount get from Backend API : 
+2023-07-18 22:19:27 [INFO   ][ln-319]: 1
+2023-07-18 22:19:27 [INFO   ][ln-327]: ##################################################################
+
+
+2023-07-18 22:19:27 [INFO   ][ln-328]: PASS : L1_FALL count  -> FrontEnd and Backend are the same
+
+
+2023-07-18 22:19:27 [INFO   ][ln-329]: ##################################################################
+
+
+2023-07-18 22:19:27 [INFO   ][ln-341]: Test completed
+2023-07-18 22:19:29 [DEBUG  ][ln-980]: teardown_method
+2023-07-18 22:19:29 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-18 22:19:29 [INFO   ][ln-154]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.13.151'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': None}
+2023-07-18 22:19:34 [INFO   ][ln-165]: Size(width=390, height=844)
+2023-07-18 22:20:08 [INFO   ][ln-200]: #########################################################################
+
+2023-07-18 22:20:08 [INFO   ][ln-201]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-18 22:20:08 [INFO   ][ln-202]: # ---------------------------------------------------------------- #)
+
+2023-07-18 22:20:08 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-18 22:20:11 [INFO   ][ln-204]: Step 1 :  PlumeCloudLogin
+
+2023-07-18 22:20:11 [INFO   ][ln-208]: Vurer1nj7gI1278QFcpiTx1NrXt6zDGi6Dh96izlTo3HsqlueYorYPMn4CVGuNi0
+2023-07-18 22:20:11 [INFO   ][ln-211]: 64895a7f924521000b2d7ac7
+2023-07-18 22:20:11 [INFO   ][ln-212]: 
+
+2023-07-18 22:20:11 [INFO   ][ln-213]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-18 22:20:11 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-18 22:20:14 [INFO   ][ln-218]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6ZDZmNWFlODEtMDM1Ni00Mjc5LWEwODUtOWYzMjRkNTU1MWM3IiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6VnVyZXIxbmo3Z0kxMjc4UUZjcGlUeDFOclh0NnpER2k2RGg5Nml6bFRvM0hzcWx1ZVlvcllQTW40Q1ZHdU5pMCJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODk3NzY0MTEsImlhdCI6MTY4OTY5MDAxMX0.X8Zimrn98ydee1LBd_c6OIobxN4gPFt6_Vf6gFjTKW64mRolleSYNHT1jfrWo8r9JV3brTk3RrP1YonUjq19LOOHCHs7i3NrmjmM1Zmr_00VtDmKXwpxGUtgLtjrAWzDWgW783q-fDxl6nZby-j_b3OiY0PR2CRK9X45cW-mJTsEygU_eC_EkQROrAlxMGNY7gj0_GQo18ZfzL8d85KEbUI02pcAJYow6DIRrQlLPWISNpD6Lu3n0k-cQPDYLdzKKHDHtFL65Or28Ntm96OoEF0Ue9GjwBPEvOOCtIoGaT4RJQKF8jwD3Q2mf1xr0i10OVBQ-w_qOK3K0KGbdIN_Zw
+2023-07-18 22:20:14 [INFO   ][ln-219]: 
+
+2023-07-18 22:20:14 [INFO   ][ln-223]: Yesterday Fail event has been detected
+2023-07-18 22:20:14 [INFO   ][ln-225]: 2023
+2023-07-18 22:20:14 [INFO   ][ln-226]: 7
+2023-07-18 22:20:14 [INFO   ][ln-227]: 17
+2023-07-18 22:20:14 [INFO   ][ln-229]: 2023-07-17 00:00:00
+2023-07-18 22:20:14 [INFO   ][ln-234]: Yesterday's Timestamp Range:
+2023-07-18 22:20:14 [INFO   ][ln-235]: 1689523200
+2023-07-18 22:20:14 [INFO   ][ln-236]: 1689606000
+2023-07-18 22:20:14 [INFO   ][ln-119]: 1689523200
+2023-07-18 22:20:14 [INFO   ][ln-120]: 1689606000
+2023-07-18 22:20:14 [INFO   ][ln-426]: GetFallEventList
+2023-07-18 22:20:14 [INFO   ][ln-443]: GetFallEventList
+2023-07-18 22:20:17 [INFO   ][ln-241]: {'startTime': 1689523200, 'endTime': 1689606000, 'userId': '64895a7f924521000b2d7ac7', 'fallEventList': [{'eventId': 'fall_64895a7f924521000b2d7ac7_kd90300027_1689586442', 'userId': '64895a7f924521000b2d7ac7', 'eventTime': 1689586442, 'fallType': 'Unknown', 'detectionType': 1, 'deviceId': 'kd90300027'}]}
+2023-07-18 22:20:17 [INFO   ][ln-243]: ####################################
+2023-07-18 22:20:17 [INFO   ][ln-244]: [{'eventId': 'fall_64895a7f924521000b2d7ac7_kd90300027_1689586442', 'userId': '64895a7f924521000b2d7ac7', 'eventTime': 1689586442, 'fallType': 'Unknown', 'detectionType': 1, 'deviceId': 'kd90300027'}]
+2023-07-18 22:20:17 [INFO   ][ln-245]: ####################################
+2023-07-18 22:20:17 [INFO   ][ln-247]: The eventTime get from Backend API : 
+2023-07-18 22:20:17 [INFO   ][ln-251]: The numbers of eventId  : 1
+2023-07-18 22:20:17 [INFO   ][ln-256]: 1689586442 is within yesterday's time range.
+2023-07-18 22:20:17 [INFO   ][ln-263]: ##################################################################
+
+
+2023-07-18 22:20:17 [INFO   ][ln-264]: PASS : L1_Fall event display info -> FrontEnd and Backend are the same
+
+
+2023-07-18 22:20:17 [INFO   ][ln-265]: ##################################################################
+
+
+2023-07-18 22:20:18 [INFO   ][ln-290]: ##########################################################
+2023-07-18 22:20:18 [INFO   ][ln-291]: The L1 FALL count get from HomePASS IOS is : 1
+2023-07-18 22:20:18 [INFO   ][ln-292]: ###########################################################
+2023-07-18 22:20:18 [INFO   ][ln-96 ]: 1689523200
+2023-07-18 22:20:18 [INFO   ][ln-97 ]: 1689606000
+2023-07-18 22:20:18 [INFO   ][ln-474]: GetFallEventSummary
+2023-07-18 22:20:18 [INFO   ][ln-491]: GetFallEventSummary
+2023-07-18 22:20:21 [INFO   ][ln-312]: {'userId': '64895a7f924521000b2d7ac7', 'startTime': 1689523200, 'endTime': 1689609599, 'utcTimeOffset': 8, 'fallCountList': [{'fallCount': 1, 'fallDate': 1689523200}]}
+2023-07-18 22:20:21 [INFO   ][ln-314]: ####################################
+2023-07-18 22:20:21 [INFO   ][ln-315]: [{'fallCount': 1, 'fallDate': 1689523200}]
+2023-07-18 22:20:21 [INFO   ][ln-316]: ####################################
+2023-07-18 22:20:21 [INFO   ][ln-318]: The fallCount get from Backend API : 
+2023-07-18 22:20:21 [INFO   ][ln-319]: 1
+2023-07-18 22:20:21 [INFO   ][ln-327]: ##################################################################
+
+
+2023-07-18 22:20:21 [INFO   ][ln-328]: PASS : L1_FALL count  -> FrontEnd and Backend are the same
+
+
+2023-07-18 22:20:21 [INFO   ][ln-329]: ##################################################################
+
+
+2023-07-18 22:20:21 [INFO   ][ln-341]: Test completed
+2023-07-18 22:20:23 [DEBUG  ][ln-980]: teardown_method
+2023-07-18 22:20:23 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-18 22:20:23 [INFO   ][ln-154]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.13.151'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': None}
+2023-07-18 22:20:28 [INFO   ][ln-165]: Size(width=390, height=844)
+2023-07-18 22:21:02 [INFO   ][ln-200]: #########################################################################
+
+2023-07-18 22:21:02 [INFO   ][ln-201]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-18 22:21:02 [INFO   ][ln-202]: # ---------------------------------------------------------------- #)
+
+2023-07-18 22:21:02 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-18 22:21:05 [INFO   ][ln-204]: Step 1 :  PlumeCloudLogin
+
+2023-07-18 22:21:05 [INFO   ][ln-208]: 7HleRi8XFenVLmEbSIRiaaG1FQOeeoJvHy3oftuSdouAbo4xavzFpNflCFsuIzNr
+2023-07-18 22:21:05 [INFO   ][ln-211]: 64895a7f924521000b2d7ac7
+2023-07-18 22:21:05 [INFO   ][ln-212]: 
+
+2023-07-18 22:21:05 [INFO   ][ln-213]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-18 22:21:05 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-18 22:21:08 [INFO   ][ln-218]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6ZGEyZjY5MmUtOWMzYS00MjI5LTkxOGItNjdjZjU0ZjZhMGZjIiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6N0hsZVJpOFhGZW5WTG1FYlNJUmlhYUcxRlFPZWVvSnZIeTNvZnR1U2RvdUFibzR4YXZ6RnBOZmxDRnN1SXpOciJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODk3NzY0NjUsImlhdCI6MTY4OTY5MDA2NX0.LrDoamBV-XmahBcoC65PxKf5cKyxVY4ojNeL3NhhJ4IvFwusLs3Uwb4SmpOTjeaqcS83gwKIyfN9t0yvi2JfxvzDcj1Xs1h7W6qO5elazLn5FDpNgKH0PmzvXWyd4GM5NMSuSDnFzBiwKm17upzLq5jdeF2FnsRArOOncOTakky5c_tvTQhcfBiJwKZ7FCTpU17Ths3ML2Ln5utJSa-Gha-TeoXRbqxHSMhwvarE9Ju1aCh3KcH53EEfNXz0jr4RiMQbWzBTQIPtLnD4JzTIySqVz-ZklR3c7dNA8TInIs3lFg2GTEZayK8sJOhHWJbCNaTJRPmWEXnT9xxJ8RsbDw
+2023-07-18 22:21:08 [INFO   ][ln-219]: 
+
+2023-07-18 22:21:08 [INFO   ][ln-223]: Yesterday Fail event has been detected
+2023-07-18 22:21:08 [INFO   ][ln-225]: 2023
+2023-07-18 22:21:08 [INFO   ][ln-226]: 7
+2023-07-18 22:21:08 [INFO   ][ln-227]: 17
+2023-07-18 22:21:08 [INFO   ][ln-229]: 2023-07-17 00:00:00
+2023-07-18 22:21:08 [INFO   ][ln-234]: Yesterday's Timestamp Range:
+2023-07-18 22:21:08 [INFO   ][ln-235]: 1689523200
+2023-07-18 22:21:08 [INFO   ][ln-236]: 1689606000
+2023-07-18 22:21:08 [INFO   ][ln-119]: 1689523200
+2023-07-18 22:21:08 [INFO   ][ln-120]: 1689606000
+2023-07-18 22:21:08 [INFO   ][ln-426]: GetFallEventList
+2023-07-18 22:21:08 [INFO   ][ln-443]: GetFallEventList
+2023-07-18 22:21:11 [INFO   ][ln-241]: {'startTime': 1689523200, 'endTime': 1689606000, 'userId': '64895a7f924521000b2d7ac7', 'fallEventList': [{'eventId': 'fall_64895a7f924521000b2d7ac7_kd90300027_1689586442', 'userId': '64895a7f924521000b2d7ac7', 'eventTime': 1689586442, 'fallType': 'Unknown', 'detectionType': 1, 'deviceId': 'kd90300027'}]}
+2023-07-18 22:21:11 [INFO   ][ln-243]: ####################################
+2023-07-18 22:21:11 [INFO   ][ln-244]: [{'eventId': 'fall_64895a7f924521000b2d7ac7_kd90300027_1689586442', 'userId': '64895a7f924521000b2d7ac7', 'eventTime': 1689586442, 'fallType': 'Unknown', 'detectionType': 1, 'deviceId': 'kd90300027'}]
+2023-07-18 22:21:11 [INFO   ][ln-245]: ####################################
+2023-07-18 22:21:11 [INFO   ][ln-247]: The eventTime get from Backend API : 
+2023-07-18 22:21:11 [INFO   ][ln-251]: The numbers of eventId  : 1
+2023-07-18 22:21:11 [INFO   ][ln-256]: 1689586442 is within yesterday's time range.
+2023-07-18 22:21:11 [INFO   ][ln-263]: ##################################################################
+
+
+2023-07-18 22:21:11 [INFO   ][ln-264]: PASS : L1_Fall event display info -> FrontEnd and Backend are the same
+
+
+2023-07-18 22:21:11 [INFO   ][ln-265]: ##################################################################
+
+
+2023-07-18 22:21:12 [INFO   ][ln-290]: ##########################################################
+2023-07-18 22:21:12 [INFO   ][ln-291]: The L1 FALL count get from HomePASS IOS is : 1
+2023-07-18 22:21:12 [INFO   ][ln-292]: ###########################################################
+2023-07-18 22:21:12 [INFO   ][ln-96 ]: 1689523200
+2023-07-18 22:21:12 [INFO   ][ln-97 ]: 1689606000
+2023-07-18 22:21:12 [INFO   ][ln-474]: GetFallEventSummary
+2023-07-18 22:21:12 [INFO   ][ln-491]: GetFallEventSummary
+2023-07-18 22:21:15 [INFO   ][ln-312]: {'userId': '64895a7f924521000b2d7ac7', 'startTime': 1689523200, 'endTime': 1689609599, 'utcTimeOffset': 8, 'fallCountList': [{'fallCount': 1, 'fallDate': 1689523200}]}
+2023-07-18 22:21:15 [INFO   ][ln-314]: ####################################
+2023-07-18 22:21:15 [INFO   ][ln-315]: [{'fallCount': 1, 'fallDate': 1689523200}]
+2023-07-18 22:21:15 [INFO   ][ln-316]: ####################################
+2023-07-18 22:21:15 [INFO   ][ln-318]: The fallCount get from Backend API : 
+2023-07-18 22:21:15 [INFO   ][ln-319]: 1
+2023-07-18 22:21:15 [INFO   ][ln-327]: ##################################################################
+
+
+2023-07-18 22:21:15 [INFO   ][ln-328]: PASS : L1_FALL count  -> FrontEnd and Backend are the same
+
+
+2023-07-18 22:21:15 [INFO   ][ln-329]: ##################################################################
+
+
+2023-07-18 22:21:15 [INFO   ][ln-341]: Test completed
+2023-07-18 22:21:17 [DEBUG  ][ln-980]: teardown_method
+2023-07-18 22:21:17 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-18 22:21:17 [INFO   ][ln-154]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.13.151'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': None}
+2023-07-18 22:21:22 [INFO   ][ln-165]: Size(width=390, height=844)
+2023-07-18 22:21:58 [INFO   ][ln-200]: #########################################################################
+
+2023-07-18 22:21:58 [INFO   ][ln-201]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-18 22:21:58 [INFO   ][ln-202]: # ---------------------------------------------------------------- #)
+
+2023-07-18 22:21:58 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-18 22:22:00 [INFO   ][ln-204]: Step 1 :  PlumeCloudLogin
+
+2023-07-18 22:22:00 [INFO   ][ln-208]: OHWOiKaOJGcEY2PRaxVwthTNmGXY27SHUzq01F90CUGdp0nGbMF4BoT20sAopOqd
+2023-07-18 22:22:00 [INFO   ][ln-211]: 64895a7f924521000b2d7ac7
+2023-07-18 22:22:00 [INFO   ][ln-212]: 
+
+2023-07-18 22:22:00 [INFO   ][ln-213]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-18 22:22:00 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-18 22:22:04 [INFO   ][ln-218]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6MWJlYTljOTMtNzlhZi00ODAwLWIyNWUtNGJkYjI5ODU1NTE4IiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6T0hXT2lLYU9KR2NFWTJQUmF4Vnd0aFRObUdYWTI3U0hVenEwMUY5MENVR2RwMG5HYk1GNEJvVDIwc0FvcE9xZCJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODk3NzY1MjEsImlhdCI6MTY4OTY5MDEyMX0.CmZzoY1Q3Qpf-uMa8grBj8SAWmjiChI3eCNpnwnPWpSM2by9ljFM-NWGm030gBpu0MHaN6p3YrTTPP3mKVZVMymThzbm-6q4ihYfUwllQ0QdZ0ZM1zHZ6JIPN_xAgixZEyUlMrLffgtZnl2e8ZaABpi-3fDfswd9nw55kn4CYW37BAvHjo01SNLgtwQGIOgd6wSf0wLAlCWAqDhFjJm7ZLG0pVA6IiaDLrCTa-JNbNCRFG90uFBb-W3IYofqoTCJ8qsPkClSj_7ZHhDwtIXOLIG_tFqr2cyq-ZMt09rys5TZdd85vq718UErhx8lj3OOiPYkshGBSYDVxR7ti-JScA
+2023-07-18 22:22:04 [INFO   ][ln-219]: 
+
+2023-07-18 22:22:04 [INFO   ][ln-223]: Yesterday Fail event has been detected
+2023-07-18 22:22:04 [INFO   ][ln-225]: 2023
+2023-07-18 22:22:04 [INFO   ][ln-226]: 7
+2023-07-18 22:22:04 [INFO   ][ln-227]: 17
+2023-07-18 22:22:04 [INFO   ][ln-229]: 2023-07-17 00:00:00
+2023-07-18 22:22:04 [INFO   ][ln-234]: Yesterday's Timestamp Range:
+2023-07-18 22:22:04 [INFO   ][ln-235]: 1689523200
+2023-07-18 22:22:04 [INFO   ][ln-236]: 1689606000
+2023-07-18 22:22:04 [INFO   ][ln-119]: 1689523200
+2023-07-18 22:22:04 [INFO   ][ln-120]: 1689606000
+2023-07-18 22:22:04 [INFO   ][ln-426]: GetFallEventList
+2023-07-18 22:22:04 [INFO   ][ln-443]: GetFallEventList
+2023-07-18 22:22:07 [INFO   ][ln-241]: {'startTime': 1689523200, 'endTime': 1689606000, 'userId': '64895a7f924521000b2d7ac7', 'fallEventList': [{'eventId': 'fall_64895a7f924521000b2d7ac7_kd90300027_1689586442', 'userId': '64895a7f924521000b2d7ac7', 'eventTime': 1689586442, 'fallType': 'Unknown', 'detectionType': 1, 'deviceId': 'kd90300027'}]}
+2023-07-18 22:22:07 [INFO   ][ln-243]: ####################################
+2023-07-18 22:22:07 [INFO   ][ln-244]: [{'eventId': 'fall_64895a7f924521000b2d7ac7_kd90300027_1689586442', 'userId': '64895a7f924521000b2d7ac7', 'eventTime': 1689586442, 'fallType': 'Unknown', 'detectionType': 1, 'deviceId': 'kd90300027'}]
+2023-07-18 22:22:07 [INFO   ][ln-245]: ####################################
+2023-07-18 22:22:07 [INFO   ][ln-247]: The eventTime get from Backend API : 
+2023-07-18 22:22:07 [INFO   ][ln-251]: The numbers of eventId  : 1
+2023-07-18 22:22:07 [INFO   ][ln-256]: 1689586442 is within yesterday's time range.
+2023-07-18 22:22:07 [INFO   ][ln-263]: ##################################################################
+
+
+2023-07-18 22:22:07 [INFO   ][ln-264]: PASS : L1_Fall event display info -> FrontEnd and Backend are the same
+
+
+2023-07-18 22:22:07 [INFO   ][ln-265]: ##################################################################
+
+
+2023-07-18 22:22:08 [INFO   ][ln-290]: ##########################################################
+2023-07-18 22:22:08 [INFO   ][ln-291]: The L1 FALL count get from HomePASS IOS is : 1
+2023-07-18 22:22:08 [INFO   ][ln-292]: ###########################################################
+2023-07-18 22:22:08 [INFO   ][ln-96 ]: 1689523200
+2023-07-18 22:22:08 [INFO   ][ln-97 ]: 1689606000
+2023-07-18 22:22:08 [INFO   ][ln-474]: GetFallEventSummary
+2023-07-18 22:22:08 [INFO   ][ln-491]: GetFallEventSummary
+2023-07-18 22:22:11 [INFO   ][ln-312]: {'userId': '64895a7f924521000b2d7ac7', 'startTime': 1689523200, 'endTime': 1689609599, 'utcTimeOffset': 8, 'fallCountList': [{'fallCount': 1, 'fallDate': 1689523200}]}
+2023-07-18 22:22:11 [INFO   ][ln-314]: ####################################
+2023-07-18 22:22:11 [INFO   ][ln-315]: [{'fallCount': 1, 'fallDate': 1689523200}]
+2023-07-18 22:22:11 [INFO   ][ln-316]: ####################################
+2023-07-18 22:22:11 [INFO   ][ln-318]: The fallCount get from Backend API : 
+2023-07-18 22:22:11 [INFO   ][ln-319]: 1
+2023-07-18 22:22:11 [INFO   ][ln-327]: ##################################################################
+
+
+2023-07-18 22:22:11 [INFO   ][ln-328]: PASS : L1_FALL count  -> FrontEnd and Backend are the same
+
+
+2023-07-18 22:22:11 [INFO   ][ln-329]: ##################################################################
+
+
+2023-07-18 22:22:11 [INFO   ][ln-341]: Test completed
+2023-07-18 22:22:12 [DEBUG  ][ln-980]: teardown_method
+2023-07-18 22:22:12 [DEBUG  ][ln-974]: teardown_class

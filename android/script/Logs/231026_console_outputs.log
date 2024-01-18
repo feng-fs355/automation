@@ -1,0 +1,942 @@
+2023-10-26 10:35:09 [INFO   ][ln-47 ]: Start to load config file
+2023-10-26 10:35:09 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+3@plume.com', 'pwd': 'plume1234', 'devuserid': '6489599c9a2357000b2dc384', 'sn': 'kd8c0000c6', 'devid': '60B4F7B307B5', 'mac': '60:B4:F7:B3:07:B5', 'androiddev1': 'HQ635T08E6', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-10-26 10:35:09 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-10-26 10:35:09 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-10-26 10:35:09 [INFO   ][ln-247]: 2023
+2023-10-26 10:35:09 [INFO   ][ln-248]: 10
+2023-10-26 10:35:09 [INFO   ][ln-249]: 26
+2023-10-26 10:35:09 [INFO   ][ln-251]: 2023-10-26 00:00:00
+2023-10-26 10:35:15 [INFO   ][ln-269]: ################################################################################################
+
+2023-10-26 10:35:15 [INFO   ][ln-270]: #  Test case : THRIV-2580 :  [Thrive Automation][script] Trigger FireBase in the Android phone #     (FireBase App)  #)
+
+2023-10-26 10:35:15 [INFO   ][ln-271]: ################################################################################################)
+
+2023-10-26 10:35:47 [DEBUG  ][ln-199]: Lanch the App Tester APP successfully.
+2023-10-26 10:36:10 [DEBUG  ][ln-980]: teardown_method
+2023-10-26 10:36:10 [DEBUG  ][ln-974]: teardown_class
+2023-10-26 10:42:10 [INFO   ][ln-47 ]: Start to load config file
+2023-10-26 10:42:10 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+3@plume.com', 'pwd': 'plume1234', 'devuserid': '6489599c9a2357000b2dc384', 'sn': 'kd8c0000c6', 'devid': '60B4F7B307B5', 'mac': '60:B4:F7:B3:07:B5', 'androiddev1': 'HQ635T08E6', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-10-26 10:42:10 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-10-26 10:42:10 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-10-26 10:42:10 [INFO   ][ln-247]: 2023
+2023-10-26 10:42:10 [INFO   ][ln-248]: 10
+2023-10-26 10:42:10 [INFO   ][ln-249]: 26
+2023-10-26 10:42:10 [INFO   ][ln-251]: 2023-10-26 00:00:00
+2023-10-26 10:42:16 [INFO   ][ln-269]: ################################################################################################
+
+2023-10-26 10:42:16 [INFO   ][ln-270]: #  Test case : THRIV-2580 :  [Thrive Automation][script] Trigger FireBase in the Android phone #     (FireBase App)  #)
+
+2023-10-26 10:42:16 [INFO   ][ln-271]: ################################################################################################)
+
+2023-10-26 10:42:40 [DEBUG  ][ln-199]: Lanch the App Tester APP successfully.
+2023-10-26 10:42:56 [DEBUG  ][ln-980]: teardown_method
+2023-10-26 10:42:56 [DEBUG  ][ln-974]: teardown_class
+2023-10-26 10:43:07 [INFO   ][ln-47 ]: Start to load config file
+2023-10-26 10:43:07 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+3@plume.com', 'pwd': 'plume1234', 'devuserid': '6489599c9a2357000b2dc384', 'sn': 'kd8c0000c6', 'devid': '60B4F7B307B5', 'mac': '60:B4:F7:B3:07:B5', 'androiddev1': 'HQ635T08E6', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-10-26 10:43:07 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-10-26 10:43:07 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-10-26 10:43:07 [INFO   ][ln-247]: 2023
+2023-10-26 10:43:07 [INFO   ][ln-248]: 10
+2023-10-26 10:43:07 [INFO   ][ln-249]: 26
+2023-10-26 10:43:07 [INFO   ][ln-251]: 2023-10-26 00:00:00
+2023-10-26 10:43:13 [INFO   ][ln-269]: ################################################################################################
+
+2023-10-26 10:43:13 [INFO   ][ln-270]: #  Test case : THRIV-2580 :  [Thrive Automation][script] Trigger FireBase in the Android phone #     (FireBase App)  #)
+
+2023-10-26 10:43:13 [INFO   ][ln-271]: ################################################################################################)
+
+2023-10-26 10:43:38 [DEBUG  ][ln-199]: Lanch the App Tester APP successfully.
+2023-10-26 10:44:25 [INFO   ][ln-323]: For Trigger Apptester --> PASS
+2023-10-26 10:44:26 [INFO   ][ln-326]: Test completed
+2023-10-26 10:44:26 [INFO   ][ln-327]: Test completed
+2023-10-26 10:44:26 [DEBUG  ][ln-980]: teardown_method
+2023-10-26 10:44:26 [DEBUG  ][ln-974]: teardown_class
+2023-10-26 10:45:28 [INFO   ][ln-47 ]: Start to load config file
+2023-10-26 10:45:28 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+3@plume.com', 'pwd': 'plume1234', 'devuserid': '6489599c9a2357000b2dc384', 'sn': 'kd8c0000c6', 'devid': '60B4F7B307B5', 'mac': '60:B4:F7:B3:07:B5', 'androiddev1': 'HQ635T08E6', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-10-26 10:45:28 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-10-26 10:45:28 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-10-26 10:45:28 [INFO   ][ln-247]: 2023
+2023-10-26 10:45:28 [INFO   ][ln-248]: 10
+2023-10-26 10:45:28 [INFO   ][ln-249]: 26
+2023-10-26 10:45:28 [INFO   ][ln-251]: 2023-10-26 00:00:00
+2023-10-26 10:45:34 [INFO   ][ln-269]: ################################################################################################
+
+2023-10-26 10:45:34 [INFO   ][ln-270]: #  Test case : THRIV-2580 :  [Thrive Automation][script] Trigger FireBase in the Android phone #     (FireBase App)  #)
+
+2023-10-26 10:45:34 [INFO   ][ln-271]: ################################################################################################)
+
+2023-10-26 10:45:58 [DEBUG  ][ln-199]: Lanch the App Tester APP successfully.
+2023-10-26 10:46:45 [INFO   ][ln-323]: For Trigger Apptester --> PASS
+2023-10-26 10:46:46 [INFO   ][ln-326]: Test completed
+2023-10-26 10:46:46 [INFO   ][ln-327]: Test completed
+2023-10-26 10:46:46 [DEBUG  ][ln-980]: teardown_method
+2023-10-26 10:46:46 [DEBUG  ][ln-974]: teardown_class
+2023-10-26 15:42:23 [INFO   ][ln-47 ]: Start to load config file
+2023-10-26 15:42:23 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+3@plume.com', 'pwd': 'plume1234', 'devuserid': '6489599c9a2357000b2dc384', 'sn': 'kd8c0000c6', 'devid': '60B4F7B307B5', 'mac': '60:B4:F7:B3:07:B5', 'androiddev1': 'HQ635T08E6', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-10-26 15:42:23 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-10-26 15:42:23 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-10-26 15:42:23 [INFO   ][ln-243]: 2023
+2023-10-26 15:42:23 [INFO   ][ln-244]: 10
+2023-10-26 15:42:23 [INFO   ][ln-245]: 26
+2023-10-26 15:42:23 [INFO   ][ln-247]: 2023-10-26 00:00:00
+2023-10-26 15:42:29 [INFO   ][ln-265]: ################################################################################################
+
+2023-10-26 15:42:29 [INFO   ][ln-266]: #  Test case : THRIV-2580 :  [Thrive Automation][script] Trigger FireBase in the Android phone #     (FireBase App)  #)
+
+2023-10-26 15:42:29 [INFO   ][ln-267]: ################################################################################################)
+
+2023-10-26 15:42:39 [DEBUG  ][ln-980]: teardown_method
+2023-10-26 15:42:39 [DEBUG  ][ln-974]: teardown_class
+2023-10-26 15:48:15 [INFO   ][ln-47 ]: Start to load config file
+2023-10-26 15:48:15 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+3@plume.com', 'pwd': 'plume1234', 'devuserid': '6489599c9a2357000b2dc384', 'sn': 'kd8c0000c6', 'devid': '60B4F7B307B5', 'mac': '60:B4:F7:B3:07:B5', 'androiddev1': 'HQ635T08E6', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-10-26 15:48:15 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-10-26 15:48:15 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-10-26 15:48:15 [INFO   ][ln-243]: 2023
+2023-10-26 15:48:15 [INFO   ][ln-244]: 10
+2023-10-26 15:48:15 [INFO   ][ln-245]: 26
+2023-10-26 15:48:15 [INFO   ][ln-247]: 2023-10-26 00:00:00
+2023-10-26 15:48:21 [INFO   ][ln-265]: ################################################################################################
+
+2023-10-26 15:48:21 [INFO   ][ln-266]: #  Test case : THRIV-2580 :  [Thrive Automation][script] Trigger FireBase in the Android phone #     (FireBase App)  #)
+
+2023-10-26 15:48:21 [INFO   ][ln-267]: ################################################################################################)
+
+2023-10-26 15:48:46 [DEBUG  ][ln-195]: Lanch the App Tester APP successfully.
+2023-10-26 15:49:32 [DEBUG  ][ln-184]: Lanch the TapselectApp successfully.
+2023-10-26 15:49:37 [DEBUG  ][ln-980]: teardown_method
+2023-10-26 15:49:37 [DEBUG  ][ln-974]: teardown_class
+2023-10-26 15:50:57 [INFO   ][ln-47 ]: Start to load config file
+2023-10-26 15:50:57 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+3@plume.com', 'pwd': 'plume1234', 'devuserid': '6489599c9a2357000b2dc384', 'sn': 'kd8c0000c6', 'devid': '60B4F7B307B5', 'mac': '60:B4:F7:B3:07:B5', 'androiddev1': 'HQ635T08E6', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-10-26 15:50:57 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-10-26 15:50:57 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-10-26 15:50:57 [INFO   ][ln-243]: 2023
+2023-10-26 15:50:57 [INFO   ][ln-244]: 10
+2023-10-26 15:50:57 [INFO   ][ln-245]: 26
+2023-10-26 15:50:57 [INFO   ][ln-247]: 2023-10-26 00:00:00
+2023-10-26 15:51:03 [INFO   ][ln-265]: ################################################################################################
+
+2023-10-26 15:51:03 [INFO   ][ln-266]: #  Test case : THRIV-2580 :  [Thrive Automation][script] Trigger FireBase in the Android phone #     (FireBase App)  #)
+
+2023-10-26 15:51:03 [INFO   ][ln-267]: ################################################################################################)
+
+2023-10-26 15:51:26 [DEBUG  ][ln-199]: Failed to lanch the App Tester APP!
+2023-10-26 15:51:26 [INFO   ][ln-70 ]: time.struct_time(tm_year=2023, tm_mon=10, tm_mday=26, tm_hour=7, tm_min=51, tm_sec=26, tm_wday=3, tm_yday=299, tm_isdst=0)
+2023-10-26 15:51:26 [INFO   ][ln-71 ]: 
+
+
+2023-10-26 15:51:26 [INFO   ][ln-74 ]: 2023
+2023-10-26 15:51:26 [INFO   ][ln-75 ]: 10
+2023-10-26 15:51:26 [INFO   ][ln-76 ]: 26
+2023-10-26 15:51:26 [INFO   ][ln-79 ]: ************************************************
+
+
+2023-10-26 15:52:47 [DEBUG  ][ln-184]: Lanch the TapselectApp successfully.
+2023-10-26 15:53:06 [DEBUG  ][ln-980]: teardown_method
+2023-10-26 15:53:06 [DEBUG  ][ln-974]: teardown_class
+2023-10-26 15:56:52 [INFO   ][ln-47 ]: Start to load config file
+2023-10-26 15:56:52 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+3@plume.com', 'pwd': 'plume1234', 'devuserid': '6489599c9a2357000b2dc384', 'sn': 'kd8c0000c6', 'devid': '60B4F7B307B5', 'mac': '60:B4:F7:B3:07:B5', 'androiddev1': 'HQ635T08E6', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-10-26 15:56:52 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-10-26 15:56:52 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-10-26 15:56:52 [INFO   ][ln-243]: 2023
+2023-10-26 15:56:52 [INFO   ][ln-244]: 10
+2023-10-26 15:56:52 [INFO   ][ln-245]: 26
+2023-10-26 15:56:52 [INFO   ][ln-247]: 2023-10-26 00:00:00
+2023-10-26 15:56:58 [INFO   ][ln-265]: ################################################################################################
+
+2023-10-26 15:56:58 [INFO   ][ln-266]: #  Test case : THRIV-2580 :  [Thrive Automation][script] Trigger FireBase in the Android phone #     (FireBase App)  #)
+
+2023-10-26 15:56:58 [INFO   ][ln-267]: ################################################################################################)
+
+2023-10-26 15:57:22 [DEBUG  ][ln-195]: Lanch the App Tester APP successfully.
+2023-10-26 15:58:08 [DEBUG  ][ln-184]: Lanch the TapselectApp successfully.
+2023-10-26 15:58:30 [INFO   ][ln-325]: return to Tap and Select TestApps page
+2023-10-26 15:58:35 [INFO   ][ln-333]: For Trigger Apptester --> PASS
+2023-10-26 15:58:36 [INFO   ][ln-336]: Test completed
+2023-10-26 15:58:36 [INFO   ][ln-337]: Test completed
+2023-10-26 15:58:36 [DEBUG  ][ln-980]: teardown_method
+2023-10-26 15:58:36 [DEBUG  ][ln-974]: teardown_class
+2023-10-26 16:03:26 [INFO   ][ln-47 ]: Start to load config file
+2023-10-26 16:03:26 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+3@plume.com', 'pwd': 'plume1234', 'devuserid': '6489599c9a2357000b2dc384', 'sn': 'kd8c0000c6', 'devid': '60B4F7B307B5', 'mac': '60:B4:F7:B3:07:B5', 'androiddev1': 'HQ635T08E6', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-10-26 16:03:26 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-10-26 16:03:26 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-10-26 16:03:26 [INFO   ][ln-243]: 2023
+2023-10-26 16:03:26 [INFO   ][ln-244]: 10
+2023-10-26 16:03:26 [INFO   ][ln-245]: 26
+2023-10-26 16:03:26 [INFO   ][ln-247]: 2023-10-26 00:00:00
+2023-10-26 16:03:32 [INFO   ][ln-265]: ################################################################################################
+
+2023-10-26 16:03:32 [INFO   ][ln-266]: #  Test case : THRIV-2580 :  [Thrive Automation][script] Trigger FireBase in the Android phone #     (FireBase App)  #)
+
+2023-10-26 16:03:32 [INFO   ][ln-267]: ################################################################################################)
+
+2023-10-26 16:03:56 [DEBUG  ][ln-195]: Lanch the App Tester APP successfully.
+2023-10-26 16:04:42 [DEBUG  ][ln-184]: Lanch the TapselectApp successfully.
+2023-10-26 16:05:05 [INFO   ][ln-325]: return to Tap and Select TestApps page
+2023-10-26 16:05:09 [INFO   ][ln-338]: For Trigger Apptester --> PASS
+2023-10-26 16:05:12 [INFO   ][ln-347]: For HomePass Uninstall --> PASS
+2023-10-26 16:05:12 [INFO   ][ln-349]: Test completed
+2023-10-26 16:05:12 [INFO   ][ln-350]: Test completed
+2023-10-26 16:05:12 [DEBUG  ][ln-980]: teardown_method
+2023-10-26 16:05:12 [DEBUG  ][ln-974]: teardown_class
+2023-10-26 16:30:52 [INFO   ][ln-47 ]: Start to load config file
+2023-10-26 16:30:52 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+3@plume.com', 'pwd': 'plume1234', 'devuserid': '6489599c9a2357000b2dc384', 'sn': 'kd8c0000c6', 'devid': '60B4F7B307B5', 'mac': '60:B4:F7:B3:07:B5', 'androiddev1': 'HQ635T08E6', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-10-26 16:30:52 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-10-26 16:30:52 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-10-26 16:30:52 [INFO   ][ln-263]: 2023
+2023-10-26 16:30:52 [INFO   ][ln-264]: 10
+2023-10-26 16:30:52 [INFO   ][ln-265]: 26
+2023-10-26 16:30:52 [INFO   ][ln-267]: 2023-10-26 00:00:00
+2023-10-26 16:30:58 [INFO   ][ln-285]: ################################################################################################
+
+2023-10-26 16:30:58 [INFO   ][ln-286]: #  Test case : THRIV-2580 :  [Thrive Automation][script] Trigger FireBase in the Android phone #     (FireBase App)  #)
+
+2023-10-26 16:30:58 [INFO   ][ln-287]: ################################################################################################)
+
+2023-10-26 16:31:21 [DEBUG  ][ln-215]: Lanch the App Tester APP successfully.
+2023-10-26 16:32:06 [DEBUG  ][ln-204]: Lanch the TapselectApp successfully.
+2023-10-26 16:32:16 [INFO   ][ln-359]: For Trigger Apptester --> PASS
+2023-10-26 16:32:19 [INFO   ][ln-366]: For HomePass Uninstall --> PASS
+2023-10-26 16:32:19 [INFO   ][ln-368]: Test completed
+2023-10-26 16:32:19 [INFO   ][ln-369]: Test completed
+2023-10-26 16:32:19 [DEBUG  ][ln-980]: teardown_method
+2023-10-26 16:32:19 [DEBUG  ][ln-974]: teardown_class
+2023-10-26 16:32:24 [INFO   ][ln-47 ]: Start to load config file
+2023-10-26 16:32:24 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+3@plume.com', 'pwd': 'plume1234', 'devuserid': '6489599c9a2357000b2dc384', 'sn': 'kd8c0000c6', 'devid': '60B4F7B307B5', 'mac': '60:B4:F7:B3:07:B5', 'androiddev1': 'HQ635T08E6', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-10-26 16:32:24 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-10-26 16:32:24 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-10-26 16:32:24 [INFO   ][ln-263]: 2023
+2023-10-26 16:32:24 [INFO   ][ln-264]: 10
+2023-10-26 16:32:24 [INFO   ][ln-265]: 26
+2023-10-26 16:32:24 [INFO   ][ln-267]: 2023-10-26 00:00:00
+2023-10-26 16:32:30 [INFO   ][ln-285]: ################################################################################################
+
+2023-10-26 16:32:30 [INFO   ][ln-286]: #  Test case : THRIV-2580 :  [Thrive Automation][script] Trigger FireBase in the Android phone #     (FireBase App)  #)
+
+2023-10-26 16:32:30 [INFO   ][ln-287]: ################################################################################################)
+
+2023-10-26 16:32:54 [DEBUG  ][ln-215]: Lanch the App Tester APP successfully.
+2023-10-26 16:33:39 [DEBUG  ][ln-204]: Lanch the TapselectApp successfully.
+2023-10-26 16:33:49 [INFO   ][ln-359]: For Trigger Apptester --> PASS
+2023-10-26 16:33:52 [INFO   ][ln-366]: For HomePass Uninstall --> PASS
+2023-10-26 16:33:52 [INFO   ][ln-368]: Test completed
+2023-10-26 16:33:52 [INFO   ][ln-369]: Test completed
+2023-10-26 16:33:52 [DEBUG  ][ln-980]: teardown_method
+2023-10-26 16:33:52 [DEBUG  ][ln-974]: teardown_class
+2023-10-26 16:34:18 [INFO   ][ln-47 ]: Start to load config file
+2023-10-26 16:34:18 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+3@plume.com', 'pwd': 'plume1234', 'devuserid': '6489599c9a2357000b2dc384', 'sn': 'kd8c0000c6', 'devid': '60B4F7B307B5', 'mac': '60:B4:F7:B3:07:B5', 'androiddev1': 'HQ635T08E6', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-10-26 16:34:18 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-10-26 16:34:18 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-10-26 16:34:18 [INFO   ][ln-263]: 2023
+2023-10-26 16:34:18 [INFO   ][ln-264]: 10
+2023-10-26 16:34:18 [INFO   ][ln-265]: 26
+2023-10-26 16:34:18 [INFO   ][ln-267]: 2023-10-26 00:00:00
+2023-10-26 16:34:24 [INFO   ][ln-285]: ################################################################################################
+
+2023-10-26 16:34:24 [INFO   ][ln-286]: #  Test case : THRIV-2580 :  [Thrive Automation][script] Trigger FireBase in the Android phone #     (FireBase App)  #)
+
+2023-10-26 16:34:24 [INFO   ][ln-287]: ################################################################################################)
+
+2023-10-26 16:34:47 [DEBUG  ][ln-215]: Lanch the App Tester APP successfully.
+2023-10-26 16:35:33 [DEBUG  ][ln-204]: Lanch the TapselectApp successfully.
+2023-10-26 16:35:43 [INFO   ][ln-359]: For Trigger Apptester --> PASS
+2023-10-26 16:35:45 [INFO   ][ln-366]: For HomePass Uninstall --> PASS
+2023-10-26 16:35:45 [INFO   ][ln-368]: Test completed
+2023-10-26 16:35:45 [INFO   ][ln-369]: Test completed
+2023-10-26 16:35:45 [DEBUG  ][ln-980]: teardown_method
+2023-10-26 16:35:45 [DEBUG  ][ln-974]: teardown_class
+2023-10-26 16:35:50 [INFO   ][ln-47 ]: Start to load config file
+2023-10-26 16:35:50 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+3@plume.com', 'pwd': 'plume1234', 'devuserid': '6489599c9a2357000b2dc384', 'sn': 'kd8c0000c6', 'devid': '60B4F7B307B5', 'mac': '60:B4:F7:B3:07:B5', 'androiddev1': 'HQ635T08E6', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-10-26 16:35:50 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-10-26 16:35:50 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-10-26 16:35:50 [INFO   ][ln-263]: 2023
+2023-10-26 16:35:50 [INFO   ][ln-264]: 10
+2023-10-26 16:35:50 [INFO   ][ln-265]: 26
+2023-10-26 16:35:50 [INFO   ][ln-267]: 2023-10-26 00:00:00
+2023-10-26 16:35:56 [INFO   ][ln-285]: ################################################################################################
+
+2023-10-26 16:35:56 [INFO   ][ln-286]: #  Test case : THRIV-2580 :  [Thrive Automation][script] Trigger FireBase in the Android phone #     (FireBase App)  #)
+
+2023-10-26 16:35:56 [INFO   ][ln-287]: ################################################################################################)
+
+2023-10-26 16:36:19 [DEBUG  ][ln-215]: Lanch the App Tester APP successfully.
+2023-10-26 16:37:04 [DEBUG  ][ln-204]: Lanch the TapselectApp successfully.
+2023-10-26 16:37:14 [INFO   ][ln-359]: For Trigger Apptester --> PASS
+2023-10-26 16:37:17 [INFO   ][ln-366]: For HomePass Uninstall --> PASS
+2023-10-26 16:37:17 [INFO   ][ln-368]: Test completed
+2023-10-26 16:37:17 [INFO   ][ln-369]: Test completed
+2023-10-26 16:37:17 [DEBUG  ][ln-980]: teardown_method
+2023-10-26 16:37:17 [DEBUG  ][ln-974]: teardown_class
+2023-10-26 16:38:15 [INFO   ][ln-47 ]: Start to load config file
+2023-10-26 16:38:15 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+3@plume.com', 'pwd': 'plume1234', 'devuserid': '6489599c9a2357000b2dc384', 'sn': 'kd8c0000c6', 'devid': '60B4F7B307B5', 'mac': '60:B4:F7:B3:07:B5', 'androiddev1': 'HQ635T08E6', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-10-26 16:38:15 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-10-26 16:38:15 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-10-26 16:38:15 [INFO   ][ln-264]: 2023
+2023-10-26 16:38:15 [INFO   ][ln-265]: 10
+2023-10-26 16:38:15 [INFO   ][ln-266]: 26
+2023-10-26 16:38:15 [INFO   ][ln-268]: 2023-10-26 00:00:00
+2023-10-26 16:38:21 [INFO   ][ln-286]: ################################################################################################
+
+2023-10-26 16:38:21 [INFO   ][ln-287]: #  Test case : THRIV-2580 :  [Thrive Automation][script] Trigger FireBase in the Android phone #     (FireBase App)  #)
+
+2023-10-26 16:38:21 [INFO   ][ln-288]: ################################################################################################)
+
+2023-10-26 16:38:44 [DEBUG  ][ln-216]: Lanch the App Tester APP successfully.
+2023-10-26 16:39:30 [DEBUG  ][ln-205]: Lanch the TapselectApp successfully.
+2023-10-26 16:39:40 [INFO   ][ln-360]: For Trigger Apptester --> PASS
+2023-10-26 16:39:42 [INFO   ][ln-367]: For HomePass Uninstall --> PASS
+2023-10-26 16:39:42 [INFO   ][ln-369]: Test completed
+2023-10-26 16:39:42 [INFO   ][ln-370]: Test completed
+2023-10-26 16:39:42 [DEBUG  ][ln-980]: teardown_method
+2023-10-26 16:39:42 [DEBUG  ][ln-974]: teardown_class
+2023-10-26 16:40:28 [INFO   ][ln-47 ]: Start to load config file
+2023-10-26 16:40:28 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+3@plume.com', 'pwd': 'plume1234', 'devuserid': '6489599c9a2357000b2dc384', 'sn': 'kd8c0000c6', 'devid': '60B4F7B307B5', 'mac': '60:B4:F7:B3:07:B5', 'androiddev1': 'HQ635T08E6', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-10-26 16:40:28 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-10-26 16:40:28 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-10-26 16:40:28 [INFO   ][ln-264]: 2023
+2023-10-26 16:40:28 [INFO   ][ln-265]: 10
+2023-10-26 16:40:28 [INFO   ][ln-266]: 26
+2023-10-26 16:40:28 [INFO   ][ln-268]: 2023-10-26 00:00:00
+2023-10-26 16:40:34 [INFO   ][ln-286]: ################################################################################################
+
+2023-10-26 16:40:34 [INFO   ][ln-287]: #  Test case : THRIV-2580 :  [Thrive Automation][script] Trigger FireBase in the Android phone #     (FireBase App)  #)
+
+2023-10-26 16:40:34 [INFO   ][ln-288]: ################################################################################################)
+
+2023-10-26 16:40:57 [DEBUG  ][ln-216]: Lanch the App Tester APP successfully.
+2023-10-26 16:41:43 [DEBUG  ][ln-205]: Lanch the TapselectApp successfully.
+2023-10-26 16:41:53 [INFO   ][ln-360]: For Trigger Apptester --> PASS
+2023-10-26 16:41:55 [INFO   ][ln-367]: For HomePass Uninstall --> PASS
+2023-10-26 16:41:55 [INFO   ][ln-369]: Test completed
+2023-10-26 16:41:55 [INFO   ][ln-370]: Test completed
+2023-10-26 16:41:55 [DEBUG  ][ln-980]: teardown_method
+2023-10-26 16:41:55 [DEBUG  ][ln-974]: teardown_class
+2023-10-26 16:50:50 [INFO   ][ln-47 ]: Start to load config file
+2023-10-26 16:50:50 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+3@plume.com', 'pwd': 'plume1234', 'devuserid': '6489599c9a2357000b2dc384', 'sn': 'kd8c0000c6', 'devid': '60B4F7B307B5', 'mac': '60:B4:F7:B3:07:B5', 'androiddev1': 'HQ635T08E6', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-10-26 16:53:19 [INFO   ][ln-47 ]: Start to load config file
+2023-10-26 16:53:19 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+3@plume.com', 'pwd': 'plume1234', 'devuserid': '6489599c9a2357000b2dc384', 'sn': 'kd8c0000c6', 'devid': '60B4F7B307B5', 'mac': '60:B4:F7:B3:07:B5', 'androiddev1': 'HQ635T08E6', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'testapk': {'pythonfile': 'test-HomePass_Lanuchtest.py'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-10-26 16:53:19 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-10-26 16:53:19 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-10-26 16:53:19 [INFO   ][ln-305]: 2023
+2023-10-26 16:53:19 [INFO   ][ln-306]: 10
+2023-10-26 16:53:19 [INFO   ][ln-307]: 26
+2023-10-26 16:53:19 [INFO   ][ln-309]: 2023-10-26 00:00:00
+2023-10-26 16:53:25 [INFO   ][ln-327]: ################################################################################################
+
+2023-10-26 16:53:25 [INFO   ][ln-328]: #  Test case : THRIV-2580 :  [Thrive Automation][script] Trigger FireBase in the Android phone #     (FireBase App)  #)
+
+2023-10-26 16:53:25 [INFO   ][ln-329]: ################################################################################################)
+
+2023-10-26 16:53:49 [DEBUG  ][ln-257]: Lanch the App Tester APP successfully.
+2023-10-26 16:54:35 [DEBUG  ][ln-246]: Lanch the TapselectApp successfully.
+2023-10-26 16:54:45 [INFO   ][ln-401]: For Trigger Apptester --> PASS
+2023-10-26 16:54:46 [INFO   ][ln-47 ]: Start to load config file
+2023-10-26 16:54:46 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+3@plume.com', 'pwd': 'plume1234', 'devuserid': '6489599c9a2357000b2dc384', 'sn': 'kd8c0000c6', 'devid': '60B4F7B307B5', 'mac': '60:B4:F7:B3:07:B5', 'androiddev1': 'HQ635T08E6', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'testapk': {'pythonfile': 'test-HomePass_Lanuchtest.py'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-10-26 16:54:47 [INFO   ][ln-195]: b"============================= test session starts ==============================\nplatform darwin -- Python 3.10.6, pytest-7.1.2, pluggy-1.0.0 -- /Library/Frameworks/Python.framework/Versions/3.10/bin/python3\ncachedir: .pytest_cache\nrootdir: /Users/mhsieh/Documents/GitHub/thrive-auto/android/script\nplugins: xdist-2.5.0, forked-1.4.0, allure-pytest-2.11.0\ncollecting ... collected 5 items / 1 error\n\n==================================== ERRORS ====================================\n_________________________ ERROR collecting IOS_test.py _________________________\nImportError while importing test module '/Users/mhsieh/Documents/GitHub/thrive-auto/android/script/IOS_test.py'.\nHint: make sure your test modules/packages have valid Python names.\nTraceback:\n/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/_pytest/python.py:608: in _importtestmodule\n    mod = import_path(self.path, mode=importmode, root=self.config.rootpath)\n/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/_pytest/pathlib.py:533: in import_path\n    importlib.import_module(module_name)\n/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module\n    return _bootstrap._gcd_import(name[level:], package, level)\n<frozen importlib._bootstrap>:1050: in _gcd_import\n    ???\n<frozen importlib._bootstrap>:1027: in _find_and_load\n    ???\n<frozen importlib._bootstrap>:1006: in _find_and_load_unlocked\n    ???\n<frozen importlib._bootstrap>:688: in _load_unlocked\n    ???\n/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/_pytest/assertion/rewrite.py:168: in exec_module\n    exec(co, module.__dict__)\nIOS_test.py:1: in <module>\n    import appium\nE   ModuleNotFoundError: No module named 'appium'\n=============================== warnings summary ===============================\nscript-backup/test_BT_pair.py:27\n  /Users/mhsieh/Documents/GitHub/thrive-auto/android/script/script-backup/test_BT_pair.py:27: DeprecationWarning: The asyncore module is deprecated and will be removed in Python 3.12. The recommended replacement is asyncio\n    from asyncore import loop\n\nscript-backup/test_BT_pair.py:64\n  /Users/mhsieh/Documents/GitHub/thrive-auto/android/script/script-backup/test_BT_pair.py:64: PytestUnknownMarkWarning: Unknown pytest.mark.asyncio - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/how-to/mark.html\n    @pytest.mark.asyncio\n\nscript-backup/test_BT_unpair.py:63\n  /Users/mhsieh/Documents/GitHub/thrive-auto/android/script/script-backup/test_BT_unpair.py:63: PytestUnknownMarkWarning: Unknown pytest.mark.asyncio - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/how-to/mark.html\n    @pytest.mark.asyncio\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n=========================== short test summary info ============================\nERROR IOS_test.py\n!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!\n========================= 3 warnings, 1 error in 1.37s =========================\n"
+2023-10-26 16:54:47 [INFO   ][ln-204]: ============================= test session starts ==============================
+platform darwin -- Python 3.10.6, pytest-7.1.2, pluggy-1.0.0 -- /Library/Frameworks/Python.framework/Versions/3.10/bin/python3
+cachedir: .pytest_cache
+rootdir: /Users/mhsieh/Documents/GitHub/thrive-auto/android/script
+plugins: xdist-2.5.0, forked-1.4.0, allure-pytest-2.11.0
+collecting ... collected 5 items / 1 error
+
+==================================== ERRORS ====================================
+_________________________ ERROR collecting IOS_test.py _________________________
+ImportError while importing test module '/Users/mhsieh/Documents/GitHub/thrive-auto/android/script/IOS_test.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/_pytest/python.py:608: in _importtestmodule
+    mod = import_path(self.path, mode=importmode, root=self.config.rootpath)
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/_pytest/pathlib.py:533: in import_path
+    importlib.import_module(module_name)
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+<frozen importlib._bootstrap>:1050: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1027: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:1006: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:688: in _load_unlocked
+    ???
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/_pytest/assertion/rewrite.py:168: in exec_module
+    exec(co, module.__dict__)
+IOS_test.py:1: in <module>
+    import appium
+E   ModuleNotFoundError: No module named 'appium'
+=============================== warnings summary ===============================
+script-backup/test_BT_pair.py:27
+  /Users/mhsieh/Documents/GitHub/thrive-auto/android/script/script-backup/test_BT_pair.py:27: DeprecationWarning: The asyncore module is deprecated and will be removed in Python 3.12. The recommended replacement is asyncio
+    from asyncore import loop
+
+script-backup/test_BT_pair.py:64
+  /Users/mhsieh/Documents/GitHub/thrive-auto/android/script/script-backup/test_BT_pair.py:64: PytestUnknownMarkWarning: Unknown pytest.mark.asyncio - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/how-to/mark.html
+    @pytest.mark.asyncio
+
+script-backup/test_BT_unpair.py:63
+  /Users/mhsieh/Documents/GitHub/thrive-auto/android/script/script-backup/test_BT_unpair.py:63: PytestUnknownMarkWarning: Unknown pytest.mark.asyncio - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/how-to/mark.html
+    @pytest.mark.asyncio
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+ERROR IOS_test.py
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+========================= 3 warnings, 1 error in 1.37s =========================
+
+2023-10-26 16:54:52 [INFO   ][ln-413]: For HomePass Uninstall --> PASS
+2023-10-26 16:54:52 [INFO   ][ln-415]: Test completed
+2023-10-26 16:54:52 [INFO   ][ln-416]: Test completed
+2023-10-26 16:54:52 [DEBUG  ][ln-980]: teardown_method
+2023-10-26 16:54:52 [DEBUG  ][ln-974]: teardown_class
+2023-10-26 16:55:20 [INFO   ][ln-47 ]: Start to load config file
+2023-10-26 16:55:20 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+3@plume.com', 'pwd': 'plume1234', 'devuserid': '6489599c9a2357000b2dc384', 'sn': 'kd8c0000c6', 'devid': '60B4F7B307B5', 'mac': '60:B4:F7:B3:07:B5', 'androiddev1': 'HQ635T08E6', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'testapk': {'pythonfile': 'test-HomePass_Lanuchtest.py'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-10-26 16:55:20 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-10-26 16:55:20 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-10-26 16:55:20 [INFO   ][ln-305]: 2023
+2023-10-26 16:55:20 [INFO   ][ln-306]: 10
+2023-10-26 16:55:20 [INFO   ][ln-307]: 26
+2023-10-26 16:55:20 [INFO   ][ln-309]: 2023-10-26 00:00:00
+2023-10-26 16:55:26 [INFO   ][ln-327]: ################################################################################################
+
+2023-10-26 16:55:26 [INFO   ][ln-328]: #  Test case : THRIV-2580 :  [Thrive Automation][script] Trigger FireBase in the Android phone #     (FireBase App)  #)
+
+2023-10-26 16:55:26 [INFO   ][ln-329]: ################################################################################################)
+
+2023-10-26 16:55:50 [DEBUG  ][ln-257]: Lanch the App Tester APP successfully.
+2023-10-26 16:56:35 [DEBUG  ][ln-246]: Lanch the TapselectApp successfully.
+2023-10-26 16:56:45 [INFO   ][ln-401]: For Trigger Apptester --> PASS
+2023-10-26 16:56:47 [INFO   ][ln-47 ]: Start to load config file
+2023-10-26 16:56:47 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+3@plume.com', 'pwd': 'plume1234', 'devuserid': '6489599c9a2357000b2dc384', 'sn': 'kd8c0000c6', 'devid': '60B4F7B307B5', 'mac': '60:B4:F7:B3:07:B5', 'androiddev1': 'HQ635T08E6', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'testapk': {'pythonfile': 'test-HomePass_Lanuchtest.py'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-10-26 16:56:47 [INFO   ][ln-195]: b"============================= test session starts ==============================\nplatform darwin -- Python 3.10.6, pytest-7.1.2, pluggy-1.0.0 -- /Library/Frameworks/Python.framework/Versions/3.10/bin/python3\ncachedir: .pytest_cache\nrootdir: /Users/mhsieh/Documents/GitHub/thrive-auto/android/script\nplugins: xdist-2.5.0, forked-1.4.0, allure-pytest-2.11.0\ncollecting ... collected 5 items / 1 error\n\n==================================== ERRORS ====================================\n_________________________ ERROR collecting IOS_test.py _________________________\nImportError while importing test module '/Users/mhsieh/Documents/GitHub/thrive-auto/android/script/IOS_test.py'.\nHint: make sure your test modules/packages have valid Python names.\nTraceback:\n/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/_pytest/python.py:608: in _importtestmodule\n    mod = import_path(self.path, mode=importmode, root=self.config.rootpath)\n/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/_pytest/pathlib.py:533: in import_path\n    importlib.import_module(module_name)\n/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module\n    return _bootstrap._gcd_import(name[level:], package, level)\n<frozen importlib._bootstrap>:1050: in _gcd_import\n    ???\n<frozen importlib._bootstrap>:1027: in _find_and_load\n    ???\n<frozen importlib._bootstrap>:1006: in _find_and_load_unlocked\n    ???\n<frozen importlib._bootstrap>:688: in _load_unlocked\n    ???\n/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/_pytest/assertion/rewrite.py:168: in exec_module\n    exec(co, module.__dict__)\nIOS_test.py:1: in <module>\n    import appium\nE   ModuleNotFoundError: No module named 'appium'\n=============================== warnings summary ===============================\nscript-backup/test_BT_pair.py:27\n  /Users/mhsieh/Documents/GitHub/thrive-auto/android/script/script-backup/test_BT_pair.py:27: DeprecationWarning: The asyncore module is deprecated and will be removed in Python 3.12. The recommended replacement is asyncio\n    from asyncore import loop\n\nscript-backup/test_BT_pair.py:64\n  /Users/mhsieh/Documents/GitHub/thrive-auto/android/script/script-backup/test_BT_pair.py:64: PytestUnknownMarkWarning: Unknown pytest.mark.asyncio - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/how-to/mark.html\n    @pytest.mark.asyncio\n\nscript-backup/test_BT_unpair.py:63\n  /Users/mhsieh/Documents/GitHub/thrive-auto/android/script/script-backup/test_BT_unpair.py:63: PytestUnknownMarkWarning: Unknown pytest.mark.asyncio - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/how-to/mark.html\n    @pytest.mark.asyncio\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n=========================== short test summary info ============================\nERROR IOS_test.py\n!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!\n========================= 3 warnings, 1 error in 0.61s =========================\n"
+2023-10-26 16:56:47 [INFO   ][ln-204]: ============================= test session starts ==============================
+platform darwin -- Python 3.10.6, pytest-7.1.2, pluggy-1.0.0 -- /Library/Frameworks/Python.framework/Versions/3.10/bin/python3
+cachedir: .pytest_cache
+rootdir: /Users/mhsieh/Documents/GitHub/thrive-auto/android/script
+plugins: xdist-2.5.0, forked-1.4.0, allure-pytest-2.11.0
+collecting ... collected 5 items / 1 error
+
+==================================== ERRORS ====================================
+_________________________ ERROR collecting IOS_test.py _________________________
+ImportError while importing test module '/Users/mhsieh/Documents/GitHub/thrive-auto/android/script/IOS_test.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/_pytest/python.py:608: in _importtestmodule
+    mod = import_path(self.path, mode=importmode, root=self.config.rootpath)
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/_pytest/pathlib.py:533: in import_path
+    importlib.import_module(module_name)
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+<frozen importlib._bootstrap>:1050: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1027: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:1006: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:688: in _load_unlocked
+    ???
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/_pytest/assertion/rewrite.py:168: in exec_module
+    exec(co, module.__dict__)
+IOS_test.py:1: in <module>
+    import appium
+E   ModuleNotFoundError: No module named 'appium'
+=============================== warnings summary ===============================
+script-backup/test_BT_pair.py:27
+  /Users/mhsieh/Documents/GitHub/thrive-auto/android/script/script-backup/test_BT_pair.py:27: DeprecationWarning: The asyncore module is deprecated and will be removed in Python 3.12. The recommended replacement is asyncio
+    from asyncore import loop
+
+script-backup/test_BT_pair.py:64
+  /Users/mhsieh/Documents/GitHub/thrive-auto/android/script/script-backup/test_BT_pair.py:64: PytestUnknownMarkWarning: Unknown pytest.mark.asyncio - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/how-to/mark.html
+    @pytest.mark.asyncio
+
+script-backup/test_BT_unpair.py:63
+  /Users/mhsieh/Documents/GitHub/thrive-auto/android/script/script-backup/test_BT_unpair.py:63: PytestUnknownMarkWarning: Unknown pytest.mark.asyncio - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/how-to/mark.html
+    @pytest.mark.asyncio
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+ERROR IOS_test.py
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+========================= 3 warnings, 1 error in 0.61s =========================
+
+2023-10-26 16:56:52 [INFO   ][ln-413]: For HomePass Uninstall --> PASS
+2023-10-26 16:56:52 [INFO   ][ln-415]: Test completed
+2023-10-26 16:56:52 [INFO   ][ln-416]: Test completed
+2023-10-26 16:56:52 [DEBUG  ][ln-980]: teardown_method
+2023-10-26 16:56:52 [DEBUG  ][ln-974]: teardown_class
+2023-10-26 16:57:44 [INFO   ][ln-47 ]: Start to load config file
+2023-10-26 16:57:44 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+3@plume.com', 'pwd': 'plume1234', 'devuserid': '6489599c9a2357000b2dc384', 'sn': 'kd8c0000c6', 'devid': '60B4F7B307B5', 'mac': '60:B4:F7:B3:07:B5', 'androiddev1': 'HQ635T08E6', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'testapk': {'pythonfile': 'test-HomePass_Lanuchtest.py'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-10-26 16:57:44 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-10-26 16:57:44 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-10-26 16:57:44 [INFO   ][ln-305]: 2023
+2023-10-26 16:57:44 [INFO   ][ln-306]: 10
+2023-10-26 16:57:44 [INFO   ][ln-307]: 26
+2023-10-26 16:57:44 [INFO   ][ln-309]: 2023-10-26 00:00:00
+2023-10-26 16:57:50 [INFO   ][ln-327]: ################################################################################################
+
+2023-10-26 16:57:50 [INFO   ][ln-328]: #  Test case : THRIV-2580 :  [Thrive Automation][script] Trigger FireBase in the Android phone #     (FireBase App)  #)
+
+2023-10-26 16:57:50 [INFO   ][ln-329]: ################################################################################################)
+
+2023-10-26 16:58:13 [DEBUG  ][ln-257]: Lanch the App Tester APP successfully.
+2023-10-26 16:58:59 [DEBUG  ][ln-246]: Lanch the TapselectApp successfully.
+2023-10-26 16:59:09 [INFO   ][ln-401]: For Trigger Apptester --> PASS
+2023-10-26 16:59:11 [INFO   ][ln-409]: For HomePass Uninstall --> PASS
+2023-10-26 16:59:11 [INFO   ][ln-410]: Test completed
+2023-10-26 16:59:11 [DEBUG  ][ln-980]: teardown_method
+2023-10-26 16:59:11 [DEBUG  ][ln-974]: teardown_class
+2023-10-26 17:00:04 [INFO   ][ln-47 ]: Start to load config file
+2023-10-26 17:00:04 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+3@plume.com', 'pwd': 'plume1234', 'devuserid': '6489599c9a2357000b2dc384', 'sn': 'kd8c0000c6', 'devid': '60B4F7B307B5', 'mac': '60:B4:F7:B3:07:B5', 'androiddev1': 'HQ635T08E6', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'testapk': {'pythonfile': 'test-HomePass_Lanuchtest.py'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-10-26 17:00:04 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-10-26 17:00:04 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-10-26 17:00:04 [INFO   ][ln-305]: 2023
+2023-10-26 17:00:04 [INFO   ][ln-306]: 10
+2023-10-26 17:00:04 [INFO   ][ln-307]: 26
+2023-10-26 17:00:04 [INFO   ][ln-309]: 2023-10-26 00:00:00
+2023-10-26 17:00:10 [INFO   ][ln-327]: ################################################################################################
+
+2023-10-26 17:00:10 [INFO   ][ln-328]: #  Test case : THRIV-2580 :  [Thrive Automation][script] Trigger FireBase in the Android phone #     (FireBase App)  #)
+
+2023-10-26 17:00:10 [INFO   ][ln-329]: ################################################################################################)
+
+2023-10-26 17:00:33 [DEBUG  ][ln-257]: Lanch the App Tester APP successfully.
+2023-10-26 17:01:19 [DEBUG  ][ln-246]: Lanch the TapselectApp successfully.
+2023-10-26 17:01:29 [INFO   ][ln-401]: For Trigger Apptester --> PASS
+2023-10-26 17:01:31 [INFO   ][ln-409]: For HomePass Uninstall --> PASS
+2023-10-26 17:01:31 [INFO   ][ln-410]: Test completed
+2023-10-26 17:01:31 [DEBUG  ][ln-980]: teardown_method
+2023-10-26 17:01:31 [DEBUG  ][ln-974]: teardown_class
+2023-10-26 17:05:43 [INFO   ][ln-47 ]: Start to load config file
+2023-10-26 17:05:43 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+3@plume.com', 'pwd': 'plume1234', 'devuserid': '6489599c9a2357000b2dc384', 'sn': 'kd8c0000c6', 'devid': '60B4F7B307B5', 'mac': '60:B4:F7:B3:07:B5', 'androiddev1': 'HQ635T08E6', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'testapk': {'pythonfile': 'test-HomePass_Lanuchtest.py'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-10-26 17:05:44 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-10-26 17:05:44 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-10-26 17:05:44 [INFO   ][ln-304]: 2023
+2023-10-26 17:05:44 [INFO   ][ln-305]: 10
+2023-10-26 17:05:44 [INFO   ][ln-306]: 26
+2023-10-26 17:05:44 [INFO   ][ln-308]: 2023-10-26 00:00:00
+2023-10-26 17:05:50 [INFO   ][ln-326]: ################################################################################################
+
+2023-10-26 17:05:50 [INFO   ][ln-327]: #  Test case : THRIV-2580 :  [Thrive Automation][script] Trigger FireBase in the Android phone #     (FireBase App)  #)
+
+2023-10-26 17:05:50 [INFO   ][ln-328]: ################################################################################################)
+
+2023-10-26 17:06:12 [DEBUG  ][ln-256]: Lanch the App Tester APP successfully.
+2023-10-26 17:06:58 [DEBUG  ][ln-245]: Lanch the TapselectApp successfully.
+2023-10-26 17:07:24 [INFO   ][ln-408]: For Trigger Apptester --> PASS
+2023-10-26 17:07:25 [DEBUG  ][ln-980]: teardown_method
+2023-10-26 17:07:25 [DEBUG  ][ln-974]: teardown_class
+2023-10-26 17:08:01 [INFO   ][ln-47 ]: Start to load config file
+2023-10-26 17:08:01 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+3@plume.com', 'pwd': 'plume1234', 'devuserid': '6489599c9a2357000b2dc384', 'sn': 'kd8c0000c6', 'devid': '60B4F7B307B5', 'mac': '60:B4:F7:B3:07:B5', 'androiddev1': 'HQ635T08E6', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'testapk': {'pythonfile': 'test-HomePass_Lanuchtest.py'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-10-26 17:08:01 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-10-26 17:08:01 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-10-26 17:08:01 [INFO   ][ln-304]: 2023
+2023-10-26 17:08:01 [INFO   ][ln-305]: 10
+2023-10-26 17:08:01 [INFO   ][ln-306]: 26
+2023-10-26 17:08:01 [INFO   ][ln-308]: 2023-10-26 00:00:00
+2023-10-26 17:08:07 [INFO   ][ln-326]: ################################################################################################
+
+2023-10-26 17:08:07 [INFO   ][ln-327]: #  Test case : THRIV-2580 :  [Thrive Automation][script] Trigger FireBase in the Android phone #     (FireBase App)  #)
+
+2023-10-26 17:08:07 [INFO   ][ln-328]: ################################################################################################)
+
+2023-10-26 17:08:30 [DEBUG  ][ln-256]: Lanch the App Tester APP successfully.
+2023-10-26 17:09:16 [DEBUG  ][ln-245]: Lanch the TapselectApp successfully.
+2023-10-26 17:10:02 [INFO   ][ln-405]: For Trigger Apptester --> PASS
+2023-10-26 17:10:04 [INFO   ][ln-413]: For HomePass Uninstall --> PASS
+2023-10-26 17:10:04 [INFO   ][ln-414]: Test completed
+2023-10-26 17:10:04 [DEBUG  ][ln-980]: teardown_method
+2023-10-26 17:10:04 [DEBUG  ][ln-974]: teardown_class
+2023-10-26 17:11:42 [INFO   ][ln-47 ]: Start to load config file
+2023-10-26 17:11:42 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+3@plume.com', 'pwd': 'plume1234', 'devuserid': '6489599c9a2357000b2dc384', 'sn': 'kd8c0000c6', 'devid': '60B4F7B307B5', 'mac': '60:B4:F7:B3:07:B5', 'androiddev1': 'HQ635T08E6', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'testapk': {'pythonfile': 'test-HomePass_Lanuchtest.py'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-10-26 17:11:42 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-10-26 17:11:42 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-10-26 17:11:42 [INFO   ][ln-312]: 2023
+2023-10-26 17:11:42 [INFO   ][ln-313]: 10
+2023-10-26 17:11:42 [INFO   ][ln-314]: 26
+2023-10-26 17:11:42 [INFO   ][ln-316]: 2023-10-26 00:00:00
+2023-10-26 17:11:48 [INFO   ][ln-334]: ################################################################################################
+
+2023-10-26 17:11:48 [INFO   ][ln-335]: #  Test case : THRIV-2580 :  [Thrive Automation][script] Trigger FireBase in the Android phone #     (FireBase App)  #)
+
+2023-10-26 17:11:48 [INFO   ][ln-336]: ################################################################################################)
+
+2023-10-26 17:12:12 [DEBUG  ][ln-264]: Lanch the App Tester APP successfully.
+2023-10-26 17:12:58 [DEBUG  ][ln-253]: Lanch the TapselectApp successfully.
+2023-10-26 17:14:54 [INFO   ][ln-413]: For Trigger Apptester --> PASS
+2023-10-26 17:14:56 [INFO   ][ln-421]: For HomePass Uninstall --> PASS
+2023-10-26 17:14:56 [INFO   ][ln-422]: Test completed
+2023-10-26 17:14:56 [DEBUG  ][ln-980]: teardown_method
+2023-10-26 17:14:56 [DEBUG  ][ln-974]: teardown_class
+2023-10-26 17:17:56 [INFO   ][ln-47 ]: Start to load config file
+2023-10-26 17:17:56 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+3@plume.com', 'pwd': 'plume1234', 'devuserid': '6489599c9a2357000b2dc384', 'sn': 'kd8c0000c6', 'devid': '60B4F7B307B5', 'mac': '60:B4:F7:B3:07:B5', 'androiddev1': 'HQ635T08E6', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'testapk': {'pythonfile': 'test-HomePass_Lanuchtest.py'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-10-26 17:17:56 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-10-26 17:17:56 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-10-26 17:17:56 [INFO   ][ln-314]: 2023
+2023-10-26 17:17:56 [INFO   ][ln-315]: 10
+2023-10-26 17:17:56 [INFO   ][ln-316]: 26
+2023-10-26 17:17:56 [INFO   ][ln-318]: 2023-10-26 00:00:00
+2023-10-26 17:18:02 [INFO   ][ln-336]: ################################################################################################
+
+2023-10-26 17:18:02 [INFO   ][ln-337]: #  Test case : THRIV-2580 :  [Thrive Automation][script] Trigger FireBase in the Android phone #     (FireBase App)  #)
+
+2023-10-26 17:18:02 [INFO   ][ln-338]: ################################################################################################)
+
+2023-10-26 17:18:26 [DEBUG  ][ln-266]: Lanch the App Tester APP successfully.
+2023-10-26 17:19:11 [DEBUG  ][ln-255]: Lanch the TapselectApp successfully.
+2023-10-26 17:21:06 [INFO   ][ln-415]: For Trigger Apptester --> PASS
+2023-10-26 17:21:09 [INFO   ][ln-423]: For HomePass Uninstall --> PASS
+2023-10-26 17:21:09 [INFO   ][ln-424]: Test completed
+2023-10-26 17:21:09 [DEBUG  ][ln-980]: teardown_method
+2023-10-26 17:21:09 [DEBUG  ][ln-974]: teardown_class
+2023-10-26 17:28:10 [INFO   ][ln-47 ]: Start to load config file
+2023-10-26 17:28:10 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+3@plume.com', 'pwd': 'plume1234', 'devuserid': '6489599c9a2357000b2dc384', 'sn': 'kd8c0000c6', 'devid': '60B4F7B307B5', 'mac': '60:B4:F7:B3:07:B5', 'androiddev1': 'HQ635T08E6', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'testapk': {'pythonfile': 'test-HomePass_Lanuchtest.py'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-10-26 17:28:10 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-10-26 17:28:10 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-10-26 17:28:10 [INFO   ][ln-318]: 2023
+2023-10-26 17:28:10 [INFO   ][ln-319]: 10
+2023-10-26 17:28:10 [INFO   ][ln-320]: 26
+2023-10-26 17:28:10 [INFO   ][ln-322]: 2023-10-26 00:00:00
+2023-10-26 17:28:16 [INFO   ][ln-340]: ################################################################################################
+
+2023-10-26 17:28:16 [INFO   ][ln-341]: #  Test case : THRIV-2580 :  [Thrive Automation][script] Trigger FireBase in the Android phone #     (FireBase App)  #)
+
+2023-10-26 17:28:16 [INFO   ][ln-342]: ################################################################################################)
+
+2023-10-26 17:28:39 [DEBUG  ][ln-274]: Failed to lanch the App Tester APP!
+2023-10-26 17:28:39 [INFO   ][ln-74 ]: time.struct_time(tm_year=2023, tm_mon=10, tm_mday=26, tm_hour=9, tm_min=28, tm_sec=39, tm_wday=3, tm_yday=299, tm_isdst=0)
+2023-10-26 17:28:39 [INFO   ][ln-75 ]: 
+
+
+2023-10-26 17:28:39 [INFO   ][ln-78 ]: 2023
+2023-10-26 17:28:39 [INFO   ][ln-79 ]: 10
+2023-10-26 17:28:39 [INFO   ][ln-80 ]: 26
+2023-10-26 17:28:39 [INFO   ][ln-83 ]: ************************************************
+
+
+2023-10-26 17:30:11 [DEBUG  ][ln-259]: Lanch the TapselectApp successfully.
+2023-10-26 17:30:34 [INFO   ][ln-408]: return to Tap and Select TestApps page
+2023-10-26 17:30:39 [INFO   ][ln-419]: For Trigger Apptester --> PASS
+2023-10-26 17:30:41 [INFO   ][ln-427]: For HomePass Uninstall --> PASS
+2023-10-26 17:30:41 [INFO   ][ln-428]: Test completed
+2023-10-26 17:30:41 [DEBUG  ][ln-980]: teardown_method
+2023-10-26 17:30:41 [DEBUG  ][ln-974]: teardown_class
+2023-10-26 17:30:51 [INFO   ][ln-47 ]: Start to load config file
+2023-10-26 17:30:51 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+3@plume.com', 'pwd': 'plume1234', 'devuserid': '6489599c9a2357000b2dc384', 'sn': 'kd8c0000c6', 'devid': '60B4F7B307B5', 'mac': '60:B4:F7:B3:07:B5', 'androiddev1': 'HQ635T08E6', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'testapk': {'pythonfile': 'test-HomePass_Lanuchtest.py'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-10-26 17:30:51 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-10-26 17:30:51 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-10-26 17:30:51 [INFO   ][ln-281]: 2023
+2023-10-26 17:30:51 [INFO   ][ln-282]: 10
+2023-10-26 17:30:51 [INFO   ][ln-283]: 26
+2023-10-26 17:30:51 [INFO   ][ln-285]: 2023-10-26 00:00:00
+2023-10-26 17:30:57 [INFO   ][ln-303]: ################################################################################################
+
+2023-10-26 17:30:57 [INFO   ][ln-304]: #  Test case : THRIV-2580 :  [Thrive Automation][script] Trigger FireBase in the Android phone #     (FireBase App)  #)
+
+2023-10-26 17:30:57 [INFO   ][ln-305]: ################################################################################################)
+
+2023-10-26 17:31:20 [DEBUG  ][ln-233]: Lanch the App Tester APP successfully.
+2023-10-26 17:32:06 [DEBUG  ][ln-222]: Lanch the TapselectApp successfully.
+2023-10-26 17:36:05 [INFO   ][ln-382]: For Trigger Apptester --> PASS
+2023-10-26 17:36:08 [INFO   ][ln-390]: For HomePass Uninstall --> PASS
+2023-10-26 17:36:08 [INFO   ][ln-391]: Test completed
+2023-10-26 17:36:08 [DEBUG  ][ln-980]: teardown_method
+2023-10-26 17:36:08 [DEBUG  ][ln-974]: teardown_class
+2023-10-26 17:37:15 [INFO   ][ln-47 ]: Start to load config file
+2023-10-26 17:37:15 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+3@plume.com', 'pwd': 'plume1234', 'devuserid': '6489599c9a2357000b2dc384', 'sn': 'kd8c0000c6', 'devid': '60B4F7B307B5', 'mac': '60:B4:F7:B3:07:B5', 'androiddev1': 'HQ635T08E6', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'testapk': {'pythonfile': 'test-HomePass_Lanuchtest.py'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-10-26 17:37:15 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-10-26 17:37:15 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-10-26 17:37:15 [INFO   ][ln-281]: 2023
+2023-10-26 17:37:15 [INFO   ][ln-282]: 10
+2023-10-26 17:37:15 [INFO   ][ln-283]: 26
+2023-10-26 17:37:15 [INFO   ][ln-285]: 2023-10-26 00:00:00
+2023-10-26 17:37:21 [INFO   ][ln-303]: ################################################################################################
+
+2023-10-26 17:37:21 [INFO   ][ln-304]: #  Test case : THRIV-2580 :  [Thrive Automation][script] Trigger FireBase in the Android phone #     (FireBase App)  #)
+
+2023-10-26 17:37:21 [INFO   ][ln-305]: ################################################################################################)
+
+2023-10-26 17:37:45 [DEBUG  ][ln-233]: Lanch the App Tester APP successfully.
+2023-10-26 17:38:30 [DEBUG  ][ln-222]: Lanch the TapselectApp successfully.
+2023-10-26 17:43:00 [INFO   ][ln-382]: For Trigger Apptester --> PASS
+2023-10-26 17:43:03 [INFO   ][ln-390]: For HomePass Uninstall --> PASS
+2023-10-26 17:43:03 [INFO   ][ln-391]: Test completed
+2023-10-26 17:43:03 [DEBUG  ][ln-980]: teardown_method
+2023-10-26 17:43:03 [DEBUG  ][ln-974]: teardown_class
+2023-10-26 20:13:33 [INFO   ][ln-47 ]: Start to load config file
+2023-10-26 20:13:33 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+3@plume.com', 'pwd': 'plume1234', 'devuserid': '6489599c9a2357000b2dc384', 'sn': 'kd8c0000c6', 'devid': '60B4F7B307B5', 'mac': '60:B4:F7:B3:07:B5', 'androiddev1': 'HQ635T08E6', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'testapk': {'pythonfile': 'test-HomePass_Lanuchtest.py'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-10-26 20:13:33 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-10-26 20:13:33 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-10-26 20:13:33 [INFO   ][ln-281]: 2023
+2023-10-26 20:13:33 [INFO   ][ln-282]: 10
+2023-10-26 20:13:33 [INFO   ][ln-283]: 26
+2023-10-26 20:13:33 [INFO   ][ln-285]: 2023-10-26 00:00:00
+2023-10-26 20:13:39 [INFO   ][ln-303]: ################################################################################################
+
+2023-10-26 20:13:39 [INFO   ][ln-304]: #  Test case : THRIV-2580 :  [Thrive Automation][script] Trigger FireBase in the Android phone #     (FireBase App)  #)
+
+2023-10-26 20:13:39 [INFO   ][ln-305]: ################################################################################################)
+
+2023-10-26 20:14:05 [DEBUG  ][ln-233]: Lanch the App Tester APP successfully.
+2023-10-26 20:14:51 [DEBUG  ][ln-222]: Lanch the TapselectApp successfully.
+2023-10-26 20:17:24 [INFO   ][ln-382]: For Trigger Apptester --> PASS
+2023-10-26 20:17:25 [INFO   ][ln-391]: Test completed
+2023-10-26 20:17:25 [DEBUG  ][ln-980]: teardown_method
+2023-10-26 20:17:25 [DEBUG  ][ln-974]: teardown_class
+2023-10-26 20:22:44 [INFO   ][ln-47 ]: Start to load config file
+2023-10-26 20:22:44 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+3@plume.com', 'pwd': 'plume1234', 'devuserid': '6489599c9a2357000b2dc384', 'sn': 'kd8c0000c6', 'devid': '60B4F7B307B5', 'mac': '60:B4:F7:B3:07:B5', 'androiddev1': 'HQ635T08E6', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'testapk': {'pythonfile': 'test-HomePass_Lanuchtest.py'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-10-26 20:22:44 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-10-26 20:22:44 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-10-26 20:22:44 [INFO   ][ln-281]: 2023
+2023-10-26 20:22:44 [INFO   ][ln-282]: 10
+2023-10-26 20:22:44 [INFO   ][ln-283]: 26
+2023-10-26 20:22:44 [INFO   ][ln-285]: 2023-10-26 00:00:00
+2023-10-26 20:22:50 [INFO   ][ln-303]: ################################################################################################
+
+2023-10-26 20:22:50 [INFO   ][ln-304]: #  Test case : THRIV-2580 :  [Thrive Automation][script] Trigger FireBase in the Android phone #     (FireBase App)  #)
+
+2023-10-26 20:22:50 [INFO   ][ln-305]: ################################################################################################)
+
+2023-10-26 20:23:14 [DEBUG  ][ln-233]: Lanch the App Tester APP successfully.
+2023-10-26 20:24:00 [DEBUG  ][ln-222]: Lanch the TapselectApp successfully.
+2023-10-26 20:26:28 [INFO   ][ln-382]: For Trigger Apptester --> PASS
+2023-10-26 20:26:29 [INFO   ][ln-391]: Test completed
+2023-10-26 20:26:29 [DEBUG  ][ln-980]: teardown_method
+2023-10-26 20:26:29 [DEBUG  ][ln-974]: teardown_class
+2023-10-26 20:31:53 [INFO   ][ln-47 ]: Start to load config file
+2023-10-26 20:31:53 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+3@plume.com', 'pwd': 'plume1234', 'devuserid': '6489599c9a2357000b2dc384', 'sn': 'kd8c0000c6', 'devid': '60B4F7B307B5', 'mac': '60:B4:F7:B3:07:B5', 'androiddev1': 'HQ635T08E6', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'testapk': {'pythonfile': 'test-HomePass_Lanuchtest.py'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-10-26 20:33:34 [INFO   ][ln-47 ]: Start to load config file
+2023-10-26 20:33:34 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+3@plume.com', 'pwd': 'plume1234', 'devuserid': '6489599c9a2357000b2dc384', 'sn': 'kd8c0000c6', 'devid': '60B4F7B307B5', 'mac': '60:B4:F7:B3:07:B5', 'androiddev1': 'HQ635T08E6', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'testapk': {'pythonfile': 'test-HomePass_Lanuchtest.py'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-10-26 20:33:34 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-10-26 20:33:34 [DEBUG  ][ln-977]: ======================================== Star to run: <test_firebase_func> ========================================
+2023-10-26 20:33:34 [DEBUG  ][ln-980]: teardown_method
+2023-10-26 20:33:34 [DEBUG  ][ln-974]: teardown_class
+2023-10-26 20:35:43 [INFO   ][ln-47 ]: Start to load config file
+2023-10-26 20:35:43 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+3@plume.com', 'pwd': 'plume1234', 'devuserid': '6489599c9a2357000b2dc384', 'sn': 'kd8c0000c6', 'devid': '60B4F7B307B5', 'mac': '60:B4:F7:B3:07:B5', 'androiddev1': 'HQ635T08E6', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'testapk': {'pythonfile': 'test-HomePass_Lanuchtest.py'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-10-26 20:35:43 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-10-26 20:35:43 [DEBUG  ][ln-977]: ======================================== Star to run: <test_firebase_func> ========================================
+2023-10-26 20:35:43 [DEBUG  ][ln-980]: teardown_method
+2023-10-26 20:35:43 [DEBUG  ][ln-974]: teardown_class
+2023-10-26 20:38:39 [INFO   ][ln-47 ]: Start to load config file
+2023-10-26 20:38:39 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+3@plume.com', 'pwd': 'plume1234', 'devuserid': '6489599c9a2357000b2dc384', 'sn': 'kd8c0000c6', 'devid': '60B4F7B307B5', 'mac': '60:B4:F7:B3:07:B5', 'androiddev1': 'HQ635T08E6', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'testapk': {'pythonfile': 'test-HomePass_Lanuchtest.py'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-10-26 20:38:39 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-10-26 20:38:39 [DEBUG  ][ln-977]: ======================================== Star to run: <test_firebase_func> ========================================
+2023-10-26 20:38:39 [DEBUG  ][ln-980]: teardown_method
+2023-10-26 20:38:39 [DEBUG  ][ln-974]: teardown_class
+2023-10-26 20:39:42 [INFO   ][ln-47 ]: Start to load config file
+2023-10-26 20:39:42 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+3@plume.com', 'pwd': 'plume1234', 'devuserid': '6489599c9a2357000b2dc384', 'sn': 'kd8c0000c6', 'devid': '60B4F7B307B5', 'mac': '60:B4:F7:B3:07:B5', 'androiddev1': 'HQ635T08E6', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'testapk': {'pythonfile': 'test-HomePass_Lanuchtest.py'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-10-26 20:39:42 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-10-26 20:39:42 [DEBUG  ][ln-977]: ======================================== Star to run: <test_firebase_func> ========================================
+2023-10-26 20:39:42 [INFO   ][ln-295]: Device(id="local", name="Local System", type='local')
+2023-10-26 20:39:42 [INFO   ][ln-295]: Device(id="socket", name="Local Socket", type='remote')
+2023-10-26 20:39:42 [INFO   ][ln-295]: Device(id="barebone", name="GDB Remote Stub", type='remote')
+2023-10-26 20:39:42 [INFO   ][ln-295]: Device(id="HQ635T08E6", name="XQ DC72", type='usb')
+2023-10-26 20:39:42 [DEBUG  ][ln-980]: teardown_method
+2023-10-26 20:39:42 [DEBUG  ][ln-974]: teardown_class
+2023-10-26 20:40:25 [INFO   ][ln-47 ]: Start to load config file
+2023-10-26 20:40:25 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+3@plume.com', 'pwd': 'plume1234', 'devuserid': '6489599c9a2357000b2dc384', 'sn': 'kd8c0000c6', 'devid': '60B4F7B307B5', 'mac': '60:B4:F7:B3:07:B5', 'androiddev1': 'HQ635T08E6', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'testapk': {'pythonfile': 'test-HomePass_Lanuchtest.py'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-10-26 20:40:25 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-10-26 20:40:25 [DEBUG  ][ln-977]: ======================================== Star to run: <test_firebase_func> ========================================
+2023-10-26 20:40:25 [INFO   ][ln-295]: Device(id="local", name="Local System", type='local')
+2023-10-26 20:40:25 [INFO   ][ln-295]: Device(id="socket", name="Local Socket", type='remote')
+2023-10-26 20:40:25 [INFO   ][ln-295]: Device(id="barebone", name="GDB Remote Stub", type='remote')
+2023-10-26 20:40:25 [INFO   ][ln-295]: Device(id="HQ635T08E6", name="XQ DC72", type='usb')
+2023-10-26 20:40:26 [DEBUG  ][ln-980]: teardown_method
+2023-10-26 20:40:26 [DEBUG  ][ln-974]: teardown_class
+2023-10-26 20:40:46 [INFO   ][ln-47 ]: Start to load config file
+2023-10-26 20:40:46 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+3@plume.com', 'pwd': 'plume1234', 'devuserid': '6489599c9a2357000b2dc384', 'sn': 'kd8c0000c6', 'devid': '60B4F7B307B5', 'mac': '60:B4:F7:B3:07:B5', 'androiddev1': 'HQ635T08E6', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'testapk': {'pythonfile': 'test-HomePass_Lanuchtest.py'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-10-26 20:40:46 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-10-26 20:40:46 [DEBUG  ][ln-977]: ======================================== Star to run: <test_firebase_func> ========================================
+2023-10-26 20:40:46 [INFO   ][ln-295]: Device(id="local", name="Local System", type='local')
+2023-10-26 20:40:46 [INFO   ][ln-295]: Device(id="socket", name="Local Socket", type='remote')
+2023-10-26 20:40:46 [INFO   ][ln-295]: Device(id="barebone", name="GDB Remote Stub", type='remote')
+2023-10-26 20:40:46 [INFO   ][ln-295]: Device(id="HQ635T08E6", name="XQ DC72", type='usb')
+2023-10-26 20:40:46 [DEBUG  ][ln-980]: teardown_method
+2023-10-26 20:40:46 [DEBUG  ][ln-974]: teardown_class
+2023-10-26 20:46:35 [INFO   ][ln-47 ]: Start to load config file
+2023-10-26 20:46:35 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+3@plume.com', 'pwd': 'plume1234', 'devuserid': '6489599c9a2357000b2dc384', 'sn': 'kd8c0000c6', 'devid': '60B4F7B307B5', 'mac': '60:B4:F7:B3:07:B5', 'androiddev1': 'HQ635T08E6', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'testapk': {'pythonfile': 'test-HomePass_Lanuchtest.py'}, 'devicename': {'Desired_Device': 'XQ DC72'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-10-26 20:46:35 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-10-26 20:46:35 [DEBUG  ][ln-977]: ======================================== Star to run: <test_firebase_func> ========================================
+2023-10-26 20:46:35 [INFO   ][ln-301]: Device(id="local", name="Local System", type='local')
+2023-10-26 20:46:35 [INFO   ][ln-301]: Device(id="socket", name="Local Socket", type='remote')
+2023-10-26 20:46:35 [INFO   ][ln-301]: Device(id="barebone", name="GDB Remote Stub", type='remote')
+2023-10-26 20:46:35 [INFO   ][ln-301]: Device(id="HQ635T08E6", name="XQ DC72", type='usb')
+2023-10-26 20:46:35 [DEBUG  ][ln-980]: teardown_method
+2023-10-26 20:46:35 [DEBUG  ][ln-974]: teardown_class
+2023-10-26 20:48:54 [INFO   ][ln-47 ]: Start to load config file
+2023-10-26 20:48:54 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+3@plume.com', 'pwd': 'plume1234', 'devuserid': '6489599c9a2357000b2dc384', 'sn': 'kd8c0000c6', 'devid': '60B4F7B307B5', 'mac': '60:B4:F7:B3:07:B5', 'androiddev1': 'HQ635T08E6', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'testapk': {'pythonfile': 'test-HomePass_Lanuchtest.py'}, 'devicename': {'Desired_Device': 'XQ DC72'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-10-26 20:48:54 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-10-26 20:48:54 [DEBUG  ][ln-977]: ======================================== Star to run: <test_firebase_func> ========================================
+2023-10-26 20:48:54 [DEBUG  ][ln-980]: teardown_method
+2023-10-26 20:48:54 [DEBUG  ][ln-974]: teardown_class
+2023-10-26 20:53:17 [INFO   ][ln-47 ]: Start to load config file
+2023-10-26 20:53:17 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+3@plume.com', 'pwd': 'plume1234', 'devuserid': '6489599c9a2357000b2dc384', 'sn': 'kd8c0000c6', 'devid': '60B4F7B307B5', 'mac': '60:B4:F7:B3:07:B5', 'androiddev1': 'HQ635T08E6', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'testapk': {'pythonfile': 'test-HomePass_Lanuchtest.py'}, 'devicename': {'Desired_Device': 'XQ DC72'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-10-26 20:53:17 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-10-26 20:53:17 [DEBUG  ][ln-977]: ======================================== Star to run: <test_firebase_func> ========================================
+2023-10-26 20:53:17 [INFO   ][ln-296]: Package found and will do uninstall
+2023-10-26 20:53:20 [INFO   ][ln-302]: For HomePass Uninstall
+2023-10-26 20:53:20 [DEBUG  ][ln-980]: teardown_method
+2023-10-26 20:53:20 [DEBUG  ][ln-974]: teardown_class
+2023-10-26 20:56:54 [INFO   ][ln-47 ]: Start to load config file
+2023-10-26 20:56:54 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+3@plume.com', 'pwd': 'plume1234', 'devuserid': '6489599c9a2357000b2dc384', 'sn': 'kd8c0000c6', 'devid': '60B4F7B307B5', 'mac': '60:B4:F7:B3:07:B5', 'androiddev1': 'HQ635T08E6', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'testapk': {'pythonfile': 'test-HomePass_Lanuchtest.py'}, 'devicename': {'Desired_Device': 'XQ DC72'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-10-26 20:56:54 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-10-26 20:56:54 [DEBUG  ][ln-977]: ======================================== Star to run: <test_firebase_func> ========================================
+2023-10-26 20:56:55 [INFO   ][ln-305]: HomePass Package not found.
+2023-10-26 20:56:55 [INFO   ][ln-310]: 2023
+2023-10-26 20:56:55 [INFO   ][ln-311]: 10
+2023-10-26 20:56:55 [INFO   ][ln-312]: 26
+2023-10-26 20:56:55 [INFO   ][ln-314]: 2023-10-26 00:00:00
+2023-10-26 20:57:01 [INFO   ][ln-332]: ################################################################################################
+
+2023-10-26 20:57:01 [INFO   ][ln-333]: #  Test case : THRIV-2580 :  [Thrive Automation][script] Trigger FireBase in the Android phone #     (FireBase App)  #)
+
+2023-10-26 20:57:01 [INFO   ][ln-334]: ################################################################################################)
+
+2023-10-26 20:57:23 [DEBUG  ][ln-239]: Lanch the App Tester APP successfully.
+2023-10-26 20:58:09 [DEBUG  ][ln-228]: Lanch the TapselectApp successfully.
+2023-10-26 20:58:15 [DEBUG  ][ln-980]: teardown_method
+2023-10-26 20:58:15 [DEBUG  ][ln-974]: teardown_class
+2023-10-26 21:01:08 [INFO   ][ln-47 ]: Start to load config file
+2023-10-26 21:01:08 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+3@plume.com', 'pwd': 'plume1234', 'devuserid': '6489599c9a2357000b2dc384', 'sn': 'kd8c0000c6', 'devid': '60B4F7B307B5', 'mac': '60:B4:F7:B3:07:B5', 'androiddev1': 'HQ635T08E6', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'testapk': {'pythonfile': 'test-HomePass_Lanuchtest.py'}, 'devicename': {'Desired_Device': 'XQ DC72'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-10-26 21:01:08 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-10-26 21:01:08 [DEBUG  ][ln-977]: ======================================== Star to run: <test_firebase_func> ========================================
+2023-10-26 21:01:08 [INFO   ][ln-297]: Package found and will do uninstall
+2023-10-26 21:01:10 [INFO   ][ln-303]: For HomePass Uninstall
+2023-10-26 21:01:13 [INFO   ][ln-311]: 2023
+2023-10-26 21:01:13 [INFO   ][ln-312]: 10
+2023-10-26 21:01:13 [INFO   ][ln-313]: 26
+2023-10-26 21:01:13 [INFO   ][ln-315]: 2023-10-26 00:00:00
+2023-10-26 21:01:19 [INFO   ][ln-333]: ################################################################################################
+
+2023-10-26 21:01:19 [INFO   ][ln-334]: #  Test case : THRIV-2580 :  [Thrive Automation][script] Trigger FireBase in the Android phone #     (FireBase App)  #)
+
+2023-10-26 21:01:19 [INFO   ][ln-335]: ################################################################################################)
+
+2023-10-26 21:01:41 [DEBUG  ][ln-244]: Failed to lanch the App Tester APP!
+2023-10-26 21:01:41 [INFO   ][ln-80 ]: time.struct_time(tm_year=2023, tm_mon=10, tm_mday=26, tm_hour=13, tm_min=1, tm_sec=41, tm_wday=3, tm_yday=299, tm_isdst=0)
+2023-10-26 21:01:41 [INFO   ][ln-81 ]: 
+
+
+2023-10-26 21:01:41 [INFO   ][ln-84 ]: 2023
+2023-10-26 21:01:41 [INFO   ][ln-85 ]: 10
+2023-10-26 21:01:41 [INFO   ][ln-86 ]: 26
+2023-10-26 21:01:41 [INFO   ][ln-89 ]: ************************************************
+
+
+2023-10-26 21:03:02 [DEBUG  ][ln-229]: Lanch the TapselectApp successfully.
+2023-10-26 21:03:13 [DEBUG  ][ln-980]: teardown_method
+2023-10-26 21:03:13 [DEBUG  ][ln-974]: teardown_class
+2023-10-26 21:04:47 [INFO   ][ln-47 ]: Start to load config file
+2023-10-26 21:04:47 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+3@plume.com', 'pwd': 'plume1234', 'devuserid': '6489599c9a2357000b2dc384', 'sn': 'kd8c0000c6', 'devid': '60B4F7B307B5', 'mac': '60:B4:F7:B3:07:B5', 'androiddev1': 'HQ635T08E6', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'testapk': {'pythonfile': 'test-HomePass_Lanuchtest.py'}, 'devicename': {'Desired_Device': 'XQ DC72'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-10-26 21:04:47 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-10-26 21:04:47 [DEBUG  ][ln-977]: ======================================== Star to run: <test_firebase_func> ========================================
+2023-10-26 21:04:47 [INFO   ][ln-296]: Package found and will do uninstall
+2023-10-26 21:04:50 [INFO   ][ln-302]: For HomePass Uninstall
+2023-10-26 21:04:53 [INFO   ][ln-310]: 2023
+2023-10-26 21:04:53 [INFO   ][ln-311]: 10
+2023-10-26 21:04:53 [INFO   ][ln-312]: 26
+2023-10-26 21:04:53 [INFO   ][ln-314]: 2023-10-26 00:00:00
+2023-10-26 21:04:59 [INFO   ][ln-332]: ################################################################################################
+
+2023-10-26 21:04:59 [INFO   ][ln-333]: #  Test case : THRIV-2580 :  [Thrive Automation][script] Trigger FireBase in the Android phone #     (FireBase App)  #)
+
+2023-10-26 21:04:59 [INFO   ][ln-334]: ################################################################################################)
+
+2023-10-26 21:05:22 [DEBUG  ][ln-239]: Lanch the App Tester APP successfully.
+2023-10-26 21:06:08 [DEBUG  ][ln-228]: Lanch the TapselectApp successfully.
+2023-10-26 21:06:14 [DEBUG  ][ln-980]: teardown_method
+2023-10-26 21:06:14 [DEBUG  ][ln-974]: teardown_class
+2023-10-26 21:11:06 [INFO   ][ln-47 ]: Start to load config file
+2023-10-26 21:11:06 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+3@plume.com', 'pwd': 'plume1234', 'devuserid': '6489599c9a2357000b2dc384', 'sn': 'kd8c0000c6', 'devid': '60B4F7B307B5', 'mac': '60:B4:F7:B3:07:B5', 'androiddev1': 'HQ635T08E6', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'testapk': {'pythonfile': 'test-HomePass_Lanuchtest.py'}, 'devicename': {'Desired_Device': 'XQ DC72'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-10-26 21:11:06 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-10-26 21:11:06 [DEBUG  ][ln-977]: ======================================== Star to run: <test_firebase_func> ========================================
+2023-10-26 21:11:06 [INFO   ][ln-294]: Package found and will do uninstall
+2023-10-26 21:11:08 [INFO   ][ln-300]: For HomePass Uninstall
+2023-10-26 21:11:11 [INFO   ][ln-308]: 2023
+2023-10-26 21:11:11 [INFO   ][ln-309]: 10
+2023-10-26 21:11:11 [INFO   ][ln-310]: 26
+2023-10-26 21:11:11 [INFO   ][ln-312]: 2023-10-26 00:00:00
+2023-10-26 21:11:17 [INFO   ][ln-330]: ################################################################################################
+
+2023-10-26 21:11:17 [INFO   ][ln-331]: #  Test case : THRIV-2580 :  [Thrive Automation][script] Trigger FireBase in the Android phone #     (FireBase App)  #)
+
+2023-10-26 21:11:17 [INFO   ][ln-332]: ################################################################################################)
+
+2023-10-26 21:11:40 [DEBUG  ][ln-237]: Lanch the App Tester APP successfully.
+2023-10-26 21:12:26 [DEBUG  ][ln-226]: Lanch the TapselectApp successfully.
+2023-10-26 21:14:47 [DEBUG  ][ln-980]: teardown_method
+2023-10-26 21:14:47 [DEBUG  ][ln-974]: teardown_class
+2023-10-26 21:15:21 [INFO   ][ln-47 ]: Start to load config file
+2023-10-26 21:15:21 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+3@plume.com', 'pwd': 'plume1234', 'devuserid': '6489599c9a2357000b2dc384', 'sn': 'kd8c0000c6', 'devid': '60B4F7B307B5', 'mac': '60:B4:F7:B3:07:B5', 'androiddev1': 'HQ635T08E6', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'testapk': {'pythonfile': 'test-HomePass_Lanuchtest.py'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-10-26 21:15:21 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-10-26 21:15:21 [DEBUG  ][ln-977]: ======================================== Star to run: <test_firebase_func> ========================================
+2023-10-26 21:15:21 [INFO   ][ln-286]: Package found and will do uninstall
+2023-10-26 21:15:24 [INFO   ][ln-292]: For HomePass Uninstall
+2023-10-26 21:15:27 [INFO   ][ln-300]: 2023
+2023-10-26 21:15:27 [INFO   ][ln-301]: 10
+2023-10-26 21:15:27 [INFO   ][ln-302]: 26
+2023-10-26 21:15:27 [INFO   ][ln-304]: 2023-10-26 00:00:00
+2023-10-26 21:15:33 [INFO   ][ln-322]: ################################################################################################
+
+2023-10-26 21:15:33 [INFO   ][ln-323]: #  Test case : THRIV-2580 :  [Thrive Automation][script] Trigger FireBase in the Android phone #     (FireBase App)  #)
+
+2023-10-26 21:15:33 [INFO   ][ln-324]: ################################################################################################)
+
+2023-10-26 21:15:56 [DEBUG  ][ln-230]: Lanch the App Tester APP successfully.
+2023-10-26 21:16:42 [DEBUG  ][ln-219]: Lanch the TapselectApp successfully.
+2023-10-26 21:18:39 [INFO   ][ln-397]: For Trigger Apptester --> PASS
+2023-10-26 21:18:40 [INFO   ][ln-400]: Test completed
+2023-10-26 21:18:40 [DEBUG  ][ln-980]: teardown_method
+2023-10-26 21:18:40 [DEBUG  ][ln-974]: teardown_class
+2023-10-26 21:26:53 [INFO   ][ln-47 ]: Start to load config file
+2023-10-26 21:26:53 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+3@plume.com', 'pwd': 'plume1234', 'devuserid': '6489599c9a2357000b2dc384', 'sn': 'kd8c0000c6', 'devid': '60B4F7B307B5', 'mac': '60:B4:F7:B3:07:B5', 'androiddev1': 'HQ635T08E6', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'testapk': {'pythonfile': 'test-HomePass_Lanuchtest.py'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-10-26 21:26:53 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-10-26 21:26:53 [DEBUG  ][ln-977]: ======================================== Star to run: <test_firebase_func> ========================================
+2023-10-26 21:26:53 [INFO   ][ln-297]: HomePass Package not found.
+2023-10-26 21:26:56 [INFO   ][ln-302]: 2023
+2023-10-26 21:26:56 [INFO   ][ln-303]: 10
+2023-10-26 21:26:56 [INFO   ][ln-304]: 26
+2023-10-26 21:26:56 [INFO   ][ln-306]: 2023-10-26 00:00:00
+2023-10-26 21:27:02 [INFO   ][ln-324]: ################################################################################################
+
+2023-10-26 21:27:02 [INFO   ][ln-325]: #  Test case : THRIV-2580 :  [Thrive Automation][script] Trigger FireBase in the Android phone #     (FireBase App)  #)
+
+2023-10-26 21:27:02 [INFO   ][ln-326]: ################################################################################################)
+
+2023-10-26 21:27:22 [INFO   ][ln-355]: STOP Appter First
+2023-10-26 21:27:27 [INFO   ][ln-362]: Lanch Apptester app
+2023-10-26 21:27:28 [DEBUG  ][ln-232]: Lanch the App Tester APP successfully.
+2023-10-26 21:28:13 [INFO   ][ln-374]: Tap and Select TestApps 
+2023-10-26 21:28:13 [DEBUG  ][ln-221]: Lanch the TapselectApp successfully.
+2023-10-26 21:28:19 [INFO   ][ln-387]: Choice if Latest is ready and HomePass Not install + Download button is displayed
+2023-10-26 21:28:19 [INFO   ][ln-174]: Press Download HomePass button
+2023-10-26 21:29:24 [INFO   ][ln-188]: Press Install HomePass button is displayed
+2023-10-26 21:30:16 [INFO   ][ln-405]: For Trigger Apptester --> STOP
+2023-10-26 21:30:17 [INFO   ][ln-408]: Test completed
+2023-10-26 21:30:17 [DEBUG  ][ln-980]: teardown_method
+2023-10-26 21:30:17 [DEBUG  ][ln-974]: teardown_class
+2023-10-26 21:33:48 [INFO   ][ln-47 ]: Start to load config file
+2023-10-26 21:33:48 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+3@plume.com', 'pwd': 'plume1234', 'devuserid': '6489599c9a2357000b2dc384', 'sn': 'kd8c0000c6', 'devid': '60B4F7B307B5', 'mac': '60:B4:F7:B3:07:B5', 'androiddev1': 'HQ635T08E6', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'testapk': {'pythonfile': 'test-HomePass_Lanuchtest.py'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-10-26 21:33:48 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-10-26 21:33:48 [DEBUG  ][ln-977]: ======================================== Star to run: <test_firebase_func> ========================================
+2023-10-26 21:33:49 [INFO   ][ln-300]: HomePass Package not found.
+2023-10-26 21:33:52 [INFO   ][ln-305]: 2023
+2023-10-26 21:33:52 [INFO   ][ln-306]: 10
+2023-10-26 21:33:52 [INFO   ][ln-307]: 26
+2023-10-26 21:33:52 [INFO   ][ln-309]: 2023-10-26 00:00:00
+2023-10-26 21:33:58 [INFO   ][ln-327]: ################################################################################################
+
+2023-10-26 21:33:58 [INFO   ][ln-328]: #  Test case : THRIV-2580 :  [Thrive Automation][script] Trigger FireBase in the Android phone #     (FireBase App)  #)
+
+2023-10-26 21:33:58 [INFO   ][ln-329]: ################################################################################################)
+
+2023-10-26 21:34:17 [INFO   ][ln-358]: STOP Appter First
+2023-10-26 21:34:23 [INFO   ][ln-365]: Lanch Apptester app
+2023-10-26 21:34:23 [DEBUG  ][ln-235]: Lanch the App Tester APP successfully.
+2023-10-26 21:35:08 [INFO   ][ln-377]: Tap and Select TestApps 
+2023-10-26 21:35:08 [DEBUG  ][ln-224]: Lanch the TapselectApp successfully.
+2023-10-26 21:35:14 [INFO   ][ln-390]: Choice if Latest is ready and HomePass Not install + Download button is displayed
+2023-10-26 21:35:14 [INFO   ][ln-174]: Press Download HomePass button
+2023-10-26 21:35:49 [INFO   ][ln-188]: Press Install HomePass button is displayed
+2023-10-26 21:36:44 [INFO   ][ln-408]: For Trigger Apptester --> STOP
+2023-10-26 21:36:45 [INFO   ][ln-411]: Test completed
+2023-10-26 21:36:45 [DEBUG  ][ln-980]: teardown_method
+2023-10-26 21:36:45 [DEBUG  ][ln-974]: teardown_class

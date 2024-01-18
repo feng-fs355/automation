@@ -1,0 +1,27 @@
+[35mDEBUG   [0m logcon:runnerWrapper.py:971 ======================================== Star to run: <TestAPI> ========================================
+[35mDEBUG   [0m logcon:runnerWrapper.py:977 ======================================== Star to run: <test_firebase_func> ========================================
+[32mINFO    [0m logcon:test-Firebase_Apptester.py:345 Package found and will do uninstall
+[32mINFO    [0m logcon:test-Firebase_Apptester.py:351 For HomePass Uninstall
+[32mINFO    [0m logcon:test-Firebase_Apptester.py:359 2023
+[32mINFO    [0m logcon:test-Firebase_Apptester.py:360 10
+[32mINFO    [0m logcon:test-Firebase_Apptester.py:361 27
+[32mINFO    [0m logcon:test-Firebase_Apptester.py:363 2023-10-27 00:00:00
+[32mINFO    [0m logcon:test-Firebase_Apptester.py:381 ################################################################################################
+
+[32mINFO    [0m logcon:test-Firebase_Apptester.py:382 #  Test case : THRIV-2580 :  [Thrive Automation][script] Trigger FireBase in the Android phone #     (FireBase App)  #)
+
+[32mINFO    [0m logcon:test-Firebase_Apptester.py:383 ################################################################################################)
+
+[32mINFO    [0m logcon:test-Firebase_Apptester.py:412 STOP Appter First
+[32mINFO    [0m logcon:test-Firebase_Apptester.py:419 Lanch Apptester app
+[35mDEBUG   [0m logcon:test-Firebase_Apptester.py:282 Lanch the App Tester APP successfully.
+[32mINFO    [0m logcon:test-Firebase_Apptester.py:431 Tap and Select TestApps 
+[35mDEBUG   [0m logcon:test-Firebase_Apptester.py:271 Lanch the TapselectApp successfully.
+[32mINFO    [0m logcon:test-Firebase_Apptester.py:444 Choice if Latest is ready and HomePass Not install + Download button is displayed
+[32mINFO    [0m logcon:test-Firebase_Apptester.py:215 Press Download HomePass button
+[32mINFO    [0m logcon:test-Firebase_Apptester.py:229 Press Install HomePass button is displayed
+[32mINFO    [0m logcon:test-Firebase_Apptester.py:176 HomePass Sign in button is displayed
+[32mINFO    [0m logcon:test-Firebase_Apptester.py:462 For Trigger Apptester --> STOP
+[32mINFO    [0m logcon:test-Firebase_Apptester.py:465 Test completed
+[35mDEBUG   [0m logcon:runnerWrapper.py:980 teardown_method
+[35mDEBUG   [0m logcon:runnerWrapper.py:974 teardown_class

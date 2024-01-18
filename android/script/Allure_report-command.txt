@@ -1,0 +1,61 @@
+Reference : https://walkonnet.com/archives/60386
+            https://myapollo.com.tw/zh-tw/python-pytest-allure2-test-report-tool/
+            https://geektechstuff.com/2019/05/26/installing-apache-tomcat-jenkins-raspberry-pi/
+Environment setup:
+
+(1) Tomcat
+
+Steps to install Apache tomcat new version on raspberry pi:
+sudo apt-get update.
+sudo apt-get install default-jdk.
+sudo apt-get install tomcat8
+sudo apt-get install npm
+npm install -g allure-commandline --save-dev
+#############################
+
+python3 -m pytest -vv test_BLE_BATT.py --alluredir=./allure-results 
+
+python3 -m pytest -vv test_BLE_SERIAL.py --alluredir=./allure-results 
+
+python3 -m pytest -x test_Dev_Reboot.py --alluredir=./allure-results 
+
+
+newman run Only_1.postman_collection.json  -r allure --reporter-allure-export ./allure-results 
+
+allure generate --clean ./allure-results ./allure-results
+ 
+allure generate report/ -o ./allure-results/html
+
+allure serve ./allure-results
+
+or allure open -h 127.0.0.1 -p 5060 ./allure-results
+
+allure serve -h localhost -p 8000 ./allure-results
+
+
+allure serve -h 192.168.0.10 -p 5000 ./allure-results/20221118
+
+
+
+
+# start BLE / Cloud API command 
+
+echo -ne '\n' --sk --checkall | allure generate --clean ./allure-results ./allure-results && allure serve -h 192.168.0.10 -p 5000 ./allure-results 
+
+d.press("home")
+d.screen_on()
+d.disable_popups(False)
+# STOP service
+
+echo -ne '\n' --sk --checkall | ./STOP_Service.sh
+
+
+
+
+Flash Thrive Firmware (DailyBuild) via OTA
+THRIV-844 : test-6001-nRF_scanconnect.py
+THRIV-1271:Development Unregister current device via API
+THRIV-1113: Integrate test-6010-FrodoPlume_Signin.py into jenkins 
+THRIV-1261: integrate test-6011-FrodoPlume_DisconnectUnregister into jenkins
+THRIV-1262:  integrate test-6012-FrodoPlume_ScanConnectRegister into jenkins
+THRIV-1281: Integrate test-6013-FrodoPlume_Stress_Gotest to Jenkins

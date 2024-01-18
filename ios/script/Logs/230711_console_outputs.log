@@ -1,0 +1,2318 @@
+2023-07-11 14:32:44 [INFO   ][ln-47 ]: Start to load config file
+2023-07-11 14:32:44 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+4@plume.com', 'pwd': 'plume1234', 'devuserid': '64895a7f924521000b2d7ac7', 'sn': 'KD8F00003C', 'devid': '60B4F7B306AD', 'mac': '60:B4:F7:B3:06:AD', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-07-11 14:32:45 [DEBUG  ][ln-830]: ======================================== Star to run: <TestAPI> ========================================
+2023-07-11 14:32:45 [DEBUG  ][ln-836]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-11 14:32:45 [INFO   ][ln-175]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.25.121'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': '48EE4B78-A110-490F-8FEE-898901D4629E'}
+2023-07-11 14:32:49 [INFO   ][ln-185]: Size(width=390, height=844)
+2023-07-11 14:33:20 [INFO   ][ln-243]: #########################################################################
+
+2023-07-11 14:33:20 [INFO   ][ln-244]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-11 14:33:20 [INFO   ][ln-245]: # ---------------------------------------------------------------- #)
+
+2023-07-11 14:33:20 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-11 14:33:23 [INFO   ][ln-247]: Step 1 :  PlumeCloudLogin
+
+2023-07-11 14:33:23 [INFO   ][ln-282]: kuHM90WSj9J3qKoJG3Ebs7uqywynDtDULwRlOGXVf1LSgcPihNsJdKgNWPsgFBS1
+2023-07-11 14:33:23 [INFO   ][ln-285]: 64895a7f924521000b2d7ac7
+2023-07-11 14:33:23 [INFO   ][ln-286]: 
+
+2023-07-11 14:33:23 [INFO   ][ln-287]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-11 14:33:23 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-11 14:33:27 [INFO   ][ln-292]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6Njc5MTg1MmQtMzI3Ny00YWRhLWIwMjQtODI1ODdmZTlkYTMwIiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6a3VITTkwV1NqOUozcUtvSkczRWJzN3VxeXd5bkR0RFVMd1JsT0dYVmYxTFNnY1BpaE5zSmRLZ05XUHNnRkJTMSJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODkxNDM2MDUsImlhdCI6MTY4OTA1NzIwNX0.G9sBCj-RvVLIpEmkM02hOai9K-wIDw8ZBS1OQLD1vS88kiQ8Crqrt4TJavSRlPpK9rGCRpBdvrRPZp1SBeEtPfvQcWmnMEUHhFHi-lTBBzze9w2cOm9ybwhHT14WkYHk1C53fCnfK9m49k_AgeqX2Wox8XKaI-gw7_WSs7ngPmDXdMx2pUf496zzTHP5FulMuslJ5dYvxhk4QPWzZjHjwu2nYOn4HewB2uWFOakxFOdP-V2N4d_ue5jvrPdHO12sO_9s9PaM09iJb06SFgIWmJEC4oId8NycUTQK16HMGD3oyJvyUmtmhN4qZaPypmFU2rYiRyXoeYXkB_FfpSSgdw
+2023-07-11 14:33:27 [INFO   ][ln-293]: 
+
+2023-07-11 14:33:27 [INFO   ][ln-296]: 2023
+2023-07-11 14:33:27 [INFO   ][ln-297]: 7
+2023-07-11 14:33:27 [INFO   ][ln-298]: 11
+2023-07-11 14:33:27 [INFO   ][ln-300]: 2023-07-11 00:00:00
+2023-07-11 14:33:27 [INFO   ][ln-100]: 1689004800
+2023-07-11 14:33:27 [INFO   ][ln-101]: 1689087600
+2023-07-11 14:33:27 [INFO   ][ln-531]: GetReadinessInsightSummary
+2023-07-11 14:33:27 [INFO   ][ln-550]: GetReadinessInsightSummary
+2023-07-11 14:33:31 [INFO   ][ln-308]: ####################################
+2023-07-11 14:33:31 [INFO   ][ln-309]: [{'userId': '64895a7f924521000b2d7ac7', 'startpDate': 1688832000, 'interval': 'week', 'avgReadinessScore': 10, 'maxReadinessScore': 10, 'minReadinessScore': 10, 'avgHrvScore': 68, 'maxHrvScore': 69, 'minHrvScore': 69, 'avgStressScore': 1, 'maxStressScore': 1, 'minStressScore': 1}]
+2023-07-11 14:33:31 [INFO   ][ln-310]: ####################################
+2023-07-11 14:33:31 [INFO   ][ln-312]: The avgReadinessScore get from Backend API : 
+2023-07-11 14:33:31 [INFO   ][ln-313]: 10
+2023-07-11 14:33:31 [DEBUG  ][ln-839]: teardown_method
+2023-07-11 14:33:31 [DEBUG  ][ln-833]: teardown_class
+2023-07-11 14:35:19 [INFO   ][ln-47 ]: Start to load config file
+2023-07-11 14:35:19 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+4@plume.com', 'pwd': 'plume1234', 'devuserid': '64895a7f924521000b2d7ac7', 'sn': 'KD8F00003C', 'devid': '60B4F7B306AD', 'mac': '60:B4:F7:B3:06:AD', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-07-11 14:35:20 [DEBUG  ][ln-830]: ======================================== Star to run: <TestAPI> ========================================
+2023-07-11 14:35:20 [DEBUG  ][ln-836]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-11 14:35:20 [INFO   ][ln-175]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.25.121'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': '48EE4B78-A110-490F-8FEE-898901D4629E'}
+2023-07-11 14:35:24 [INFO   ][ln-185]: Size(width=390, height=844)
+2023-07-11 14:35:53 [INFO   ][ln-243]: #########################################################################
+
+2023-07-11 14:35:53 [INFO   ][ln-244]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-11 14:35:53 [INFO   ][ln-245]: # ---------------------------------------------------------------- #)
+
+2023-07-11 14:35:53 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-11 14:35:56 [INFO   ][ln-247]: Step 1 :  PlumeCloudLogin
+
+2023-07-11 14:35:56 [INFO   ][ln-282]: ZsDBBZbrEuztD554gyudd12vCbIQfQa3jrFTXsUiA3B35kEfownwQSBvEKrXy8OH
+2023-07-11 14:35:56 [INFO   ][ln-285]: 64895a7f924521000b2d7ac7
+2023-07-11 14:35:56 [INFO   ][ln-286]: 
+
+2023-07-11 14:35:56 [INFO   ][ln-287]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-11 14:35:56 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-11 14:35:59 [INFO   ][ln-292]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6ZmQ5NjU2MWItM2RjZi00OGFiLWIzOTgtZTc5OGM5M2JlOGM1IiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6WnNEQkJaYnJFdXp0RDU1NGd5dWRkMTJ2Q2JJUWZRYTNqckZUWHNVaUEzQjM1a0Vmb3dud1FTQnZFS3JYeThPSCJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODkxNDM3NTYsImlhdCI6MTY4OTA1NzM1Nn0.K-o_Tdbty1o37EV05GXocQVvGB_8S-EQOTeptOEtCJ315YkPx_SHhsRqMD4ocIAkm2nid16Ry1hSKVji4s7XUCiW-4svNHT4VgLSP2zeeEdk1CTJsV-XcASPFa1b5b0TaVudp5OFii6xlz99fjoox3AvKbg2QQi5I0DOivKMNqPl0Fu6E_bro-HZTxBGhlpZswecwKP4-8a-FNZ6Gw3oRJ0baHe-rzPcPRLx-XSxiIu2oL8JHgQaN56gRgFRusMWHgik238l41XBs4F9WAXL4o3ZDzKF5obiI1-zHK5NzgW9jFF_j2U_Z2mIc7LCgk26f9HF3MjiuE5S5BagGCYVhw
+2023-07-11 14:35:59 [INFO   ][ln-293]: 
+
+2023-07-11 14:35:59 [INFO   ][ln-296]: 2023
+2023-07-11 14:35:59 [INFO   ][ln-297]: 7
+2023-07-11 14:35:59 [INFO   ][ln-298]: 11
+2023-07-11 14:35:59 [INFO   ][ln-300]: 2023-07-11 00:00:00
+2023-07-11 14:35:59 [INFO   ][ln-100]: 1689004800
+2023-07-11 14:35:59 [INFO   ][ln-101]: 1689087600
+2023-07-11 14:35:59 [INFO   ][ln-531]: GetReadinessInsightSummary
+2023-07-11 14:35:59 [INFO   ][ln-550]: GetReadinessInsightSummary
+2023-07-11 14:36:02 [INFO   ][ln-308]: ####################################
+2023-07-11 14:36:02 [INFO   ][ln-309]: [{'userId': '64895a7f924521000b2d7ac7', 'startpDate': 1688832000, 'interval': 'week', 'avgReadinessScore': 10, 'maxReadinessScore': 10, 'minReadinessScore': 10, 'avgHrvScore': 68, 'maxHrvScore': 69, 'minHrvScore': 69, 'avgStressScore': 1, 'maxStressScore': 1, 'minStressScore': 1}]
+2023-07-11 14:36:02 [INFO   ][ln-310]: ####################################
+2023-07-11 14:36:02 [INFO   ][ln-312]: The avgReadinessScore get from Backend API : 
+2023-07-11 14:36:02 [INFO   ][ln-313]: 10
+2023-07-11 14:36:02 [DEBUG  ][ln-839]: teardown_method
+2023-07-11 14:36:02 [DEBUG  ][ln-833]: teardown_class
+2023-07-11 14:40:33 [INFO   ][ln-47 ]: Start to load config file
+2023-07-11 14:40:33 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+4@plume.com', 'pwd': 'plume1234', 'devuserid': '64895a7f924521000b2d7ac7', 'sn': 'KD8F00003C', 'devid': '60B4F7B306AD', 'mac': '60:B4:F7:B3:06:AD', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-07-11 14:40:33 [DEBUG  ][ln-830]: ======================================== Star to run: <TestAPI> ========================================
+2023-07-11 14:40:33 [DEBUG  ][ln-836]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-11 14:40:33 [INFO   ][ln-175]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.25.121'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': '48EE4B78-A110-490F-8FEE-898901D4629E'}
+2023-07-11 14:40:38 [INFO   ][ln-185]: Size(width=390, height=844)
+2023-07-11 14:41:03 [INFO   ][ln-215]: ['2:41', '=F', '&', '<', '+', 'Readiness', 'Readiness', 'insights', 'Readiness', 'score', '10', 'Heart', 'rate', 'variability', 'G)', '68ms', 'Stress', 'G)', '1', 'Disclaimer', 'Readiness', 'Score', 'and', 'Stress', 'Score', 'are', 'Sleep', 'Readiness', 'Activity', 'Fall', 'é', 'foe)', '—']
+2023-07-11 14:41:03 [INFO   ][ln-217]: ###############################
+
+2023-07-11 14:41:03 [INFO   ][ln-218]: The L2 Readiness score get from HomePASS IOS is : 10
+2023-07-11 14:41:03 [INFO   ][ln-219]: ###############################
+
+2023-07-11 14:41:03 [INFO   ][ln-221]: ###############################
+
+2023-07-11 14:41:03 [INFO   ][ln-222]: The L2 HRV score get from HomePASS IOS is : 68ms
+2023-07-11 14:41:03 [INFO   ][ln-223]: ###############################
+
+2023-07-11 14:41:03 [INFO   ][ln-225]: ###############################
+
+2023-07-11 14:41:03 [INFO   ][ln-226]: The L2 Stress score get from HomePASS IOS is : 1
+2023-07-11 14:41:03 [INFO   ][ln-227]: ###############################
+
+2023-07-11 14:41:21 [INFO   ][ln-243]: #########################################################################
+
+2023-07-11 14:41:21 [INFO   ][ln-244]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-11 14:41:21 [INFO   ][ln-245]: # ---------------------------------------------------------------- #)
+
+2023-07-11 14:41:21 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-11 14:41:25 [INFO   ][ln-247]: Step 1 :  PlumeCloudLogin
+
+2023-07-11 14:41:25 [INFO   ][ln-282]: BlW5QBLVSn1u7mGIDFUvxIv3CPvfDvVGY3rOERQCHtG1PUTExPiCaIyHj1cVAC27
+2023-07-11 14:41:25 [INFO   ][ln-285]: 64895a7f924521000b2d7ac7
+2023-07-11 14:41:25 [INFO   ][ln-286]: 
+
+2023-07-11 14:41:25 [INFO   ][ln-287]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-11 14:41:25 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-11 14:41:29 [INFO   ][ln-292]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6N2Y3MWI5YWEtNTI1ZS00NTVhLThmYTItNmVjMjBlNDFiMjczIiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6QmxXNVFCTFZTbjF1N21HSURGVXZ4SXYzQ1B2ZkR2VkdZM3JPRVJRQ0h0RzFQVVRFeFBpQ2FJeUhqMWNWQUMyNyJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODkxNDQwODYsImlhdCI6MTY4OTA1NzY4Nn0.Y4L1iuOrTxXd9RyqseiCbjBNvXesA3alHl3MqjdOD296MOcV1NrjTQBlt2H-aVOg8KR3C7Z3-rxkDfR2Q6VKmZqCpIqBEcmwaxpAUYFKGrI2YItde0i_GYsw21la7y4N00AZPpoWmnaZOUZ_wQaO0590OQSQZu732DoSIdPctBUQIgWRqtH6DdoM0hlI--IUv3srYJKg5CQxZGnPsJS2vNWt-qgh5Owh1C9IV3wW2Ss2D_mJY15yMFD8xsU0e3PvTgQc7Mwxfg3Vzo00TH1IGYJXVO-ttifutd6G3zJ15TWN5oBJk5f70iGlWDAKYrYPZ7kJIkbvX7LZ3ks-avjR8A
+2023-07-11 14:41:29 [INFO   ][ln-293]: 
+
+2023-07-11 14:41:29 [INFO   ][ln-296]: 2023
+2023-07-11 14:41:29 [INFO   ][ln-297]: 7
+2023-07-11 14:41:29 [INFO   ][ln-298]: 11
+2023-07-11 14:41:29 [INFO   ][ln-300]: 2023-07-11 00:00:00
+2023-07-11 14:41:29 [INFO   ][ln-100]: 1689004800
+2023-07-11 14:41:29 [INFO   ][ln-101]: 1689087600
+2023-07-11 14:41:29 [INFO   ][ln-531]: GetReadinessInsightSummary
+2023-07-11 14:41:29 [INFO   ][ln-550]: GetReadinessInsightSummary
+2023-07-11 14:41:32 [INFO   ][ln-308]: ####################################
+2023-07-11 14:41:32 [INFO   ][ln-309]: [{'userId': '64895a7f924521000b2d7ac7', 'startpDate': 1688832000, 'interval': 'week', 'avgReadinessScore': 10, 'maxReadinessScore': 10, 'minReadinessScore': 10, 'avgHrvScore': 68, 'maxHrvScore': 69, 'minHrvScore': 69, 'avgStressScore': 1, 'maxStressScore': 1, 'minStressScore': 1}]
+2023-07-11 14:41:32 [INFO   ][ln-310]: ####################################
+2023-07-11 14:41:32 [INFO   ][ln-312]: The avgReadinessScore get from Backend API : 
+2023-07-11 14:41:32 [INFO   ][ln-313]: 10
+2023-07-11 14:41:32 [INFO   ][ln-333]: ##################################################################
+
+
+2023-07-11 14:41:32 [INFO   ][ln-334]: PASS : L2_Readiness SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 14:41:32 [INFO   ][ln-335]: ##################################################################
+
+
+2023-07-11 14:41:32 [INFO   ][ln-91 ]: 1689004800
+2023-07-11 14:41:32 [INFO   ][ln-92 ]: 1689087600
+2023-07-11 14:41:32 [INFO   ][ln-480]: GetDailyReadinessInsightList
+2023-07-11 14:41:32 [INFO   ][ln-499]: GetDailyReadinessInsightList
+2023-07-11 14:41:34 [INFO   ][ln-351]: ####################################
+2023-07-11 14:41:34 [INFO   ][ln-352]: [{'userId': '64895a7f924521000b2d7ac7', 'startTime': 1689012013, 'endTime': 1689030742, 'hrvScore': 68.54751707435327, 'stressScore': 1, 'readinessScore': 10, 'utcOffset': 8, 'timeZone': 'Asia/Brunei'}]
+2023-07-11 14:41:34 [INFO   ][ln-353]: ####################################
+2023-07-11 14:41:34 [INFO   ][ln-355]: The Heart rate variability  get from Backend API : 
+2023-07-11 14:41:34 [INFO   ][ln-358]: <class 'str'>
+2023-07-11 14:41:34 [INFO   ][ln-363]: 68
+2023-07-11 14:41:34 [INFO   ][ln-364]: 68
+2023-07-11 14:41:34 [INFO   ][ln-388]: The Stress score  get from Backend API : 
+2023-07-11 14:41:34 [INFO   ][ln-390]: 1
+2023-07-11 14:41:34 [INFO   ][ln-398]: ##################################################################
+
+
+2023-07-11 14:41:34 [INFO   ][ln-399]: PASS : L2_Stress SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 14:41:34 [INFO   ][ln-400]: ##################################################################
+
+
+2023-07-11 14:41:34 [INFO   ][ln-413]: Test completed
+2023-07-11 14:41:42 [DEBUG  ][ln-839]: teardown_method
+2023-07-11 14:41:42 [DEBUG  ][ln-833]: teardown_class
+2023-07-11 14:45:31 [INFO   ][ln-47 ]: Start to load config file
+2023-07-11 14:45:31 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+4@plume.com', 'pwd': 'plume1234', 'devuserid': '64895a7f924521000b2d7ac7', 'sn': 'KD8F00003C', 'devid': '60B4F7B306AD', 'mac': '60:B4:F7:B3:06:AD', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-07-11 14:45:31 [DEBUG  ][ln-830]: ======================================== Star to run: <TestAPI> ========================================
+2023-07-11 14:45:31 [DEBUG  ][ln-836]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-11 14:45:31 [INFO   ][ln-175]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.25.121'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': None}
+2023-07-11 14:45:36 [INFO   ][ln-185]: Size(width=390, height=844)
+2023-07-11 14:46:00 [INFO   ][ln-215]: ['2:45', 'Fr', '&', '<', '+', 'Readiness', 'Readiness', 'insights', 'Readiness', 'score', '10', 'Heart', 'rate', 'variability', 'G)', '68ms', 'Stress', 'G)', '1', 'Disclaimer', 'Readiness', 'Score', 'and', 'Stress', 'Score', 'are', 'Sleep', 'Readiness', 'Activity', 'Fall', 'é', 'foe)', '—']
+2023-07-11 14:46:00 [INFO   ][ln-217]: ###############################
+
+2023-07-11 14:46:00 [INFO   ][ln-218]: The L2 Readiness score get from HomePASS IOS is : 10
+2023-07-11 14:46:00 [INFO   ][ln-219]: ###############################
+
+2023-07-11 14:46:00 [INFO   ][ln-221]: ###############################
+
+2023-07-11 14:46:00 [INFO   ][ln-222]: The L2 HRV score get from HomePASS IOS is : 68ms
+2023-07-11 14:46:00 [INFO   ][ln-223]: ###############################
+
+2023-07-11 14:46:00 [INFO   ][ln-225]: ###############################
+
+2023-07-11 14:46:00 [INFO   ][ln-226]: The L2 Stress score get from HomePASS IOS is : 1
+2023-07-11 14:46:00 [INFO   ][ln-227]: ###############################
+
+2023-07-11 14:46:18 [INFO   ][ln-243]: #########################################################################
+
+2023-07-11 14:46:18 [INFO   ][ln-244]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-11 14:46:18 [INFO   ][ln-245]: # ---------------------------------------------------------------- #)
+
+2023-07-11 14:46:18 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-11 14:46:21 [INFO   ][ln-247]: Step 1 :  PlumeCloudLogin
+
+2023-07-11 14:46:21 [INFO   ][ln-282]: 9dOJ8Ql9aQ2EZk5YqjoFhEBcxzD4Gpg4Zhxw1vBkJ5YNAyBVDtUvL1eERhA9IJKo
+2023-07-11 14:46:21 [INFO   ][ln-285]: 64895a7f924521000b2d7ac7
+2023-07-11 14:46:21 [INFO   ][ln-286]: 
+
+2023-07-11 14:46:21 [INFO   ][ln-287]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-11 14:46:21 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-11 14:46:24 [INFO   ][ln-292]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6NWI1ODExZTMtNDVjMy00MjA1LTk5MTAtODNmYmY1OTg0ZDc5IiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6OWRPSjhRbDlhUTJFWms1WXFqb0ZoRUJjeHpENEdwZzRaaHh3MXZCa0o1WU5BeUJWRHRVdkwxZUVSaEE5SUpLbyJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODkxNDQzODIsImlhdCI6MTY4OTA1Nzk4Mn0.E0YpW5YCluE17FxTUJf0CEHJun6W7hpCcro3iDInXDokqRbEdlyn7MhovlXAPUZsgWRn-8qjx_ngm3h4e8sWvfrPVAn8fURkHPxjDG8nYkcM8OmRsFSNt0yie76i8IHlECzsPABqd3ZI6GEDsIIkiWbJqgsGNpepyKIy2nt93mIlfdTUdE_bLXCfvWTXVQg7Bx13s5yvb9pbvHzs5OWLnUDdPj17CspEGy2B4O9NBxr9lVCpS7-0wkv62N4lKB0w1-X4pHj_3ocNEMMghTl0IRm2Ml7I449kj5WaBnImVo_LtrvUKXy1yWAYBuDTFr3Okn7BzBFZQf_wdh6pNpvMBg
+2023-07-11 14:46:24 [INFO   ][ln-293]: 
+
+2023-07-11 14:46:24 [INFO   ][ln-296]: 2023
+2023-07-11 14:46:24 [INFO   ][ln-297]: 7
+2023-07-11 14:46:24 [INFO   ][ln-298]: 11
+2023-07-11 14:46:24 [INFO   ][ln-300]: 2023-07-11 00:00:00
+2023-07-11 14:46:24 [INFO   ][ln-100]: 1689004800
+2023-07-11 14:46:24 [INFO   ][ln-101]: 1689087600
+2023-07-11 14:46:24 [INFO   ][ln-531]: GetReadinessInsightSummary
+2023-07-11 14:46:24 [INFO   ][ln-550]: GetReadinessInsightSummary
+2023-07-11 14:46:27 [INFO   ][ln-308]: ####################################
+2023-07-11 14:46:27 [INFO   ][ln-309]: [{'userId': '64895a7f924521000b2d7ac7', 'startpDate': 1688832000, 'interval': 'week', 'avgReadinessScore': 10, 'maxReadinessScore': 10, 'minReadinessScore': 10, 'avgHrvScore': 68, 'maxHrvScore': 69, 'minHrvScore': 69, 'avgStressScore': 1, 'maxStressScore': 1, 'minStressScore': 1}]
+2023-07-11 14:46:27 [INFO   ][ln-310]: ####################################
+2023-07-11 14:46:27 [INFO   ][ln-312]: The avgReadinessScore get from Backend API : 
+2023-07-11 14:46:27 [INFO   ][ln-313]: 10
+2023-07-11 14:46:27 [INFO   ][ln-333]: ##################################################################
+
+
+2023-07-11 14:46:27 [INFO   ][ln-334]: PASS : L2_Readiness SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 14:46:27 [INFO   ][ln-335]: ##################################################################
+
+
+2023-07-11 14:46:27 [INFO   ][ln-91 ]: 1689004800
+2023-07-11 14:46:27 [INFO   ][ln-92 ]: 1689087600
+2023-07-11 14:46:27 [INFO   ][ln-480]: GetDailyReadinessInsightList
+2023-07-11 14:46:27 [INFO   ][ln-499]: GetDailyReadinessInsightList
+2023-07-11 14:46:30 [INFO   ][ln-351]: ####################################
+2023-07-11 14:46:30 [INFO   ][ln-352]: [{'userId': '64895a7f924521000b2d7ac7', 'startTime': 1689012013, 'endTime': 1689030742, 'hrvScore': 68.54751707435327, 'stressScore': 1, 'readinessScore': 10, 'utcOffset': 8, 'timeZone': 'Asia/Brunei'}]
+2023-07-11 14:46:30 [INFO   ][ln-353]: ####################################
+2023-07-11 14:46:30 [INFO   ][ln-355]: The Heart rate variability  get from Backend API : 
+2023-07-11 14:46:30 [INFO   ][ln-361]: <class 'int'>
+2023-07-11 14:46:30 [INFO   ][ln-363]: 68
+2023-07-11 14:46:30 [INFO   ][ln-387]: The Stress score  get from Backend API : 
+2023-07-11 14:46:30 [INFO   ][ln-389]: 1
+2023-07-11 14:46:30 [INFO   ][ln-397]: ##################################################################
+
+
+2023-07-11 14:46:30 [INFO   ][ln-398]: PASS : L2_Stress SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 14:46:30 [INFO   ][ln-399]: ##################################################################
+
+
+2023-07-11 14:46:30 [INFO   ][ln-412]: Test completed
+2023-07-11 14:46:37 [DEBUG  ][ln-839]: teardown_method
+2023-07-11 14:46:37 [DEBUG  ][ln-833]: teardown_class
+2023-07-11 14:50:33 [INFO   ][ln-47 ]: Start to load config file
+2023-07-11 14:50:33 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+4@plume.com', 'pwd': 'plume1234', 'devuserid': '64895a7f924521000b2d7ac7', 'sn': 'KD8F00003C', 'devid': '60B4F7B306AD', 'mac': '60:B4:F7:B3:06:AD', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-07-11 14:50:33 [DEBUG  ][ln-830]: ======================================== Star to run: <TestAPI> ========================================
+2023-07-11 14:50:33 [DEBUG  ][ln-836]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-11 14:50:33 [INFO   ][ln-175]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.25.121'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': None}
+2023-07-11 14:50:38 [INFO   ][ln-185]: Size(width=390, height=844)
+2023-07-11 14:51:02 [INFO   ][ln-215]: ['2:50', 'Fr', '&', '<', '+', 'Readiness', 'Readiness', 'insights', 'Readiness', 'score', '10', 'Heart', 'rate', 'variability', 'G)', '68ms', 'Stress', 'G)', '1', 'Disclaimer', 'Readiness', 'Score', 'and', 'Stress', 'Score', 'are', 'Sleep', 'Readiness', 'Activity', 'Fall', 'é', 'foe)', '—']
+2023-07-11 14:51:02 [INFO   ][ln-217]: ###############################
+
+2023-07-11 14:51:02 [INFO   ][ln-218]: The L2 Readiness score get from HomePASS IOS is : 10
+2023-07-11 14:51:02 [INFO   ][ln-219]: ###############################
+
+2023-07-11 14:51:02 [INFO   ][ln-222]: ###############################
+
+2023-07-11 14:51:02 [INFO   ][ln-223]: The L2 HRV score get from HomePASS IOS is : 68
+2023-07-11 14:51:02 [INFO   ][ln-224]: ###############################
+
+2023-07-11 14:51:02 [INFO   ][ln-226]: ###############################
+
+2023-07-11 14:51:02 [INFO   ][ln-227]: The L2 Stress score get from HomePASS IOS is : 1
+2023-07-11 14:51:02 [INFO   ][ln-228]: ###############################
+
+2023-07-11 14:51:20 [INFO   ][ln-244]: #########################################################################
+
+2023-07-11 14:51:20 [INFO   ][ln-245]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-11 14:51:20 [INFO   ][ln-246]: # ---------------------------------------------------------------- #)
+
+2023-07-11 14:51:20 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-11 14:51:22 [INFO   ][ln-248]: Step 1 :  PlumeCloudLogin
+
+2023-07-11 14:51:22 [INFO   ][ln-283]: eZUkSIJJYm9sifDaeZkJc94kOauTOBFAbIgkuPQJVUh9j2g7CbWvK3FlMyhHLIk9
+2023-07-11 14:51:22 [INFO   ][ln-286]: 64895a7f924521000b2d7ac7
+2023-07-11 14:51:22 [INFO   ][ln-287]: 
+
+2023-07-11 14:51:22 [INFO   ][ln-288]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-11 14:51:22 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-11 14:51:26 [INFO   ][ln-293]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6N2ZmNTgxMTYtOGYxNC00NWJjLTk4N2MtMDBjOGJjZjc5MjQzIiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6ZVpVa1NJSkpZbTlzaWZEYWVaa0pjOTRrT2F1VE9CRkFiSWdrdVBRSlZVaDlqMmc3Q2JXdkszRmxNeWhITElrOSJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODkxNDQ2ODMsImlhdCI6MTY4OTA1ODI4M30.G4iYKi2QBwkt9nABKS2fjmR3W7YWn1qURvYtSPDg4aBdlX--juYFhhS4ki8nCUqo0Hei-GP0dvFuWLG3hmekLUAjb_KJ0QBClAPG9bjUtL0Ef8QQYdhxzIjmV0JuvwQQ5SbhYAZXW1lsijOTontwIpAZ8rPflErma9X0yu01Q1fWpFcRaSZmWnYKci03d0b-_ll9qL46JZqZigpzsd3paD8fjYKCsbRzhgai9-XXxSsLlK1eYiHRL-vjvki4eWr3B5SBe65c_Xc2oA3bp2i1E6ZjWFBQ7L1i9sFj49tq_qj3bnPbPghEaPAQ6AKS7MLBvuDULFEyWynbGKiM_OZF2Q
+2023-07-11 14:51:26 [INFO   ][ln-294]: 
+
+2023-07-11 14:51:26 [INFO   ][ln-297]: 2023
+2023-07-11 14:51:26 [INFO   ][ln-298]: 7
+2023-07-11 14:51:26 [INFO   ][ln-299]: 11
+2023-07-11 14:51:26 [INFO   ][ln-301]: 2023-07-11 00:00:00
+2023-07-11 14:51:26 [INFO   ][ln-100]: 1689004800
+2023-07-11 14:51:26 [INFO   ][ln-101]: 1689087600
+2023-07-11 14:51:26 [INFO   ][ln-531]: GetReadinessInsightSummary
+2023-07-11 14:51:26 [INFO   ][ln-550]: GetReadinessInsightSummary
+2023-07-11 14:51:28 [INFO   ][ln-309]: ####################################
+2023-07-11 14:51:28 [INFO   ][ln-310]: [{'userId': '64895a7f924521000b2d7ac7', 'startpDate': 1688832000, 'interval': 'week', 'avgReadinessScore': 10, 'maxReadinessScore': 10, 'minReadinessScore': 10, 'avgHrvScore': 68, 'maxHrvScore': 69, 'minHrvScore': 69, 'avgStressScore': 1, 'maxStressScore': 1, 'minStressScore': 1}]
+2023-07-11 14:51:28 [INFO   ][ln-311]: ####################################
+2023-07-11 14:51:28 [INFO   ][ln-313]: The avgReadinessScore get from Backend API : 
+2023-07-11 14:51:28 [INFO   ][ln-314]: 10
+2023-07-11 14:51:28 [INFO   ][ln-334]: ##################################################################
+
+
+2023-07-11 14:51:28 [INFO   ][ln-335]: PASS : L2_Readiness SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 14:51:28 [INFO   ][ln-336]: ##################################################################
+
+
+2023-07-11 14:51:28 [INFO   ][ln-91 ]: 1689004800
+2023-07-11 14:51:28 [INFO   ][ln-92 ]: 1689087600
+2023-07-11 14:51:28 [INFO   ][ln-480]: GetDailyReadinessInsightList
+2023-07-11 14:51:28 [INFO   ][ln-499]: GetDailyReadinessInsightList
+2023-07-11 14:51:31 [INFO   ][ln-352]: ####################################
+2023-07-11 14:51:31 [INFO   ][ln-353]: [{'userId': '64895a7f924521000b2d7ac7', 'startTime': 1689012013, 'endTime': 1689030742, 'hrvScore': 68.54751707435327, 'stressScore': 1, 'readinessScore': 10, 'utcOffset': 8, 'timeZone': 'Asia/Brunei'}]
+2023-07-11 14:51:31 [INFO   ][ln-354]: ####################################
+2023-07-11 14:51:31 [INFO   ][ln-356]: The Heart rate variability  get from Backend API : 
+2023-07-11 14:51:31 [INFO   ][ln-362]: <class 'int'>
+2023-07-11 14:51:31 [INFO   ][ln-364]: 68
+2023-07-11 14:51:31 [INFO   ][ln-388]: The Stress score  get from Backend API : 
+2023-07-11 14:51:31 [INFO   ][ln-390]: 1
+2023-07-11 14:51:31 [INFO   ][ln-398]: ##################################################################
+
+
+2023-07-11 14:51:31 [INFO   ][ln-399]: PASS : L2_Stress SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 14:51:31 [INFO   ][ln-400]: ##################################################################
+
+
+2023-07-11 14:51:31 [INFO   ][ln-413]: Test completed
+2023-07-11 14:51:38 [DEBUG  ][ln-839]: teardown_method
+2023-07-11 14:51:38 [DEBUG  ][ln-833]: teardown_class
+2023-07-11 14:54:15 [INFO   ][ln-47 ]: Start to load config file
+2023-07-11 14:54:15 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+4@plume.com', 'pwd': 'plume1234', 'devuserid': '64895a7f924521000b2d7ac7', 'sn': 'KD8F00003C', 'devid': '60B4F7B306AD', 'mac': '60:B4:F7:B3:06:AD', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-07-11 14:54:15 [DEBUG  ][ln-830]: ======================================== Star to run: <TestAPI> ========================================
+2023-07-11 14:54:15 [DEBUG  ][ln-836]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-11 14:54:15 [INFO   ][ln-175]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.25.121'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': None}
+2023-07-11 14:54:20 [INFO   ][ln-185]: Size(width=390, height=844)
+2023-07-11 14:54:44 [INFO   ][ln-215]: ['2:54', 'Fr', '&', '<', '+', 'Readiness', 'Readiness', 'insights', 'Readiness', 'score', '10', 'Heart', 'rate', 'variability', 'G)', '68ms', 'Stress', 'G)', '1', 'Disclaimer', 'Readiness', 'Score', 'and', 'Stress', 'Score', 'are', 'Sleep', 'Readiness', 'Activity', 'Fall', 'é', 'foe)', '—']
+2023-07-11 14:54:44 [INFO   ][ln-217]: ###############################
+
+2023-07-11 14:54:44 [INFO   ][ln-218]: The L2 Readiness score get from HomePASS IOS is : 10
+2023-07-11 14:54:44 [INFO   ][ln-219]: ###############################
+
+2023-07-11 14:54:44 [INFO   ][ln-222]: ###############################
+
+2023-07-11 14:54:44 [INFO   ][ln-223]: The L2 HRV score get from HomePASS IOS is : 68
+2023-07-11 14:54:44 [INFO   ][ln-224]: ###############################
+
+2023-07-11 14:54:44 [INFO   ][ln-226]: ###############################
+
+2023-07-11 14:54:44 [INFO   ][ln-227]: The L2 Stress score get from HomePASS IOS is : 1
+2023-07-11 14:54:44 [INFO   ][ln-228]: ###############################
+
+2023-07-11 14:55:02 [INFO   ][ln-244]: #########################################################################
+
+2023-07-11 14:55:02 [INFO   ][ln-245]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-11 14:55:02 [INFO   ][ln-246]: # ---------------------------------------------------------------- #)
+
+2023-07-11 14:55:02 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-11 14:55:05 [INFO   ][ln-248]: Step 1 :  PlumeCloudLogin
+
+2023-07-11 14:55:05 [INFO   ][ln-283]: htIOfzOAS2HWVy2PKQeARTyC8Dc1bNM9MhtDD0BXdlJi71n1c6D9owTIF5T9xfLZ
+2023-07-11 14:55:05 [INFO   ][ln-286]: 64895a7f924521000b2d7ac7
+2023-07-11 14:55:05 [INFO   ][ln-287]: 
+
+2023-07-11 14:55:05 [INFO   ][ln-288]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-11 14:55:05 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-11 14:55:08 [INFO   ][ln-293]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6YjRkOTFmZWQtYjkzZC00OGUxLTljZmMtODg2NmU5NTg3YTViIiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6aHRJT2Z6T0FTMkhXVnkyUEtRZUFSVHlDOERjMWJOTTlNaHRERDBCWGRsSmk3MW4xYzZEOW93VElGNVQ5eGZMWiJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODkxNDQ5MDYsImlhdCI6MTY4OTA1ODUwNn0.FR_C4o5D7LeWcrDkfyxiDYxrf-L_G5WSioCqG-KPkD8ubdZFXYX8mLP_HndCAjEHpUOAvKQfN3GuVFB8PgWdi-inFzTzagmJbhOx7nzDsgnDlW39oB99qm-C8pqhvmQBC0k9fdzi9Iqk3WdPOK4OjnmT4V6Wt17yVD1LyqpYYoBQGTSRfv1CQOiVDVEzqoZv_GM32YyTd16tJ9B5EpSD5wgxxC6eCCqxGZf3bC7zyBPvEKSMXKKb-faS98z6c2SmnhHPMfwy9-OLO7dbxyaYh6ChWfY_iFEEAxaviHnl_Qjex5fh-gesFNMs33sUfMrBOlYalLQl4PZwe2w6cHnFKw
+2023-07-11 14:55:08 [INFO   ][ln-294]: 
+
+2023-07-11 14:55:08 [INFO   ][ln-297]: 2023
+2023-07-11 14:55:08 [INFO   ][ln-298]: 7
+2023-07-11 14:55:08 [INFO   ][ln-299]: 11
+2023-07-11 14:55:08 [INFO   ][ln-301]: 2023-07-11 00:00:00
+2023-07-11 14:55:08 [INFO   ][ln-100]: 1689004800
+2023-07-11 14:55:08 [INFO   ][ln-101]: 1689087600
+2023-07-11 14:55:08 [INFO   ][ln-531]: GetReadinessInsightSummary
+2023-07-11 14:55:08 [INFO   ][ln-550]: GetReadinessInsightSummary
+2023-07-11 14:55:11 [INFO   ][ln-309]: ####################################
+2023-07-11 14:55:11 [INFO   ][ln-310]: [{'userId': '64895a7f924521000b2d7ac7', 'startpDate': 1688832000, 'interval': 'week', 'avgReadinessScore': 10, 'maxReadinessScore': 10, 'minReadinessScore': 10, 'avgHrvScore': 68, 'maxHrvScore': 69, 'minHrvScore': 69, 'avgStressScore': 1, 'maxStressScore': 1, 'minStressScore': 1}]
+2023-07-11 14:55:11 [INFO   ][ln-311]: ####################################
+2023-07-11 14:55:11 [INFO   ][ln-313]: The avgReadinessScore get from Backend API : 
+2023-07-11 14:55:11 [INFO   ][ln-314]: 10
+2023-07-11 14:55:11 [INFO   ][ln-334]: ##################################################################
+
+
+2023-07-11 14:55:11 [INFO   ][ln-335]: PASS : L2_Readiness SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 14:55:11 [INFO   ][ln-336]: ##################################################################
+
+
+2023-07-11 14:55:11 [INFO   ][ln-91 ]: 1689004800
+2023-07-11 14:55:11 [INFO   ][ln-92 ]: 1689087600
+2023-07-11 14:55:11 [INFO   ][ln-480]: GetDailyReadinessInsightList
+2023-07-11 14:55:11 [INFO   ][ln-499]: GetDailyReadinessInsightList
+2023-07-11 14:55:13 [INFO   ][ln-349]: ####################################
+2023-07-11 14:55:13 [INFO   ][ln-350]: [{'userId': '64895a7f924521000b2d7ac7', 'startTime': 1689012013, 'endTime': 1689030742, 'hrvScore': 68.54751707435327, 'stressScore': 1, 'readinessScore': 10, 'utcOffset': 8, 'timeZone': 'Asia/Brunei'}]
+2023-07-11 14:55:13 [INFO   ][ln-351]: ####################################
+2023-07-11 14:55:13 [INFO   ][ln-353]: The Heart rate variability  get from Backend API : 
+2023-07-11 14:55:13 [INFO   ][ln-359]: <class 'int'>
+2023-07-11 14:55:13 [INFO   ][ln-361]: 68
+2023-07-11 14:55:13 [INFO   ][ln-369]: ##################################################################
+
+
+2023-07-11 14:55:13 [INFO   ][ln-370]: PASS : L2_HRV SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 14:55:13 [INFO   ][ln-371]: ##################################################################
+
+
+2023-07-11 14:55:13 [INFO   ][ln-385]: The Stress score  get from Backend API : 
+2023-07-11 14:55:13 [INFO   ][ln-387]: 1
+2023-07-11 14:55:13 [INFO   ][ln-395]: ##################################################################
+
+
+2023-07-11 14:55:13 [INFO   ][ln-396]: PASS : L2_Stress SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 14:55:13 [INFO   ][ln-397]: ##################################################################
+
+
+2023-07-11 14:55:13 [INFO   ][ln-410]: Test completed
+2023-07-11 14:55:21 [DEBUG  ][ln-839]: teardown_method
+2023-07-11 14:55:21 [DEBUG  ][ln-833]: teardown_class
+2023-07-11 15:07:08 [INFO   ][ln-47 ]: Start to load config file
+2023-07-11 15:07:08 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+4@plume.com', 'pwd': 'plume1234', 'devuserid': '64895a7f924521000b2d7ac7', 'sn': 'KD8F00003C', 'devid': '60B4F7B306AD', 'mac': '60:B4:F7:B3:06:AD', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-07-11 15:07:08 [DEBUG  ][ln-830]: ======================================== Star to run: <TestAPI> ========================================
+2023-07-11 15:07:08 [DEBUG  ][ln-836]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-11 15:07:08 [INFO   ][ln-175]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.25.121'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': None}
+2023-07-11 15:07:13 [INFO   ][ln-185]: Size(width=390, height=844)
+2023-07-11 15:07:28 [DEBUG  ][ln-839]: teardown_method
+2023-07-11 15:07:28 [DEBUG  ][ln-833]: teardown_class
+2023-07-11 15:07:55 [INFO   ][ln-47 ]: Start to load config file
+2023-07-11 15:07:55 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+4@plume.com', 'pwd': 'plume1234', 'devuserid': '64895a7f924521000b2d7ac7', 'sn': 'KD8F00003C', 'devid': '60B4F7B306AD', 'mac': '60:B4:F7:B3:06:AD', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-07-11 15:07:55 [DEBUG  ][ln-830]: ======================================== Star to run: <TestAPI> ========================================
+2023-07-11 15:07:55 [DEBUG  ][ln-836]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-11 15:07:55 [INFO   ][ln-175]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.25.121'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': '5B6A8AEE-2CB6-4C84-87B4-151E12CA84A9'}
+2023-07-11 15:08:00 [INFO   ][ln-185]: Size(width=390, height=844)
+2023-07-11 15:08:27 [INFO   ][ln-244]: #########################################################################
+
+2023-07-11 15:08:27 [INFO   ][ln-245]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-11 15:08:27 [INFO   ][ln-246]: # ---------------------------------------------------------------- #)
+
+2023-07-11 15:08:27 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-11 15:08:31 [INFO   ][ln-248]: Step 1 :  PlumeCloudLogin
+
+2023-07-11 15:08:31 [INFO   ][ln-283]: 0EShN3LLwEdV7kbwDVBsblu2mJzaUO0BDVCNC0sjXKkxPVaJrVakzAZAx6PG24wI
+2023-07-11 15:08:31 [INFO   ][ln-286]: 64895a7f924521000b2d7ac7
+2023-07-11 15:08:31 [INFO   ][ln-287]: 
+
+2023-07-11 15:08:31 [INFO   ][ln-288]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-11 15:08:31 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-11 15:08:35 [INFO   ][ln-293]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6ZWExNTZhZjktNTIwYi00NGQ4LWJjNjYtZmQwZTY2NjEyYTJmIiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6MEVTaE4zTEx3RWRWN2tid0RWQnNibHUybUp6YVVPMEJEVkNOQzBzalhLa3hQVmFKclZha3pBWkF4NlBHMjR3SSJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODkxNDU3MTIsImlhdCI6MTY4OTA1OTMxMn0.aroyUuVaGcQwvTgdLw2SIka16SBFGnPyY1XD035KGqB50fwkNa0dZKMB-rWQ1p2kRjxJ3lSKinJGM2a7FwgpOXHbjnl3fLMXqyFxapk0Y1HZxE35AsUxgJNZwL5h3o82mVEr3X5lHERma8e98tWYWGeeIO5l_G1nzWlMfDptO8dCdYXsRWK1am7jXVwUwL7cKe1fWzahuTRL0CUUIXxuTiPsNpuwtLHNiVgNFzIHU51nruNsnT0fRtxmBxnjtjb2rSxqrBNFRN_1sHLSIad9XKnMgjbFqTYjurHABXhd2PfkaEPMjKLoeWZ_4Wnvfhy4Zo2NQAwIBsOSnBqDi2CLrg
+2023-07-11 15:08:35 [INFO   ][ln-294]: 
+
+2023-07-11 15:08:35 [INFO   ][ln-297]: 2023
+2023-07-11 15:08:35 [INFO   ][ln-298]: 7
+2023-07-11 15:08:35 [INFO   ][ln-299]: 11
+2023-07-11 15:08:35 [INFO   ][ln-301]: 2023-07-11 00:00:00
+2023-07-11 15:08:35 [INFO   ][ln-100]: 1689004800
+2023-07-11 15:08:35 [INFO   ][ln-101]: 1689087600
+2023-07-11 15:08:35 [INFO   ][ln-531]: GetReadinessInsightSummary
+2023-07-11 15:08:35 [INFO   ][ln-550]: GetReadinessInsightSummary
+2023-07-11 15:08:38 [INFO   ][ln-309]: ####################################
+2023-07-11 15:08:38 [INFO   ][ln-310]: [{'userId': '64895a7f924521000b2d7ac7', 'startpDate': 1688832000, 'interval': 'week', 'avgReadinessScore': 10, 'maxReadinessScore': 10, 'minReadinessScore': 10, 'avgHrvScore': 68, 'maxHrvScore': 69, 'minHrvScore': 69, 'avgStressScore': 1, 'maxStressScore': 1, 'minStressScore': 1}]
+2023-07-11 15:08:38 [INFO   ][ln-311]: ####################################
+2023-07-11 15:08:38 [INFO   ][ln-313]: The avgReadinessScore get from Backend API : 
+2023-07-11 15:08:38 [INFO   ][ln-314]: 10
+2023-07-11 15:08:39 [DEBUG  ][ln-839]: teardown_method
+2023-07-11 15:08:39 [DEBUG  ][ln-833]: teardown_class
+2023-07-11 15:09:09 [INFO   ][ln-47 ]: Start to load config file
+2023-07-11 15:09:09 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+4@plume.com', 'pwd': 'plume1234', 'devuserid': '64895a7f924521000b2d7ac7', 'sn': 'KD8F00003C', 'devid': '60B4F7B306AD', 'mac': '60:B4:F7:B3:06:AD', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-07-11 15:09:09 [DEBUG  ][ln-830]: ======================================== Star to run: <TestAPI> ========================================
+2023-07-11 15:09:09 [DEBUG  ][ln-836]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-11 15:09:09 [INFO   ][ln-175]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.25.121'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': '5B6A8AEE-2CB6-4C84-87B4-151E12CA84A9'}
+2023-07-11 15:09:13 [INFO   ][ln-185]: Size(width=390, height=844)
+2023-07-11 15:09:39 [INFO   ][ln-215]: ['3:09', 'Fr', '&', '<', '+', 'Readiness', 'Readiness', 'insights', 'Readiness', 'score', '10', 'Heart', 'rate', 'variability', 'G)', '68ms', 'Stress', 'G)', '1', 'Disclaimer', 'Readiness', 'Score', 'and', 'Stress', 'Score', 'are', 'Sleep', 'Readiness', 'Activity', 'Fall', 'é', 'foe)', '—']
+2023-07-11 15:09:39 [INFO   ][ln-217]: ###############################
+
+2023-07-11 15:09:39 [INFO   ][ln-218]: The L2 Readiness score get from HomePASS IOS is : 10
+2023-07-11 15:09:39 [INFO   ][ln-219]: ###############################
+
+2023-07-11 15:09:39 [INFO   ][ln-222]: ###############################
+
+2023-07-11 15:09:39 [INFO   ][ln-223]: The L2 HRV score get from HomePASS IOS is : 68
+2023-07-11 15:09:39 [INFO   ][ln-224]: ###############################
+
+2023-07-11 15:09:39 [INFO   ][ln-226]: ###############################
+
+2023-07-11 15:09:39 [INFO   ][ln-227]: The L2 Stress score get from HomePASS IOS is : 1
+2023-07-11 15:09:39 [INFO   ][ln-228]: ###############################
+
+2023-07-11 15:09:57 [INFO   ][ln-244]: #########################################################################
+
+2023-07-11 15:09:57 [INFO   ][ln-245]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-11 15:09:57 [INFO   ][ln-246]: # ---------------------------------------------------------------- #)
+
+2023-07-11 15:09:57 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-11 15:10:00 [INFO   ][ln-248]: Step 1 :  PlumeCloudLogin
+
+2023-07-11 15:10:00 [INFO   ][ln-283]: WfABrRkENuDUn3GIoRadypkTQHjNku6LjfYCtxXiXDhIuh3gvBeaUT01mAjWcuV3
+2023-07-11 15:10:00 [INFO   ][ln-286]: 64895a7f924521000b2d7ac7
+2023-07-11 15:10:00 [INFO   ][ln-287]: 
+
+2023-07-11 15:10:00 [INFO   ][ln-288]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-11 15:10:00 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-11 15:10:03 [INFO   ][ln-293]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6YWRmN2Y4NGQtMTliMS00ZmZjLWE3M2EtNzZkZjE2MmU5YjBkIiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6V2ZBQnJSa0VOdURVbjNHSW9SYWR5cGtUUUhqTmt1NkxqZllDdHhYaVhEaEl1aDNndkJlYVVUMDFtQWpXY3VWMyJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODkxNDU4MDEsImlhdCI6MTY4OTA1OTQwMX0.Gt1DVc8ZkGHPK-rZxxiqf5dJZTUZB7TARXSr3rbiGufae1pfvGNXL0B06u973E9vttP2VF5R6jkwDq4Wu4v6IdyEUG3-hidcB816errXXRGmpkj1ExqlGS6B_J2jtvxGAOOLXCjHPfpO819icKhi5vUvdmCy2mNnhi5e1L6RTCNj6NbHe6oy0xnQxhLCOymk0sYdcdIZ-Q4lnZySGxbnmMQxW5CJrS40Z8ZeS21UBj6g7ySDN4gKDAkYisWcdRNYHy78J8qFTPztxyJSF33Zh0d541fkIv3dTREvtz9Vj4qhL-OldZ5UOR42lvgVV6HeiC4Rn0c8OivTjCQLvg0fRQ
+2023-07-11 15:10:03 [INFO   ][ln-294]: 
+
+2023-07-11 15:10:03 [INFO   ][ln-297]: 2023
+2023-07-11 15:10:03 [INFO   ][ln-298]: 7
+2023-07-11 15:10:03 [INFO   ][ln-299]: 11
+2023-07-11 15:10:03 [INFO   ][ln-301]: 2023-07-11 00:00:00
+2023-07-11 15:10:03 [INFO   ][ln-100]: 1689004800
+2023-07-11 15:10:03 [INFO   ][ln-101]: 1689087600
+2023-07-11 15:10:03 [INFO   ][ln-531]: GetReadinessInsightSummary
+2023-07-11 15:10:03 [INFO   ][ln-550]: GetReadinessInsightSummary
+2023-07-11 15:10:06 [INFO   ][ln-309]: ####################################
+2023-07-11 15:10:06 [INFO   ][ln-310]: [{'userId': '64895a7f924521000b2d7ac7', 'startpDate': 1688832000, 'interval': 'week', 'avgReadinessScore': 10, 'maxReadinessScore': 10, 'minReadinessScore': 10, 'avgHrvScore': 68, 'maxHrvScore': 69, 'minHrvScore': 69, 'avgStressScore': 1, 'maxStressScore': 1, 'minStressScore': 1}]
+2023-07-11 15:10:06 [INFO   ][ln-311]: ####################################
+2023-07-11 15:10:06 [INFO   ][ln-313]: The avgReadinessScore get from Backend API : 
+2023-07-11 15:10:06 [INFO   ][ln-314]: 10
+2023-07-11 15:10:06 [INFO   ][ln-334]: ##################################################################
+
+
+2023-07-11 15:10:06 [INFO   ][ln-335]: PASS : L2_Readiness SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 15:10:06 [INFO   ][ln-336]: ##################################################################
+
+
+2023-07-11 15:10:06 [INFO   ][ln-91 ]: 1689004800
+2023-07-11 15:10:06 [INFO   ][ln-92 ]: 1689087600
+2023-07-11 15:10:06 [INFO   ][ln-480]: GetDailyReadinessInsightList
+2023-07-11 15:10:06 [INFO   ][ln-499]: GetDailyReadinessInsightList
+2023-07-11 15:10:08 [INFO   ][ln-349]: ####################################
+2023-07-11 15:10:08 [INFO   ][ln-350]: [{'userId': '64895a7f924521000b2d7ac7', 'startTime': 1689012013, 'endTime': 1689030742, 'hrvScore': 68.54751707435327, 'stressScore': 1, 'readinessScore': 10, 'utcOffset': 8, 'timeZone': 'Asia/Brunei'}]
+2023-07-11 15:10:08 [INFO   ][ln-351]: ####################################
+2023-07-11 15:10:08 [INFO   ][ln-353]: The Heart rate variability  get from Backend API : 
+2023-07-11 15:10:08 [INFO   ][ln-359]: <class 'int'>
+2023-07-11 15:10:08 [INFO   ][ln-361]: 68
+2023-07-11 15:10:08 [INFO   ][ln-369]: ##################################################################
+
+
+2023-07-11 15:10:08 [INFO   ][ln-370]: PASS : L2_HRV SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 15:10:08 [INFO   ][ln-371]: ##################################################################
+
+
+2023-07-11 15:10:08 [INFO   ][ln-385]: The Stress score  get from Backend API : 
+2023-07-11 15:10:08 [INFO   ][ln-387]: 1
+2023-07-11 15:10:08 [INFO   ][ln-395]: ##################################################################
+
+
+2023-07-11 15:10:08 [INFO   ][ln-396]: PASS : L2_Stress SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 15:10:08 [INFO   ][ln-397]: ##################################################################
+
+
+2023-07-11 15:10:08 [INFO   ][ln-410]: Test completed
+2023-07-11 15:10:16 [DEBUG  ][ln-839]: teardown_method
+2023-07-11 15:10:16 [DEBUG  ][ln-833]: teardown_class
+2023-07-11 15:33:55 [INFO   ][ln-47 ]: Start to load config file
+2023-07-11 15:33:55 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+4@plume.com', 'pwd': 'plume1234', 'devuserid': '64895a7f924521000b2d7ac7', 'sn': 'KD8F00003C', 'devid': '60B4F7B306AD', 'mac': '60:B4:F7:B3:06:AD', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-07-11 15:33:55 [DEBUG  ][ln-830]: ======================================== Star to run: <TestAPI> ========================================
+2023-07-11 15:33:55 [DEBUG  ][ln-836]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-11 15:33:55 [INFO   ][ln-175]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.25.121'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': None}
+2023-07-11 15:34:00 [INFO   ][ln-185]: Size(width=390, height=844)
+2023-07-11 15:34:24 [INFO   ][ln-215]: ['3:34', 'Fr', '&', '<', '+', 'Readiness', 'Readiness', 'insights', 'Readiness', 'score', '10', 'Heart', 'rate', 'variability', 'G)', '68ms', 'Stress', 'G)', '1', 'Disclaimer', 'Readiness', 'Score', 'and', 'Stress', 'Score', 'are', 'Sleep', 'Readiness', 'Activity', 'Fall', 'é', 'foe)', '—']
+2023-07-11 15:34:24 [INFO   ][ln-217]: ###############################
+
+2023-07-11 15:34:24 [INFO   ][ln-218]: The L2 Readiness score get from HomePASS IOS is : 10
+2023-07-11 15:34:24 [INFO   ][ln-219]: ###############################
+
+2023-07-11 15:34:24 [INFO   ][ln-222]: ###############################
+
+2023-07-11 15:34:24 [INFO   ][ln-223]: The L2 HRV score get from HomePASS IOS is : 68
+2023-07-11 15:34:24 [INFO   ][ln-224]: ###############################
+
+2023-07-11 15:34:24 [INFO   ][ln-226]: ###############################
+
+2023-07-11 15:34:24 [INFO   ][ln-227]: The L2 Stress score get from HomePASS IOS is : 1
+2023-07-11 15:34:24 [INFO   ][ln-228]: ###############################
+
+2023-07-11 15:34:42 [INFO   ][ln-244]: #########################################################################
+
+2023-07-11 15:34:42 [INFO   ][ln-245]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-11 15:34:42 [INFO   ][ln-246]: # ---------------------------------------------------------------- #)
+
+2023-07-11 15:34:42 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-11 15:34:46 [INFO   ][ln-248]: Step 1 :  PlumeCloudLogin
+
+2023-07-11 15:34:46 [INFO   ][ln-283]: efyEEcq2AIw0HYwekSAPjm1H4vsd7D323dVpDFZE9b5GYDIFwBPmqi16LAnuhkrq
+2023-07-11 15:34:46 [INFO   ][ln-286]: 64895a7f924521000b2d7ac7
+2023-07-11 15:34:46 [INFO   ][ln-287]: 
+
+2023-07-11 15:34:46 [INFO   ][ln-288]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-11 15:34:46 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-11 15:34:49 [INFO   ][ln-293]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6ZTQyNTcwZmItYWM5Yi00OGZkLTgzMGYtZjY2MWZiMDVkYTk0IiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6ZWZ5RUVjcTJBSXcwSFl3ZWtTQVBqbTFINHZzZDdEMzIzZFZwREZaRTliNUdZRElGd0JQbXFpMTZMQW51aGtycSJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODkxNDcyODcsImlhdCI6MTY4OTA2MDg4N30.RLdxAKYg-LioItw0lvTTPKG3QSw_9l7rvVpAexaMf2x6eyZLah7BKorft9PM17LUG0Na-FRiAP1ImLXbWFZJCY6cfm9CctTau0oswp4LEsPmwbducpBDphAK9Xi15IRFxvR8oJAqbmxpZamb69DdMno9N_XQRVpciKabVBU41kNzR7JveHdekXEA7NTblbDPMG-DzRw1oU4karG0lQfXKElM-OQRlVTOQ0UZVjh_CqpVACDaTxaHoUVx36JSDoH8aYxrMP3InqQ3AGyL6ahl813abxiGga9rG9xpUjY-65sM4BudkcXRYUfEhpx3KkdX4iXk_DY1DE3qDi3GsqL2OQ
+2023-07-11 15:34:49 [INFO   ][ln-294]: 
+
+2023-07-11 15:34:49 [INFO   ][ln-297]: 2023
+2023-07-11 15:34:49 [INFO   ][ln-298]: 7
+2023-07-11 15:34:49 [INFO   ][ln-299]: 11
+2023-07-11 15:34:49 [INFO   ][ln-301]: 2023-07-11 00:00:00
+2023-07-11 15:34:49 [INFO   ][ln-100]: 1689004800
+2023-07-11 15:34:49 [INFO   ][ln-101]: 1689087600
+2023-07-11 15:34:49 [INFO   ][ln-531]: GetReadinessInsightSummary
+2023-07-11 15:34:49 [INFO   ][ln-550]: GetReadinessInsightSummary
+2023-07-11 15:34:53 [INFO   ][ln-309]: ####################################
+2023-07-11 15:34:53 [INFO   ][ln-310]: [{'userId': '64895a7f924521000b2d7ac7', 'startpDate': 1688832000, 'interval': 'week', 'avgReadinessScore': 10, 'maxReadinessScore': 10, 'minReadinessScore': 10, 'avgHrvScore': 68, 'maxHrvScore': 69, 'minHrvScore': 69, 'avgStressScore': 1, 'maxStressScore': 1, 'minStressScore': 1}]
+2023-07-11 15:34:53 [INFO   ][ln-311]: ####################################
+2023-07-11 15:34:53 [INFO   ][ln-313]: The avgReadinessScore get from Backend API : 
+2023-07-11 15:34:53 [INFO   ][ln-314]: 10
+2023-07-11 15:34:53 [INFO   ][ln-334]: ##################################################################
+
+
+2023-07-11 15:34:53 [INFO   ][ln-335]: PASS : L2_Readiness SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 15:34:53 [INFO   ][ln-336]: ##################################################################
+
+
+2023-07-11 15:34:53 [INFO   ][ln-91 ]: 1689004800
+2023-07-11 15:34:53 [INFO   ][ln-92 ]: 1689087600
+2023-07-11 15:34:53 [INFO   ][ln-480]: GetDailyReadinessInsightList
+2023-07-11 15:34:53 [INFO   ][ln-499]: GetDailyReadinessInsightList
+2023-07-11 15:34:57 [INFO   ][ln-349]: ####################################
+2023-07-11 15:34:57 [INFO   ][ln-350]: [{'userId': '64895a7f924521000b2d7ac7', 'startTime': 1689012013, 'endTime': 1689030742, 'hrvScore': 68.54751707435327, 'stressScore': 1, 'readinessScore': 10, 'utcOffset': 8, 'timeZone': 'Asia/Brunei'}]
+2023-07-11 15:34:57 [INFO   ][ln-351]: ####################################
+2023-07-11 15:34:57 [INFO   ][ln-353]: The Heart rate variability  get from Backend API : 
+2023-07-11 15:34:57 [INFO   ][ln-359]: <class 'int'>
+2023-07-11 15:34:57 [INFO   ][ln-361]: 68
+2023-07-11 15:34:57 [INFO   ][ln-369]: ##################################################################
+
+
+2023-07-11 15:34:57 [INFO   ][ln-370]: PASS : L2_HRV SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 15:34:57 [INFO   ][ln-371]: ##################################################################
+
+
+2023-07-11 15:34:57 [INFO   ][ln-385]: The Stress score  get from Backend API : 
+2023-07-11 15:34:57 [INFO   ][ln-387]: 1
+2023-07-11 15:34:57 [INFO   ][ln-395]: ##################################################################
+
+
+2023-07-11 15:34:57 [INFO   ][ln-396]: PASS : L2_Stress SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 15:34:57 [INFO   ][ln-397]: ##################################################################
+
+
+2023-07-11 15:34:57 [INFO   ][ln-410]: Test completed
+2023-07-11 15:35:04 [DEBUG  ][ln-839]: teardown_method
+2023-07-11 15:35:04 [DEBUG  ][ln-836]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-11 15:35:04 [INFO   ][ln-175]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.25.121'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': None}
+2023-07-11 15:35:09 [INFO   ][ln-185]: Size(width=390, height=844)
+2023-07-11 15:35:33 [INFO   ][ln-215]: ['3:35', 'Fr', '&', '<', '+', 'Readiness', 'Readiness', 'insights', 'Readiness', 'score', '10', 'Heart', 'rate', 'variability', 'G)', '68ms', 'Stress', 'G)', '1', 'Disclaimer', 'Readiness', 'Score', 'and', 'Stress', 'Score', 'are', 'Sleep', 'Readiness', 'Activity', 'Fall', 'é', 'foe)', '—']
+2023-07-11 15:35:33 [INFO   ][ln-217]: ###############################
+
+2023-07-11 15:35:33 [INFO   ][ln-218]: The L2 Readiness score get from HomePASS IOS is : 10
+2023-07-11 15:35:33 [INFO   ][ln-219]: ###############################
+
+2023-07-11 15:35:33 [INFO   ][ln-222]: ###############################
+
+2023-07-11 15:35:33 [INFO   ][ln-223]: The L2 HRV score get from HomePASS IOS is : 68
+2023-07-11 15:35:33 [INFO   ][ln-224]: ###############################
+
+2023-07-11 15:35:33 [INFO   ][ln-226]: ###############################
+
+2023-07-11 15:35:33 [INFO   ][ln-227]: The L2 Stress score get from HomePASS IOS is : 1
+2023-07-11 15:35:33 [INFO   ][ln-228]: ###############################
+
+2023-07-11 15:35:51 [INFO   ][ln-244]: #########################################################################
+
+2023-07-11 15:35:51 [INFO   ][ln-245]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-11 15:35:51 [INFO   ][ln-246]: # ---------------------------------------------------------------- #)
+
+2023-07-11 15:35:51 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-11 15:35:55 [INFO   ][ln-248]: Step 1 :  PlumeCloudLogin
+
+2023-07-11 15:35:55 [INFO   ][ln-283]: 65D7m4NfGRIqj0U6fccv2PcF4gjnZRpIMajriFGp6JUXZjtXEwtjWcEgn4GEbklV
+2023-07-11 15:35:55 [INFO   ][ln-286]: 64895a7f924521000b2d7ac7
+2023-07-11 15:35:55 [INFO   ][ln-287]: 
+
+2023-07-11 15:35:55 [INFO   ][ln-288]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-11 15:35:55 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-11 15:35:59 [INFO   ][ln-293]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6MmQ3MzYzMDAtMjlmOS00MDM1LTkwZTgtNzA3YmVmM2NmN2NhIiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6NjVEN200TmZHUklxajBVNmZjY3YyUGNGNGdqblpScElNYWpyaUZHcDZKVVhaanRYRXd0aldjRWduNEdFYmtsViJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODkxNDczNTcsImlhdCI6MTY4OTA2MDk1N30.cN6O0Oa2wXzWrQq3f9MnU2yEK9Pq7dQjxdyplDG4j_3wwwoy3YgXcnpCNEAQVcHbS447QbCKqfIpxY-c9WKEESXqVLPZtFX-dgrtK4R8MHS6gykBWsRDXxm-xvbM8bIzDjBQWRwJZRSlaZGS0Ty9xbYmxwoloe3o0e3Dp--7vTDKFylFrfDp2cpKGYsOgK3agS20TJpklEgt1GusgEXJAiYx65C4HKdREufWu8zCmXtsy2RUi-s96O8ImpzH7TN3LItxcZ4h7f-PZ1Wet4i7WD0_WB4pxGV1m71rvNUkMLxXBQDxNXfetbr4qsbAyPXnsYMTQA-yJXkvsu-gFVUVQA
+2023-07-11 15:35:59 [INFO   ][ln-294]: 
+
+2023-07-11 15:35:59 [INFO   ][ln-297]: 2023
+2023-07-11 15:35:59 [INFO   ][ln-298]: 7
+2023-07-11 15:35:59 [INFO   ][ln-299]: 11
+2023-07-11 15:35:59 [INFO   ][ln-301]: 2023-07-11 00:00:00
+2023-07-11 15:35:59 [INFO   ][ln-100]: 1689004800
+2023-07-11 15:35:59 [INFO   ][ln-101]: 1689087600
+2023-07-11 15:35:59 [INFO   ][ln-531]: GetReadinessInsightSummary
+2023-07-11 15:35:59 [INFO   ][ln-550]: GetReadinessInsightSummary
+2023-07-11 15:36:02 [INFO   ][ln-309]: ####################################
+2023-07-11 15:36:02 [INFO   ][ln-310]: [{'userId': '64895a7f924521000b2d7ac7', 'startpDate': 1688832000, 'interval': 'week', 'avgReadinessScore': 10, 'maxReadinessScore': 10, 'minReadinessScore': 10, 'avgHrvScore': 68, 'maxHrvScore': 69, 'minHrvScore': 69, 'avgStressScore': 1, 'maxStressScore': 1, 'minStressScore': 1}]
+2023-07-11 15:36:02 [INFO   ][ln-311]: ####################################
+2023-07-11 15:36:02 [INFO   ][ln-313]: The avgReadinessScore get from Backend API : 
+2023-07-11 15:36:02 [INFO   ][ln-314]: 10
+2023-07-11 15:36:02 [INFO   ][ln-334]: ##################################################################
+
+
+2023-07-11 15:36:02 [INFO   ][ln-335]: PASS : L2_Readiness SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 15:36:02 [INFO   ][ln-336]: ##################################################################
+
+
+2023-07-11 15:36:02 [INFO   ][ln-91 ]: 1689004800
+2023-07-11 15:36:02 [INFO   ][ln-92 ]: 1689087600
+2023-07-11 15:36:02 [INFO   ][ln-480]: GetDailyReadinessInsightList
+2023-07-11 15:36:02 [INFO   ][ln-499]: GetDailyReadinessInsightList
+2023-07-11 15:36:04 [INFO   ][ln-349]: ####################################
+2023-07-11 15:36:04 [INFO   ][ln-350]: [{'userId': '64895a7f924521000b2d7ac7', 'startTime': 1689012013, 'endTime': 1689030742, 'hrvScore': 68.54751707435327, 'stressScore': 1, 'readinessScore': 10, 'utcOffset': 8, 'timeZone': 'Asia/Brunei'}]
+2023-07-11 15:36:04 [INFO   ][ln-351]: ####################################
+2023-07-11 15:36:04 [INFO   ][ln-353]: The Heart rate variability  get from Backend API : 
+2023-07-11 15:36:04 [INFO   ][ln-359]: <class 'int'>
+2023-07-11 15:36:04 [INFO   ][ln-361]: 68
+2023-07-11 15:36:04 [INFO   ][ln-369]: ##################################################################
+
+
+2023-07-11 15:36:04 [INFO   ][ln-370]: PASS : L2_HRV SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 15:36:04 [INFO   ][ln-371]: ##################################################################
+
+
+2023-07-11 15:36:04 [INFO   ][ln-385]: The Stress score  get from Backend API : 
+2023-07-11 15:36:04 [INFO   ][ln-387]: 1
+2023-07-11 15:36:04 [INFO   ][ln-395]: ##################################################################
+
+
+2023-07-11 15:36:04 [INFO   ][ln-396]: PASS : L2_Stress SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 15:36:04 [INFO   ][ln-397]: ##################################################################
+
+
+2023-07-11 15:36:04 [INFO   ][ln-410]: Test completed
+2023-07-11 15:36:12 [DEBUG  ][ln-839]: teardown_method
+2023-07-11 15:36:12 [DEBUG  ][ln-836]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-11 15:36:12 [INFO   ][ln-175]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.25.121'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': None}
+2023-07-11 15:36:17 [INFO   ][ln-185]: Size(width=390, height=844)
+2023-07-11 15:36:41 [INFO   ][ln-215]: ['3:36', 'Fr', '&', '<', '+', 'Readiness', 'Readiness', 'insights', 'Readiness', 'score', '10', 'Heart', 'rate', 'variability', 'G)', '68ms', 'Stress', 'G)', '1', 'Disclaimer', 'Readiness', 'Score', 'and', 'Stress', 'Score', 'are', 'Sleep', 'Readiness', 'Activity', 'Fall', 'é', 'foe)', '—']
+2023-07-11 15:36:41 [INFO   ][ln-217]: ###############################
+
+2023-07-11 15:36:41 [INFO   ][ln-218]: The L2 Readiness score get from HomePASS IOS is : 10
+2023-07-11 15:36:41 [INFO   ][ln-219]: ###############################
+
+2023-07-11 15:36:41 [INFO   ][ln-222]: ###############################
+
+2023-07-11 15:36:41 [INFO   ][ln-223]: The L2 HRV score get from HomePASS IOS is : 68
+2023-07-11 15:36:41 [INFO   ][ln-224]: ###############################
+
+2023-07-11 15:36:41 [INFO   ][ln-226]: ###############################
+
+2023-07-11 15:36:41 [INFO   ][ln-227]: The L2 Stress score get from HomePASS IOS is : 1
+2023-07-11 15:36:41 [INFO   ][ln-228]: ###############################
+
+2023-07-11 15:37:00 [INFO   ][ln-244]: #########################################################################
+
+2023-07-11 15:37:00 [INFO   ][ln-245]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-11 15:37:00 [INFO   ][ln-246]: # ---------------------------------------------------------------- #)
+
+2023-07-11 15:37:00 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-11 15:37:02 [INFO   ][ln-248]: Step 1 :  PlumeCloudLogin
+
+2023-07-11 15:37:02 [INFO   ][ln-283]: GWA2GAb4J833oEICb1le8vxXGbkE7WqHRYIgmwLLIKZ7ibkZuDfqxfFJ0u0jMFDH
+2023-07-11 15:37:02 [INFO   ][ln-286]: 64895a7f924521000b2d7ac7
+2023-07-11 15:37:02 [INFO   ][ln-287]: 
+
+2023-07-11 15:37:02 [INFO   ][ln-288]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-11 15:37:02 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-11 15:37:06 [INFO   ][ln-293]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6YzdjODgzOTUtMjFjOS00NTFiLTg5MDEtOTQ3NTMzZjk5OWFhIiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6R1dBMkdBYjRKODMzb0VJQ2IxbGU4dnhYR2JrRTdXcUhSWUlnbXdMTElLWjdpYmtadURmcXhmRkowdTBqTUZESCJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODkxNDc0MjMsImlhdCI6MTY4OTA2MTAyM30.GbLAVJAPp6rN9e1pYqJmUXcbwjOg-9WmTITMr41FvH1370r2vkM94Y_e-iwWRO39ETdACz7NaSwbfraGZ5zwQ1Fq06soTDHOJvZTCkKg5DoNiUoaZJDtUOTqWJVeJA5ONFTzguPRYTb74dBuRK6bk1PeR7bCWxM-58sFXO91fJ0MZEbjZfDUH0qhNkmgbictpNrWqCr84uOnJ1HsHRLpwvuenF1kkJV6lW6QvtG1onTU2G8ybhXoiP6xvj407dVi8GCn8VPJRKOSgME3kTmTrCTHqMsoXnQ7MydX8XbYtObC_z2CUmN_fCurPyqeOaNF-mhtzH5ap8K7CfwHr9HhGg
+2023-07-11 15:37:06 [INFO   ][ln-294]: 
+
+2023-07-11 15:37:06 [INFO   ][ln-297]: 2023
+2023-07-11 15:37:06 [INFO   ][ln-298]: 7
+2023-07-11 15:37:06 [INFO   ][ln-299]: 11
+2023-07-11 15:37:06 [INFO   ][ln-301]: 2023-07-11 00:00:00
+2023-07-11 15:37:06 [INFO   ][ln-100]: 1689004800
+2023-07-11 15:37:06 [INFO   ][ln-101]: 1689087600
+2023-07-11 15:37:06 [INFO   ][ln-531]: GetReadinessInsightSummary
+2023-07-11 15:37:06 [INFO   ][ln-550]: GetReadinessInsightSummary
+2023-07-11 15:37:08 [INFO   ][ln-309]: ####################################
+2023-07-11 15:37:08 [INFO   ][ln-310]: [{'userId': '64895a7f924521000b2d7ac7', 'startpDate': 1688832000, 'interval': 'week', 'avgReadinessScore': 10, 'maxReadinessScore': 10, 'minReadinessScore': 10, 'avgHrvScore': 68, 'maxHrvScore': 69, 'minHrvScore': 69, 'avgStressScore': 1, 'maxStressScore': 1, 'minStressScore': 1}]
+2023-07-11 15:37:08 [INFO   ][ln-311]: ####################################
+2023-07-11 15:37:08 [INFO   ][ln-313]: The avgReadinessScore get from Backend API : 
+2023-07-11 15:37:08 [INFO   ][ln-314]: 10
+2023-07-11 15:37:08 [INFO   ][ln-334]: ##################################################################
+
+
+2023-07-11 15:37:08 [INFO   ][ln-335]: PASS : L2_Readiness SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 15:37:08 [INFO   ][ln-336]: ##################################################################
+
+
+2023-07-11 15:37:08 [INFO   ][ln-91 ]: 1689004800
+2023-07-11 15:37:08 [INFO   ][ln-92 ]: 1689087600
+2023-07-11 15:37:08 [INFO   ][ln-480]: GetDailyReadinessInsightList
+2023-07-11 15:37:08 [INFO   ][ln-499]: GetDailyReadinessInsightList
+2023-07-11 15:37:11 [INFO   ][ln-349]: ####################################
+2023-07-11 15:37:11 [INFO   ][ln-350]: [{'userId': '64895a7f924521000b2d7ac7', 'startTime': 1689012013, 'endTime': 1689030742, 'hrvScore': 68.54751707435327, 'stressScore': 1, 'readinessScore': 10, 'utcOffset': 8, 'timeZone': 'Asia/Brunei'}]
+2023-07-11 15:37:11 [INFO   ][ln-351]: ####################################
+2023-07-11 15:37:11 [INFO   ][ln-353]: The Heart rate variability  get from Backend API : 
+2023-07-11 15:37:11 [INFO   ][ln-359]: <class 'int'>
+2023-07-11 15:37:11 [INFO   ][ln-361]: 68
+2023-07-11 15:37:11 [INFO   ][ln-369]: ##################################################################
+
+
+2023-07-11 15:37:11 [INFO   ][ln-370]: PASS : L2_HRV SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 15:37:11 [INFO   ][ln-371]: ##################################################################
+
+
+2023-07-11 15:37:11 [INFO   ][ln-385]: The Stress score  get from Backend API : 
+2023-07-11 15:37:11 [INFO   ][ln-387]: 1
+2023-07-11 15:37:11 [INFO   ][ln-395]: ##################################################################
+
+
+2023-07-11 15:37:11 [INFO   ][ln-396]: PASS : L2_Stress SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 15:37:11 [INFO   ][ln-397]: ##################################################################
+
+
+2023-07-11 15:37:11 [INFO   ][ln-410]: Test completed
+2023-07-11 15:37:18 [DEBUG  ][ln-839]: teardown_method
+2023-07-11 15:37:18 [DEBUG  ][ln-836]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-11 15:37:18 [INFO   ][ln-175]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.25.121'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': None}
+2023-07-11 15:37:23 [INFO   ][ln-185]: Size(width=390, height=844)
+2023-07-11 15:37:47 [INFO   ][ln-215]: ['3:37', 'Fr', '&', '<', '+', 'Readiness', 'Readiness', 'insights', 'Readiness', 'score', '10', 'Heart', 'rate', 'variability', 'G)', '68ms', 'Stress', 'G)', '1', 'Disclaimer', 'Readiness', 'Score', 'and', 'Stress', 'Score', 'are', 'Sleep', 'Readiness', 'Activity', 'Fall', 'é', 'foe)', '—']
+2023-07-11 15:37:47 [INFO   ][ln-217]: ###############################
+
+2023-07-11 15:37:47 [INFO   ][ln-218]: The L2 Readiness score get from HomePASS IOS is : 10
+2023-07-11 15:37:47 [INFO   ][ln-219]: ###############################
+
+2023-07-11 15:37:47 [INFO   ][ln-222]: ###############################
+
+2023-07-11 15:37:47 [INFO   ][ln-223]: The L2 HRV score get from HomePASS IOS is : 68
+2023-07-11 15:37:47 [INFO   ][ln-224]: ###############################
+
+2023-07-11 15:37:47 [INFO   ][ln-226]: ###############################
+
+2023-07-11 15:37:47 [INFO   ][ln-227]: The L2 Stress score get from HomePASS IOS is : 1
+2023-07-11 15:37:47 [INFO   ][ln-228]: ###############################
+
+2023-07-11 15:38:06 [INFO   ][ln-244]: #########################################################################
+
+2023-07-11 15:38:06 [INFO   ][ln-245]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-11 15:38:06 [INFO   ][ln-246]: # ---------------------------------------------------------------- #)
+
+2023-07-11 15:38:06 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-11 15:38:08 [INFO   ][ln-248]: Step 1 :  PlumeCloudLogin
+
+2023-07-11 15:38:08 [INFO   ][ln-283]: i9EhOMV0cl3vEj8GRrFYIUwogOLYBDeh3EUJVi5O5ZfqLwr6fPElko0WGU5WOZAA
+2023-07-11 15:38:08 [INFO   ][ln-286]: 64895a7f924521000b2d7ac7
+2023-07-11 15:38:08 [INFO   ][ln-287]: 
+
+2023-07-11 15:38:08 [INFO   ][ln-288]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-11 15:38:08 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-11 15:38:11 [INFO   ][ln-293]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6ZGRiMWMzYWYtNGUyNC00YmNlLWFlZjEtYTUyMDJlOWU3Y2E0IiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6aTlFaE9NVjBjbDN2RWo4R1JyRllJVXdvZ09MWUJEZWgzRVVKVmk1TzVaZnFMd3I2ZlBFbGtvMFdHVTVXT1pBQSJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODkxNDc0ODksImlhdCI6MTY4OTA2MTA4OX0.Sngzdn3AjpxG38SjJYaXcDG18tHORPBEGJeuMMNaXvaXjgOfsxxjW5IAWfVUJ4HL2AHSIgkU4opFLRr6SjbMMNV043d65GJaT8SnodQnyrBDxnv9VMgTtKmzzy3Zoa0Ao7C_Ac73RuT9QAn0QwxZp8i72RSHE8-Qn8OKnTWaZu7uJ7anSCMTDNbKb75k8L4S1kXq1XUtRForFKRrXSbcytkO5jT1fQQgova5HUJrGE7pnw71tRi0jLyZ2ZibS57UqHyINArbmeJAb9GM0gXOAabCF7uAF_F3NrURlxzHwF7ZuZs5WvFeTyoU0Ea8bYvMAgrJ8q_xnULjXhCwOosirQ
+2023-07-11 15:38:11 [INFO   ][ln-294]: 
+
+2023-07-11 15:38:11 [INFO   ][ln-297]: 2023
+2023-07-11 15:38:11 [INFO   ][ln-298]: 7
+2023-07-11 15:38:11 [INFO   ][ln-299]: 11
+2023-07-11 15:38:11 [INFO   ][ln-301]: 2023-07-11 00:00:00
+2023-07-11 15:38:12 [INFO   ][ln-100]: 1689004800
+2023-07-11 15:38:12 [INFO   ][ln-101]: 1689087600
+2023-07-11 15:38:12 [INFO   ][ln-531]: GetReadinessInsightSummary
+2023-07-11 15:38:12 [INFO   ][ln-550]: GetReadinessInsightSummary
+2023-07-11 15:38:14 [INFO   ][ln-309]: ####################################
+2023-07-11 15:38:14 [INFO   ][ln-310]: [{'userId': '64895a7f924521000b2d7ac7', 'startpDate': 1688832000, 'interval': 'week', 'avgReadinessScore': 10, 'maxReadinessScore': 10, 'minReadinessScore': 10, 'avgHrvScore': 68, 'maxHrvScore': 69, 'minHrvScore': 69, 'avgStressScore': 1, 'maxStressScore': 1, 'minStressScore': 1}]
+2023-07-11 15:38:14 [INFO   ][ln-311]: ####################################
+2023-07-11 15:38:14 [INFO   ][ln-313]: The avgReadinessScore get from Backend API : 
+2023-07-11 15:38:14 [INFO   ][ln-314]: 10
+2023-07-11 15:38:14 [INFO   ][ln-334]: ##################################################################
+
+
+2023-07-11 15:38:14 [INFO   ][ln-335]: PASS : L2_Readiness SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 15:38:14 [INFO   ][ln-336]: ##################################################################
+
+
+2023-07-11 15:38:14 [INFO   ][ln-91 ]: 1689004800
+2023-07-11 15:38:14 [INFO   ][ln-92 ]: 1689087600
+2023-07-11 15:38:14 [INFO   ][ln-480]: GetDailyReadinessInsightList
+2023-07-11 15:38:14 [INFO   ][ln-499]: GetDailyReadinessInsightList
+2023-07-11 15:38:17 [INFO   ][ln-349]: ####################################
+2023-07-11 15:38:17 [INFO   ][ln-350]: [{'userId': '64895a7f924521000b2d7ac7', 'startTime': 1689012013, 'endTime': 1689030742, 'hrvScore': 68.54751707435327, 'stressScore': 1, 'readinessScore': 10, 'utcOffset': 8, 'timeZone': 'Asia/Brunei'}]
+2023-07-11 15:38:17 [INFO   ][ln-351]: ####################################
+2023-07-11 15:38:17 [INFO   ][ln-353]: The Heart rate variability  get from Backend API : 
+2023-07-11 15:38:17 [INFO   ][ln-359]: <class 'int'>
+2023-07-11 15:38:17 [INFO   ][ln-361]: 68
+2023-07-11 15:38:17 [INFO   ][ln-369]: ##################################################################
+
+
+2023-07-11 15:38:17 [INFO   ][ln-370]: PASS : L2_HRV SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 15:38:17 [INFO   ][ln-371]: ##################################################################
+
+
+2023-07-11 15:38:17 [INFO   ][ln-385]: The Stress score  get from Backend API : 
+2023-07-11 15:38:17 [INFO   ][ln-387]: 1
+2023-07-11 15:38:17 [INFO   ][ln-395]: ##################################################################
+
+
+2023-07-11 15:38:17 [INFO   ][ln-396]: PASS : L2_Stress SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 15:38:17 [INFO   ][ln-397]: ##################################################################
+
+
+2023-07-11 15:38:17 [INFO   ][ln-410]: Test completed
+2023-07-11 15:38:24 [DEBUG  ][ln-839]: teardown_method
+2023-07-11 15:38:24 [DEBUG  ][ln-836]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-11 15:38:24 [INFO   ][ln-175]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.25.121'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': None}
+2023-07-11 15:38:29 [INFO   ][ln-185]: Size(width=390, height=844)
+2023-07-11 15:38:53 [INFO   ][ln-215]: ['3:38', 'Fr', '&', '<', '+', 'Readiness', 'Readiness', 'insights', 'Readiness', 'score', '10', 'Heart', 'rate', 'variability', 'G)', '68ms', 'Stress', 'G)', '1', 'Disclaimer', 'Readiness', 'Score', 'and', 'Stress', 'Score', 'are', 'Sleep', 'Readiness', 'Activity', 'Fall', 'é', 'foe)', '—']
+2023-07-11 15:38:53 [INFO   ][ln-217]: ###############################
+
+2023-07-11 15:38:53 [INFO   ][ln-218]: The L2 Readiness score get from HomePASS IOS is : 10
+2023-07-11 15:38:53 [INFO   ][ln-219]: ###############################
+
+2023-07-11 15:38:53 [INFO   ][ln-222]: ###############################
+
+2023-07-11 15:38:53 [INFO   ][ln-223]: The L2 HRV score get from HomePASS IOS is : 68
+2023-07-11 15:38:53 [INFO   ][ln-224]: ###############################
+
+2023-07-11 15:38:53 [INFO   ][ln-226]: ###############################
+
+2023-07-11 15:38:53 [INFO   ][ln-227]: The L2 Stress score get from HomePASS IOS is : 1
+2023-07-11 15:38:53 [INFO   ][ln-228]: ###############################
+
+2023-07-11 15:39:11 [INFO   ][ln-244]: #########################################################################
+
+2023-07-11 15:39:11 [INFO   ][ln-245]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-11 15:39:11 [INFO   ][ln-246]: # ---------------------------------------------------------------- #)
+
+2023-07-11 15:39:11 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-11 15:39:14 [INFO   ][ln-248]: Step 1 :  PlumeCloudLogin
+
+2023-07-11 15:39:14 [INFO   ][ln-283]: 5ULiEGzdNUjHaQAvHeeLrR2OWsfvSBUKPpWpEJLRyLUtKRw1nLmlFRB2kf0SG7jh
+2023-07-11 15:39:14 [INFO   ][ln-286]: 64895a7f924521000b2d7ac7
+2023-07-11 15:39:14 [INFO   ][ln-287]: 
+
+2023-07-11 15:39:14 [INFO   ][ln-288]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-11 15:39:14 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-11 15:39:17 [INFO   ][ln-293]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6ZDI4NGVhYzEtNWYzMi00YmFkLTgwOGEtMGVlM2FlNWQ3OWY1IiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6NVVMaUVHemROVWpIYVFBdkhlZUxyUjJPV3NmdlNCVUtQcFdwRUpMUnlMVXRLUncxbkxtbEZSQjJrZjBTRzdqaCJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODkxNDc1NTQsImlhdCI6MTY4OTA2MTE1NH0.Eau47sdjdyO3QyVRvRCbOLonFwgUuqqQ3snnZd31M1IcSmhshOfGCmMrUw5DFWZacR3ouA3PEkNg0v9r37mZqXiZ0FtBbk3y5NMWQUbKzZ9BXcr92kRZHUjqNPAzZAE2BqO1N6_LY2_bQItragQ8D7K6hx63NWizUIi5NAtzpTC1ePlPjAsKplFxILOdMkUV-0forNq18tjbRAHLFYdoxWwarOYNCpXEkQqBRMemYCz_s7mnbNfzo2eH3gcTUsS0cBWT8kYWIuCeTNUGZe9gBP-UTTwJPQZLfVicHaGmwRAyTcarYe4Q0AtOSTs1twdnYMgjggro7S_ttYsj4PH4gA
+2023-07-11 15:39:17 [INFO   ][ln-294]: 
+
+2023-07-11 15:39:17 [INFO   ][ln-297]: 2023
+2023-07-11 15:39:17 [INFO   ][ln-298]: 7
+2023-07-11 15:39:17 [INFO   ][ln-299]: 11
+2023-07-11 15:39:17 [INFO   ][ln-301]: 2023-07-11 00:00:00
+2023-07-11 15:39:17 [INFO   ][ln-100]: 1689004800
+2023-07-11 15:39:17 [INFO   ][ln-101]: 1689087600
+2023-07-11 15:39:17 [INFO   ][ln-531]: GetReadinessInsightSummary
+2023-07-11 15:39:17 [INFO   ][ln-550]: GetReadinessInsightSummary
+2023-07-11 15:39:20 [INFO   ][ln-309]: ####################################
+2023-07-11 15:39:20 [INFO   ][ln-310]: [{'userId': '64895a7f924521000b2d7ac7', 'startpDate': 1688832000, 'interval': 'week', 'avgReadinessScore': 10, 'maxReadinessScore': 10, 'minReadinessScore': 10, 'avgHrvScore': 68, 'maxHrvScore': 69, 'minHrvScore': 69, 'avgStressScore': 1, 'maxStressScore': 1, 'minStressScore': 1}]
+2023-07-11 15:39:20 [INFO   ][ln-311]: ####################################
+2023-07-11 15:39:20 [INFO   ][ln-313]: The avgReadinessScore get from Backend API : 
+2023-07-11 15:39:20 [INFO   ][ln-314]: 10
+2023-07-11 15:39:20 [INFO   ][ln-334]: ##################################################################
+
+
+2023-07-11 15:39:20 [INFO   ][ln-335]: PASS : L2_Readiness SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 15:39:20 [INFO   ][ln-336]: ##################################################################
+
+
+2023-07-11 15:39:20 [INFO   ][ln-91 ]: 1689004800
+2023-07-11 15:39:20 [INFO   ][ln-92 ]: 1689087600
+2023-07-11 15:39:20 [INFO   ][ln-480]: GetDailyReadinessInsightList
+2023-07-11 15:39:20 [INFO   ][ln-499]: GetDailyReadinessInsightList
+2023-07-11 15:39:22 [INFO   ][ln-349]: ####################################
+2023-07-11 15:39:22 [INFO   ][ln-350]: [{'userId': '64895a7f924521000b2d7ac7', 'startTime': 1689012013, 'endTime': 1689030742, 'hrvScore': 68.54751707435327, 'stressScore': 1, 'readinessScore': 10, 'utcOffset': 8, 'timeZone': 'Asia/Brunei'}]
+2023-07-11 15:39:22 [INFO   ][ln-351]: ####################################
+2023-07-11 15:39:22 [INFO   ][ln-353]: The Heart rate variability  get from Backend API : 
+2023-07-11 15:39:22 [INFO   ][ln-359]: <class 'int'>
+2023-07-11 15:39:22 [INFO   ][ln-361]: 68
+2023-07-11 15:39:22 [INFO   ][ln-369]: ##################################################################
+
+
+2023-07-11 15:39:22 [INFO   ][ln-370]: PASS : L2_HRV SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 15:39:22 [INFO   ][ln-371]: ##################################################################
+
+
+2023-07-11 15:39:22 [INFO   ][ln-385]: The Stress score  get from Backend API : 
+2023-07-11 15:39:22 [INFO   ][ln-387]: 1
+2023-07-11 15:39:22 [INFO   ][ln-395]: ##################################################################
+
+
+2023-07-11 15:39:22 [INFO   ][ln-396]: PASS : L2_Stress SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 15:39:22 [INFO   ][ln-397]: ##################################################################
+
+
+2023-07-11 15:39:22 [INFO   ][ln-410]: Test completed
+2023-07-11 15:39:30 [DEBUG  ][ln-839]: teardown_method
+2023-07-11 15:39:30 [DEBUG  ][ln-836]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-11 15:39:30 [INFO   ][ln-175]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.25.121'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': None}
+2023-07-11 15:39:35 [INFO   ][ln-185]: Size(width=390, height=844)
+2023-07-11 15:39:59 [INFO   ][ln-215]: ['3:39', 'Fr', '&', '<', '+', 'Readiness', 'Readiness', 'insights', 'Readiness', 'score', '10', 'Heart', 'rate', 'variability', 'G)', '68ms', 'Stress', 'G)', '1', 'Disclaimer', 'Readiness', 'Score', 'and', 'Stress', 'Score', 'are', 'Sleep', 'Readiness', 'Activity', 'Fall', 'é', 'foe)', '—']
+2023-07-11 15:39:59 [INFO   ][ln-217]: ###############################
+
+2023-07-11 15:39:59 [INFO   ][ln-218]: The L2 Readiness score get from HomePASS IOS is : 10
+2023-07-11 15:39:59 [INFO   ][ln-219]: ###############################
+
+2023-07-11 15:39:59 [INFO   ][ln-222]: ###############################
+
+2023-07-11 15:39:59 [INFO   ][ln-223]: The L2 HRV score get from HomePASS IOS is : 68
+2023-07-11 15:39:59 [INFO   ][ln-224]: ###############################
+
+2023-07-11 15:39:59 [INFO   ][ln-226]: ###############################
+
+2023-07-11 15:39:59 [INFO   ][ln-227]: The L2 Stress score get from HomePASS IOS is : 1
+2023-07-11 15:39:59 [INFO   ][ln-228]: ###############################
+
+2023-07-11 15:40:16 [INFO   ][ln-244]: #########################################################################
+
+2023-07-11 15:40:16 [INFO   ][ln-245]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-11 15:40:16 [INFO   ][ln-246]: # ---------------------------------------------------------------- #)
+
+2023-07-11 15:40:16 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-11 15:40:19 [INFO   ][ln-248]: Step 1 :  PlumeCloudLogin
+
+2023-07-11 15:40:19 [INFO   ][ln-283]: dpdsMhJ10YTAIdFFwR3viUTv6PH8jDpHNtPK5qQqmDo3dqVGJMraJnFcDIAVtD3h
+2023-07-11 15:40:19 [INFO   ][ln-286]: 64895a7f924521000b2d7ac7
+2023-07-11 15:40:19 [INFO   ][ln-287]: 
+
+2023-07-11 15:40:19 [INFO   ][ln-288]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-11 15:40:19 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-11 15:40:22 [INFO   ][ln-293]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6M2YwNTEwMWEtYjYzZC00N2VhLWJlM2QtYzNjMDVhNmEwM2VjIiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6ZHBkc01oSjEwWVRBSWRGRndSM3ZpVVR2NlBIOGpEcEhOdFBLNXFRcW1EbzNkcVZHSk1yYUpuRmNESUFWdEQzaCJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODkxNDc2MjAsImlhdCI6MTY4OTA2MTIyMH0.IOmhS37905X-f2XIsqCdlBLYtSrDoB1oagbzXnBNs5uiWXZdYj4SNE9hYlutjj22OgjeXYg8TM8dAQomX97I8pDsiAE_VOXKcbqFk_zbQ6Eol0kTqwz2g8Gm3_uY4pnuoAbDle-pRndMyL80_WPpG3VbMSU9MROvvnE3-Kt6kFnYueSfTF_F1snXH_BxMHNfGsry1GcgjZVxvNfzEXv2N3kZgPcpT0xZ83wvtHG3EotY8I-wmenXAp3OCFVY6JwgOXE-7UowgCSvWIEDjY8HmN3Tiu8hiXwcrHrVh5waWQD9AgeMMeKWcvVOZLt76WbGJHd8XDVtZcjix2fUV1jz9A
+2023-07-11 15:40:22 [INFO   ][ln-294]: 
+
+2023-07-11 15:40:22 [INFO   ][ln-297]: 2023
+2023-07-11 15:40:22 [INFO   ][ln-298]: 7
+2023-07-11 15:40:22 [INFO   ][ln-299]: 11
+2023-07-11 15:40:22 [INFO   ][ln-301]: 2023-07-11 00:00:00
+2023-07-11 15:40:22 [INFO   ][ln-100]: 1689004800
+2023-07-11 15:40:22 [INFO   ][ln-101]: 1689087600
+2023-07-11 15:40:22 [INFO   ][ln-531]: GetReadinessInsightSummary
+2023-07-11 15:40:22 [INFO   ][ln-550]: GetReadinessInsightSummary
+2023-07-11 15:40:25 [INFO   ][ln-309]: ####################################
+2023-07-11 15:40:25 [INFO   ][ln-310]: [{'userId': '64895a7f924521000b2d7ac7', 'startpDate': 1688832000, 'interval': 'week', 'avgReadinessScore': 10, 'maxReadinessScore': 10, 'minReadinessScore': 10, 'avgHrvScore': 68, 'maxHrvScore': 69, 'minHrvScore': 69, 'avgStressScore': 1, 'maxStressScore': 1, 'minStressScore': 1}]
+2023-07-11 15:40:25 [INFO   ][ln-311]: ####################################
+2023-07-11 15:40:25 [INFO   ][ln-313]: The avgReadinessScore get from Backend API : 
+2023-07-11 15:40:25 [INFO   ][ln-314]: 10
+2023-07-11 15:40:25 [INFO   ][ln-334]: ##################################################################
+
+
+2023-07-11 15:40:25 [INFO   ][ln-335]: PASS : L2_Readiness SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 15:40:25 [INFO   ][ln-336]: ##################################################################
+
+
+2023-07-11 15:40:25 [INFO   ][ln-91 ]: 1689004800
+2023-07-11 15:40:25 [INFO   ][ln-92 ]: 1689087600
+2023-07-11 15:40:25 [INFO   ][ln-480]: GetDailyReadinessInsightList
+2023-07-11 15:40:25 [INFO   ][ln-499]: GetDailyReadinessInsightList
+2023-07-11 15:40:27 [INFO   ][ln-349]: ####################################
+2023-07-11 15:40:27 [INFO   ][ln-350]: [{'userId': '64895a7f924521000b2d7ac7', 'startTime': 1689012013, 'endTime': 1689030742, 'hrvScore': 68.54751707435327, 'stressScore': 1, 'readinessScore': 10, 'utcOffset': 8, 'timeZone': 'Asia/Brunei'}]
+2023-07-11 15:40:27 [INFO   ][ln-351]: ####################################
+2023-07-11 15:40:27 [INFO   ][ln-353]: The Heart rate variability  get from Backend API : 
+2023-07-11 15:40:27 [INFO   ][ln-359]: <class 'int'>
+2023-07-11 15:40:27 [INFO   ][ln-361]: 68
+2023-07-11 15:40:27 [INFO   ][ln-369]: ##################################################################
+
+
+2023-07-11 15:40:27 [INFO   ][ln-370]: PASS : L2_HRV SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 15:40:27 [INFO   ][ln-371]: ##################################################################
+
+
+2023-07-11 15:40:27 [INFO   ][ln-385]: The Stress score  get from Backend API : 
+2023-07-11 15:40:27 [INFO   ][ln-387]: 1
+2023-07-11 15:40:27 [INFO   ][ln-395]: ##################################################################
+
+
+2023-07-11 15:40:27 [INFO   ][ln-396]: PASS : L2_Stress SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 15:40:27 [INFO   ][ln-397]: ##################################################################
+
+
+2023-07-11 15:40:27 [INFO   ][ln-410]: Test completed
+2023-07-11 15:40:35 [DEBUG  ][ln-839]: teardown_method
+2023-07-11 15:40:35 [DEBUG  ][ln-836]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-11 15:40:35 [INFO   ][ln-175]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.25.121'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': None}
+2023-07-11 15:40:40 [INFO   ][ln-185]: Size(width=390, height=844)
+2023-07-11 15:41:04 [INFO   ][ln-215]: ['3:41', '=F', '&', '<', '+', 'Readiness', 'Readiness', 'insights', 'Readiness', 'score', '10', 'Heart', 'rate', 'variability', 'G)', '68ms', 'Stress', 'G)', '1', 'Disclaimer', 'Readiness', 'Score', 'and', 'Stress', 'Score', 'are', 'Sleep', 'Readiness', 'Activity', 'Fall', 'é', 'foe)', '—']
+2023-07-11 15:41:04 [INFO   ][ln-217]: ###############################
+
+2023-07-11 15:41:04 [INFO   ][ln-218]: The L2 Readiness score get from HomePASS IOS is : 10
+2023-07-11 15:41:04 [INFO   ][ln-219]: ###############################
+
+2023-07-11 15:41:04 [INFO   ][ln-222]: ###############################
+
+2023-07-11 15:41:04 [INFO   ][ln-223]: The L2 HRV score get from HomePASS IOS is : 68
+2023-07-11 15:41:04 [INFO   ][ln-224]: ###############################
+
+2023-07-11 15:41:04 [INFO   ][ln-226]: ###############################
+
+2023-07-11 15:41:04 [INFO   ][ln-227]: The L2 Stress score get from HomePASS IOS is : 1
+2023-07-11 15:41:04 [INFO   ][ln-228]: ###############################
+
+2023-07-11 15:41:21 [INFO   ][ln-244]: #########################################################################
+
+2023-07-11 15:41:21 [INFO   ][ln-245]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-11 15:41:21 [INFO   ][ln-246]: # ---------------------------------------------------------------- #)
+
+2023-07-11 15:41:21 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-11 15:41:24 [INFO   ][ln-248]: Step 1 :  PlumeCloudLogin
+
+2023-07-11 15:41:24 [INFO   ][ln-283]: RIz49CodcOrKNUsGKJ9bdhkHE1Dk22Ld5vp1dlJUE9U3DCIJUETxkcx2El6irCeG
+2023-07-11 15:41:24 [INFO   ][ln-286]: 64895a7f924521000b2d7ac7
+2023-07-11 15:41:24 [INFO   ][ln-287]: 
+
+2023-07-11 15:41:24 [INFO   ][ln-288]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-11 15:41:24 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-11 15:41:27 [INFO   ][ln-293]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6YzJhMmM1ZDYtM2E4Ny00ZTcyLTg2NjUtNDViZDA2NzFmZjRjIiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6Ukl6NDlDb2RjT3JLTlVzR0tKOWJkaGtIRTFEazIyTGQ1dnAxZGxKVUU5VTNEQ0lKVUVUeGtjeDJFbDZpckNlRyJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODkxNDc2ODUsImlhdCI6MTY4OTA2MTI4NX0.d0CyALZhEXxhSlt2YoxrOtGwLufBek1FVa3x_HDh6ja7AFJMsijrKtVhZx8H1nCISbgPayR4XpI0hLwvJAJSzOb3rjGMI6cSSopp0nZYxouJ7cb3xIWFFOLuxxH5LBbaMcPoK_Jv0UB_RsUYyW83JQRhtW5_Z9sFgGzS0doioYpBLrk4kQ9I0zSvPC9TRBMoJOayXwueXgF12-D7YzhMF-5bSgZgp1buEXjEmrSakgh4GOsfc8PC_dGMIkfUzxg31fneqldaMzmBfG-WvX8ma9SQo_PEbu6CXA4TJAq8Z6_ZSzMP-8uSM0CSwwTSny9O9ZcsIs7jrbJ_c0NDHI04aA
+2023-07-11 15:41:27 [INFO   ][ln-294]: 
+
+2023-07-11 15:41:27 [INFO   ][ln-297]: 2023
+2023-07-11 15:41:27 [INFO   ][ln-298]: 7
+2023-07-11 15:41:27 [INFO   ][ln-299]: 11
+2023-07-11 15:41:27 [INFO   ][ln-301]: 2023-07-11 00:00:00
+2023-07-11 15:41:27 [INFO   ][ln-100]: 1689004800
+2023-07-11 15:41:27 [INFO   ][ln-101]: 1689087600
+2023-07-11 15:41:27 [INFO   ][ln-531]: GetReadinessInsightSummary
+2023-07-11 15:41:27 [INFO   ][ln-550]: GetReadinessInsightSummary
+2023-07-11 15:41:30 [INFO   ][ln-309]: ####################################
+2023-07-11 15:41:30 [INFO   ][ln-310]: [{'userId': '64895a7f924521000b2d7ac7', 'startpDate': 1688832000, 'interval': 'week', 'avgReadinessScore': 10, 'maxReadinessScore': 10, 'minReadinessScore': 10, 'avgHrvScore': 68, 'maxHrvScore': 69, 'minHrvScore': 69, 'avgStressScore': 1, 'maxStressScore': 1, 'minStressScore': 1}]
+2023-07-11 15:41:30 [INFO   ][ln-311]: ####################################
+2023-07-11 15:41:30 [INFO   ][ln-313]: The avgReadinessScore get from Backend API : 
+2023-07-11 15:41:30 [INFO   ][ln-314]: 10
+2023-07-11 15:41:30 [INFO   ][ln-334]: ##################################################################
+
+
+2023-07-11 15:41:30 [INFO   ][ln-335]: PASS : L2_Readiness SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 15:41:30 [INFO   ][ln-336]: ##################################################################
+
+
+2023-07-11 15:41:30 [INFO   ][ln-91 ]: 1689004800
+2023-07-11 15:41:30 [INFO   ][ln-92 ]: 1689087600
+2023-07-11 15:41:30 [INFO   ][ln-480]: GetDailyReadinessInsightList
+2023-07-11 15:41:30 [INFO   ][ln-499]: GetDailyReadinessInsightList
+2023-07-11 15:41:33 [INFO   ][ln-349]: ####################################
+2023-07-11 15:41:33 [INFO   ][ln-350]: [{'userId': '64895a7f924521000b2d7ac7', 'startTime': 1689012013, 'endTime': 1689030742, 'hrvScore': 68.54751707435327, 'stressScore': 1, 'readinessScore': 10, 'utcOffset': 8, 'timeZone': 'Asia/Brunei'}]
+2023-07-11 15:41:33 [INFO   ][ln-351]: ####################################
+2023-07-11 15:41:33 [INFO   ][ln-353]: The Heart rate variability  get from Backend API : 
+2023-07-11 15:41:33 [INFO   ][ln-359]: <class 'int'>
+2023-07-11 15:41:33 [INFO   ][ln-361]: 68
+2023-07-11 15:41:33 [INFO   ][ln-369]: ##################################################################
+
+
+2023-07-11 15:41:33 [INFO   ][ln-370]: PASS : L2_HRV SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 15:41:33 [INFO   ][ln-371]: ##################################################################
+
+
+2023-07-11 15:41:33 [INFO   ][ln-385]: The Stress score  get from Backend API : 
+2023-07-11 15:41:33 [INFO   ][ln-387]: 1
+2023-07-11 15:41:33 [INFO   ][ln-395]: ##################################################################
+
+
+2023-07-11 15:41:33 [INFO   ][ln-396]: PASS : L2_Stress SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 15:41:33 [INFO   ][ln-397]: ##################################################################
+
+
+2023-07-11 15:41:33 [INFO   ][ln-410]: Test completed
+2023-07-11 15:41:40 [DEBUG  ][ln-839]: teardown_method
+2023-07-11 15:41:40 [DEBUG  ][ln-836]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-11 15:41:40 [INFO   ][ln-175]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.25.121'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': None}
+2023-07-11 15:41:45 [INFO   ][ln-185]: Size(width=390, height=844)
+2023-07-11 15:42:09 [INFO   ][ln-215]: ['3:42', '=F', '&', '<', '+', 'Readiness', 'Readiness', 'insights', 'Readiness', 'score', '10', 'Heart', 'rate', 'variability', 'G)', '68ms', 'Stress', 'G)', '1', 'Disclaimer', 'Readiness', 'Score', 'and', 'Stress', 'Score', 'are', 'Sleep', 'Readiness', 'Activity', 'Fall', 'é', 'foe)', '—']
+2023-07-11 15:42:09 [INFO   ][ln-217]: ###############################
+
+2023-07-11 15:42:09 [INFO   ][ln-218]: The L2 Readiness score get from HomePASS IOS is : 10
+2023-07-11 15:42:09 [INFO   ][ln-219]: ###############################
+
+2023-07-11 15:42:09 [INFO   ][ln-222]: ###############################
+
+2023-07-11 15:42:09 [INFO   ][ln-223]: The L2 HRV score get from HomePASS IOS is : 68
+2023-07-11 15:42:09 [INFO   ][ln-224]: ###############################
+
+2023-07-11 15:42:09 [INFO   ][ln-226]: ###############################
+
+2023-07-11 15:42:09 [INFO   ][ln-227]: The L2 Stress score get from HomePASS IOS is : 1
+2023-07-11 15:42:09 [INFO   ][ln-228]: ###############################
+
+2023-07-11 15:42:27 [INFO   ][ln-244]: #########################################################################
+
+2023-07-11 15:42:27 [INFO   ][ln-245]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-11 15:42:27 [INFO   ][ln-246]: # ---------------------------------------------------------------- #)
+
+2023-07-11 15:42:27 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-11 15:42:29 [INFO   ][ln-248]: Step 1 :  PlumeCloudLogin
+
+2023-07-11 15:42:29 [INFO   ][ln-283]: wQkUXWpnzCVehD9EAkzTs1Cpn6F7PpbmXIiTEz24g6q8lWbZujUSZEt5PT6bArWP
+2023-07-11 15:42:29 [INFO   ][ln-286]: 64895a7f924521000b2d7ac7
+2023-07-11 15:42:29 [INFO   ][ln-287]: 
+
+2023-07-11 15:42:29 [INFO   ][ln-288]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-11 15:42:29 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-11 15:42:33 [INFO   ][ln-293]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6YjE3MzI0MzgtNWU0OC00OGIxLWE2N2EtNDRkZGQyMzc4MmY3IiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6d1FrVVhXcG56Q1ZlaEQ5RUFrelRzMUNwbjZGN1BwYm1YSWlURXoyNGc2cThsV2JadWpVU1pFdDVQVDZiQXJXUCJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODkxNDc3NTAsImlhdCI6MTY4OTA2MTM1MH0.UVwhFB-E3u2H1z1BqH-ObBgbnFzN4msUlzLLVGGkodpscLNfc4zIIvgx6-nbfzJXDwMsFTkZ873SDJfVxdiZR7yHstNS2V16GzcfUp_hTo9wmkTf-86eOLMnqlMSYyxZZUDEK2LSsqBiQsy7hPb6-FyYqnOcaga4WkBtnFzuoqaP1zCGOKPoEzpQk0MBa07zDcC5ikYY7fx2ULmVGQzW_NhBrKwl5JJ-S-ZqpVAs6Maf3nuOuMIO3DX_KX3t1PnH5XoaUfjleuiGGm_AuiBz4kMx-0jXFTCVEh2y_aPt_er4aDWUrsJZAfv0GXXB_J8XI-ONemUJx-0ghD11XLy5tw
+2023-07-11 15:42:33 [INFO   ][ln-294]: 
+
+2023-07-11 15:42:33 [INFO   ][ln-297]: 2023
+2023-07-11 15:42:33 [INFO   ][ln-298]: 7
+2023-07-11 15:42:33 [INFO   ][ln-299]: 11
+2023-07-11 15:42:33 [INFO   ][ln-301]: 2023-07-11 00:00:00
+2023-07-11 15:42:33 [INFO   ][ln-100]: 1689004800
+2023-07-11 15:42:33 [INFO   ][ln-101]: 1689087600
+2023-07-11 15:42:33 [INFO   ][ln-531]: GetReadinessInsightSummary
+2023-07-11 15:42:33 [INFO   ][ln-550]: GetReadinessInsightSummary
+2023-07-11 15:42:35 [INFO   ][ln-309]: ####################################
+2023-07-11 15:42:35 [INFO   ][ln-310]: [{'userId': '64895a7f924521000b2d7ac7', 'startpDate': 1688832000, 'interval': 'week', 'avgReadinessScore': 10, 'maxReadinessScore': 10, 'minReadinessScore': 10, 'avgHrvScore': 68, 'maxHrvScore': 69, 'minHrvScore': 69, 'avgStressScore': 1, 'maxStressScore': 1, 'minStressScore': 1}]
+2023-07-11 15:42:35 [INFO   ][ln-311]: ####################################
+2023-07-11 15:42:35 [INFO   ][ln-313]: The avgReadinessScore get from Backend API : 
+2023-07-11 15:42:35 [INFO   ][ln-314]: 10
+2023-07-11 15:42:35 [INFO   ][ln-334]: ##################################################################
+
+
+2023-07-11 15:42:35 [INFO   ][ln-335]: PASS : L2_Readiness SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 15:42:35 [INFO   ][ln-336]: ##################################################################
+
+
+2023-07-11 15:42:35 [INFO   ][ln-91 ]: 1689004800
+2023-07-11 15:42:35 [INFO   ][ln-92 ]: 1689087600
+2023-07-11 15:42:35 [INFO   ][ln-480]: GetDailyReadinessInsightList
+2023-07-11 15:42:35 [INFO   ][ln-499]: GetDailyReadinessInsightList
+2023-07-11 15:42:38 [INFO   ][ln-349]: ####################################
+2023-07-11 15:42:38 [INFO   ][ln-350]: [{'userId': '64895a7f924521000b2d7ac7', 'startTime': 1689012013, 'endTime': 1689030742, 'hrvScore': 68.54751707435327, 'stressScore': 1, 'readinessScore': 10, 'utcOffset': 8, 'timeZone': 'Asia/Brunei'}]
+2023-07-11 15:42:38 [INFO   ][ln-351]: ####################################
+2023-07-11 15:42:38 [INFO   ][ln-353]: The Heart rate variability  get from Backend API : 
+2023-07-11 15:42:38 [INFO   ][ln-359]: <class 'int'>
+2023-07-11 15:42:38 [INFO   ][ln-361]: 68
+2023-07-11 15:42:38 [INFO   ][ln-369]: ##################################################################
+
+
+2023-07-11 15:42:38 [INFO   ][ln-370]: PASS : L2_HRV SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 15:42:38 [INFO   ][ln-371]: ##################################################################
+
+
+2023-07-11 15:42:38 [INFO   ][ln-385]: The Stress score  get from Backend API : 
+2023-07-11 15:42:38 [INFO   ][ln-387]: 1
+2023-07-11 15:42:38 [INFO   ][ln-395]: ##################################################################
+
+
+2023-07-11 15:42:38 [INFO   ][ln-396]: PASS : L2_Stress SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 15:42:38 [INFO   ][ln-397]: ##################################################################
+
+
+2023-07-11 15:42:38 [INFO   ][ln-410]: Test completed
+2023-07-11 15:42:45 [DEBUG  ][ln-839]: teardown_method
+2023-07-11 15:42:45 [DEBUG  ][ln-836]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-11 15:42:45 [INFO   ][ln-175]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.25.121'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': None}
+2023-07-11 15:42:50 [INFO   ][ln-185]: Size(width=390, height=844)
+2023-07-11 15:43:14 [INFO   ][ln-215]: ['3:43', 'Fr', '&', '<', '+', 'Readiness', 'Readiness', 'insights', 'Readiness', 'score', '10', 'Heart', 'rate', 'variability', 'G)', '68ms', 'Stress', 'G)', '1', 'Disclaimer', 'Readiness', 'Score', 'and', 'Stress', 'Score', 'are', 'Sleep', 'Readiness', 'Activity', 'Fall', 'é', 'foe)', '—']
+2023-07-11 15:43:14 [INFO   ][ln-217]: ###############################
+
+2023-07-11 15:43:14 [INFO   ][ln-218]: The L2 Readiness score get from HomePASS IOS is : 10
+2023-07-11 15:43:14 [INFO   ][ln-219]: ###############################
+
+2023-07-11 15:43:14 [INFO   ][ln-222]: ###############################
+
+2023-07-11 15:43:14 [INFO   ][ln-223]: The L2 HRV score get from HomePASS IOS is : 68
+2023-07-11 15:43:14 [INFO   ][ln-224]: ###############################
+
+2023-07-11 15:43:14 [INFO   ][ln-226]: ###############################
+
+2023-07-11 15:43:14 [INFO   ][ln-227]: The L2 Stress score get from HomePASS IOS is : 1
+2023-07-11 15:43:14 [INFO   ][ln-228]: ###############################
+
+2023-07-11 15:43:32 [INFO   ][ln-244]: #########################################################################
+
+2023-07-11 15:43:32 [INFO   ][ln-245]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-11 15:43:32 [INFO   ][ln-246]: # ---------------------------------------------------------------- #)
+
+2023-07-11 15:43:32 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-11 15:43:35 [INFO   ][ln-248]: Step 1 :  PlumeCloudLogin
+
+2023-07-11 15:43:35 [INFO   ][ln-283]: ijkZakJyDTDIUq44axv7zvsnLbZ3lPBuYullEFo3EgSiSV9knHtC4rS4rqspSacz
+2023-07-11 15:43:35 [INFO   ][ln-286]: 64895a7f924521000b2d7ac7
+2023-07-11 15:43:35 [INFO   ][ln-287]: 
+
+2023-07-11 15:43:35 [INFO   ][ln-288]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-11 15:43:35 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-11 15:43:38 [INFO   ][ln-293]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6YmFlM2IwMzgtNzc4Ni00N2RiLTk3ZGQtMDQxM2U4MmE1MzMxIiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6aWprWmFrSnlEVERJVXE0NGF4djd6dnNuTGJaM2xQQnVZdWxsRUZvM0VnU2lTVjlrbkh0QzRyUzRycXNwU2FjeiJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODkxNDc4MTYsImlhdCI6MTY4OTA2MTQxNn0.hRV-nAVrVKTgH5uvDPukRZH58fdEWVNVJU-ciNZpC6AFlfpb62Go91ko2e-_jr1bihygVQ8eSl001NN7VU7abEx4WQGR3sZcjCBt2IUtOULm896sREhLxRry69qOorCOr8wADKcKm8tq9fX2PEasd7JMIXrjMo_cpeVQ_f6MZdsYtWOmH11Z-bOy7wR8SJJJpb_u2kNYUIQ2XXkR8Ln7imfxmHWav_j6EfXm639umYqezJJxM_2UCbbv7qu11vBA8RkoZQDswVEGvBuq88NvvFSIpp2kgDED9APrxLLARLTjpOQx2ipwfA3rqFntGbItHrRIrAtrTmKoxeGhhJRrUQ
+2023-07-11 15:43:38 [INFO   ][ln-294]: 
+
+2023-07-11 15:43:38 [INFO   ][ln-297]: 2023
+2023-07-11 15:43:38 [INFO   ][ln-298]: 7
+2023-07-11 15:43:38 [INFO   ][ln-299]: 11
+2023-07-11 15:43:38 [INFO   ][ln-301]: 2023-07-11 00:00:00
+2023-07-11 15:43:38 [INFO   ][ln-100]: 1689004800
+2023-07-11 15:43:38 [INFO   ][ln-101]: 1689087600
+2023-07-11 15:43:38 [INFO   ][ln-531]: GetReadinessInsightSummary
+2023-07-11 15:43:38 [INFO   ][ln-550]: GetReadinessInsightSummary
+2023-07-11 15:43:41 [INFO   ][ln-309]: ####################################
+2023-07-11 15:43:41 [INFO   ][ln-310]: [{'userId': '64895a7f924521000b2d7ac7', 'startpDate': 1688832000, 'interval': 'week', 'avgReadinessScore': 10, 'maxReadinessScore': 10, 'minReadinessScore': 10, 'avgHrvScore': 68, 'maxHrvScore': 69, 'minHrvScore': 69, 'avgStressScore': 1, 'maxStressScore': 1, 'minStressScore': 1}]
+2023-07-11 15:43:41 [INFO   ][ln-311]: ####################################
+2023-07-11 15:43:41 [INFO   ][ln-313]: The avgReadinessScore get from Backend API : 
+2023-07-11 15:43:41 [INFO   ][ln-314]: 10
+2023-07-11 15:43:41 [INFO   ][ln-334]: ##################################################################
+
+
+2023-07-11 15:43:41 [INFO   ][ln-335]: PASS : L2_Readiness SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 15:43:41 [INFO   ][ln-336]: ##################################################################
+
+
+2023-07-11 15:43:41 [INFO   ][ln-91 ]: 1689004800
+2023-07-11 15:43:41 [INFO   ][ln-92 ]: 1689087600
+2023-07-11 15:43:41 [INFO   ][ln-480]: GetDailyReadinessInsightList
+2023-07-11 15:43:41 [INFO   ][ln-499]: GetDailyReadinessInsightList
+2023-07-11 15:43:44 [INFO   ][ln-349]: ####################################
+2023-07-11 15:43:44 [INFO   ][ln-350]: [{'userId': '64895a7f924521000b2d7ac7', 'startTime': 1689012013, 'endTime': 1689030742, 'hrvScore': 68.54751707435327, 'stressScore': 1, 'readinessScore': 10, 'utcOffset': 8, 'timeZone': 'Asia/Brunei'}]
+2023-07-11 15:43:44 [INFO   ][ln-351]: ####################################
+2023-07-11 15:43:44 [INFO   ][ln-353]: The Heart rate variability  get from Backend API : 
+2023-07-11 15:43:44 [INFO   ][ln-359]: <class 'int'>
+2023-07-11 15:43:44 [INFO   ][ln-361]: 68
+2023-07-11 15:43:44 [INFO   ][ln-369]: ##################################################################
+
+
+2023-07-11 15:43:44 [INFO   ][ln-370]: PASS : L2_HRV SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 15:43:44 [INFO   ][ln-371]: ##################################################################
+
+
+2023-07-11 15:43:44 [INFO   ][ln-385]: The Stress score  get from Backend API : 
+2023-07-11 15:43:44 [INFO   ][ln-387]: 1
+2023-07-11 15:43:44 [INFO   ][ln-395]: ##################################################################
+
+
+2023-07-11 15:43:44 [INFO   ][ln-396]: PASS : L2_Stress SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 15:43:44 [INFO   ][ln-397]: ##################################################################
+
+
+2023-07-11 15:43:44 [INFO   ][ln-410]: Test completed
+2023-07-11 15:43:51 [DEBUG  ][ln-839]: teardown_method
+2023-07-11 15:43:51 [DEBUG  ][ln-836]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-11 15:43:51 [INFO   ][ln-175]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.25.121'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': None}
+2023-07-11 15:43:56 [INFO   ][ln-185]: Size(width=390, height=844)
+2023-07-11 15:44:25 [INFO   ][ln-244]: #########################################################################
+
+2023-07-11 15:44:25 [INFO   ][ln-245]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-11 15:44:25 [INFO   ][ln-246]: # ---------------------------------------------------------------- #)
+
+2023-07-11 15:44:25 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-11 15:44:27 [INFO   ][ln-248]: Step 1 :  PlumeCloudLogin
+
+2023-07-11 15:44:27 [INFO   ][ln-283]: smoigqWTwfSoaUtPPFZii6vmAAvGi4FQqmGxuCI4HiucXi7CDqGjQ1BWAbijVSLj
+2023-07-11 15:44:27 [INFO   ][ln-286]: 64895a7f924521000b2d7ac7
+2023-07-11 15:44:27 [INFO   ][ln-287]: 
+
+2023-07-11 15:44:27 [INFO   ][ln-288]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-11 15:44:27 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-11 15:44:31 [INFO   ][ln-293]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6ODNmNTFjYmMtMDdkZS00MGFjLThiNjctMzEzZmI1MDY5YzMwIiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6c21vaWdxV1R3ZlNvYVV0UFBGWmlpNnZtQUF2R2k0RlFxbUd4dUNJNEhpdWNYaTdDRHFHalExQldBYmlqVlNMaiJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODkxNDc4NjgsImlhdCI6MTY4OTA2MTQ2OH0.SnhCuLNNUWnsoFKrz_htbCtN3j3TGjAcizgziqoABflmRjN-HjF-iRZGO7FNuUznX-3XedXKS5VqVfPAa_S2dw0aWv0ziC__zdmvSUUHNUS9R6a_fbsLdoVohHgP25DyenL6rVgBsjMAzaw1EsNHH2KgyhsZo2IO31MRd_Si3fAwU6c93D65Rg4D2tHhFX8004uJADtY4B-skq0avoLhZYApdf6teetqJSYjsc6eWKLUKk_VJemoauP0Uz3vjUQxU7CrY1KTjsiJnwmZ_7PpGweS5GlHGqR-Sx4Ry4sOIgFjOTKguoOYoxVBT-I5dkHQsrDrSepy1YdKxjEQQgCyug
+2023-07-11 15:44:31 [INFO   ][ln-294]: 
+
+2023-07-11 15:44:31 [INFO   ][ln-297]: 2023
+2023-07-11 15:44:31 [INFO   ][ln-298]: 7
+2023-07-11 15:44:31 [INFO   ][ln-299]: 11
+2023-07-11 15:44:31 [INFO   ][ln-301]: 2023-07-11 00:00:00
+2023-07-11 15:44:31 [INFO   ][ln-100]: 1689004800
+2023-07-11 15:44:31 [INFO   ][ln-101]: 1689087600
+2023-07-11 15:44:31 [INFO   ][ln-531]: GetReadinessInsightSummary
+2023-07-11 15:44:31 [INFO   ][ln-550]: GetReadinessInsightSummary
+2023-07-11 15:44:33 [INFO   ][ln-309]: ####################################
+2023-07-11 15:44:33 [INFO   ][ln-310]: [{'userId': '64895a7f924521000b2d7ac7', 'startpDate': 1688832000, 'interval': 'week', 'avgReadinessScore': 10, 'maxReadinessScore': 10, 'minReadinessScore': 10, 'avgHrvScore': 68, 'maxHrvScore': 69, 'minHrvScore': 69, 'avgStressScore': 1, 'maxStressScore': 1, 'minStressScore': 1}]
+2023-07-11 15:44:33 [INFO   ][ln-311]: ####################################
+2023-07-11 15:44:33 [INFO   ][ln-313]: The avgReadinessScore get from Backend API : 
+2023-07-11 15:44:33 [INFO   ][ln-314]: 10
+2023-07-11 15:44:33 [DEBUG  ][ln-839]: teardown_method
+2023-07-11 15:44:33 [DEBUG  ][ln-833]: teardown_class
+2023-07-11 15:49:06 [INFO   ][ln-47 ]: Start to load config file
+2023-07-11 15:49:06 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+4@plume.com', 'pwd': 'plume1234', 'devuserid': '64895a7f924521000b2d7ac7', 'sn': 'KD8F00003C', 'devid': '60B4F7B306AD', 'mac': '60:B4:F7:B3:06:AD', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-07-11 15:49:06 [DEBUG  ][ln-830]: ======================================== Star to run: <TestAPI> ========================================
+2023-07-11 15:49:06 [DEBUG  ][ln-836]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-11 15:49:06 [INFO   ][ln-175]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.25.121'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': 'A2BA9F02-C279-4D71-980C-27133AAAEB15'}
+2023-07-11 15:49:11 [INFO   ][ln-185]: Size(width=390, height=844)
+2023-07-11 15:49:41 [INFO   ][ln-244]: #########################################################################
+
+2023-07-11 15:49:41 [INFO   ][ln-245]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-11 15:49:41 [INFO   ][ln-246]: # ---------------------------------------------------------------- #)
+
+2023-07-11 15:49:41 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-11 15:49:45 [INFO   ][ln-248]: Step 1 :  PlumeCloudLogin
+
+2023-07-11 15:49:45 [INFO   ][ln-283]: NwkkCErMBDWdwjjiJk2i7At9d9qf8oRsUsBR8epewdMD6BXTLdtI0RCBuZ7qKDr9
+2023-07-11 15:49:45 [INFO   ][ln-286]: 64895a7f924521000b2d7ac7
+2023-07-11 15:49:45 [INFO   ][ln-287]: 
+
+2023-07-11 15:49:45 [INFO   ][ln-288]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-11 15:49:45 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-11 15:49:49 [INFO   ][ln-293]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6ZWM3OTllMGQtM2FhZS00NzM4LWIwMzktNTU4ZjExYTViNjEyIiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6Tndra0NFck1CRFdkd2pqaUprMmk3QXQ5ZDlxZjhvUnNVc0JSOGVwZXdkTUQ2QlhUTGR0STBSQ0J1WjdxS0RyOSJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODkxNDgxODcsImlhdCI6MTY4OTA2MTc4N30.Pv0AUMnt7R1kjMJh_mSQzrSHvhiP6qiAqR4le9p19vzeop4VRUdXZAoeBur6Aul48kzqp3UnxQ2BiJ56-ZVdGfq_a2Bkb61Hf8mMT9NHKi0Id6w7oWobJWytCEDMuheqR6DlO-DByo_px5Vo-nFy1wPmALvK4fL9QXZVqEtoA8gO8vMaSbap5j_cvQ09puk1bP5DUqFxD6AEIhcbmhSqLKC16E2wXR2l3jKILDBGWjTRYZa1QRmwROU7-WjJOwGKWhavLu7bYSGVyvMejP6ZMcenjm0q50aHYD2MS1iOHxhLYK-5XLniN-wjaZoS5MEgCeTFI5qlej8o4rbpXUiNNw
+2023-07-11 15:49:49 [INFO   ][ln-294]: 
+
+2023-07-11 15:49:49 [INFO   ][ln-297]: 2023
+2023-07-11 15:49:49 [INFO   ][ln-298]: 7
+2023-07-11 15:49:49 [INFO   ][ln-299]: 11
+2023-07-11 15:49:49 [INFO   ][ln-301]: 2023-07-11 00:00:00
+2023-07-11 15:49:49 [INFO   ][ln-100]: 1689004800
+2023-07-11 15:49:49 [INFO   ][ln-101]: 1689087600
+2023-07-11 15:49:49 [INFO   ][ln-531]: GetReadinessInsightSummary
+2023-07-11 15:49:49 [INFO   ][ln-550]: GetReadinessInsightSummary
+2023-07-11 15:49:52 [INFO   ][ln-309]: ####################################
+2023-07-11 15:49:52 [INFO   ][ln-310]: [{'userId': '64895a7f924521000b2d7ac7', 'startpDate': 1688832000, 'interval': 'week', 'avgReadinessScore': 10, 'maxReadinessScore': 10, 'minReadinessScore': 10, 'avgHrvScore': 68, 'maxHrvScore': 69, 'minHrvScore': 69, 'avgStressScore': 1, 'maxStressScore': 1, 'minStressScore': 1}]
+2023-07-11 15:49:52 [INFO   ][ln-311]: ####################################
+2023-07-11 15:49:52 [INFO   ][ln-313]: The avgReadinessScore get from Backend API : 
+2023-07-11 15:49:52 [INFO   ][ln-314]: 10
+2023-07-11 15:49:52 [DEBUG  ][ln-839]: teardown_method
+2023-07-11 15:49:52 [DEBUG  ][ln-836]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-11 15:49:52 [INFO   ][ln-175]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.25.121'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': 'A2BA9F02-C279-4D71-980C-27133AAAEB15'}
+2023-07-11 15:49:57 [INFO   ][ln-185]: Size(width=390, height=844)
+2023-07-11 15:50:21 [INFO   ][ln-215]: ['3:50', 'Fr', '&', '<', '+', 'Readiness', 'Readiness', 'insights', 'Readiness', 'score', '10', 'Heart', 'rate', 'variability', 'G)', '68ms', 'Stress', 'G)', '1', 'Disclaimer', 'Readiness', 'Score', 'and', 'Stress', 'Score', 'are', 'Sleep', 'Readiness', 'Activity', 'Fall', 'é', 'foe)', '—']
+2023-07-11 15:50:21 [INFO   ][ln-217]: ###############################
+
+2023-07-11 15:50:21 [INFO   ][ln-218]: The L2 Readiness score get from HomePASS IOS is : 10
+2023-07-11 15:50:21 [INFO   ][ln-219]: ###############################
+
+2023-07-11 15:50:21 [INFO   ][ln-222]: ###############################
+
+2023-07-11 15:50:21 [INFO   ][ln-223]: The L2 HRV score get from HomePASS IOS is : 68
+2023-07-11 15:50:21 [INFO   ][ln-224]: ###############################
+
+2023-07-11 15:50:21 [INFO   ][ln-226]: ###############################
+
+2023-07-11 15:50:21 [INFO   ][ln-227]: The L2 Stress score get from HomePASS IOS is : 1
+2023-07-11 15:50:21 [INFO   ][ln-228]: ###############################
+
+2023-07-11 15:50:39 [INFO   ][ln-244]: #########################################################################
+
+2023-07-11 15:50:39 [INFO   ][ln-245]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-11 15:50:39 [INFO   ][ln-246]: # ---------------------------------------------------------------- #)
+
+2023-07-11 15:50:39 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-11 15:50:41 [INFO   ][ln-248]: Step 1 :  PlumeCloudLogin
+
+2023-07-11 15:50:41 [INFO   ][ln-283]: C4SH2Bpar3xBPDcgGfAN73h4qKp1nRpPCdsOnZRwfRq3ZHpaaEGLuXzV2X5duhDq
+2023-07-11 15:50:41 [INFO   ][ln-286]: 64895a7f924521000b2d7ac7
+2023-07-11 15:50:41 [INFO   ][ln-287]: 
+
+2023-07-11 15:50:41 [INFO   ][ln-288]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-11 15:50:41 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-11 15:50:45 [INFO   ][ln-293]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6N2U2YWMwODgtODUxNi00OTk1LThiNTQtMWM0NmUxNTM4ZGE2IiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6QzRTSDJCcGFyM3hCUERjZ0dmQU43M2g0cUtwMW5ScFBDZHNPblpSd2ZScTNaSHBhYUVHTHVYelYyWDVkdWhEcSJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODkxNDgyNDIsImlhdCI6MTY4OTA2MTg0Mn0.DD8eDAmFlV2Z69g61XhxEFucY5F_4aVZ9EhDNlJ2TecUAmAzM0PsFUhT29-HFZORokoYMp1Bb1fdz81AfuZ_Q0byd-eziugR10JHrOh7cbPNHtVlj2pADehQ-PwEU41MoaNGRM85XkK78z884wsAncG1oRL2rQYXjftTr9bZiXUc-1iq9jYmKfIMJ3Nl7_vlm3Td8iku9OGhyguRI50NPWfEOnnnnVhxb5vH4WgifEidPomDa8CahBuago8vnj2mBbHd1zsC0tVWIJsi0qJc1DxomfLPIbE3MAHaGgdFYLv5zABQUao0mDaGxTjOGaSR8L3HeoDdQxNaRFd9aYIViQ
+2023-07-11 15:50:45 [INFO   ][ln-294]: 
+
+2023-07-11 15:50:45 [INFO   ][ln-297]: 2023
+2023-07-11 15:50:45 [INFO   ][ln-298]: 7
+2023-07-11 15:50:45 [INFO   ][ln-299]: 11
+2023-07-11 15:50:45 [INFO   ][ln-301]: 2023-07-11 00:00:00
+2023-07-11 15:50:45 [INFO   ][ln-100]: 1689004800
+2023-07-11 15:50:45 [INFO   ][ln-101]: 1689087600
+2023-07-11 15:50:45 [INFO   ][ln-531]: GetReadinessInsightSummary
+2023-07-11 15:50:45 [INFO   ][ln-550]: GetReadinessInsightSummary
+2023-07-11 15:50:47 [INFO   ][ln-309]: ####################################
+2023-07-11 15:50:47 [INFO   ][ln-310]: [{'userId': '64895a7f924521000b2d7ac7', 'startpDate': 1688832000, 'interval': 'week', 'avgReadinessScore': 10, 'maxReadinessScore': 10, 'minReadinessScore': 10, 'avgHrvScore': 68, 'maxHrvScore': 69, 'minHrvScore': 69, 'avgStressScore': 1, 'maxStressScore': 1, 'minStressScore': 1}]
+2023-07-11 15:50:47 [INFO   ][ln-311]: ####################################
+2023-07-11 15:50:47 [INFO   ][ln-313]: The avgReadinessScore get from Backend API : 
+2023-07-11 15:50:47 [INFO   ][ln-314]: 10
+2023-07-11 15:50:47 [INFO   ][ln-334]: ##################################################################
+
+
+2023-07-11 15:50:47 [INFO   ][ln-335]: PASS : L2_Readiness SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 15:50:47 [INFO   ][ln-336]: ##################################################################
+
+
+2023-07-11 15:50:47 [INFO   ][ln-91 ]: 1689004800
+2023-07-11 15:50:47 [INFO   ][ln-92 ]: 1689087600
+2023-07-11 15:50:47 [INFO   ][ln-480]: GetDailyReadinessInsightList
+2023-07-11 15:50:47 [INFO   ][ln-499]: GetDailyReadinessInsightList
+2023-07-11 15:50:50 [INFO   ][ln-349]: ####################################
+2023-07-11 15:50:50 [INFO   ][ln-350]: [{'userId': '64895a7f924521000b2d7ac7', 'startTime': 1689012013, 'endTime': 1689030742, 'hrvScore': 68.54751707435327, 'stressScore': 1, 'readinessScore': 10, 'utcOffset': 8, 'timeZone': 'Asia/Brunei'}]
+2023-07-11 15:50:50 [INFO   ][ln-351]: ####################################
+2023-07-11 15:50:50 [INFO   ][ln-353]: The Heart rate variability  get from Backend API : 
+2023-07-11 15:50:50 [INFO   ][ln-359]: <class 'int'>
+2023-07-11 15:50:50 [INFO   ][ln-361]: 68
+2023-07-11 15:50:50 [INFO   ][ln-369]: ##################################################################
+
+
+2023-07-11 15:50:50 [INFO   ][ln-370]: PASS : L2_HRV SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 15:50:50 [INFO   ][ln-371]: ##################################################################
+
+
+2023-07-11 15:50:50 [INFO   ][ln-385]: The Stress score  get from Backend API : 
+2023-07-11 15:50:50 [INFO   ][ln-387]: 1
+2023-07-11 15:50:50 [INFO   ][ln-395]: ##################################################################
+
+
+2023-07-11 15:50:50 [INFO   ][ln-396]: PASS : L2_Stress SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 15:50:50 [INFO   ][ln-397]: ##################################################################
+
+
+2023-07-11 15:50:50 [INFO   ][ln-410]: Test completed
+2023-07-11 15:50:57 [DEBUG  ][ln-839]: teardown_method
+2023-07-11 15:50:57 [DEBUG  ][ln-836]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-11 15:50:57 [INFO   ][ln-175]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.25.121'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': None}
+2023-07-11 15:51:02 [INFO   ][ln-185]: Size(width=390, height=844)
+2023-07-11 15:51:26 [INFO   ][ln-215]: ['3:51', 'Fr', '&', '<', '+', 'Readiness', 'Readiness', 'insights', 'Readiness', 'score', '10', 'Heart', 'rate', 'variability', 'G)', '68ms', 'Stress', 'G)', '1', 'Disclaimer', 'Readiness', 'Score', 'and', 'Stress', 'Score', 'are', 'Sleep', 'Readiness', 'Activity', 'Fall', 'é', 'foe)', '—']
+2023-07-11 15:51:26 [INFO   ][ln-217]: ###############################
+
+2023-07-11 15:51:26 [INFO   ][ln-218]: The L2 Readiness score get from HomePASS IOS is : 10
+2023-07-11 15:51:26 [INFO   ][ln-219]: ###############################
+
+2023-07-11 15:51:26 [INFO   ][ln-222]: ###############################
+
+2023-07-11 15:51:26 [INFO   ][ln-223]: The L2 HRV score get from HomePASS IOS is : 68
+2023-07-11 15:51:26 [INFO   ][ln-224]: ###############################
+
+2023-07-11 15:51:26 [INFO   ][ln-226]: ###############################
+
+2023-07-11 15:51:26 [INFO   ][ln-227]: The L2 Stress score get from HomePASS IOS is : 1
+2023-07-11 15:51:26 [INFO   ][ln-228]: ###############################
+
+2023-07-11 15:51:44 [INFO   ][ln-244]: #########################################################################
+
+2023-07-11 15:51:44 [INFO   ][ln-245]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-11 15:51:44 [INFO   ][ln-246]: # ---------------------------------------------------------------- #)
+
+2023-07-11 15:51:44 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-11 15:51:47 [INFO   ][ln-248]: Step 1 :  PlumeCloudLogin
+
+2023-07-11 15:51:47 [INFO   ][ln-283]: yCutv5YvyZKTd36yrY4N3YPyfeWA5DES9YRsCaOZmlIOj2hME0TYy8boUXIG0EdY
+2023-07-11 15:51:47 [INFO   ][ln-286]: 64895a7f924521000b2d7ac7
+2023-07-11 15:51:47 [INFO   ][ln-287]: 
+
+2023-07-11 15:51:47 [INFO   ][ln-288]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-11 15:51:47 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-11 15:51:50 [INFO   ][ln-293]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6N2IyYzI2NmQtNDljOC00MzllLWI2N2ItY2FlMWQyZTNmOGRlIiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6eUN1dHY1WXZ5WktUZDM2eXJZNE4zWVB5ZmVXQTVERVM5WVJzQ2FPWm1sSU9qMmhNRTBUWXk4Ym9VWElHMEVkWSJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODkxNDgzMDgsImlhdCI6MTY4OTA2MTkwOH0.D3pK2Ey6YZg6OMBzrTK4bFab6mNuGRX796UirxqV5k9tqXHf5xViG15ULRX7bIlKPhbrAaezPFBy6s91HNj31WxaAw-TPP-3S2TDrxtyzg9PmAiMH-Gh-WKHqPV-yuMruFIptVX1ZmudXfnH8bp1NF45Wr2MES7G5xd-akMJwjGIEUHmPqph1GUa98Z1f83KvFbwbUVpu9wMpta-jhEuJ_mDv6fLm53eRrrmmkRwXOe1pw_PyGbzUbznuWe-k5Mhv6luM8H-YP4ECA18fNo2ZdWP8ji567z4dG5Kfj_n1vprMQvip5_Eq-4ncDeKxxCun3pQ7s2dt2xh-aQo6wEXig
+2023-07-11 15:51:50 [INFO   ][ln-294]: 
+
+2023-07-11 15:51:50 [INFO   ][ln-297]: 2023
+2023-07-11 15:51:50 [INFO   ][ln-298]: 7
+2023-07-11 15:51:50 [INFO   ][ln-299]: 11
+2023-07-11 15:51:50 [INFO   ][ln-301]: 2023-07-11 00:00:00
+2023-07-11 15:51:50 [INFO   ][ln-100]: 1689004800
+2023-07-11 15:51:50 [INFO   ][ln-101]: 1689087600
+2023-07-11 15:51:50 [INFO   ][ln-531]: GetReadinessInsightSummary
+2023-07-11 15:51:50 [INFO   ][ln-550]: GetReadinessInsightSummary
+2023-07-11 15:51:53 [INFO   ][ln-309]: ####################################
+2023-07-11 15:51:53 [INFO   ][ln-310]: [{'userId': '64895a7f924521000b2d7ac7', 'startpDate': 1688832000, 'interval': 'week', 'avgReadinessScore': 10, 'maxReadinessScore': 10, 'minReadinessScore': 10, 'avgHrvScore': 68, 'maxHrvScore': 69, 'minHrvScore': 69, 'avgStressScore': 1, 'maxStressScore': 1, 'minStressScore': 1}]
+2023-07-11 15:51:53 [INFO   ][ln-311]: ####################################
+2023-07-11 15:51:53 [INFO   ][ln-313]: The avgReadinessScore get from Backend API : 
+2023-07-11 15:51:53 [INFO   ][ln-314]: 10
+2023-07-11 15:51:53 [INFO   ][ln-334]: ##################################################################
+
+
+2023-07-11 15:51:53 [INFO   ][ln-335]: PASS : L2_Readiness SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 15:51:53 [INFO   ][ln-336]: ##################################################################
+
+
+2023-07-11 15:51:53 [INFO   ][ln-91 ]: 1689004800
+2023-07-11 15:51:53 [INFO   ][ln-92 ]: 1689087600
+2023-07-11 15:51:53 [INFO   ][ln-480]: GetDailyReadinessInsightList
+2023-07-11 15:51:53 [INFO   ][ln-499]: GetDailyReadinessInsightList
+2023-07-11 15:51:56 [INFO   ][ln-349]: ####################################
+2023-07-11 15:51:56 [INFO   ][ln-350]: [{'userId': '64895a7f924521000b2d7ac7', 'startTime': 1689012013, 'endTime': 1689030742, 'hrvScore': 68.54751707435327, 'stressScore': 1, 'readinessScore': 10, 'utcOffset': 8, 'timeZone': 'Asia/Brunei'}]
+2023-07-11 15:51:56 [INFO   ][ln-351]: ####################################
+2023-07-11 15:51:56 [INFO   ][ln-353]: The Heart rate variability  get from Backend API : 
+2023-07-11 15:51:56 [INFO   ][ln-359]: <class 'int'>
+2023-07-11 15:51:56 [INFO   ][ln-361]: 68
+2023-07-11 15:51:56 [INFO   ][ln-369]: ##################################################################
+
+
+2023-07-11 15:51:56 [INFO   ][ln-370]: PASS : L2_HRV SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 15:51:56 [INFO   ][ln-371]: ##################################################################
+
+
+2023-07-11 15:51:56 [INFO   ][ln-385]: The Stress score  get from Backend API : 
+2023-07-11 15:51:56 [INFO   ][ln-387]: 1
+2023-07-11 15:51:56 [INFO   ][ln-395]: ##################################################################
+
+
+2023-07-11 15:51:56 [INFO   ][ln-396]: PASS : L2_Stress SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 15:51:56 [INFO   ][ln-397]: ##################################################################
+
+
+2023-07-11 15:51:56 [INFO   ][ln-410]: Test completed
+2023-07-11 15:52:03 [DEBUG  ][ln-839]: teardown_method
+2023-07-11 15:52:03 [DEBUG  ][ln-836]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-11 15:52:03 [INFO   ][ln-175]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.25.121'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': None}
+2023-07-11 15:52:08 [INFO   ][ln-185]: Size(width=390, height=844)
+2023-07-11 15:52:32 [INFO   ][ln-215]: ['3:52', 'Fr', '&', '<', '+', 'Readiness', 'Readiness', 'insights', 'Readiness', 'score', '10', 'Heart', 'rate', 'variability', 'G)', '68ms', 'Stress', 'G)', '1', 'Disclaimer', 'Readiness', 'Score', 'and', 'Stress', 'Score', 'are', 'Sleep', 'Readiness', 'Activity', 'Fall', 'é', 'foe)', '—']
+2023-07-11 15:52:32 [INFO   ][ln-217]: ###############################
+
+2023-07-11 15:52:32 [INFO   ][ln-218]: The L2 Readiness score get from HomePASS IOS is : 10
+2023-07-11 15:52:32 [INFO   ][ln-219]: ###############################
+
+2023-07-11 15:52:32 [INFO   ][ln-222]: ###############################
+
+2023-07-11 15:52:32 [INFO   ][ln-223]: The L2 HRV score get from HomePASS IOS is : 68
+2023-07-11 15:52:32 [INFO   ][ln-224]: ###############################
+
+2023-07-11 15:52:32 [INFO   ][ln-226]: ###############################
+
+2023-07-11 15:52:32 [INFO   ][ln-227]: The L2 Stress score get from HomePASS IOS is : 1
+2023-07-11 15:52:32 [INFO   ][ln-228]: ###############################
+
+2023-07-11 15:52:50 [INFO   ][ln-244]: #########################################################################
+
+2023-07-11 15:52:50 [INFO   ][ln-245]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-11 15:52:50 [INFO   ][ln-246]: # ---------------------------------------------------------------- #)
+
+2023-07-11 15:52:50 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-11 15:52:53 [INFO   ][ln-248]: Step 1 :  PlumeCloudLogin
+
+2023-07-11 15:52:53 [INFO   ][ln-283]: h0BWDwHT6Wk06coY8o0pBFupSBIJzuTGdDq6HltpYeVrecftqsEirA1CKvhFlrGg
+2023-07-11 15:52:53 [INFO   ][ln-286]: 64895a7f924521000b2d7ac7
+2023-07-11 15:52:53 [INFO   ][ln-287]: 
+
+2023-07-11 15:52:53 [INFO   ][ln-288]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-11 15:52:53 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-11 15:52:56 [INFO   ][ln-293]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6YzE0OTFmZDAtM2MyMS00NTQ0LTk5ZjMtMWYxOTllNDIzOTM1IiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6aDBCV0R3SFQ2V2swNmNvWThvMHBCRnVwU0JJSnp1VEdkRHE2SGx0cFllVnJlY2Z0cXNFaXJBMUNLdmhGbHJHZyJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODkxNDgzNzQsImlhdCI6MTY4OTA2MTk3NH0.g-8Cr1QV7qFUsg3xrsI-A3bn8ohLloRWKwT9I1ZmGmnbNiAjBZkRFD36KpJLpDvPsyFmonsJKHH2xa1LEkGOJhg-lw_XqMTN0e-GFd702et-3uU2VOhGjWBlqpiAzhO0HV8bA2k3szMwdOez-OhEckpO1o4yNT2u3y0bc91BzO369uzSAUZpIsRKdB2ak4dFPGHVrcifx9QjnLYbIMqQ4MspJANrLWUjKYfl8tvKgt0ecpDHzrX1k7QYuKwE2oCgoeZSIHZ7-VQbkD8FX6neLWgsIPSbKrEwhaXzfMSXv-utC-45Sap9As_3GiPdM9usFnBXFfnGumPDh5-Vmy7Brg
+2023-07-11 15:52:56 [INFO   ][ln-294]: 
+
+2023-07-11 15:52:56 [INFO   ][ln-297]: 2023
+2023-07-11 15:52:56 [INFO   ][ln-298]: 7
+2023-07-11 15:52:56 [INFO   ][ln-299]: 11
+2023-07-11 15:52:56 [INFO   ][ln-301]: 2023-07-11 00:00:00
+2023-07-11 15:52:56 [INFO   ][ln-100]: 1689004800
+2023-07-11 15:52:56 [INFO   ][ln-101]: 1689087600
+2023-07-11 15:52:56 [INFO   ][ln-531]: GetReadinessInsightSummary
+2023-07-11 15:52:56 [INFO   ][ln-550]: GetReadinessInsightSummary
+2023-07-11 15:52:59 [INFO   ][ln-309]: ####################################
+2023-07-11 15:52:59 [INFO   ][ln-310]: [{'userId': '64895a7f924521000b2d7ac7', 'startpDate': 1688832000, 'interval': 'week', 'avgReadinessScore': 10, 'maxReadinessScore': 10, 'minReadinessScore': 10, 'avgHrvScore': 68, 'maxHrvScore': 69, 'minHrvScore': 69, 'avgStressScore': 1, 'maxStressScore': 1, 'minStressScore': 1}]
+2023-07-11 15:52:59 [INFO   ][ln-311]: ####################################
+2023-07-11 15:52:59 [INFO   ][ln-313]: The avgReadinessScore get from Backend API : 
+2023-07-11 15:52:59 [INFO   ][ln-314]: 10
+2023-07-11 15:52:59 [INFO   ][ln-334]: ##################################################################
+
+
+2023-07-11 15:52:59 [INFO   ][ln-335]: PASS : L2_Readiness SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 15:52:59 [INFO   ][ln-336]: ##################################################################
+
+
+2023-07-11 15:52:59 [INFO   ][ln-91 ]: 1689004800
+2023-07-11 15:52:59 [INFO   ][ln-92 ]: 1689087600
+2023-07-11 15:52:59 [INFO   ][ln-480]: GetDailyReadinessInsightList
+2023-07-11 15:52:59 [INFO   ][ln-499]: GetDailyReadinessInsightList
+2023-07-11 15:53:02 [INFO   ][ln-349]: ####################################
+2023-07-11 15:53:02 [INFO   ][ln-350]: [{'userId': '64895a7f924521000b2d7ac7', 'startTime': 1689012013, 'endTime': 1689030742, 'hrvScore': 68.54751707435327, 'stressScore': 1, 'readinessScore': 10, 'utcOffset': 8, 'timeZone': 'Asia/Brunei'}]
+2023-07-11 15:53:02 [INFO   ][ln-351]: ####################################
+2023-07-11 15:53:02 [INFO   ][ln-353]: The Heart rate variability  get from Backend API : 
+2023-07-11 15:53:02 [INFO   ][ln-359]: <class 'int'>
+2023-07-11 15:53:02 [INFO   ][ln-361]: 68
+2023-07-11 15:53:02 [INFO   ][ln-369]: ##################################################################
+
+
+2023-07-11 15:53:02 [INFO   ][ln-370]: PASS : L2_HRV SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 15:53:02 [INFO   ][ln-371]: ##################################################################
+
+
+2023-07-11 15:53:02 [INFO   ][ln-385]: The Stress score  get from Backend API : 
+2023-07-11 15:53:02 [INFO   ][ln-387]: 1
+2023-07-11 15:53:02 [INFO   ][ln-395]: ##################################################################
+
+
+2023-07-11 15:53:02 [INFO   ][ln-396]: PASS : L2_Stress SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 15:53:02 [INFO   ][ln-397]: ##################################################################
+
+
+2023-07-11 15:53:02 [INFO   ][ln-410]: Test completed
+2023-07-11 15:53:09 [DEBUG  ][ln-839]: teardown_method
+2023-07-11 15:53:09 [DEBUG  ][ln-836]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-11 15:53:09 [INFO   ][ln-175]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.25.121'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': None}
+2023-07-11 15:53:14 [INFO   ][ln-185]: Size(width=390, height=844)
+2023-07-11 15:53:38 [INFO   ][ln-215]: ['3:53', 'Fr', '&', '<', '+', 'Readiness', 'Readiness', 'insights', 'Readiness', 'score', '10', 'Heart', 'rate', 'variability', 'G)', '68ms', 'Stress', 'G)', '1', 'Disclaimer', 'Readiness', 'Score', 'and', 'Stress', 'Score', 'are', 'Sleep', 'Readiness', 'Activity', 'Fall', 'é', 'foe)', '—']
+2023-07-11 15:53:38 [INFO   ][ln-217]: ###############################
+
+2023-07-11 15:53:38 [INFO   ][ln-218]: The L2 Readiness score get from HomePASS IOS is : 10
+2023-07-11 15:53:38 [INFO   ][ln-219]: ###############################
+
+2023-07-11 15:53:38 [INFO   ][ln-222]: ###############################
+
+2023-07-11 15:53:38 [INFO   ][ln-223]: The L2 HRV score get from HomePASS IOS is : 68
+2023-07-11 15:53:38 [INFO   ][ln-224]: ###############################
+
+2023-07-11 15:53:38 [INFO   ][ln-226]: ###############################
+
+2023-07-11 15:53:38 [INFO   ][ln-227]: The L2 Stress score get from HomePASS IOS is : 1
+2023-07-11 15:53:38 [INFO   ][ln-228]: ###############################
+
+2023-07-11 15:53:56 [INFO   ][ln-244]: #########################################################################
+
+2023-07-11 15:53:56 [INFO   ][ln-245]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-11 15:53:56 [INFO   ][ln-246]: # ---------------------------------------------------------------- #)
+
+2023-07-11 15:53:56 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-11 15:53:59 [INFO   ][ln-248]: Step 1 :  PlumeCloudLogin
+
+2023-07-11 15:53:59 [INFO   ][ln-283]: MCN1XsNDHcAthfrwKUGW0AW5KkHYYpqtq4iyDUZcz3uEkP4W4CneuL9TBckq0oZP
+2023-07-11 15:53:59 [INFO   ][ln-286]: 64895a7f924521000b2d7ac7
+2023-07-11 15:53:59 [INFO   ][ln-287]: 
+
+2023-07-11 15:53:59 [INFO   ][ln-288]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-11 15:53:59 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-11 15:54:02 [INFO   ][ln-293]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6NjhmNDE3ZWItNmUxNi00NmEwLTk5ZWMtMWRmOTQxM2VlMGIwIiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6TUNOMVhzTkRIY0F0aGZyd0tVR1cwQVc1S2tIWVlwcXRxNGl5RFVaY3ozdUVrUDRXNENuZXVMOVRCY2txMG9aUCJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODkxNDg0MzksImlhdCI6MTY4OTA2MjAzOX0.UGlzS2D7r4HWHg0u7GmJu4Th3BN2tBf9bJJb8CJPo52ctcKRcxttx7L-8JcPaThiBd5HYLcWEMc7VPZHep0xy2LCPb9HnDbKZy5As-x0j3O5Ro_dCHQABjggQlRajudDgCZNdpZlq6B296OgLpNqABI91bzdaAcE3jheP9Z-vv85Yq_UWw5yuAF_pKWhbFO83BLMznKAHukumEk2a5RuX5vywX-sNSEIzX-fnB6AbvX0I0tzGwbJO0VuekmAoqwo7_JWUSWKZnlX3yf32qZmyZBCBOSoiZ9FP0M9KIjbGpqPrOjXc7vlmVN2Tgw1dIzwyC4CNpV3N6wRVOHglU5JyA
+2023-07-11 15:54:02 [INFO   ][ln-294]: 
+
+2023-07-11 15:54:02 [INFO   ][ln-297]: 2023
+2023-07-11 15:54:02 [INFO   ][ln-298]: 7
+2023-07-11 15:54:02 [INFO   ][ln-299]: 11
+2023-07-11 15:54:02 [INFO   ][ln-301]: 2023-07-11 00:00:00
+2023-07-11 15:54:02 [INFO   ][ln-100]: 1689004800
+2023-07-11 15:54:02 [INFO   ][ln-101]: 1689087600
+2023-07-11 15:54:02 [INFO   ][ln-531]: GetReadinessInsightSummary
+2023-07-11 15:54:02 [INFO   ][ln-550]: GetReadinessInsightSummary
+2023-07-11 15:54:04 [INFO   ][ln-309]: ####################################
+2023-07-11 15:54:04 [INFO   ][ln-310]: [{'userId': '64895a7f924521000b2d7ac7', 'startpDate': 1688832000, 'interval': 'week', 'avgReadinessScore': 10, 'maxReadinessScore': 10, 'minReadinessScore': 10, 'avgHrvScore': 68, 'maxHrvScore': 69, 'minHrvScore': 69, 'avgStressScore': 1, 'maxStressScore': 1, 'minStressScore': 1}]
+2023-07-11 15:54:04 [INFO   ][ln-311]: ####################################
+2023-07-11 15:54:04 [INFO   ][ln-313]: The avgReadinessScore get from Backend API : 
+2023-07-11 15:54:04 [INFO   ][ln-314]: 10
+2023-07-11 15:54:04 [INFO   ][ln-334]: ##################################################################
+
+
+2023-07-11 15:54:04 [INFO   ][ln-335]: PASS : L2_Readiness SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 15:54:04 [INFO   ][ln-336]: ##################################################################
+
+
+2023-07-11 15:54:04 [INFO   ][ln-91 ]: 1689004800
+2023-07-11 15:54:04 [INFO   ][ln-92 ]: 1689087600
+2023-07-11 15:54:04 [INFO   ][ln-480]: GetDailyReadinessInsightList
+2023-07-11 15:54:04 [INFO   ][ln-499]: GetDailyReadinessInsightList
+2023-07-11 15:54:07 [INFO   ][ln-349]: ####################################
+2023-07-11 15:54:07 [INFO   ][ln-350]: [{'userId': '64895a7f924521000b2d7ac7', 'startTime': 1689012013, 'endTime': 1689030742, 'hrvScore': 68.54751707435327, 'stressScore': 1, 'readinessScore': 10, 'utcOffset': 8, 'timeZone': 'Asia/Brunei'}]
+2023-07-11 15:54:07 [INFO   ][ln-351]: ####################################
+2023-07-11 15:54:07 [INFO   ][ln-353]: The Heart rate variability  get from Backend API : 
+2023-07-11 15:54:07 [INFO   ][ln-359]: <class 'int'>
+2023-07-11 15:54:07 [INFO   ][ln-361]: 68
+2023-07-11 15:54:07 [INFO   ][ln-369]: ##################################################################
+
+
+2023-07-11 15:54:07 [INFO   ][ln-370]: PASS : L2_HRV SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 15:54:07 [INFO   ][ln-371]: ##################################################################
+
+
+2023-07-11 15:54:07 [INFO   ][ln-385]: The Stress score  get from Backend API : 
+2023-07-11 15:54:07 [INFO   ][ln-387]: 1
+2023-07-11 15:54:07 [INFO   ][ln-395]: ##################################################################
+
+
+2023-07-11 15:54:07 [INFO   ][ln-396]: PASS : L2_Stress SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 15:54:07 [INFO   ][ln-397]: ##################################################################
+
+
+2023-07-11 15:54:07 [INFO   ][ln-410]: Test completed
+2023-07-11 15:54:14 [DEBUG  ][ln-839]: teardown_method
+2023-07-11 15:54:14 [DEBUG  ][ln-836]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-11 15:54:14 [INFO   ][ln-175]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.25.121'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': None}
+2023-07-11 15:54:19 [INFO   ][ln-185]: Size(width=390, height=844)
+2023-07-11 15:54:43 [INFO   ][ln-215]: ['3:54', 'Fr', '&', '<', '+', 'Readiness', 'Readiness', 'insights', 'Readiness', 'score', '10', 'Heart', 'rate', 'variability', 'G)', '68ms', 'Stress', 'G)', '1', 'Disclaimer', 'Readiness', 'Score', 'and', 'Stress', 'Score', 'are', 'Sleep', 'Readiness', 'Activity', 'Fall', 'é', 'foe)', '—']
+2023-07-11 15:54:43 [INFO   ][ln-217]: ###############################
+
+2023-07-11 15:54:43 [INFO   ][ln-218]: The L2 Readiness score get from HomePASS IOS is : 10
+2023-07-11 15:54:43 [INFO   ][ln-219]: ###############################
+
+2023-07-11 15:54:43 [INFO   ][ln-222]: ###############################
+
+2023-07-11 15:54:43 [INFO   ][ln-223]: The L2 HRV score get from HomePASS IOS is : 68
+2023-07-11 15:54:43 [INFO   ][ln-224]: ###############################
+
+2023-07-11 15:54:43 [INFO   ][ln-226]: ###############################
+
+2023-07-11 15:54:43 [INFO   ][ln-227]: The L2 Stress score get from HomePASS IOS is : 1
+2023-07-11 15:54:43 [INFO   ][ln-228]: ###############################
+
+2023-07-11 15:55:01 [INFO   ][ln-244]: #########################################################################
+
+2023-07-11 15:55:01 [INFO   ][ln-245]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-11 15:55:01 [INFO   ][ln-246]: # ---------------------------------------------------------------- #)
+
+2023-07-11 15:55:01 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-11 15:55:04 [INFO   ][ln-248]: Step 1 :  PlumeCloudLogin
+
+2023-07-11 15:55:04 [INFO   ][ln-283]: y9iKxWDI83dGfKZaDWKq6wWuaBDlmIsC1HQFCRd1FyWoNpo52xkBy9vHghbpc4op
+2023-07-11 15:55:04 [INFO   ][ln-286]: 64895a7f924521000b2d7ac7
+2023-07-11 15:55:04 [INFO   ][ln-287]: 
+
+2023-07-11 15:55:04 [INFO   ][ln-288]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-11 15:55:04 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-11 15:55:07 [INFO   ][ln-293]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6ZTFjNDNiYWUtMGI4NS00N2M1LWFmOWItYmNmZWE3N2UzOWY2IiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6eTlpS3hXREk4M2RHZktaYURXS3E2d1d1YUJEbG1Jc0MxSFFGQ1JkMUZ5V29OcG81MnhrQnk5dkhnaGJwYzRvcCJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODkxNDg1MDUsImlhdCI6MTY4OTA2MjEwNX0.Fm8j-B_odW9I_GcZ2GLS9bA06wzQ6evl9t78-09SX7qWQLuf9gh7HaadUpeIoJNZRVb5ctnlRX-UXhXKTdKee5uK3pFG3DzzU_mOgkLZ-j_OotGJOtw6--ui3wBFKJ0lEItCipTFoW5GfRsVcUzCSWn62FoHOO6bkK6QPIwyYWiTsEttU_n5KXLR0MR9YwSe63pOxP3csp6uvvRDPK4NP_1PL3abU9UbbHL4MAamUWD9erVc30KePtNIy6GyfIAsK4tnRFY6OMo0NQEFm8reaCmnE1o0e4JyP0lzkd4EebdYI6TqSmob8KDCYXKmUKOdNbHqkBoV0qP0U3v64PaUHQ
+2023-07-11 15:55:07 [INFO   ][ln-294]: 
+
+2023-07-11 15:55:07 [INFO   ][ln-297]: 2023
+2023-07-11 15:55:07 [INFO   ][ln-298]: 7
+2023-07-11 15:55:07 [INFO   ][ln-299]: 11
+2023-07-11 15:55:07 [INFO   ][ln-301]: 2023-07-11 00:00:00
+2023-07-11 15:55:07 [INFO   ][ln-100]: 1689004800
+2023-07-11 15:55:07 [INFO   ][ln-101]: 1689087600
+2023-07-11 15:55:07 [INFO   ][ln-531]: GetReadinessInsightSummary
+2023-07-11 15:55:07 [INFO   ][ln-550]: GetReadinessInsightSummary
+2023-07-11 15:55:10 [INFO   ][ln-309]: ####################################
+2023-07-11 15:55:10 [INFO   ][ln-310]: [{'userId': '64895a7f924521000b2d7ac7', 'startpDate': 1688832000, 'interval': 'week', 'avgReadinessScore': 10, 'maxReadinessScore': 10, 'minReadinessScore': 10, 'avgHrvScore': 68, 'maxHrvScore': 69, 'minHrvScore': 69, 'avgStressScore': 1, 'maxStressScore': 1, 'minStressScore': 1}]
+2023-07-11 15:55:10 [INFO   ][ln-311]: ####################################
+2023-07-11 15:55:10 [INFO   ][ln-313]: The avgReadinessScore get from Backend API : 
+2023-07-11 15:55:10 [INFO   ][ln-314]: 10
+2023-07-11 15:55:10 [INFO   ][ln-334]: ##################################################################
+
+
+2023-07-11 15:55:10 [INFO   ][ln-335]: PASS : L2_Readiness SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 15:55:10 [INFO   ][ln-336]: ##################################################################
+
+
+2023-07-11 15:55:10 [INFO   ][ln-91 ]: 1689004800
+2023-07-11 15:55:10 [INFO   ][ln-92 ]: 1689087600
+2023-07-11 15:55:10 [INFO   ][ln-480]: GetDailyReadinessInsightList
+2023-07-11 15:55:10 [INFO   ][ln-499]: GetDailyReadinessInsightList
+2023-07-11 15:55:12 [INFO   ][ln-349]: ####################################
+2023-07-11 15:55:12 [INFO   ][ln-350]: [{'userId': '64895a7f924521000b2d7ac7', 'startTime': 1689012013, 'endTime': 1689030742, 'hrvScore': 68.54751707435327, 'stressScore': 1, 'readinessScore': 10, 'utcOffset': 8, 'timeZone': 'Asia/Brunei'}]
+2023-07-11 15:55:12 [INFO   ][ln-351]: ####################################
+2023-07-11 15:55:12 [INFO   ][ln-353]: The Heart rate variability  get from Backend API : 
+2023-07-11 15:55:12 [INFO   ][ln-359]: <class 'int'>
+2023-07-11 15:55:12 [INFO   ][ln-361]: 68
+2023-07-11 15:55:12 [INFO   ][ln-369]: ##################################################################
+
+
+2023-07-11 15:55:12 [INFO   ][ln-370]: PASS : L2_HRV SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 15:55:12 [INFO   ][ln-371]: ##################################################################
+
+
+2023-07-11 15:55:12 [INFO   ][ln-385]: The Stress score  get from Backend API : 
+2023-07-11 15:55:12 [INFO   ][ln-387]: 1
+2023-07-11 15:55:12 [INFO   ][ln-395]: ##################################################################
+
+
+2023-07-11 15:55:12 [INFO   ][ln-396]: PASS : L2_Stress SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 15:55:12 [INFO   ][ln-397]: ##################################################################
+
+
+2023-07-11 15:55:12 [INFO   ][ln-410]: Test completed
+2023-07-11 15:55:20 [DEBUG  ][ln-839]: teardown_method
+2023-07-11 15:55:20 [DEBUG  ][ln-836]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-11 15:55:20 [INFO   ][ln-175]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.25.121'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': None}
+2023-07-11 15:55:26 [INFO   ][ln-185]: Size(width=390, height=844)
+2023-07-11 15:55:50 [INFO   ][ln-215]: ['3:55', 'Fr', '&', '<', '+', 'Readiness', 'Readiness', 'insights', 'Readiness', 'score', '10', 'Heart', 'rate', 'variability', 'G)', '68ms', 'Stress', 'G)', '1', 'Disclaimer', 'Readiness', 'Score', 'and', 'Stress', 'Score', 'are', 'Sleep', 'Readiness', 'Activity', 'Fall', 'é', 'foe)', '—']
+2023-07-11 15:55:50 [INFO   ][ln-217]: ###############################
+
+2023-07-11 15:55:50 [INFO   ][ln-218]: The L2 Readiness score get from HomePASS IOS is : 10
+2023-07-11 15:55:50 [INFO   ][ln-219]: ###############################
+
+2023-07-11 15:55:50 [INFO   ][ln-222]: ###############################
+
+2023-07-11 15:55:50 [INFO   ][ln-223]: The L2 HRV score get from HomePASS IOS is : 68
+2023-07-11 15:55:50 [INFO   ][ln-224]: ###############################
+
+2023-07-11 15:55:50 [INFO   ][ln-226]: ###############################
+
+2023-07-11 15:55:50 [INFO   ][ln-227]: The L2 Stress score get from HomePASS IOS is : 1
+2023-07-11 15:55:50 [INFO   ][ln-228]: ###############################
+
+2023-07-11 15:56:08 [INFO   ][ln-244]: #########################################################################
+
+2023-07-11 15:56:08 [INFO   ][ln-245]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-11 15:56:08 [INFO   ][ln-246]: # ---------------------------------------------------------------- #)
+
+2023-07-11 15:56:08 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-11 15:56:10 [INFO   ][ln-248]: Step 1 :  PlumeCloudLogin
+
+2023-07-11 15:56:10 [INFO   ][ln-283]: PejCLiSGQ5sR0ltrxyiVcHC9knBuRO06JFz6vdCrfPKCsgfmWSCp3H3CTY63N0NP
+2023-07-11 15:56:10 [INFO   ][ln-286]: 64895a7f924521000b2d7ac7
+2023-07-11 15:56:10 [INFO   ][ln-287]: 
+
+2023-07-11 15:56:10 [INFO   ][ln-288]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-11 15:56:10 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-11 15:56:13 [INFO   ][ln-293]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6YmQ2YjM5YTUtYjI0ZC00ZjFlLTkxYTEtZTgxZjQ3MTEzNWIyIiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6UGVqQ0xpU0dRNXNSMGx0cnh5aVZjSEM5a25CdVJPMDZKRno2dmRDcmZQS0NzZ2ZtV1NDcDNIM0NUWTYzTjBOUCJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODkxNDg1NzEsImlhdCI6MTY4OTA2MjE3MX0.Vx40R4fCK6MpeBeyGl92LKyB_b639DdWswLrfoJUQnGSXKEC96ez_HRiDFuEJL8lraEp-wqXVSCvV2E3IxwMNm6eaLbL-5BZVWYekYEtSrE75ibGwxSbA9ymG-b22dQH39L5yvLkUqkI1T5J96abHlOkstmf__8g2gl8ze0gXo3YBUq5CEy3Sg1zJr31b2cCXJSAu_jY2bQeXU7W6gghl2t0svj8wQJfPNTjS8slV0W6EW1EpAdxCzQbzxzVujKN9Hei_NHIhcIREW9kMqOLW5iIHZuKtyi56wmJvJl1FwLjo_FjsE5bLLMY6izfskuq4-Vejj9cKsIgNTsh5nEvDg
+2023-07-11 15:56:13 [INFO   ][ln-294]: 
+
+2023-07-11 15:56:13 [INFO   ][ln-297]: 2023
+2023-07-11 15:56:13 [INFO   ][ln-298]: 7
+2023-07-11 15:56:13 [INFO   ][ln-299]: 11
+2023-07-11 15:56:13 [INFO   ][ln-301]: 2023-07-11 00:00:00
+2023-07-11 15:56:13 [INFO   ][ln-100]: 1689004800
+2023-07-11 15:56:13 [INFO   ][ln-101]: 1689087600
+2023-07-11 15:56:13 [INFO   ][ln-531]: GetReadinessInsightSummary
+2023-07-11 15:56:13 [INFO   ][ln-550]: GetReadinessInsightSummary
+2023-07-11 15:56:16 [INFO   ][ln-309]: ####################################
+2023-07-11 15:56:16 [INFO   ][ln-310]: [{'userId': '64895a7f924521000b2d7ac7', 'startpDate': 1688832000, 'interval': 'week', 'avgReadinessScore': 10, 'maxReadinessScore': 10, 'minReadinessScore': 10, 'avgHrvScore': 68, 'maxHrvScore': 69, 'minHrvScore': 69, 'avgStressScore': 1, 'maxStressScore': 1, 'minStressScore': 1}]
+2023-07-11 15:56:16 [INFO   ][ln-311]: ####################################
+2023-07-11 15:56:16 [INFO   ][ln-313]: The avgReadinessScore get from Backend API : 
+2023-07-11 15:56:16 [INFO   ][ln-314]: 10
+2023-07-11 15:56:16 [INFO   ][ln-334]: ##################################################################
+
+
+2023-07-11 15:56:16 [INFO   ][ln-335]: PASS : L2_Readiness SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 15:56:16 [INFO   ][ln-336]: ##################################################################
+
+
+2023-07-11 15:56:16 [INFO   ][ln-91 ]: 1689004800
+2023-07-11 15:56:16 [INFO   ][ln-92 ]: 1689087600
+2023-07-11 15:56:16 [INFO   ][ln-480]: GetDailyReadinessInsightList
+2023-07-11 15:56:16 [INFO   ][ln-499]: GetDailyReadinessInsightList
+2023-07-11 15:56:19 [INFO   ][ln-349]: ####################################
+2023-07-11 15:56:19 [INFO   ][ln-350]: [{'userId': '64895a7f924521000b2d7ac7', 'startTime': 1689012013, 'endTime': 1689030742, 'hrvScore': 68.54751707435327, 'stressScore': 1, 'readinessScore': 10, 'utcOffset': 8, 'timeZone': 'Asia/Brunei'}]
+2023-07-11 15:56:19 [INFO   ][ln-351]: ####################################
+2023-07-11 15:56:19 [INFO   ][ln-353]: The Heart rate variability  get from Backend API : 
+2023-07-11 15:56:19 [INFO   ][ln-359]: <class 'int'>
+2023-07-11 15:56:19 [INFO   ][ln-361]: 68
+2023-07-11 15:56:19 [INFO   ][ln-369]: ##################################################################
+
+
+2023-07-11 15:56:19 [INFO   ][ln-370]: PASS : L2_HRV SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 15:56:19 [INFO   ][ln-371]: ##################################################################
+
+
+2023-07-11 15:56:19 [INFO   ][ln-385]: The Stress score  get from Backend API : 
+2023-07-11 15:56:19 [INFO   ][ln-387]: 1
+2023-07-11 15:56:19 [INFO   ][ln-395]: ##################################################################
+
+
+2023-07-11 15:56:19 [INFO   ][ln-396]: PASS : L2_Stress SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 15:56:19 [INFO   ][ln-397]: ##################################################################
+
+
+2023-07-11 15:56:19 [INFO   ][ln-410]: Test completed
+2023-07-11 15:56:26 [DEBUG  ][ln-839]: teardown_method
+2023-07-11 15:56:26 [DEBUG  ][ln-836]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-11 15:56:26 [INFO   ][ln-175]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.25.121'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': None}
+2023-07-11 15:56:32 [INFO   ][ln-185]: Size(width=390, height=844)
+2023-07-11 15:56:56 [INFO   ][ln-215]: ['3:56', 'Fr', '&', '<', '+', 'Readiness', 'Readiness', 'insights', 'Readiness', 'score', '10', 'Heart', 'rate', 'variability', 'G)', '68ms', 'Stress', 'G)', '1', 'Disclaimer', 'Readiness', 'Score', 'and', 'Stress', 'Score', 'are', 'Sleep', 'Readiness', 'Activity', 'Fall', 'é', 'foe)', '—']
+2023-07-11 15:56:56 [INFO   ][ln-217]: ###############################
+
+2023-07-11 15:56:56 [INFO   ][ln-218]: The L2 Readiness score get from HomePASS IOS is : 10
+2023-07-11 15:56:56 [INFO   ][ln-219]: ###############################
+
+2023-07-11 15:56:56 [INFO   ][ln-222]: ###############################
+
+2023-07-11 15:56:56 [INFO   ][ln-223]: The L2 HRV score get from HomePASS IOS is : 68
+2023-07-11 15:56:56 [INFO   ][ln-224]: ###############################
+
+2023-07-11 15:56:56 [INFO   ][ln-226]: ###############################
+
+2023-07-11 15:56:56 [INFO   ][ln-227]: The L2 Stress score get from HomePASS IOS is : 1
+2023-07-11 15:56:56 [INFO   ][ln-228]: ###############################
+
+2023-07-11 15:57:14 [INFO   ][ln-244]: #########################################################################
+
+2023-07-11 15:57:14 [INFO   ][ln-245]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-11 15:57:14 [INFO   ][ln-246]: # ---------------------------------------------------------------- #)
+
+2023-07-11 15:57:14 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-11 15:57:16 [INFO   ][ln-248]: Step 1 :  PlumeCloudLogin
+
+2023-07-11 15:57:16 [INFO   ][ln-283]: 5JR9rfX2ODstoBXTjkwLLy5nGOQHk6RK6BINnrl6qTShFutHKRC38FzBULjclL5M
+2023-07-11 15:57:16 [INFO   ][ln-286]: 64895a7f924521000b2d7ac7
+2023-07-11 15:57:16 [INFO   ][ln-287]: 
+
+2023-07-11 15:57:16 [INFO   ][ln-288]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-11 15:57:16 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-11 15:57:19 [INFO   ][ln-293]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6YjYxZmZhYjgtMmZhZC00YzQxLTliOTQtMzFhODU0YWVlNzQwIiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6NUpSOXJmWDJPRHN0b0JYVGprd0xMeTVuR09RSGs2Uks2QklObnJsNnFUU2hGdXRIS1JDMzhGekJVTGpjbEw1TSJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODkxNDg2MzcsImlhdCI6MTY4OTA2MjIzN30.WTQ4OrnDXjX-1lLo_4TtINO8mle9nkREWB1gfT1w713X3nMZWAgjUQjl_q9HmEoE2yfN7fuA9XDqz_h2ZpxtMP-6EnFRfJhBuT4BGqYkZXTFoO0c0s8H9b91JQX4-i-SatK90xIpxioPjWvQnTyS4_QKH6zN6hb2q8p5kxiNpGYcp--Q4Iq1r7HJg5uPBv1Ub0lKXuviaWVKhrGnCfzJWp1f8vEQxRaDljwpZXKHBNmUxTFRy7afAlepwLvLY1nIZx7A39h4xbjzr7PunbbU_Ocqf_mMZwgUQGDgoyBwZeCvVuR38ZS-yMxHVJDIfLetcMVgaNqzN0JRGgcm8qHwdQ
+2023-07-11 15:57:19 [INFO   ][ln-294]: 
+
+2023-07-11 15:57:19 [INFO   ][ln-297]: 2023
+2023-07-11 15:57:19 [INFO   ][ln-298]: 7
+2023-07-11 15:57:19 [INFO   ][ln-299]: 11
+2023-07-11 15:57:19 [INFO   ][ln-301]: 2023-07-11 00:00:00
+2023-07-11 15:57:19 [INFO   ][ln-100]: 1689004800
+2023-07-11 15:57:19 [INFO   ][ln-101]: 1689087600
+2023-07-11 15:57:19 [INFO   ][ln-531]: GetReadinessInsightSummary
+2023-07-11 15:57:19 [INFO   ][ln-550]: GetReadinessInsightSummary
+2023-07-11 15:57:22 [INFO   ][ln-309]: ####################################
+2023-07-11 15:57:22 [INFO   ][ln-310]: [{'userId': '64895a7f924521000b2d7ac7', 'startpDate': 1688832000, 'interval': 'week', 'avgReadinessScore': 10, 'maxReadinessScore': 10, 'minReadinessScore': 10, 'avgHrvScore': 68, 'maxHrvScore': 69, 'minHrvScore': 69, 'avgStressScore': 1, 'maxStressScore': 1, 'minStressScore': 1}]
+2023-07-11 15:57:22 [INFO   ][ln-311]: ####################################
+2023-07-11 15:57:22 [INFO   ][ln-313]: The avgReadinessScore get from Backend API : 
+2023-07-11 15:57:22 [INFO   ][ln-314]: 10
+2023-07-11 15:57:22 [INFO   ][ln-334]: ##################################################################
+
+
+2023-07-11 15:57:22 [INFO   ][ln-335]: PASS : L2_Readiness SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 15:57:22 [INFO   ][ln-336]: ##################################################################
+
+
+2023-07-11 15:57:22 [INFO   ][ln-91 ]: 1689004800
+2023-07-11 15:57:22 [INFO   ][ln-92 ]: 1689087600
+2023-07-11 15:57:22 [INFO   ][ln-480]: GetDailyReadinessInsightList
+2023-07-11 15:57:22 [INFO   ][ln-499]: GetDailyReadinessInsightList
+2023-07-11 15:57:25 [INFO   ][ln-349]: ####################################
+2023-07-11 15:57:25 [INFO   ][ln-350]: [{'userId': '64895a7f924521000b2d7ac7', 'startTime': 1689012013, 'endTime': 1689030742, 'hrvScore': 68.54751707435327, 'stressScore': 1, 'readinessScore': 10, 'utcOffset': 8, 'timeZone': 'Asia/Brunei'}]
+2023-07-11 15:57:25 [INFO   ][ln-351]: ####################################
+2023-07-11 15:57:25 [INFO   ][ln-353]: The Heart rate variability  get from Backend API : 
+2023-07-11 15:57:25 [INFO   ][ln-359]: <class 'int'>
+2023-07-11 15:57:25 [INFO   ][ln-361]: 68
+2023-07-11 15:57:25 [INFO   ][ln-369]: ##################################################################
+
+
+2023-07-11 15:57:25 [INFO   ][ln-370]: PASS : L2_HRV SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 15:57:25 [INFO   ][ln-371]: ##################################################################
+
+
+2023-07-11 15:57:25 [INFO   ][ln-385]: The Stress score  get from Backend API : 
+2023-07-11 15:57:25 [INFO   ][ln-387]: 1
+2023-07-11 15:57:25 [INFO   ][ln-395]: ##################################################################
+
+
+2023-07-11 15:57:25 [INFO   ][ln-396]: PASS : L2_Stress SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 15:57:25 [INFO   ][ln-397]: ##################################################################
+
+
+2023-07-11 15:57:25 [INFO   ][ln-410]: Test completed
+2023-07-11 15:57:32 [DEBUG  ][ln-839]: teardown_method
+2023-07-11 15:57:32 [DEBUG  ][ln-836]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-11 15:57:32 [INFO   ][ln-175]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.25.121'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': None}
+2023-07-11 15:57:38 [INFO   ][ln-185]: Size(width=390, height=844)
+2023-07-11 15:58:02 [INFO   ][ln-215]: ['3:57', 'Fr', '&', '<', '+', 'Readiness', 'Readiness', 'insights', 'Readiness', 'score', '10', 'Heart', 'rate', 'variability', 'G)', '68ms', 'Stress', 'G)', '1', 'Disclaimer', 'Readiness', 'Score', 'and', 'Stress', 'Score', 'are', 'Sleep', 'Readiness', 'Activity', 'Fall', 'é', 'foe)', '—']
+2023-07-11 15:58:02 [INFO   ][ln-217]: ###############################
+
+2023-07-11 15:58:02 [INFO   ][ln-218]: The L2 Readiness score get from HomePASS IOS is : 10
+2023-07-11 15:58:02 [INFO   ][ln-219]: ###############################
+
+2023-07-11 15:58:02 [INFO   ][ln-222]: ###############################
+
+2023-07-11 15:58:02 [INFO   ][ln-223]: The L2 HRV score get from HomePASS IOS is : 68
+2023-07-11 15:58:02 [INFO   ][ln-224]: ###############################
+
+2023-07-11 15:58:02 [INFO   ][ln-226]: ###############################
+
+2023-07-11 15:58:02 [INFO   ][ln-227]: The L2 Stress score get from HomePASS IOS is : 1
+2023-07-11 15:58:02 [INFO   ][ln-228]: ###############################
+
+2023-07-11 15:58:19 [INFO   ][ln-244]: #########################################################################
+
+2023-07-11 15:58:19 [INFO   ][ln-245]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-11 15:58:19 [INFO   ][ln-246]: # ---------------------------------------------------------------- #)
+
+2023-07-11 15:58:19 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-11 15:58:22 [INFO   ][ln-248]: Step 1 :  PlumeCloudLogin
+
+2023-07-11 15:58:22 [INFO   ][ln-283]: VG4Dj0QQLGMOsfUcPrk2jzx2K1MGrGmMfcEVBoG6HIhiMtrQU7BNjmrWz2vLCJek
+2023-07-11 15:58:22 [INFO   ][ln-286]: 64895a7f924521000b2d7ac7
+2023-07-11 15:58:22 [INFO   ][ln-287]: 
+
+2023-07-11 15:58:22 [INFO   ][ln-288]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-11 15:58:22 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-11 15:58:25 [INFO   ][ln-293]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6ZmExNjBiYjAtY2ZlNC00YjMxLTlkZjAtMzYxNzY5ZWVlZjEzIiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6Vkc0RGowUVFMR01Pc2ZVY1ByazJqengySzFNR3JHbU1mY0VWQm9HNkhJaGlNdHJRVTdCTmptcld6MnZMQ0playJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODkxNDg3MDMsImlhdCI6MTY4OTA2MjMwM30.Vbrjept8gy4-2YVXvrCxwd1MCFmw9WeUdKJANfJFv6dMHJqwJ5Vs_zzFYVB_ZNwcDNBuIJZpJalTOafMi4BO_6Z3sJqcONZ-vJezoQvihPUS9VG2SeH_VlljSU0K-qa7SY7p7LVtk5SsA57r3H7SBdvMCeSG7krJ8rrqSinlFIhtygkaZ7dIwnIlShu6fCt_hMhXw9wsFySfB0BgpShBxuiwBqSu3D_maynkfCYXo3Xr5QiGUeTCSx15Pdn2d7cB5gcoWPOJbXNs5TAaNhtDguNJPWBg6XmIOv5KxUa0UF9CAGPoL5YoSVEFTFlRpM0zEfgKf241RKirwy-_b0-cgw
+2023-07-11 15:58:25 [INFO   ][ln-294]: 
+
+2023-07-11 15:58:25 [INFO   ][ln-297]: 2023
+2023-07-11 15:58:25 [INFO   ][ln-298]: 7
+2023-07-11 15:58:25 [INFO   ][ln-299]: 11
+2023-07-11 15:58:25 [INFO   ][ln-301]: 2023-07-11 00:00:00
+2023-07-11 15:58:25 [INFO   ][ln-100]: 1689004800
+2023-07-11 15:58:25 [INFO   ][ln-101]: 1689087600
+2023-07-11 15:58:25 [INFO   ][ln-531]: GetReadinessInsightSummary
+2023-07-11 15:58:25 [INFO   ][ln-550]: GetReadinessInsightSummary
+2023-07-11 15:58:28 [INFO   ][ln-309]: ####################################
+2023-07-11 15:58:28 [INFO   ][ln-310]: [{'userId': '64895a7f924521000b2d7ac7', 'startpDate': 1688832000, 'interval': 'week', 'avgReadinessScore': 10, 'maxReadinessScore': 10, 'minReadinessScore': 10, 'avgHrvScore': 68, 'maxHrvScore': 69, 'minHrvScore': 69, 'avgStressScore': 1, 'maxStressScore': 1, 'minStressScore': 1}]
+2023-07-11 15:58:28 [INFO   ][ln-311]: ####################################
+2023-07-11 15:58:28 [INFO   ][ln-313]: The avgReadinessScore get from Backend API : 
+2023-07-11 15:58:28 [INFO   ][ln-314]: 10
+2023-07-11 15:58:28 [INFO   ][ln-334]: ##################################################################
+
+
+2023-07-11 15:58:28 [INFO   ][ln-335]: PASS : L2_Readiness SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 15:58:28 [INFO   ][ln-336]: ##################################################################
+
+
+2023-07-11 15:58:28 [INFO   ][ln-91 ]: 1689004800
+2023-07-11 15:58:28 [INFO   ][ln-92 ]: 1689087600
+2023-07-11 15:58:28 [INFO   ][ln-480]: GetDailyReadinessInsightList
+2023-07-11 15:58:28 [INFO   ][ln-499]: GetDailyReadinessInsightList
+2023-07-11 15:58:31 [INFO   ][ln-349]: ####################################
+2023-07-11 15:58:31 [INFO   ][ln-350]: [{'userId': '64895a7f924521000b2d7ac7', 'startTime': 1689012013, 'endTime': 1689030742, 'hrvScore': 68.54751707435327, 'stressScore': 1, 'readinessScore': 10, 'utcOffset': 8, 'timeZone': 'Asia/Brunei'}]
+2023-07-11 15:58:31 [INFO   ][ln-351]: ####################################
+2023-07-11 15:58:31 [INFO   ][ln-353]: The Heart rate variability  get from Backend API : 
+2023-07-11 15:58:31 [INFO   ][ln-359]: <class 'int'>
+2023-07-11 15:58:31 [INFO   ][ln-361]: 68
+2023-07-11 15:58:31 [INFO   ][ln-369]: ##################################################################
+
+
+2023-07-11 15:58:31 [INFO   ][ln-370]: PASS : L2_HRV SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 15:58:31 [INFO   ][ln-371]: ##################################################################
+
+
+2023-07-11 15:58:31 [INFO   ][ln-385]: The Stress score  get from Backend API : 
+2023-07-11 15:58:31 [INFO   ][ln-387]: 1
+2023-07-11 15:58:31 [INFO   ][ln-395]: ##################################################################
+
+
+2023-07-11 15:58:31 [INFO   ][ln-396]: PASS : L2_Stress SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 15:58:31 [INFO   ][ln-397]: ##################################################################
+
+
+2023-07-11 15:58:31 [INFO   ][ln-410]: Test completed
+2023-07-11 15:58:38 [DEBUG  ][ln-839]: teardown_method
+2023-07-11 15:58:38 [DEBUG  ][ln-836]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-11 15:58:38 [INFO   ][ln-175]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.25.121'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': None}
+2023-07-11 15:58:43 [INFO   ][ln-185]: Size(width=390, height=844)
+2023-07-11 15:59:07 [INFO   ][ln-215]: ['3:59', 'Fr', '&', '<', '+', 'Readiness', 'Readiness', 'insights', 'Readiness', 'score', '10', 'Heart', 'rate', 'variability', 'G)', '68ms', 'Stress', 'G)', '1', 'Disclaimer', 'Readiness', 'Score', 'and', 'Stress', 'Score', 'are', 'Sleep', 'Readiness', 'Activity', 'Fall', 'é', 'foe)', '—']
+2023-07-11 15:59:07 [INFO   ][ln-217]: ###############################
+
+2023-07-11 15:59:07 [INFO   ][ln-218]: The L2 Readiness score get from HomePASS IOS is : 10
+2023-07-11 15:59:07 [INFO   ][ln-219]: ###############################
+
+2023-07-11 15:59:07 [INFO   ][ln-222]: ###############################
+
+2023-07-11 15:59:07 [INFO   ][ln-223]: The L2 HRV score get from HomePASS IOS is : 68
+2023-07-11 15:59:07 [INFO   ][ln-224]: ###############################
+
+2023-07-11 15:59:07 [INFO   ][ln-226]: ###############################
+
+2023-07-11 15:59:07 [INFO   ][ln-227]: The L2 Stress score get from HomePASS IOS is : 1
+2023-07-11 15:59:07 [INFO   ][ln-228]: ###############################
+
+2023-07-11 15:59:25 [INFO   ][ln-244]: #########################################################################
+
+2023-07-11 15:59:25 [INFO   ][ln-245]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-11 15:59:25 [INFO   ][ln-246]: # ---------------------------------------------------------------- #)
+
+2023-07-11 15:59:25 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-11 15:59:28 [INFO   ][ln-248]: Step 1 :  PlumeCloudLogin
+
+2023-07-11 15:59:28 [INFO   ][ln-283]: 3Qy0zMB45v35NgC6QHiGGCQu8ox406cYbfksd0Kvns66vuKGNR7l32S5kx43qvIV
+2023-07-11 15:59:28 [INFO   ][ln-286]: 64895a7f924521000b2d7ac7
+2023-07-11 15:59:28 [INFO   ][ln-287]: 
+
+2023-07-11 15:59:28 [INFO   ][ln-288]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-11 15:59:28 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-11 15:59:31 [INFO   ][ln-293]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6MmY3MjMzZWEtNTdmMS00NjQ2LWIyM2ItZDk3MTlmYWI5ZTRkIiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6M1F5MHpNQjQ1djM1TmdDNlFIaUdHQ1F1OG94NDA2Y1liZmtzZDBLdm5zNjZ2dUtHTlI3bDMyUzVreDQzcXZJViJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODkxNDg3NjgsImlhdCI6MTY4OTA2MjM2OH0.e_kDaZYbOvjXxq1TgyShGrOFdpRGbtYB01z1Uvu0ZTQGpCwEhJzofoBP5uo1tgL8LyOMIl-e4Ha1I5r_04XxkeG90YEdjiYtbCB4i6ydyvnXiG_jKd7iCeKJYKC1DxnCy_qElv1Mu_rkqAKjxufUl7ztJv3A9JspHKn4fh7aJmw7dBm3Anx9LrqZrRCwzSqidcb_VHWv_b0uTGvZbuN3gUlcgSewx_09PE9al-rpvM1jsFs5F0Hy5eDb2NVyY3hpM_Qq873qpexRHqzwU2-eusgaMvP3XSYeYtxvN_tYedTOzM86YVTIbScYJD3WwEe2q70fsbF-DNLlKRECcUgt_Q
+2023-07-11 15:59:31 [INFO   ][ln-294]: 
+
+2023-07-11 15:59:31 [INFO   ][ln-297]: 2023
+2023-07-11 15:59:31 [INFO   ][ln-298]: 7
+2023-07-11 15:59:31 [INFO   ][ln-299]: 11
+2023-07-11 15:59:31 [INFO   ][ln-301]: 2023-07-11 00:00:00
+2023-07-11 15:59:31 [INFO   ][ln-100]: 1689004800
+2023-07-11 15:59:31 [INFO   ][ln-101]: 1689087600
+2023-07-11 15:59:31 [INFO   ][ln-531]: GetReadinessInsightSummary
+2023-07-11 15:59:31 [INFO   ][ln-550]: GetReadinessInsightSummary
+2023-07-11 15:59:34 [INFO   ][ln-309]: ####################################
+2023-07-11 15:59:34 [INFO   ][ln-310]: [{'userId': '64895a7f924521000b2d7ac7', 'startpDate': 1688832000, 'interval': 'week', 'avgReadinessScore': 10, 'maxReadinessScore': 10, 'minReadinessScore': 10, 'avgHrvScore': 68, 'maxHrvScore': 69, 'minHrvScore': 69, 'avgStressScore': 1, 'maxStressScore': 1, 'minStressScore': 1}]
+2023-07-11 15:59:34 [INFO   ][ln-311]: ####################################
+2023-07-11 15:59:34 [INFO   ][ln-313]: The avgReadinessScore get from Backend API : 
+2023-07-11 15:59:34 [INFO   ][ln-314]: 10
+2023-07-11 15:59:34 [INFO   ][ln-334]: ##################################################################
+
+
+2023-07-11 15:59:34 [INFO   ][ln-335]: PASS : L2_Readiness SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 15:59:34 [INFO   ][ln-336]: ##################################################################
+
+
+2023-07-11 15:59:34 [INFO   ][ln-91 ]: 1689004800
+2023-07-11 15:59:34 [INFO   ][ln-92 ]: 1689087600
+2023-07-11 15:59:34 [INFO   ][ln-480]: GetDailyReadinessInsightList
+2023-07-11 15:59:34 [INFO   ][ln-499]: GetDailyReadinessInsightList
+2023-07-11 15:59:36 [INFO   ][ln-349]: ####################################
+2023-07-11 15:59:36 [INFO   ][ln-350]: [{'userId': '64895a7f924521000b2d7ac7', 'startTime': 1689012013, 'endTime': 1689030742, 'hrvScore': 68.54751707435327, 'stressScore': 1, 'readinessScore': 10, 'utcOffset': 8, 'timeZone': 'Asia/Brunei'}]
+2023-07-11 15:59:36 [INFO   ][ln-351]: ####################################
+2023-07-11 15:59:36 [INFO   ][ln-353]: The Heart rate variability  get from Backend API : 
+2023-07-11 15:59:36 [INFO   ][ln-359]: <class 'int'>
+2023-07-11 15:59:36 [INFO   ][ln-361]: 68
+2023-07-11 15:59:36 [INFO   ][ln-369]: ##################################################################
+
+
+2023-07-11 15:59:36 [INFO   ][ln-370]: PASS : L2_HRV SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 15:59:36 [INFO   ][ln-371]: ##################################################################
+
+
+2023-07-11 15:59:36 [INFO   ][ln-385]: The Stress score  get from Backend API : 
+2023-07-11 15:59:36 [INFO   ][ln-387]: 1
+2023-07-11 15:59:36 [INFO   ][ln-395]: ##################################################################
+
+
+2023-07-11 15:59:36 [INFO   ][ln-396]: PASS : L2_Stress SCORE -> FrontEnd and Backend are the same
+
+
+2023-07-11 15:59:36 [INFO   ][ln-397]: ##################################################################
+
+
+2023-07-11 15:59:36 [INFO   ][ln-410]: Test completed
+2023-07-11 15:59:43 [DEBUG  ][ln-839]: teardown_method
+2023-07-11 15:59:43 [DEBUG  ][ln-833]: teardown_class

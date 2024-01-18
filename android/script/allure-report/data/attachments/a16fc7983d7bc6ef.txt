@@ -1,0 +1,37 @@
+[35mDEBUG   [0m logcon:runnerWrapper.py:971 ======================================== Star to run: <TestAPI> ========================================
+[35mDEBUG   [0m logcon:runnerWrapper.py:977 ======================================== Star to run: <test_firebase_func> ========================================
+[32mINFO    [0m logcon:test-Firebase_Apptester.py:363 HomePass Package not found.
+[32mINFO    [0m logcon:test-Firebase_Apptester.py:368 2023
+[32mINFO    [0m logcon:test-Firebase_Apptester.py:369 11
+[32mINFO    [0m logcon:test-Firebase_Apptester.py:370 2
+[32mINFO    [0m logcon:test-Firebase_Apptester.py:372 2023-11-02 00:00:00
+[32mINFO    [0m logcon:test-Firebase_Apptester.py:390 ################################################################################################
+
+[32mINFO    [0m logcon:test-Firebase_Apptester.py:391 #  Test case : THRIV-2580 :  [Thrive Automation][script] Trigger FireBase in the Android phone #     (FireBase App)  #)
+
+[32mINFO    [0m logcon:test-Firebase_Apptester.py:392 ################################################################################################)
+
+[32mINFO    [0m logcon:test-Firebase_Apptester.py:421 STOP Appter First
+[32mINFO    [0m logcon:test-Firebase_Apptester.py:428 Lanch Apptester app
+[35mDEBUG   [0m logcon:test-Firebase_Apptester.py:292 Failed to lanch the App Tester APP!
+[32mINFO    [0m logcon:test-Firebase_Apptester.py:77 time.struct_time(tm_year=2023, tm_mon=11, tm_mday=2, tm_hour=3, tm_min=38, tm_sec=21, tm_wday=3, tm_yday=306, tm_isdst=0)
+[32mINFO    [0m logcon:test-Firebase_Apptester.py:78 
+
+
+[32mINFO    [0m logcon:test-Firebase_Apptester.py:81 2023
+[32mINFO    [0m logcon:test-Firebase_Apptester.py:82 11
+[32mINFO    [0m logcon:test-Firebase_Apptester.py:83 2
+[32mINFO    [0m logcon:test-Firebase_Apptester.py:86 ************************************************
+
+
+[32mINFO    [0m logcon:test-Firebase_Apptester.py:440 Tap and Select TestApps 
+[35mDEBUG   [0m logcon:test-Firebase_Apptester.py:277 Lanch the TapselectApp successfully.
+[32mINFO    [0m logcon:test-Firebase_Apptester.py:453 Choice if Latest is ready and HomePass Not install + Download button is displayed
+[32mINFO    [0m logcon:test-Firebase_Apptester.py:222 Press Download HomePass button
+[32mINFO    [0m logcon:test-Firebase_Apptester.py:236 Press Install HomePass button is displayed
+[32mINFO    [0m logcon:test-Firebase_Apptester.py:176 HomePass Sign in button is displayed
+[32mINFO    [0m logcon:test-Firebase_Apptester.py:468 STOP App tester
+[32mINFO    [0m logcon:test-Firebase_Apptester.py:472 For Trigger Apptester --> STOP
+[32mINFO    [0m logcon:test-Firebase_Apptester.py:475 Test completed
+[35mDEBUG   [0m logcon:runnerWrapper.py:980 teardown_method
+[35mDEBUG   [0m logcon:runnerWrapper.py:974 teardown_class

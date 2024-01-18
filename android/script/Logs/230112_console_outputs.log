@@ -1,0 +1,92 @@
+2023-01-12 11:03:42 [INFO   ][ln-47 ]: Start to load config file
+2023-01-12 11:03:42 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'staging-rest.pwb.plume-dev.com'}, 'userinfo': {'usrid': 'zhicheng+4@plume.com', 'pwd': 'plume1234', 'devuserid': '6270462c9c997f0009538d15', 'devid': '60B4F7F5003B', 'mac': '60:B4:F7:F5:00:3B', 'androiddev': 'd38c1487', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-01-12 11:03:42 [DEBUG  ][ln-548]: ======================================== Star to run: <TestAPI> ========================================
+2023-01-12 11:03:42 [DEBUG  ][ln-554]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-01-12 11:03:48 [INFO   ][ln-126]: ##################################################################
+
+2023-01-12 11:03:48 [INFO   ][ln-127]: #  Test case : ( BLE beacon scan via Android Phone (HomePass App)  #)
+
+2023-01-12 11:03:48 [INFO   ][ln-128]: ##################################################################)
+
+2023-01-12 11:03:48 [INFO   ][ln-129]: ##################################################################
+2023-01-12 11:07:39 [DEBUG  ][ln-557]: teardown_method
+2023-01-12 11:07:39 [DEBUG  ][ln-551]: teardown_class
+2023-01-12 11:08:58 [INFO   ][ln-47 ]: Start to load config file
+2023-01-12 11:08:58 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'staging-rest.pwb.plume-dev.com'}, 'userinfo': {'usrid': 'zhicheng+4@plume.com', 'pwd': 'plume1234', 'devuserid': '6270462c9c997f0009538d15', 'devid': '60B4F7F5003B', 'mac': '60:B4:F7:F5:00:3B', 'androiddev': 'd38c1487', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-01-12 11:08:59 [DEBUG  ][ln-548]: ======================================== Star to run: <TestAPI> ========================================
+2023-01-12 11:08:59 [DEBUG  ][ln-554]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-01-12 11:09:05 [INFO   ][ln-126]: ##################################################################
+
+2023-01-12 11:09:05 [INFO   ][ln-127]: #  Test case : ( BLE beacon scan via Android Phone (HomePass App)  #)
+
+2023-01-12 11:09:05 [INFO   ][ln-128]: ##################################################################)
+
+2023-01-12 11:09:05 [INFO   ][ln-129]: ##################################################################
+2023-01-12 11:12:06 [DEBUG  ][ln-557]: teardown_method
+2023-01-12 11:12:06 [DEBUG  ][ln-551]: teardown_class
+2023-01-12 11:12:11 [INFO   ][ln-47 ]: Start to load config file
+2023-01-12 11:12:11 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'staging-rest.pwb.plume-dev.com'}, 'userinfo': {'usrid': 'zhicheng+4@plume.com', 'pwd': 'plume1234', 'devuserid': '6270462c9c997f0009538d15', 'devid': '60B4F7F5003B', 'mac': '60:B4:F7:F5:00:3B', 'androiddev1': 'd38c1487', 'androiddev2': 'R5CT50K7ENH', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-01-12 11:12:11 [DEBUG  ][ln-548]: ======================================== Star to run: <TestAPI> ========================================
+2023-01-12 11:12:11 [DEBUG  ][ln-554]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-01-12 11:12:17 [INFO   ][ln-126]: ##################################################################
+
+2023-01-12 11:12:17 [INFO   ][ln-127]: #  Test case : ( BLE beacon scan via Android Phone (HomePass App)  #)
+
+2023-01-12 11:12:17 [INFO   ][ln-128]: ##################################################################)
+
+2023-01-12 11:12:17 [INFO   ][ln-129]: ##################################################################
+2023-01-12 11:16:26 [DEBUG  ][ln-557]: teardown_method
+2023-01-12 11:16:26 [DEBUG  ][ln-551]: teardown_class
+2023-01-12 11:16:37 [INFO   ][ln-47 ]: Start to load config file
+2023-01-12 11:16:37 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'staging-rest.pwb.plume-dev.com'}, 'userinfo': {'usrid': 'zhicheng+4@plume.com', 'pwd': 'plume1234', 'devuserid': '6270462c9c997f0009538d15', 'devid': '60B4F7F5003B', 'mac': '60:B4:F7:F5:00:3B', 'androiddev1': 'd38c1487', 'androiddev2': 'R5CT50K7ENH', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-01-12 11:16:37 [DEBUG  ][ln-548]: ======================================== Star to run: <TestAPI> ========================================
+2023-01-12 11:16:37 [DEBUG  ][ln-554]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-01-12 11:16:43 [INFO   ][ln-152]: ##################################################################
+
+2023-01-12 11:16:43 [INFO   ][ln-153]: #  Test case : ( BLE beacon scan via Android Phone (FrodoPlume App)  #)
+
+2023-01-12 11:16:43 [INFO   ][ln-154]: ##################################################################)
+
+2023-01-12 11:16:43 [INFO   ][ln-155]: ##################################################################
+2023-01-12 11:18:11 [INFO   ][ln-189]: Done
+2023-01-12 11:18:11 [DEBUG  ][ln-557]: teardown_method
+2023-01-12 11:18:11 [DEBUG  ][ln-551]: teardown_class
+2023-01-12 11:22:09 [INFO   ][ln-47 ]: Start to load config file
+2023-01-12 11:22:09 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'staging-rest.pwb.plume-dev.com'}, 'userinfo': {'usrid': 'zhicheng+4@plume.com', 'pwd': 'plume1234', 'devuserid': '6270462c9c997f0009538d15', 'devid': '60B4F7F5003B', 'mac': '60:B4:F7:F5:00:3B', 'androiddev1': 'd38c1487', 'androiddev2': 'R5CT50K7ENH', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-01-12 11:22:09 [DEBUG  ][ln-548]: ======================================== Star to run: <TestAPI> ========================================
+2023-01-12 11:22:09 [DEBUG  ][ln-554]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-01-12 11:22:15 [INFO   ][ln-126]: ##################################################################
+
+2023-01-12 11:22:15 [INFO   ][ln-127]: #  Test case : ( BLE beacon scan via Android Phone (HomePass App)  #)
+
+2023-01-12 11:22:15 [INFO   ][ln-128]: ##################################################################)
+
+2023-01-12 11:22:15 [INFO   ][ln-129]: ##################################################################
+2023-01-12 11:33:32 [DEBUG  ][ln-557]: teardown_method
+2023-01-12 11:33:32 [DEBUG  ][ln-551]: teardown_class
+2023-01-12 11:43:49 [INFO   ][ln-47 ]: Start to load config file
+2023-01-12 11:43:49 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'staging-rest.pwb.plume-dev.com'}, 'userinfo': {'usrid': 'zhicheng+4@plume.com', 'pwd': 'plume1234', 'devuserid': '6270462c9c997f0009538d15', 'devid': '60B4F7F5003B', 'mac': '60:B4:F7:F5:00:3B', 'androiddev1': 'd38c1487', 'androiddev2': 'R5CT50K7ENH', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-01-12 11:43:49 [DEBUG  ][ln-548]: ======================================== Star to run: <TestAPI> ========================================
+2023-01-12 11:43:49 [DEBUG  ][ln-554]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-01-12 11:43:55 [INFO   ][ln-126]: ##################################################################
+
+2023-01-12 11:43:55 [INFO   ][ln-127]: #  Test case : ( BLE beacon scan via Android Phone (HomePass App)  #)
+
+2023-01-12 11:43:55 [INFO   ][ln-128]: ##################################################################)
+
+2023-01-12 11:43:55 [INFO   ][ln-129]: ##################################################################
+2023-01-12 11:46:15 [DEBUG  ][ln-557]: teardown_method
+2023-01-12 11:46:15 [DEBUG  ][ln-551]: teardown_class
+2023-01-12 11:54:35 [INFO   ][ln-47 ]: Start to load config file
+2023-01-12 11:54:35 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'staging-rest.pwb.plume-dev.com'}, 'userinfo': {'usrid': 'zhicheng+4@plume.com', 'pwd': 'plume1234', 'devuserid': '6270462c9c997f0009538d15', 'devid': '60B4F7F5003B', 'mac': '60:B4:F7:F5:00:3B', 'androiddev1': 'd38c1487', 'androiddev2': 'R5CT50K7ENH', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-01-12 11:54:35 [DEBUG  ][ln-548]: ======================================== Star to run: <TestAPI> ========================================
+2023-01-12 11:54:35 [DEBUG  ][ln-554]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-01-12 11:54:41 [INFO   ][ln-126]: ##################################################################
+
+2023-01-12 11:54:41 [INFO   ][ln-127]: #  Test case : ( BLE beacon scan via Android Phone (HomePass App)  #)
+
+2023-01-12 11:54:41 [INFO   ][ln-128]: ##################################################################)
+
+2023-01-12 11:54:41 [INFO   ][ln-129]: ##################################################################
+2023-01-12 11:55:36 [DEBUG  ][ln-557]: teardown_method
+2023-01-12 11:55:36 [DEBUG  ][ln-551]: teardown_class

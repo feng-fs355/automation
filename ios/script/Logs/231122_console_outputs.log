@@ -1,0 +1,1010 @@
+2023-11-22 06:43:26 [INFO   ][ln-47 ]: Start to load config file
+2023-11-22 06:43:26 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-ios+4@plume.com', 'pwd': 'plume1234', 'devuserid': '653f108a396de2000acd43d4', 'sn': 'KD909A0084', 'devid': '60B4F7F504D2', 'mac': '60:B4:F7:F5:04:D2', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'HomePas_version': {'Previous': '3.129.0', 'OLD': '3.125.0'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-11-22 06:43:27 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-11-22 06:43:27 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-11-22 06:43:27 [INFO   ][ln-187]: #########################################################################
+
+2023-11-22 06:43:27 [INFO   ][ln-188]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-11-22 06:43:27 [INFO   ][ln-189]: # ---------------------------------------------------------------- #)
+
+2023-11-22 06:43:27 [INFO   ][ln-232]: {'build': {'time': 'Nov 14 2023 15:15:57', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'os': {'testmanagerdVersion': 65535, 'name': 'iOS', 'sdkVersion': '17.0', 'version': '16.6'}, 'device': 'iphone', 'ios': {'ip': '169.254.160.10'}, 'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'ready': True, 'sessionId': None}
+2023-11-22 06:43:31 [INFO   ][ln-242]: Size(width=390, height=844)
+2023-11-22 06:43:34 [INFO   ][ln-71 ]: homepass-icon is displayed
+2023-11-22 06:43:37 [INFO   ][ln-98 ]: Step 1of Sign in HomePassIOS
+2023-11-22 06:43:37 [INFO   ][ln-151]: Step 3 of Sign in to HomePass IOS
+2023-11-22 06:43:38 [INFO   ][ln-171]: Trying to Detect HomePass Would Like to Send You Notifications
+2023-11-22 06:43:57 [INFO   ][ln-93 ]: Successful to Sign out
+2023-11-22 06:43:58 [INFO   ][ln-262]: Test completed
+2023-11-22 06:44:09 [DEBUG  ][ln-980]: teardown_method
+2023-11-22 06:44:09 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-11-22 06:44:09 [INFO   ][ln-187]: #########################################################################
+
+2023-11-22 06:44:09 [INFO   ][ln-188]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-11-22 06:44:09 [INFO   ][ln-189]: # ---------------------------------------------------------------- #)
+
+2023-11-22 06:44:09 [INFO   ][ln-232]: {'build': {'time': 'Nov 14 2023 15:15:57', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'os': {'testmanagerdVersion': 65535, 'name': 'iOS', 'sdkVersion': '17.0', 'version': '16.6'}, 'device': 'iphone', 'ios': {'ip': '169.254.160.10'}, 'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'ready': True, 'sessionId': None}
+2023-11-22 06:44:14 [INFO   ][ln-242]: Size(width=390, height=844)
+2023-11-22 06:44:17 [INFO   ][ln-71 ]: homepass-icon is displayed
+2023-11-22 06:44:19 [INFO   ][ln-98 ]: Step 1of Sign in HomePassIOS
+2023-11-22 06:44:24 [INFO   ][ln-107]: enter your mail address
+2023-11-22 06:44:26 [INFO   ][ln-113]: Press next button
+2023-11-22 06:44:28 [INFO   ][ln-117]: Switch to Password button
+2023-11-22 06:44:29 [INFO   ][ln-123]: Step 2 of Sign in tap password field / input password
+2023-11-22 06:44:30 [INFO   ][ln-132]: click Done button
+2023-11-22 06:44:42 [INFO   ][ln-141]: Press via xy table
+2023-11-22 06:44:47 [INFO   ][ln-144]: Has been entry HomePass IOS APP
+2023-11-22 06:44:48 [INFO   ][ln-151]: Step 3 of Sign in to HomePass IOS
+2023-11-22 06:44:48 [INFO   ][ln-171]: Trying to Detect HomePass Would Like to Send You Notifications
+2023-11-22 06:44:54 [INFO   ][ln-262]: Test completed
+2023-11-22 06:45:05 [DEBUG  ][ln-980]: teardown_method
+2023-11-22 06:45:05 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-11-22 06:45:05 [INFO   ][ln-187]: #########################################################################
+
+2023-11-22 06:45:05 [INFO   ][ln-188]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-11-22 06:45:05 [INFO   ][ln-189]: # ---------------------------------------------------------------- #)
+
+2023-11-22 06:45:05 [INFO   ][ln-232]: {'build': {'time': 'Nov 14 2023 15:15:57', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'os': {'testmanagerdVersion': 65535, 'name': 'iOS', 'sdkVersion': '17.0', 'version': '16.6'}, 'device': 'iphone', 'ios': {'ip': '169.254.160.10'}, 'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'ready': True, 'sessionId': None}
+2023-11-22 06:45:10 [INFO   ][ln-242]: Size(width=390, height=844)
+2023-11-22 06:45:13 [INFO   ][ln-71 ]: homepass-icon is displayed
+2023-11-22 06:45:15 [INFO   ][ln-98 ]: Step 1of Sign in HomePassIOS
+2023-11-22 06:45:15 [INFO   ][ln-151]: Step 3 of Sign in to HomePass IOS
+2023-11-22 06:45:29 [INFO   ][ln-163]: Has been entry HomePass IOS APP
+2023-11-22 06:45:29 [INFO   ][ln-171]: Trying to Detect HomePass Would Like to Send You Notifications
+2023-11-22 06:45:36 [INFO   ][ln-262]: Test completed
+2023-11-22 06:45:46 [DEBUG  ][ln-980]: teardown_method
+2023-11-22 06:45:46 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-11-22 06:45:46 [INFO   ][ln-187]: #########################################################################
+
+2023-11-22 06:45:46 [INFO   ][ln-188]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-11-22 06:45:46 [INFO   ][ln-189]: # ---------------------------------------------------------------- #)
+
+2023-11-22 06:45:46 [INFO   ][ln-232]: {'build': {'time': 'Nov 14 2023 15:15:57', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'os': {'testmanagerdVersion': 65535, 'name': 'iOS', 'sdkVersion': '17.0', 'version': '16.6'}, 'device': 'iphone', 'ios': {'ip': '169.254.160.10'}, 'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'ready': True, 'sessionId': None}
+2023-11-22 06:45:51 [INFO   ][ln-242]: Size(width=390, height=844)
+2023-11-22 06:45:54 [INFO   ][ln-71 ]: homepass-icon is displayed
+2023-11-22 06:45:56 [INFO   ][ln-98 ]: Step 1of Sign in HomePassIOS
+2023-11-22 06:45:56 [INFO   ][ln-151]: Step 3 of Sign in to HomePass IOS
+2023-11-22 06:46:10 [INFO   ][ln-163]: Has been entry HomePass IOS APP
+2023-11-22 06:46:11 [INFO   ][ln-171]: Trying to Detect HomePass Would Like to Send You Notifications
+2023-11-22 06:46:17 [INFO   ][ln-262]: Test completed
+2023-11-22 06:46:28 [DEBUG  ][ln-980]: teardown_method
+2023-11-22 06:46:28 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-11-22 06:46:28 [INFO   ][ln-187]: #########################################################################
+
+2023-11-22 06:46:28 [INFO   ][ln-188]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-11-22 06:46:28 [INFO   ][ln-189]: # ---------------------------------------------------------------- #)
+
+2023-11-22 06:46:28 [INFO   ][ln-232]: {'build': {'time': 'Nov 14 2023 15:15:57', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'os': {'testmanagerdVersion': 65535, 'name': 'iOS', 'sdkVersion': '17.0', 'version': '16.6'}, 'device': 'iphone', 'ios': {'ip': '169.254.160.10'}, 'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'ready': True, 'sessionId': None}
+2023-11-22 06:46:33 [INFO   ][ln-242]: Size(width=390, height=844)
+2023-11-22 06:46:36 [INFO   ][ln-71 ]: homepass-icon is displayed
+2023-11-22 06:46:38 [INFO   ][ln-98 ]: Step 1of Sign in HomePassIOS
+2023-11-22 06:46:38 [INFO   ][ln-151]: Step 3 of Sign in to HomePass IOS
+2023-11-22 06:46:52 [INFO   ][ln-163]: Has been entry HomePass IOS APP
+2023-11-22 06:46:52 [INFO   ][ln-171]: Trying to Detect HomePass Would Like to Send You Notifications
+2023-11-22 06:46:59 [INFO   ][ln-262]: Test completed
+2023-11-22 06:47:09 [DEBUG  ][ln-980]: teardown_method
+2023-11-22 06:47:09 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-11-22 06:47:09 [INFO   ][ln-187]: #########################################################################
+
+2023-11-22 06:47:09 [INFO   ][ln-188]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-11-22 06:47:09 [INFO   ][ln-189]: # ---------------------------------------------------------------- #)
+
+2023-11-22 06:47:09 [INFO   ][ln-232]: {'build': {'time': 'Nov 14 2023 15:15:57', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'os': {'testmanagerdVersion': 65535, 'name': 'iOS', 'sdkVersion': '17.0', 'version': '16.6'}, 'device': 'iphone', 'ios': {'ip': '169.254.160.10'}, 'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'ready': True, 'sessionId': None}
+2023-11-22 06:47:14 [INFO   ][ln-242]: Size(width=390, height=844)
+2023-11-22 06:47:17 [INFO   ][ln-71 ]: homepass-icon is displayed
+2023-11-22 06:47:19 [INFO   ][ln-98 ]: Step 1of Sign in HomePassIOS
+2023-11-22 06:47:19 [INFO   ][ln-151]: Step 3 of Sign in to HomePass IOS
+2023-11-22 06:47:33 [INFO   ][ln-163]: Has been entry HomePass IOS APP
+2023-11-22 06:47:34 [INFO   ][ln-171]: Trying to Detect HomePass Would Like to Send You Notifications
+2023-11-22 06:47:40 [INFO   ][ln-262]: Test completed
+2023-11-22 06:47:50 [DEBUG  ][ln-980]: teardown_method
+2023-11-22 06:47:50 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-11-22 06:47:50 [INFO   ][ln-187]: #########################################################################
+
+2023-11-22 06:47:50 [INFO   ][ln-188]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-11-22 06:47:50 [INFO   ][ln-189]: # ---------------------------------------------------------------- #)
+
+2023-11-22 06:47:50 [INFO   ][ln-232]: {'build': {'time': 'Nov 14 2023 15:15:57', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'os': {'testmanagerdVersion': 65535, 'name': 'iOS', 'sdkVersion': '17.0', 'version': '16.6'}, 'device': 'iphone', 'ios': {'ip': '169.254.160.10'}, 'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'ready': True, 'sessionId': None}
+2023-11-22 06:47:56 [INFO   ][ln-242]: Size(width=390, height=844)
+2023-11-22 06:47:58 [INFO   ][ln-71 ]: homepass-icon is displayed
+2023-11-22 06:48:01 [INFO   ][ln-98 ]: Step 1of Sign in HomePassIOS
+2023-11-22 06:48:01 [INFO   ][ln-151]: Step 3 of Sign in to HomePass IOS
+2023-11-22 06:48:15 [INFO   ][ln-163]: Has been entry HomePass IOS APP
+2023-11-22 06:48:15 [INFO   ][ln-171]: Trying to Detect HomePass Would Like to Send You Notifications
+2023-11-22 06:48:21 [INFO   ][ln-262]: Test completed
+2023-11-22 06:48:32 [DEBUG  ][ln-980]: teardown_method
+2023-11-22 06:48:32 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-11-22 06:48:32 [INFO   ][ln-187]: #########################################################################
+
+2023-11-22 06:48:32 [INFO   ][ln-188]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-11-22 06:48:32 [INFO   ][ln-189]: # ---------------------------------------------------------------- #)
+
+2023-11-22 06:48:32 [INFO   ][ln-232]: {'build': {'time': 'Nov 14 2023 15:15:57', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'os': {'testmanagerdVersion': 65535, 'name': 'iOS', 'sdkVersion': '17.0', 'version': '16.6'}, 'device': 'iphone', 'ios': {'ip': '169.254.160.10'}, 'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'ready': True, 'sessionId': None}
+2023-11-22 06:48:33 [DEBUG  ][ln-980]: teardown_method
+2023-11-22 06:48:33 [DEBUG  ][ln-974]: teardown_class
+2023-11-22 06:49:42 [INFO   ][ln-47 ]: Start to load config file
+2023-11-22 06:49:42 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-ios+4@plume.com', 'pwd': 'plume1234', 'devuserid': '653f108a396de2000acd43d4', 'sn': 'KD909A0084', 'devid': '60B4F7F504D2', 'mac': '60:B4:F7:F5:04:D2', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'HomePas_version': {'Previous': '3.129.0', 'OLD': '3.125.0'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-11-22 06:49:42 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-11-22 06:49:42 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-11-22 06:49:42 [INFO   ][ln-214]: #########################################################################
+
+2023-11-22 06:49:42 [INFO   ][ln-215]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-11-22 06:49:42 [INFO   ][ln-216]: # ---------------------------------------------------------------- #)
+
+2023-11-22 06:49:42 [INFO   ][ln-259]: {'build': {'time': 'Nov 14 2023 15:15:57', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'os': {'testmanagerdVersion': 65535, 'name': 'iOS', 'sdkVersion': '17.0', 'version': '16.6'}, 'device': 'iphone', 'ios': {'ip': '169.254.160.10'}, 'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'ready': True, 'sessionId': None}
+2023-11-22 06:49:47 [INFO   ][ln-269]: Size(width=390, height=844)
+2023-11-22 06:49:50 [INFO   ][ln-275]: TestFlight has been trigger
+2023-11-22 06:49:54 [INFO   ][ln-83 ]: Install Button is displayed
+2023-11-22 06:50:01 [INFO   ][ln-86 ]: Install HomePass is Processing
+2023-11-22 06:50:34 [INFO   ][ln-90 ]: Open Button is displayed
+2023-11-22 06:50:47 [INFO   ][ln-94 ]: Next Button is displayed
+2023-11-22 06:50:57 [INFO   ][ln-103]: Start Test is displayed
+2023-11-22 06:50:59 [INFO   ][ln-109]: Start Testing
+2023-11-22 06:51:00 [INFO   ][ln-111]: Button has been click
+2023-11-22 06:51:02 [INFO   ][ln-119]: homepass-logo
+2023-11-22 06:51:03 [INFO   ][ln-125]: Step 1of Sign in HomePassIOS
+2023-11-22 06:51:08 [INFO   ][ln-134]: enter your mail address
+2023-11-22 06:51:09 [INFO   ][ln-140]: Press next button
+2023-11-22 06:51:12 [INFO   ][ln-144]: Switch to Password button
+2023-11-22 06:51:14 [INFO   ][ln-150]: Step 2 of Sign in tap password field / input password
+2023-11-22 06:51:19 [INFO   ][ln-159]: click Done button
+2023-11-22 06:51:32 [INFO   ][ln-168]: Press via xy table
+2023-11-22 06:51:37 [INFO   ][ln-171]: Has been entry HomePass IOS APP
+2023-11-22 06:51:38 [INFO   ][ln-178]: Step 3 of Sign in to HomePass IOS
+2023-11-22 06:51:38 [INFO   ][ln-198]: Trying to Detect HomePass Would Like to Send You Notifications
+2023-11-22 06:51:53 [INFO   ][ln-306]: Test completed
+2023-11-22 06:52:02 [DEBUG  ][ln-980]: teardown_method
+2023-11-22 06:52:02 [DEBUG  ][ln-974]: teardown_class
+2023-11-22 10:10:14 [INFO   ][ln-47 ]: Start to load config file
+2023-11-22 10:10:14 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-ios+4@plume.com', 'pwd': 'plume1234', 'devuserid': '653f108a396de2000acd43d4', 'sn': 'KD909A0084', 'devid': '60B4F7F504D2', 'mac': '60:B4:F7:F5:04:D2', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'HomePas_version': {'Previous': '3.129.0', 'OLD': '3.125.0'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-11-22 10:10:14 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-11-22 10:10:14 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-11-22 10:10:14 [INFO   ][ln-216]: #########################################################################
+
+2023-11-22 10:10:14 [INFO   ][ln-217]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-11-22 10:10:14 [INFO   ][ln-218]: # ---------------------------------------------------------------- #)
+
+2023-11-22 10:10:14 [INFO   ][ln-261]: {'build': {'time': 'Nov 14 2023 15:15:57', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'os': {'testmanagerdVersion': 65535, 'name': 'iOS', 'sdkVersion': '17.0', 'version': '16.6'}, 'device': 'iphone', 'ios': {'ip': '169.254.160.10'}, 'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'ready': True, 'sessionId': 'CF9CDC2E-8B5E-47CD-9974-B4248E9C08F9'}
+2023-11-22 10:10:19 [INFO   ][ln-271]: Size(width=390, height=844)
+2023-11-22 10:10:22 [INFO   ][ln-73 ]: homepass-icon is displayed
+2023-11-22 10:10:24 [INFO   ][ln-127]: Step 1of Sign in HomePassIOS
+2023-11-22 10:10:24 [INFO   ][ln-180]: Step 3 of Sign in to HomePass IOS
+2023-11-22 10:10:24 [INFO   ][ln-200]: Trying to Detect HomePass Would Like to Send You Notifications
+2023-11-22 10:10:44 [INFO   ][ln-122]: Successful to Sign out
+2023-11-22 10:10:45 [INFO   ][ln-294]: Test completed
+2023-11-22 10:10:56 [DEBUG  ][ln-980]: teardown_method
+2023-11-22 10:10:56 [DEBUG  ][ln-974]: teardown_class
+2023-11-22 10:11:01 [INFO   ][ln-47 ]: Start to load config file
+2023-11-22 10:11:01 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-ios+4@plume.com', 'pwd': 'plume1234', 'devuserid': '653f108a396de2000acd43d4', 'sn': 'KD909A0084', 'devid': '60B4F7F504D2', 'mac': '60:B4:F7:F5:04:D2', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'HomePas_version': {'Previous': '3.129.0', 'OLD': '3.125.0'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-11-22 10:11:02 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-11-22 10:11:02 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-11-22 10:11:02 [INFO   ][ln-216]: #########################################################################
+
+2023-11-22 10:11:02 [INFO   ][ln-217]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-11-22 10:11:02 [INFO   ][ln-218]: # ---------------------------------------------------------------- #)
+
+2023-11-22 10:11:02 [INFO   ][ln-261]: {'build': {'time': 'Nov 14 2023 15:15:57', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'os': {'testmanagerdVersion': 65535, 'name': 'iOS', 'sdkVersion': '17.0', 'version': '16.6'}, 'device': 'iphone', 'ios': {'ip': '169.254.160.10'}, 'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'ready': True, 'sessionId': None}
+2023-11-22 10:11:07 [INFO   ][ln-271]: Size(width=390, height=844)
+2023-11-22 10:11:10 [INFO   ][ln-73 ]: homepass-icon is displayed
+2023-11-22 10:11:12 [INFO   ][ln-127]: Step 1of Sign in HomePassIOS
+2023-11-22 10:11:17 [INFO   ][ln-136]: enter your mail address
+2023-11-22 10:11:19 [INFO   ][ln-142]: Press next button
+2023-11-22 10:11:21 [INFO   ][ln-146]: Switch to Password button
+2023-11-22 10:11:24 [INFO   ][ln-152]: Step 2 of Sign in tap password field / input password
+2023-11-22 10:11:28 [INFO   ][ln-161]: click Done button
+2023-11-22 10:11:41 [INFO   ][ln-170]: Press via xy table
+2023-11-22 10:11:46 [INFO   ][ln-173]: Has been entry HomePass IOS APP
+2023-11-22 10:11:47 [INFO   ][ln-180]: Step 3 of Sign in to HomePass IOS
+2023-11-22 10:11:47 [INFO   ][ln-200]: Trying to Detect HomePass Would Like to Send You Notifications
+2023-11-22 10:12:06 [INFO   ][ln-122]: Successful to Sign out
+2023-11-22 10:12:07 [INFO   ][ln-294]: Test completed
+2023-11-22 10:12:18 [DEBUG  ][ln-980]: teardown_method
+2023-11-22 10:12:18 [DEBUG  ][ln-974]: teardown_class
+2023-11-22 10:30:44 [INFO   ][ln-47 ]: Start to load config file
+2023-11-22 10:30:44 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-ios+4@plume.com', 'pwd': 'plume1234', 'devuserid': '653f108a396de2000acd43d4', 'sn': 'KD909A0084', 'devid': '60B4F7F504D2', 'mac': '60:B4:F7:F5:04:D2', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'HomePas_version': {'Previous': '3.129.0', 'OLD': '3.125.0'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-11-22 10:30:44 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-11-22 10:30:44 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-11-22 10:30:44 [INFO   ][ln-216]: #########################################################################
+
+2023-11-22 10:30:44 [INFO   ][ln-217]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-11-22 10:30:44 [INFO   ][ln-218]: # ---------------------------------------------------------------- #)
+
+2023-11-22 10:30:44 [INFO   ][ln-261]: {'build': {'time': 'Nov 14 2023 15:15:57', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'os': {'testmanagerdVersion': 65535, 'name': 'iOS', 'sdkVersion': '17.0', 'version': '16.6'}, 'device': 'iphone', 'ios': {'ip': '169.254.160.10'}, 'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'ready': True, 'sessionId': None}
+2023-11-22 10:30:49 [INFO   ][ln-271]: Size(width=390, height=844)
+2023-11-22 10:30:52 [INFO   ][ln-73 ]: homepass-icon is displayed
+2023-11-22 10:30:54 [INFO   ][ln-127]: Step 1of Sign in HomePassIOS
+2023-11-22 10:30:59 [INFO   ][ln-136]: enter your mail address
+2023-11-22 10:31:01 [INFO   ][ln-142]: Press next button
+2023-11-22 10:31:04 [INFO   ][ln-146]: Switch to Password button
+2023-11-22 10:31:06 [INFO   ][ln-152]: Step 2 of Sign in tap password field / input password
+2023-11-22 10:31:10 [INFO   ][ln-161]: click Done button
+2023-11-22 10:31:23 [INFO   ][ln-170]: Press via xy table
+2023-11-22 10:31:28 [INFO   ][ln-173]: Has been entry HomePass IOS APP
+2023-11-22 10:31:29 [INFO   ][ln-180]: Step 3 of Sign in to HomePass IOS
+2023-11-22 10:31:30 [INFO   ][ln-200]: Trying to Detect HomePass Would Like to Send You Notifications
+2023-11-22 10:31:50 [INFO   ][ln-122]: Successful to Sign out
+2023-11-22 10:31:50 [INFO   ][ln-294]: Test completed
+2023-11-22 10:32:01 [DEBUG  ][ln-980]: teardown_method
+2023-11-22 10:32:01 [DEBUG  ][ln-974]: teardown_class
+2023-11-22 10:32:21 [INFO   ][ln-47 ]: Start to load config file
+2023-11-22 10:32:21 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-ios+4@plume.com', 'pwd': 'plume1234', 'devuserid': '653f108a396de2000acd43d4', 'sn': 'KD909A0084', 'devid': '60B4F7F504D2', 'mac': '60:B4:F7:F5:04:D2', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'HomePas_version': {'Previous': '3.129.0', 'OLD': '3.125.0'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-11-22 10:32:21 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-11-22 10:32:21 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-11-22 10:32:21 [INFO   ][ln-214]: #########################################################################
+
+2023-11-22 10:32:21 [INFO   ][ln-215]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-11-22 10:32:21 [INFO   ][ln-216]: # ---------------------------------------------------------------- #)
+
+2023-11-22 10:32:21 [INFO   ][ln-259]: {'build': {'time': 'Nov 14 2023 15:15:57', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'os': {'testmanagerdVersion': 65535, 'name': 'iOS', 'sdkVersion': '17.0', 'version': '16.6'}, 'device': 'iphone', 'ios': {'ip': '169.254.160.10'}, 'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'ready': True, 'sessionId': None}
+2023-11-22 10:32:27 [INFO   ][ln-269]: Size(width=390, height=844)
+2023-11-22 10:32:30 [INFO   ][ln-275]: TestFlight has been trigger
+2023-11-22 10:32:34 [INFO   ][ln-83 ]: Install Button is displayed
+2023-11-22 10:32:40 [INFO   ][ln-86 ]: Install HomePass is Processing
+2023-11-22 10:33:13 [INFO   ][ln-90 ]: Open Button is displayed
+2023-11-22 10:33:26 [INFO   ][ln-94 ]: Next Button is displayed
+2023-11-22 10:33:32 [INFO   ][ln-125]: Step 1of Sign in HomePassIOS
+2023-11-22 10:33:32 [INFO   ][ln-178]: Step 3 of Sign in to HomePass IOS
+2023-11-22 10:33:32 [INFO   ][ln-198]: Trying to Detect HomePass Would Like to Send You Notifications
+2023-11-22 10:33:47 [INFO   ][ln-306]: Test completed
+2023-11-22 10:33:58 [DEBUG  ][ln-980]: teardown_method
+2023-11-22 10:33:58 [DEBUG  ][ln-974]: teardown_class
+2023-11-22 10:43:27 [INFO   ][ln-47 ]: Start to load config file
+2023-11-22 10:43:27 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-ios+4@plume.com', 'pwd': 'plume1234', 'devuserid': '653f108a396de2000acd43d4', 'sn': 'KD909A0084', 'devid': '60B4F7F504D2', 'mac': '60:B4:F7:F5:04:D2', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'HomePas_version': {'Previous': '3.129.0', 'OLD': '3.125.0'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-11-22 10:43:27 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-11-22 10:43:27 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-11-22 10:43:27 [INFO   ][ln-214]: #########################################################################
+
+2023-11-22 10:43:27 [INFO   ][ln-215]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-11-22 10:43:27 [INFO   ][ln-216]: # ---------------------------------------------------------------- #)
+
+2023-11-22 10:43:27 [INFO   ][ln-259]: {'build': {'time': 'Nov 14 2023 15:15:57', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'os': {'testmanagerdVersion': 65535, 'name': 'iOS', 'sdkVersion': '17.0', 'version': '16.6'}, 'device': 'iphone', 'ios': {'ip': '169.254.160.10'}, 'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'ready': True, 'sessionId': None}
+2023-11-22 10:43:32 [INFO   ][ln-269]: Size(width=390, height=844)
+2023-11-22 10:43:35 [INFO   ][ln-275]: TestFlight has been trigger
+2023-11-22 10:43:39 [INFO   ][ln-83 ]: Install Button is displayed
+2023-11-22 10:43:46 [INFO   ][ln-86 ]: Install HomePass is Processing
+2023-11-22 10:44:19 [INFO   ][ln-90 ]: Open Button is displayed
+2023-11-22 10:44:32 [INFO   ][ln-94 ]: Next Button is displayed
+2023-11-22 10:44:38 [INFO   ][ln-125]: Step 1of Sign in HomePassIOS
+2023-11-22 10:44:38 [INFO   ][ln-178]: Step 3 of Sign in to HomePass IOS
+2023-11-22 10:44:38 [INFO   ][ln-198]: Trying to Detect HomePass Would Like to Send You Notifications
+2023-11-22 10:44:53 [INFO   ][ln-306]: Test completed
+2023-11-22 10:45:03 [DEBUG  ][ln-980]: teardown_method
+2023-11-22 10:45:03 [DEBUG  ][ln-974]: teardown_class
+2023-11-22 10:47:45 [INFO   ][ln-47 ]: Start to load config file
+2023-11-22 10:47:45 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-ios+4@plume.com', 'pwd': 'plume1234', 'devuserid': '653f108a396de2000acd43d4', 'sn': 'KD909A0084', 'devid': '60B4F7F504D2', 'mac': '60:B4:F7:F5:04:D2', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'HomePas_version': {'Previous': '3.129.0', 'OLD': '3.125.0'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-11-22 10:47:45 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-11-22 10:47:45 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-11-22 10:47:45 [INFO   ][ln-214]: #########################################################################
+
+2023-11-22 10:47:45 [INFO   ][ln-215]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-11-22 10:47:45 [INFO   ][ln-216]: # ---------------------------------------------------------------- #)
+
+2023-11-22 10:47:46 [INFO   ][ln-259]: {'build': {'time': 'Nov 14 2023 15:15:57', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'os': {'testmanagerdVersion': 65535, 'name': 'iOS', 'sdkVersion': '17.0', 'version': '16.6'}, 'device': 'iphone', 'ios': {'ip': '169.254.160.10'}, 'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'ready': True, 'sessionId': None}
+2023-11-22 10:47:52 [INFO   ][ln-269]: Size(width=390, height=844)
+2023-11-22 10:47:54 [INFO   ][ln-275]: TestFlight has been trigger
+2023-11-22 10:47:58 [INFO   ][ln-83 ]: Install Button is displayed
+2023-11-22 10:48:14 [INFO   ][ln-86 ]: Install HomePass is Processing
+2023-11-22 10:49:14 [INFO   ][ln-90 ]: Open Button is displayed
+2023-11-22 10:49:27 [INFO   ][ln-94 ]: Next Button is displayed
+2023-11-22 10:49:37 [INFO   ][ln-103]: Start Test is displayed
+2023-11-22 10:49:39 [INFO   ][ln-109]: Start Testing
+2023-11-22 10:49:40 [INFO   ][ln-111]: Button has been click
+2023-11-22 10:49:42 [INFO   ][ln-119]: homepass-logo
+2023-11-22 10:49:43 [INFO   ][ln-125]: Step 1of Sign in HomePassIOS
+2023-11-22 10:49:48 [INFO   ][ln-134]: enter your mail address
+2023-11-22 10:49:49 [INFO   ][ln-140]: Press next button
+2023-11-22 10:49:52 [INFO   ][ln-144]: Switch to Password button
+2023-11-22 10:49:54 [INFO   ][ln-150]: Step 2 of Sign in tap password field / input password
+2023-11-22 10:49:59 [INFO   ][ln-159]: click Done button
+2023-11-22 10:50:11 [INFO   ][ln-168]: Press via xy table
+2023-11-22 10:50:17 [INFO   ][ln-171]: Has been entry HomePass IOS APP
+2023-11-22 10:50:18 [INFO   ][ln-178]: Step 3 of Sign in to HomePass IOS
+2023-11-22 10:50:18 [INFO   ][ln-198]: Trying to Detect HomePass Would Like to Send You Notifications
+2023-11-22 10:50:29 [INFO   ][ln-206]: Allow function has been created
+2023-11-22 10:50:39 [INFO   ][ln-306]: Test completed
+2023-11-22 10:50:50 [DEBUG  ][ln-980]: teardown_method
+2023-11-22 10:50:50 [DEBUG  ][ln-974]: teardown_class
+2023-11-22 11:11:46 [INFO   ][ln-47 ]: Start to load config file
+2023-11-22 11:11:46 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-ios+4@plume.com', 'pwd': 'plume1234', 'devuserid': '653f108a396de2000acd43d4', 'sn': 'KD909A0084', 'devid': '60B4F7F504D2', 'mac': '60:B4:F7:F5:04:D2', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'HomePas_version': {'Previous': '3.129.0', 'OLD': '3.125.0'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-11-22 11:11:46 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-11-22 11:11:46 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-11-22 11:11:46 [INFO   ][ln-222]: #########################################################################
+
+2023-11-22 11:11:46 [INFO   ][ln-223]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-11-22 11:11:46 [INFO   ][ln-224]: # ---------------------------------------------------------------- #)
+
+2023-11-22 11:11:46 [INFO   ][ln-267]: {'build': {'time': 'Nov 14 2023 15:15:57', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'os': {'testmanagerdVersion': 65535, 'name': 'iOS', 'sdkVersion': '17.0', 'version': '16.6'}, 'device': 'iphone', 'ios': {'ip': '169.254.160.10'}, 'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'ready': True, 'sessionId': '7C9194A0-2016-4565-A874-9D41EB64DDA4'}
+2023-11-22 11:11:52 [INFO   ][ln-277]: Size(width=390, height=844)
+2023-11-22 11:11:55 [INFO   ][ln-73 ]: homepass-icon is displayed
+2023-11-22 11:11:57 [INFO   ][ln-133]: Step 1of Sign in HomePassIOS
+2023-11-22 11:11:57 [INFO   ][ln-186]: Step 3 of Sign in to HomePass IOS
+2023-11-22 11:11:57 [INFO   ][ln-206]: Trying to Detect HomePass Would Like to Send You Notifications
+2023-11-22 11:12:16 [INFO   ][ln-128]: Successful to Sign out
+2023-11-22 11:12:17 [INFO   ][ln-300]: Test completed
+2023-11-22 11:12:27 [DEBUG  ][ln-980]: teardown_method
+2023-11-22 11:12:27 [DEBUG  ][ln-974]: teardown_class
+2023-11-22 11:25:44 [INFO   ][ln-47 ]: Start to load config file
+2023-11-22 11:25:44 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-ios+4@plume.com', 'pwd': 'plume1234', 'devuserid': '653f108a396de2000acd43d4', 'sn': 'KD909A0084', 'devid': '60B4F7F504D2', 'mac': '60:B4:F7:F5:04:D2', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'HomePas_version': {'Previous': '3.129.0', 'OLD': '3.125.0'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-11-22 11:25:45 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-11-22 11:25:45 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-11-22 11:25:45 [INFO   ][ln-223]: #########################################################################
+
+2023-11-22 11:25:45 [INFO   ][ln-224]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-11-22 11:25:45 [INFO   ][ln-225]: # ---------------------------------------------------------------- #)
+
+2023-11-22 11:25:45 [INFO   ][ln-268]: {'build': {'time': 'Nov 14 2023 15:15:57', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'os': {'testmanagerdVersion': 65535, 'name': 'iOS', 'sdkVersion': '17.0', 'version': '16.6'}, 'device': 'iphone', 'ios': {'ip': '169.254.160.10'}, 'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'ready': True, 'sessionId': None}
+2023-11-22 11:25:50 [INFO   ][ln-278]: Size(width=390, height=844)
+2023-11-22 11:25:53 [INFO   ][ln-73 ]: homepass-icon is displayed
+2023-11-22 11:25:55 [INFO   ][ln-134]: Step 1of Sign in HomePassIOS
+2023-11-22 11:26:00 [INFO   ][ln-143]: enter your mail address
+2023-11-22 11:26:02 [INFO   ][ln-149]: Press next button
+2023-11-22 11:26:04 [INFO   ][ln-153]: Switch to Password button
+2023-11-22 11:26:07 [INFO   ][ln-159]: Step 2 of Sign in tap password field / input password
+2023-11-22 11:26:11 [INFO   ][ln-168]: click Done button
+2023-11-22 11:26:24 [INFO   ][ln-177]: Press via xy table
+2023-11-22 11:26:30 [INFO   ][ln-180]: Has been entry HomePass IOS APP
+2023-11-22 11:26:30 [INFO   ][ln-187]: Step 3 of Sign in to HomePass IOS
+2023-11-22 11:26:31 [INFO   ][ln-207]: Trying to Detect HomePass Would Like to Send You Notifications
+2023-11-22 11:26:50 [INFO   ][ln-129]: Successful to Sign out
+2023-11-22 11:26:51 [INFO   ][ln-301]: Test completed
+2023-11-22 11:27:01 [DEBUG  ][ln-980]: teardown_method
+2023-11-22 11:27:01 [DEBUG  ][ln-974]: teardown_class
+2023-11-22 17:33:53 [INFO   ][ln-47 ]: Start to load config file
+2023-11-22 17:33:53 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-ios+4@plume.com', 'pwd': 'plume1234', 'devuserid': '653f108a396de2000acd43d4', 'sn': 'KD909A0084', 'devid': '60B4F7F504D2', 'mac': '60:B4:F7:F5:04:D2', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'HomePas_version': {'Previous': '3.129.0', 'OLD': '3.125.0'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-11-22 17:33:54 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-11-22 17:33:54 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-11-22 17:33:54 [INFO   ][ln-223]: #########################################################################
+
+2023-11-22 17:33:54 [INFO   ][ln-224]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-11-22 17:33:54 [INFO   ][ln-225]: # ---------------------------------------------------------------- #)
+
+2023-11-22 17:33:54 [INFO   ][ln-268]: {'build': {'time': 'Nov 14 2023 15:15:57', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'os': {'testmanagerdVersion': 65535, 'name': 'iOS', 'sdkVersion': '17.0', 'version': '16.6'}, 'device': 'iphone', 'ios': {'ip': '169.254.160.10'}, 'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'ready': True, 'sessionId': None}
+2023-11-22 17:33:59 [INFO   ][ln-278]: Size(width=390, height=844)
+2023-11-22 17:34:02 [INFO   ][ln-73 ]: homepass-icon is displayed
+2023-11-22 17:34:04 [INFO   ][ln-134]: Step 1of Sign in HomePassIOS
+2023-11-22 17:34:09 [INFO   ][ln-143]: enter your mail address
+2023-11-22 17:34:11 [INFO   ][ln-149]: Press next button
+2023-11-22 17:34:14 [INFO   ][ln-153]: Switch to Password button
+2023-11-22 17:34:16 [INFO   ][ln-159]: Step 2 of Sign in tap password field / input password
+2023-11-22 17:34:20 [INFO   ][ln-168]: click Done button
+2023-11-22 17:34:33 [INFO   ][ln-177]: Press via xy table
+2023-11-22 17:34:39 [INFO   ][ln-180]: Has been entry HomePass IOS APP
+2023-11-22 17:34:39 [INFO   ][ln-187]: Step 3 of Sign in to HomePass IOS
+2023-11-22 17:34:40 [INFO   ][ln-207]: Trying to Detect HomePass Would Like to Send You Notifications
+2023-11-22 17:34:59 [INFO   ][ln-129]: Successful to Sign out
+2023-11-22 17:35:00 [INFO   ][ln-301]: Test completed
+2023-11-22 17:35:10 [DEBUG  ][ln-980]: teardown_method
+2023-11-22 17:35:10 [DEBUG  ][ln-974]: teardown_class
+2023-11-22 17:37:23 [INFO   ][ln-47 ]: Start to load config file
+2023-11-22 17:37:23 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-ios+4@plume.com', 'pwd': 'plume1234', 'devuserid': '653f108a396de2000acd43d4', 'sn': 'KD909A0084', 'devid': '60B4F7F504D2', 'mac': '60:B4:F7:F5:04:D2', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'HomePas_version': {'Previous': '3.129.0', 'OLD': '3.125.0'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-11-22 17:37:23 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-11-22 17:37:23 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-11-22 17:37:23 [INFO   ][ln-214]: #########################################################################
+
+2023-11-22 17:37:23 [INFO   ][ln-215]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-11-22 17:37:23 [INFO   ][ln-216]: # ---------------------------------------------------------------- #)
+
+2023-11-22 17:37:23 [INFO   ][ln-259]: {'build': {'time': 'Nov 14 2023 15:15:57', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'os': {'testmanagerdVersion': 65535, 'name': 'iOS', 'sdkVersion': '17.0', 'version': '16.6'}, 'device': 'iphone', 'ios': {'ip': '169.254.160.10'}, 'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'ready': True, 'sessionId': None}
+2023-11-22 17:37:29 [INFO   ][ln-269]: Size(width=390, height=844)
+2023-11-22 17:37:31 [INFO   ][ln-275]: TestFlight has been trigger
+2023-11-22 17:37:35 [INFO   ][ln-83 ]: Install Button is displayed
+2023-11-22 17:37:51 [INFO   ][ln-86 ]: Install HomePass is Processing
+2023-11-22 17:38:51 [INFO   ][ln-90 ]: Open Button is displayed
+2023-11-22 17:39:04 [INFO   ][ln-94 ]: Next Button is displayed
+2023-11-22 17:39:10 [INFO   ][ln-125]: Step 1of Sign in HomePassIOS
+2023-11-22 17:39:10 [INFO   ][ln-178]: Step 3 of Sign in to HomePass IOS
+2023-11-22 17:39:10 [INFO   ][ln-198]: Trying to Detect HomePass Would Like to Send You Notifications
+2023-11-22 17:39:25 [INFO   ][ln-306]: Test completed
+2023-11-22 17:39:36 [DEBUG  ][ln-980]: teardown_method
+2023-11-22 17:39:36 [DEBUG  ][ln-974]: teardown_class
+2023-11-22 17:46:06 [INFO   ][ln-47 ]: Start to load config file
+2023-11-22 17:46:06 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-ios+4@plume.com', 'pwd': 'plume1234', 'devuserid': '653f108a396de2000acd43d4', 'sn': 'KD909A0084', 'devid': '60B4F7F504D2', 'mac': '60:B4:F7:F5:04:D2', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'HomePas_version': {'Previous': '3.129.0', 'OLD': '3.125.0'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-11-22 17:46:06 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-11-22 17:46:06 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-11-22 17:46:06 [INFO   ][ln-214]: #########################################################################
+
+2023-11-22 17:46:06 [INFO   ][ln-215]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-11-22 17:46:06 [INFO   ][ln-216]: # ---------------------------------------------------------------- #)
+
+2023-11-22 17:46:06 [INFO   ][ln-259]: {'build': {'time': 'Nov 14 2023 15:15:57', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'os': {'testmanagerdVersion': 65535, 'name': 'iOS', 'sdkVersion': '17.0', 'version': '16.6'}, 'device': 'iphone', 'ios': {'ip': '169.254.160.10'}, 'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'ready': True, 'sessionId': None}
+2023-11-22 17:46:11 [INFO   ][ln-269]: Size(width=390, height=844)
+2023-11-22 17:46:13 [INFO   ][ln-275]: TestFlight has been trigger
+2023-11-22 17:46:17 [INFO   ][ln-83 ]: Install Button is displayed
+2023-11-22 17:46:33 [INFO   ][ln-86 ]: Install HomePass is Processing
+2023-11-22 17:47:33 [INFO   ][ln-90 ]: Open Button is displayed
+2023-11-22 17:47:46 [INFO   ][ln-94 ]: Next Button is displayed
+2023-11-22 17:47:57 [INFO   ][ln-103]: Start Test is displayed
+2023-11-22 17:47:58 [INFO   ][ln-109]: Start Testing
+2023-11-22 17:47:59 [INFO   ][ln-111]: Button has been click
+2023-11-22 17:48:01 [INFO   ][ln-119]: homepass-logo
+2023-11-22 17:48:02 [INFO   ][ln-125]: Step 1of Sign in HomePassIOS
+2023-11-22 17:48:07 [INFO   ][ln-134]: enter your mail address
+2023-11-22 17:48:09 [INFO   ][ln-140]: Press next button
+2023-11-22 17:48:12 [INFO   ][ln-144]: Switch to Password button
+2023-11-22 17:48:14 [INFO   ][ln-150]: Step 2 of Sign in tap password field / input password
+2023-11-22 17:48:18 [INFO   ][ln-159]: click Done button
+2023-11-22 17:48:31 [INFO   ][ln-168]: Press via xy table
+2023-11-22 17:48:37 [INFO   ][ln-171]: Has been entry HomePass IOS APP
+2023-11-22 17:48:37 [INFO   ][ln-178]: Step 3 of Sign in to HomePass IOS
+2023-11-22 17:48:38 [INFO   ][ln-198]: Trying to Detect HomePass Would Like to Send You Notifications
+2023-11-22 17:48:48 [INFO   ][ln-206]: Allow function has been created
+2023-11-22 17:48:59 [INFO   ][ln-306]: Test completed
+2023-11-22 17:49:09 [DEBUG  ][ln-980]: teardown_method
+2023-11-22 17:49:09 [DEBUG  ][ln-974]: teardown_class
+2023-11-22 17:51:41 [INFO   ][ln-47 ]: Start to load config file
+2023-11-22 17:51:41 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-ios+4@plume.com', 'pwd': 'plume1234', 'devuserid': '653f108a396de2000acd43d4', 'sn': 'KD909A0084', 'devid': '60B4F7F504D2', 'mac': '60:B4:F7:F5:04:D2', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'HomePas_version': {'Previous': '3.129.0', 'OLD': '3.125.0'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-11-22 17:51:42 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-11-22 17:51:42 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-11-22 17:51:42 [INFO   ][ln-227]: #########################################################################
+
+2023-11-22 17:51:42 [INFO   ][ln-228]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-11-22 17:51:42 [INFO   ][ln-229]: # ---------------------------------------------------------------- #)
+
+2023-11-22 17:51:42 [INFO   ][ln-272]: {'build': {'time': 'Nov 14 2023 15:15:57', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'os': {'testmanagerdVersion': 65535, 'name': 'iOS', 'sdkVersion': '17.0', 'version': '16.6'}, 'device': 'iphone', 'ios': {'ip': '169.254.160.10'}, 'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'ready': True, 'sessionId': None}
+2023-11-22 17:51:47 [INFO   ][ln-282]: Size(width=390, height=844)
+2023-11-22 17:51:50 [INFO   ][ln-73 ]: homepass-icon is displayed
+2023-11-22 17:51:53 [INFO   ][ln-138]: Step 1of Sign in HomePassIOS
+2023-11-22 17:51:54 [INFO   ][ln-191]: Step 3 of Sign in to HomePass IOS
+2023-11-22 17:51:54 [INFO   ][ln-211]: Trying to Detect HomePass Would Like to Send You Notifications
+2023-11-22 17:52:05 [DEBUG  ][ln-980]: teardown_method
+2023-11-22 17:52:05 [DEBUG  ][ln-974]: teardown_class
+2023-11-22 17:53:44 [INFO   ][ln-47 ]: Start to load config file
+2023-11-22 17:53:44 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-ios+4@plume.com', 'pwd': 'plume1234', 'devuserid': '653f108a396de2000acd43d4', 'sn': 'KD909A0084', 'devid': '60B4F7F504D2', 'mac': '60:B4:F7:F5:04:D2', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'HomePas_version': {'Previous': '3.129.0', 'OLD': '3.125.0'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-11-22 17:53:44 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-11-22 17:53:44 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-11-22 17:53:44 [INFO   ][ln-227]: #########################################################################
+
+2023-11-22 17:53:44 [INFO   ][ln-228]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-11-22 17:53:44 [INFO   ][ln-229]: # ---------------------------------------------------------------- #)
+
+2023-11-22 17:53:44 [INFO   ][ln-272]: {'build': {'time': 'Nov 14 2023 15:15:57', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'os': {'testmanagerdVersion': 65535, 'name': 'iOS', 'sdkVersion': '17.0', 'version': '16.6'}, 'device': 'iphone', 'ios': {'ip': '169.254.160.10'}, 'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'ready': True, 'sessionId': 'CD29B6F2-2DD4-41E8-A788-3DFC9F522BF4'}
+2023-11-22 17:53:51 [INFO   ][ln-282]: Size(width=390, height=844)
+2023-11-22 17:53:54 [INFO   ][ln-73 ]: homepass-icon is displayed
+2023-11-22 17:53:56 [INFO   ][ln-138]: Step 1of Sign in HomePassIOS
+2023-11-22 17:53:56 [INFO   ][ln-191]: Step 3 of Sign in to HomePass IOS
+2023-11-22 17:53:56 [INFO   ][ln-211]: Trying to Detect HomePass Would Like to Send You Notifications
+2023-11-22 17:54:25 [INFO   ][ln-305]: Test completed
+2023-11-22 17:54:35 [DEBUG  ][ln-980]: teardown_method
+2023-11-22 17:54:35 [DEBUG  ][ln-974]: teardown_class
+2023-11-22 17:58:09 [INFO   ][ln-47 ]: Start to load config file
+2023-11-22 17:58:09 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-ios+4@plume.com', 'pwd': 'plume1234', 'devuserid': '653f108a396de2000acd43d4', 'sn': 'KD909A0084', 'devid': '60B4F7F504D2', 'mac': '60:B4:F7:F5:04:D2', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'HomePas_version': {'Previous': '3.129.0', 'OLD': '3.125.0'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-11-22 17:58:09 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-11-22 17:58:09 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-11-22 17:58:09 [INFO   ][ln-233]: #########################################################################
+
+2023-11-22 17:58:09 [INFO   ][ln-234]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-11-22 17:58:09 [INFO   ][ln-235]: # ---------------------------------------------------------------- #)
+
+2023-11-22 17:58:09 [INFO   ][ln-278]: {'build': {'time': 'Nov 14 2023 15:15:57', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'os': {'testmanagerdVersion': 65535, 'name': 'iOS', 'sdkVersion': '17.0', 'version': '16.6'}, 'device': 'iphone', 'ios': {'ip': '169.254.160.10'}, 'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'ready': True, 'sessionId': 'F5A695B8-8D94-4893-A474-2046C6D06192'}
+2023-11-22 17:58:15 [INFO   ][ln-288]: Size(width=390, height=844)
+2023-11-22 17:58:18 [INFO   ][ln-73 ]: homepass-icon is displayed
+2023-11-22 17:58:20 [INFO   ][ln-144]: Step 1of Sign in HomePassIOS
+2023-11-22 17:58:20 [INFO   ][ln-197]: Step 3 of Sign in to HomePass IOS
+2023-11-22 17:58:20 [INFO   ][ln-217]: Trying to Detect HomePass Would Like to Send You Notifications
+2023-11-22 17:58:42 [INFO   ][ln-311]: Test completed
+2023-11-22 17:58:52 [DEBUG  ][ln-980]: teardown_method
+2023-11-22 17:58:52 [DEBUG  ][ln-974]: teardown_class
+2023-11-22 18:09:44 [INFO   ][ln-47 ]: Start to load config file
+2023-11-22 18:09:44 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-ios+4@plume.com', 'pwd': 'plume1234', 'devuserid': '653f108a396de2000acd43d4', 'sn': 'KD909A0084', 'devid': '60B4F7F504D2', 'mac': '60:B4:F7:F5:04:D2', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'HomePas_version': {'Previous': '3.129.0', 'OLD': '3.125.0'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-11-22 18:09:45 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-11-22 18:09:45 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-11-22 18:09:45 [INFO   ][ln-242]: #########################################################################
+
+2023-11-22 18:09:45 [INFO   ][ln-243]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-11-22 18:09:45 [INFO   ][ln-244]: # ---------------------------------------------------------------- #)
+
+2023-11-22 18:09:45 [INFO   ][ln-287]: {'build': {'time': 'Nov 14 2023 15:15:57', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'os': {'testmanagerdVersion': 65535, 'name': 'iOS', 'sdkVersion': '17.0', 'version': '16.6'}, 'device': 'iphone', 'ios': {'ip': '169.254.160.10'}, 'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'ready': True, 'sessionId': '594FF05F-40B4-46EE-A740-9F67617AC3DA'}
+2023-11-22 18:09:51 [INFO   ][ln-297]: Size(width=390, height=844)
+2023-11-22 18:09:54 [INFO   ][ln-75 ]: homepass-icon is displayed
+2023-11-22 18:09:56 [INFO   ][ln-153]: Step 1of Sign in HomePassIOS
+2023-11-22 18:09:56 [INFO   ][ln-206]: Step 3 of Sign in to HomePass IOS
+2023-11-22 18:09:56 [INFO   ][ln-226]: Trying to Detect HomePass Would Like to Send You Notifications
+2023-11-22 18:10:03 [INFO   ][ln-323]: Test completed
+2023-11-22 18:10:14 [DEBUG  ][ln-980]: teardown_method
+2023-11-22 18:10:14 [DEBUG  ][ln-974]: teardown_class
+2023-11-22 18:26:04 [INFO   ][ln-47 ]: Start to load config file
+2023-11-22 18:26:04 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-ios+4@plume.com', 'pwd': 'plume1234', 'devuserid': '653f108a396de2000acd43d4', 'sn': 'KD909A0084', 'devid': '60B4F7F504D2', 'mac': '60:B4:F7:F5:04:D2', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'HomePas_version': {'Previous': '3.129.0', 'OLD': '3.125.0'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-11-22 18:26:04 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-11-22 18:26:04 [DEBUG  ][ln-977]: ======================================== Star to run: <test_devstatus_func> ========================================
+2023-11-22 18:26:04 [INFO   ][ln-111]: ####################################################################
+
+2023-11-22 18:26:04 [INFO   ][ln-112]: # thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-11-22 18:26:04 [INFO   ][ln-113]: # ---------------------------------------------------------------- #)
+
+2023-11-22 18:26:04 [INFO   ][ln-114]: #  Test case : ( /pwb/GetDeviceStatusByUser #)
+
+2023-11-22 18:26:04 [INFO   ][ln-115]: ####################################################################)
+
+2023-11-22 18:26:04 [INFO   ][ln-217]: PlumeCloudLogin
+2023-11-22 18:26:08 [INFO   ][ln-117]: Step 1 :  PlumeCloudLogin
+
+2023-11-22 18:26:08 [INFO   ][ln-121]: tA4we21v04LN1ih3CrB7QRsQ3tdMb9Dadd116saejgJMc2ng7UB7pUupSHhpWupZ
+2023-11-22 18:26:08 [INFO   ][ln-124]: 653f108a396de2000acd43d4
+2023-11-22 18:26:08 [INFO   ][ln-125]: 
+
+2023-11-22 18:26:08 [INFO   ][ln-126]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-11-22 18:26:08 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-11-22 18:26:13 [INFO   ][ln-131]: eyJraWQiOiJ1cy13ZXN0LTI0IiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6MDNmMmFjYzItMTVlZi00MzQxLWE4MTYtYjNlZTA0ODBkZmEwIiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6dEE0d2UyMXYwNExOMWloM0NyQjdRUnNRM3RkTWI5RGFkZDExNnNhZWpnSk1jMm5nN1VCN3BVdXBTSGhwV3VwWiJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE3MDA3MzUxNzAsImlhdCI6MTcwMDY0ODc3MH0.BDzO6vRtpyH8CapRNsR-9eg0rvckgoZWhvRWM4xUhut97e8eIWzbMJmSVDVL7RPn-oz-QhN3rzXL9cjY7fbVTjF5ZpkkTA9j9Cvf0nM7E8IUhpjbBD-adX8r1QXzLWORjVsXXsobtZ6nz2J0NWtcFHhZm4qeuVPpuV-RV8FjgvDcYyfu46GOBuwPvJ4sCwiwSp2UjDbqLHtpCGVuopeyXKZhotWANN2Y7f2OOMytfcjScjFTzrmRuJ5uy0s38erpC_2m9IlqVCSz0KSfH4kYQckvg3Kke61mEPrR04YiZwf-9EjKtxlnh7R_VGJvfzmCyqvcVYGArCv0UZH52ElCeA
+2023-11-22 18:26:13 [INFO   ][ln-132]: 
+
+2023-11-22 18:26:16 [INFO   ][ln-134]: Step 3 : UnRegisterDevice SN
+
+2023-11-22 18:26:16 [INFO   ][ln-64 ]: KD909A0084
+2023-11-22 18:26:16 [INFO   ][ln-364]: RegisterDevice
+2023-11-22 18:26:19 [INFO   ][ln-136]: 
+
+2023-11-22 18:26:22 [INFO   ][ln-138]: #####################################
+2023-11-22 18:26:22 [INFO   ][ln-139]: Step 4 : To Do API Test : GetDeviceStatusByUser
+
+2023-11-22 18:26:22 [INFO   ][ln-855]: UnregisterDevice
+2023-11-22 18:26:26 [INFO   ][ln-141]: {'data': {'unregisterResult': 'Success'}, 'result': {'code': 201000, 'message': 'Successfully.'}}
+2023-11-22 18:26:29 [DEBUG  ][ln-980]: teardown_method
+2023-11-22 18:26:29 [DEBUG  ][ln-974]: teardown_class
+2023-11-22 18:28:30 [INFO   ][ln-47 ]: Start to load config file
+2023-11-22 18:28:30 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-ios+4@plume.com', 'pwd': 'plume1234', 'devuserid': '653f108a396de2000acd43d4', 'sn': 'KD909A0084', 'devid': '60B4F7F504D2', 'mac': '60:B4:F7:F5:04:D2', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'HomePas_version': {'Previous': '3.129.0', 'OLD': '3.125.0'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-11-22 18:28:31 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-11-22 18:28:31 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-11-22 18:28:31 [INFO   ][ln-250]: #########################################################################
+
+2023-11-22 18:28:31 [INFO   ][ln-251]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-11-22 18:28:31 [INFO   ][ln-252]: # ---------------------------------------------------------------- #)
+
+2023-11-22 18:28:31 [INFO   ][ln-295]: {'build': {'time': 'Nov 14 2023 15:15:57', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'os': {'testmanagerdVersion': 65535, 'name': 'iOS', 'sdkVersion': '17.0', 'version': '16.6'}, 'device': 'iphone', 'ios': {'ip': '169.254.160.10'}, 'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'ready': True, 'sessionId': None}
+2023-11-22 18:28:37 [INFO   ][ln-305]: Size(width=390, height=844)
+2023-11-22 18:28:40 [INFO   ][ln-75 ]: homepass-icon is displayed
+2023-11-22 18:28:42 [INFO   ][ln-161]: Step 1of Sign in HomePassIOS
+2023-11-22 18:28:42 [INFO   ][ln-214]: Step 3 of Sign in to HomePass IOS
+2023-11-22 18:28:42 [INFO   ][ln-234]: Trying to Detect HomePass Would Like to Send You Notifications
+2023-11-22 18:29:04 [INFO   ][ln-331]: Test completed
+2023-11-22 18:29:09 [DEBUG  ][ln-980]: teardown_method
+2023-11-22 18:29:09 [DEBUG  ][ln-974]: teardown_class
+2023-11-22 18:35:56 [INFO   ][ln-47 ]: Start to load config file
+2023-11-22 18:35:56 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-ios+4@plume.com', 'pwd': 'plume1234', 'devuserid': '653f108a396de2000acd43d4', 'sn': 'KD909A0084', 'devid': '60B4F7F504D2', 'mac': '60:B4:F7:F5:04:D2', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'HomePas_version': {'Previous': '3.129.0', 'OLD': '3.125.0'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-11-22 18:35:56 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-11-22 18:35:56 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-11-22 18:35:56 [INFO   ][ln-251]: #########################################################################
+
+2023-11-22 18:35:56 [INFO   ][ln-252]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-11-22 18:35:56 [INFO   ][ln-253]: # ---------------------------------------------------------------- #)
+
+2023-11-22 18:35:56 [INFO   ][ln-296]: {'build': {'time': 'Nov 14 2023 15:15:57', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'os': {'testmanagerdVersion': 65535, 'name': 'iOS', 'sdkVersion': '17.0', 'version': '16.6'}, 'device': 'iphone', 'ios': {'ip': '169.254.160.10'}, 'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'ready': True, 'sessionId': None}
+2023-11-22 18:36:01 [INFO   ][ln-306]: Size(width=390, height=844)
+2023-11-22 18:36:04 [INFO   ][ln-75 ]: homepass-icon is displayed
+2023-11-22 18:36:06 [INFO   ][ln-162]: Step 1of Sign in HomePassIOS
+2023-11-22 18:36:06 [INFO   ][ln-215]: Step 3 of Sign in to HomePass IOS
+2023-11-22 18:36:07 [INFO   ][ln-235]: Trying to Detect HomePass Would Like to Send You Notifications
+2023-11-22 18:36:29 [INFO   ][ln-332]: Test completed
+2023-11-22 18:36:34 [DEBUG  ][ln-980]: teardown_method
+2023-11-22 18:36:34 [DEBUG  ][ln-974]: teardown_class
+2023-11-22 18:36:53 [INFO   ][ln-47 ]: Start to load config file
+2023-11-22 18:36:53 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-ios+4@plume.com', 'pwd': 'plume1234', 'devuserid': '653f108a396de2000acd43d4', 'sn': 'KD909A0084', 'devid': '60B4F7F504D2', 'mac': '60:B4:F7:F5:04:D2', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'HomePas_version': {'Previous': '3.129.0', 'OLD': '3.125.0'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-11-22 18:36:53 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-11-22 18:36:53 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-11-22 18:36:53 [INFO   ][ln-251]: #########################################################################
+
+2023-11-22 18:36:53 [INFO   ][ln-252]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-11-22 18:36:53 [INFO   ][ln-253]: # ---------------------------------------------------------------- #)
+
+2023-11-22 18:36:53 [INFO   ][ln-296]: {'build': {'time': 'Nov 14 2023 15:15:57', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'os': {'testmanagerdVersion': 65535, 'name': 'iOS', 'sdkVersion': '17.0', 'version': '16.6'}, 'device': 'iphone', 'ios': {'ip': '169.254.160.10'}, 'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'ready': True, 'sessionId': None}
+2023-11-22 18:36:59 [INFO   ][ln-306]: Size(width=390, height=844)
+2023-11-22 18:37:02 [INFO   ][ln-75 ]: homepass-icon is displayed
+2023-11-22 18:37:04 [INFO   ][ln-162]: Step 1of Sign in HomePassIOS
+2023-11-22 18:37:04 [INFO   ][ln-215]: Step 3 of Sign in to HomePass IOS
+2023-11-22 18:37:04 [INFO   ][ln-235]: Trying to Detect HomePass Would Like to Send You Notifications
+2023-11-22 18:37:26 [INFO   ][ln-332]: Test completed
+2023-11-22 18:37:31 [DEBUG  ][ln-980]: teardown_method
+2023-11-22 18:37:31 [DEBUG  ][ln-974]: teardown_class
+2023-11-22 18:40:41 [INFO   ][ln-47 ]: Start to load config file
+2023-11-22 18:40:41 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-ios+4@plume.com', 'pwd': 'plume1234', 'devuserid': '653f108a396de2000acd43d4', 'sn': 'KD909A0084', 'devid': '60B4F7F504D2', 'mac': '60:B4:F7:F5:04:D2', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'HomePas_version': {'Previous': '3.129.0', 'OLD': '3.125.0'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-11-22 18:40:42 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-11-22 18:40:42 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-11-22 18:40:42 [INFO   ][ln-252]: #########################################################################
+
+2023-11-22 18:40:42 [INFO   ][ln-253]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-11-22 18:40:42 [INFO   ][ln-254]: # ---------------------------------------------------------------- #)
+
+2023-11-22 18:40:42 [INFO   ][ln-297]: {'build': {'time': 'Nov 14 2023 15:15:57', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'os': {'testmanagerdVersion': 65535, 'name': 'iOS', 'sdkVersion': '17.0', 'version': '16.6'}, 'device': 'iphone', 'ios': {'ip': '169.254.160.10'}, 'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'ready': True, 'sessionId': 'CF0CD5E8-FD46-4D87-9F72-1D6C02E347D4'}
+2023-11-22 18:40:47 [INFO   ][ln-307]: Size(width=390, height=844)
+2023-11-22 18:40:50 [INFO   ][ln-75 ]: homepass-icon is displayed
+2023-11-22 18:40:52 [INFO   ][ln-163]: Step 1of Sign in HomePassIOS
+2023-11-22 18:40:52 [INFO   ][ln-216]: Step 3 of Sign in to HomePass IOS
+2023-11-22 18:40:52 [INFO   ][ln-236]: Trying to Detect HomePass Would Like to Send You Notifications
+2023-11-22 18:41:15 [INFO   ][ln-333]: Test completed
+2023-11-22 18:41:20 [DEBUG  ][ln-980]: teardown_method
+2023-11-22 18:41:20 [DEBUG  ][ln-974]: teardown_class
+2023-11-22 18:42:45 [INFO   ][ln-47 ]: Start to load config file
+2023-11-22 18:42:45 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-ios+4@plume.com', 'pwd': 'plume1234', 'devuserid': '653f108a396de2000acd43d4', 'sn': 'KD909A0084', 'devid': '60B4F7F504D2', 'mac': '60:B4:F7:F5:04:D2', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'HomePas_version': {'Previous': '3.129.0', 'OLD': '3.125.0'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-11-22 18:42:45 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-11-22 18:42:45 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-11-22 18:42:45 [INFO   ][ln-250]: #########################################################################
+
+2023-11-22 18:42:45 [INFO   ][ln-251]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-11-22 18:42:45 [INFO   ][ln-252]: # ---------------------------------------------------------------- #)
+
+2023-11-22 18:42:45 [INFO   ][ln-295]: {'build': {'time': 'Nov 14 2023 15:15:57', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'os': {'testmanagerdVersion': 65535, 'name': 'iOS', 'sdkVersion': '17.0', 'version': '16.6'}, 'device': 'iphone', 'ios': {'ip': '169.254.160.10'}, 'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'ready': True, 'sessionId': None}
+2023-11-22 18:42:51 [INFO   ][ln-305]: Size(width=390, height=844)
+2023-11-22 18:42:53 [INFO   ][ln-75 ]: homepass-icon is displayed
+2023-11-22 18:42:56 [INFO   ][ln-161]: Step 1of Sign in HomePassIOS
+2023-11-22 18:42:56 [INFO   ][ln-214]: Step 3 of Sign in to HomePass IOS
+2023-11-22 18:42:56 [INFO   ][ln-234]: Trying to Detect HomePass Would Like to Send You Notifications
+2023-11-22 18:43:20 [INFO   ][ln-331]: Test completed
+2023-11-22 18:43:26 [DEBUG  ][ln-980]: teardown_method
+2023-11-22 18:43:26 [DEBUG  ][ln-974]: teardown_class
+2023-11-22 18:44:34 [INFO   ][ln-47 ]: Start to load config file
+2023-11-22 18:44:34 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-ios+4@plume.com', 'pwd': 'plume1234', 'devuserid': '653f108a396de2000acd43d4', 'sn': 'KD909A0084', 'devid': '60B4F7F504D2', 'mac': '60:B4:F7:F5:04:D2', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'HomePas_version': {'Previous': '3.129.0', 'OLD': '3.125.0'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-11-22 18:44:35 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-11-22 18:44:35 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-11-22 18:44:35 [INFO   ][ln-250]: #########################################################################
+
+2023-11-22 18:44:35 [INFO   ][ln-251]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-11-22 18:44:35 [INFO   ][ln-252]: # ---------------------------------------------------------------- #)
+
+2023-11-22 18:44:35 [INFO   ][ln-295]: {'build': {'time': 'Nov 14 2023 15:15:57', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'os': {'testmanagerdVersion': 65535, 'name': 'iOS', 'sdkVersion': '17.0', 'version': '16.6'}, 'device': 'iphone', 'ios': {'ip': '169.254.160.10'}, 'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'ready': True, 'sessionId': None}
+2023-11-22 18:44:40 [INFO   ][ln-305]: Size(width=390, height=844)
+2023-11-22 18:44:43 [INFO   ][ln-75 ]: homepass-icon is displayed
+2023-11-22 18:44:45 [INFO   ][ln-161]: Step 1of Sign in HomePassIOS
+2023-11-22 18:44:45 [INFO   ][ln-214]: Step 3 of Sign in to HomePass IOS
+2023-11-22 18:44:45 [INFO   ][ln-234]: Trying to Detect HomePass Would Like to Send You Notifications
+2023-11-22 18:45:10 [INFO   ][ln-331]: Test completed
+2023-11-22 18:45:15 [DEBUG  ][ln-980]: teardown_method
+2023-11-22 18:45:15 [DEBUG  ][ln-974]: teardown_class
+2023-11-22 18:46:53 [INFO   ][ln-47 ]: Start to load config file
+2023-11-22 18:46:53 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-ios+4@plume.com', 'pwd': 'plume1234', 'devuserid': '653f108a396de2000acd43d4', 'sn': 'KD909A0084', 'devid': '60B4F7F504D2', 'mac': '60:B4:F7:F5:04:D2', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'HomePas_version': {'Previous': '3.129.0', 'OLD': '3.125.0'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-11-22 18:46:53 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-11-22 18:46:53 [DEBUG  ][ln-977]: ======================================== Star to run: <test_devstatus_func> ========================================
+2023-11-22 18:46:53 [INFO   ][ln-111]: ####################################################################
+
+2023-11-22 18:46:53 [INFO   ][ln-112]: # thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-11-22 18:46:53 [INFO   ][ln-113]: # ---------------------------------------------------------------- #)
+
+2023-11-22 18:46:53 [INFO   ][ln-114]: #  Test case : ( /pwb/GetDeviceStatusByUser #)
+
+2023-11-22 18:46:53 [INFO   ][ln-115]: ####################################################################)
+
+2023-11-22 18:46:53 [INFO   ][ln-217]: PlumeCloudLogin
+2023-11-22 18:46:57 [INFO   ][ln-117]: Step 1 :  PlumeCloudLogin
+
+2023-11-22 18:46:57 [INFO   ][ln-121]: TdGdntS7UJomhWSHSzILq9d46l4zGs4AeUbjh0C0bdBueeP9TND5vN8iqMR92QVS
+2023-11-22 18:46:57 [INFO   ][ln-124]: 653f108a396de2000acd43d4
+2023-11-22 18:46:57 [INFO   ][ln-125]: 
+
+2023-11-22 18:46:57 [INFO   ][ln-126]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-11-22 18:46:57 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-11-22 18:47:01 [INFO   ][ln-131]: eyJraWQiOiJ1cy13ZXN0LTI0IiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6OTE2NDA2MzAtODI4Ni00YTE2LTkwOWEtZTkxNDhmYzhlYzc5IiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6VGRHZG50UzdVSm9taFdTSFN6SUxxOWQ0Nmw0ekdzNEFlVWJqaDBDMGJkQnVlZVA5VE5ENXZOOGlxTVI5MlFWUyJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE3MDA3MzY0MTksImlhdCI6MTcwMDY1MDAxOX0.SNt0Kytba2BcfGv1f2D_rgFsNATY3fJEr_ogSgSsXJxMpnr9f_JY4JoNnYvDORFKuCnETKjXJw4MF3eeZ_tJ3onWVUBF9FcJbSA5at2X_DAOPDTsEUmqilXWLW3z4ElLt_9ZpItA4g2lsBFhJ0NjD00ZLCLla4V_tSSL2k29rmgb76w5AvA7fYsSN7ltU0t7tqtLKvCpre3h44k2AoGvZBFaGlpjn9Wf_T8Fnld62jZ_zXMcNQr18C39N3Lv7B9Y_cIGuSiTeJIwjJbN2DCjoZVE94i4TWYbxEbq_bf5mlgL9wlJiqzO7xVsg3a4LZsh07Wd7TrJGGw-g5h8b3bspw
+2023-11-22 18:47:01 [INFO   ][ln-132]: 
+
+2023-11-22 18:47:04 [INFO   ][ln-134]: Step 3 : UnRegisterDevice SN
+
+2023-11-22 18:47:04 [INFO   ][ln-64 ]: KD909A0084
+2023-11-22 18:47:04 [INFO   ][ln-364]: RegisterDevice
+2023-11-22 18:47:08 [INFO   ][ln-136]: 
+
+2023-11-22 18:47:11 [INFO   ][ln-138]: #####################################
+2023-11-22 18:47:11 [INFO   ][ln-139]: Step 4 : To Do API Test : GetDeviceStatusByUser
+
+2023-11-22 18:47:11 [INFO   ][ln-855]: UnregisterDevice
+2023-11-22 18:47:15 [INFO   ][ln-141]: {'data': {'unregisterResult': 'Success'}, 'result': {'code': 201000, 'message': 'Successfully.'}}
+2023-11-22 18:47:18 [DEBUG  ][ln-980]: teardown_method
+2023-11-22 18:47:18 [DEBUG  ][ln-974]: teardown_class
+2023-11-22 18:47:23 [INFO   ][ln-47 ]: Start to load config file
+2023-11-22 18:47:23 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-ios+4@plume.com', 'pwd': 'plume1234', 'devuserid': '653f108a396de2000acd43d4', 'sn': 'KD909A0084', 'devid': '60B4F7F504D2', 'mac': '60:B4:F7:F5:04:D2', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'HomePas_version': {'Previous': '3.129.0', 'OLD': '3.125.0'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-11-22 18:47:23 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-11-22 18:47:23 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-11-22 18:47:23 [INFO   ][ln-252]: #########################################################################
+
+2023-11-22 18:47:23 [INFO   ][ln-253]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-11-22 18:47:23 [INFO   ][ln-254]: # ---------------------------------------------------------------- #)
+
+2023-11-22 18:47:23 [INFO   ][ln-297]: {'build': {'time': 'Nov 14 2023 15:15:57', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'os': {'testmanagerdVersion': 65535, 'name': 'iOS', 'sdkVersion': '17.0', 'version': '16.6'}, 'device': 'iphone', 'ios': {'ip': '169.254.160.10'}, 'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'ready': True, 'sessionId': None}
+2023-11-22 18:47:29 [INFO   ][ln-307]: Size(width=390, height=844)
+2023-11-22 18:47:32 [INFO   ][ln-75 ]: homepass-icon is displayed
+2023-11-22 18:47:34 [INFO   ][ln-163]: Step 1of Sign in HomePassIOS
+2023-11-22 18:47:34 [INFO   ][ln-216]: Step 3 of Sign in to HomePass IOS
+2023-11-22 18:47:34 [INFO   ][ln-236]: Trying to Detect HomePass Would Like to Send You Notifications
+2023-11-22 18:48:32 [INFO   ][ln-333]: Test completed
+2023-11-22 18:48:37 [DEBUG  ][ln-980]: teardown_method
+2023-11-22 18:48:37 [DEBUG  ][ln-974]: teardown_class
+2023-11-22 18:54:09 [INFO   ][ln-47 ]: Start to load config file
+2023-11-22 18:54:09 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-ios+4@plume.com', 'pwd': 'plume1234', 'devuserid': '653f108a396de2000acd43d4', 'sn': 'KD909A0084', 'devid': '60B4F7F504D2', 'mac': '60:B4:F7:F5:04:D2', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'HomePas_version': {'Previous': '3.129.0', 'OLD': '3.125.0'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-11-22 18:54:10 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-11-22 18:54:10 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-11-22 18:54:10 [INFO   ][ln-248]: #########################################################################
+
+2023-11-22 18:54:10 [INFO   ][ln-249]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-11-22 18:54:10 [INFO   ][ln-250]: # ---------------------------------------------------------------- #)
+
+2023-11-22 18:54:10 [INFO   ][ln-293]: {'build': {'time': 'Nov 14 2023 15:15:57', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'os': {'testmanagerdVersion': 65535, 'name': 'iOS', 'sdkVersion': '17.0', 'version': '16.6'}, 'device': 'iphone', 'ios': {'ip': '169.254.160.10'}, 'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'ready': True, 'sessionId': 'A75F1D37-D859-4AD9-9DF1-7C3BC8ECBCEC'}
+2023-11-22 18:54:15 [INFO   ][ln-303]: Size(width=390, height=844)
+2023-11-22 18:54:18 [INFO   ][ln-75 ]: homepass-icon is displayed
+2023-11-22 18:54:20 [INFO   ][ln-159]: Step 1of Sign in HomePassIOS
+2023-11-22 18:54:20 [INFO   ][ln-212]: Step 3 of Sign in to HomePass IOS
+2023-11-22 18:54:20 [INFO   ][ln-232]: Trying to Detect HomePass Would Like to Send You Notifications
+2023-11-22 18:54:40 [DEBUG  ][ln-980]: teardown_method
+2023-11-22 18:54:40 [DEBUG  ][ln-974]: teardown_class
+2023-11-22 18:56:18 [INFO   ][ln-47 ]: Start to load config file
+2023-11-22 18:56:18 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-ios+4@plume.com', 'pwd': 'plume1234', 'devuserid': '653f108a396de2000acd43d4', 'sn': 'KD909A0084', 'devid': '60B4F7F504D2', 'mac': '60:B4:F7:F5:04:D2', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'HomePas_version': {'Previous': '3.129.0', 'OLD': '3.125.0'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-11-22 18:56:19 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-11-22 18:56:19 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-11-22 18:56:19 [INFO   ][ln-251]: #########################################################################
+
+2023-11-22 18:56:19 [INFO   ][ln-252]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-11-22 18:56:19 [INFO   ][ln-253]: # ---------------------------------------------------------------- #)
+
+2023-11-22 18:56:19 [INFO   ][ln-296]: {'build': {'time': 'Nov 14 2023 15:15:57', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'os': {'testmanagerdVersion': 65535, 'name': 'iOS', 'sdkVersion': '17.0', 'version': '16.6'}, 'device': 'iphone', 'ios': {'ip': '169.254.160.10'}, 'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'ready': True, 'sessionId': 'A75F1D37-D859-4AD9-9DF1-7C3BC8ECBCEC'}
+2023-11-22 18:56:24 [INFO   ][ln-306]: Size(width=390, height=844)
+2023-11-22 18:56:27 [INFO   ][ln-75 ]: homepass-icon is displayed
+2023-11-22 18:56:29 [INFO   ][ln-162]: Step 1of Sign in HomePassIOS
+2023-11-22 18:56:29 [INFO   ][ln-215]: Step 3 of Sign in to HomePass IOS
+2023-11-22 18:56:29 [INFO   ][ln-235]: Trying to Detect HomePass Would Like to Send You Notifications
+2023-11-22 18:56:48 [DEBUG  ][ln-980]: teardown_method
+2023-11-22 18:56:48 [DEBUG  ][ln-974]: teardown_class
+2023-11-22 18:57:37 [INFO   ][ln-47 ]: Start to load config file
+2023-11-22 18:57:37 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-ios+4@plume.com', 'pwd': 'plume1234', 'devuserid': '653f108a396de2000acd43d4', 'sn': 'KD909A0084', 'devid': '60B4F7F504D2', 'mac': '60:B4:F7:F5:04:D2', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'HomePas_version': {'Previous': '3.129.0', 'OLD': '3.125.0'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-11-22 18:57:38 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-11-22 18:57:38 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-11-22 18:57:38 [INFO   ][ln-251]: #########################################################################
+
+2023-11-22 18:57:38 [INFO   ][ln-252]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-11-22 18:57:38 [INFO   ][ln-253]: # ---------------------------------------------------------------- #)
+
+2023-11-22 18:57:38 [INFO   ][ln-296]: {'build': {'time': 'Nov 14 2023 15:15:57', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'os': {'testmanagerdVersion': 65535, 'name': 'iOS', 'sdkVersion': '17.0', 'version': '16.6'}, 'device': 'iphone', 'ios': {'ip': '169.254.160.10'}, 'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'ready': True, 'sessionId': 'A75F1D37-D859-4AD9-9DF1-7C3BC8ECBCEC'}
+2023-11-22 18:57:43 [INFO   ][ln-306]: Size(width=390, height=844)
+2023-11-22 18:57:46 [INFO   ][ln-75 ]: homepass-icon is displayed
+2023-11-22 18:57:48 [INFO   ][ln-162]: Step 1of Sign in HomePassIOS
+2023-11-22 18:57:48 [INFO   ][ln-215]: Step 3 of Sign in to HomePass IOS
+2023-11-22 18:57:48 [INFO   ][ln-235]: Trying to Detect HomePass Would Like to Send You Notifications
+2023-11-22 18:58:31 [INFO   ][ln-332]: Test completed
+2023-11-22 18:58:36 [DEBUG  ][ln-980]: teardown_method
+2023-11-22 18:58:36 [DEBUG  ][ln-974]: teardown_class
+2023-11-22 19:02:48 [INFO   ][ln-47 ]: Start to load config file
+2023-11-22 19:02:48 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-ios+4@plume.com', 'pwd': 'plume1234', 'devuserid': '653f108a396de2000acd43d4', 'sn': 'KD909A0084', 'devid': '60B4F7F504D2', 'mac': '60:B4:F7:F5:04:D2', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'HomePas_version': {'Previous': '3.129.0', 'OLD': '3.125.0'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-11-22 19:02:48 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-11-22 19:02:48 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-11-22 19:02:48 [INFO   ][ln-259]: #########################################################################
+
+2023-11-22 19:02:48 [INFO   ][ln-260]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-11-22 19:02:48 [INFO   ][ln-261]: # ---------------------------------------------------------------- #)
+
+2023-11-22 19:02:49 [INFO   ][ln-304]: {'build': {'time': 'Nov 14 2023 15:15:57', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'os': {'testmanagerdVersion': 65535, 'name': 'iOS', 'sdkVersion': '17.0', 'version': '16.6'}, 'device': 'iphone', 'ios': {'ip': '169.254.160.10'}, 'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'ready': True, 'sessionId': None}
+2023-11-22 19:02:54 [INFO   ][ln-314]: Size(width=390, height=844)
+2023-11-22 19:02:57 [INFO   ][ln-75 ]: homepass-icon is displayed
+2023-11-22 19:02:59 [INFO   ][ln-170]: Step 1of Sign in HomePassIOS
+2023-11-22 19:02:59 [INFO   ][ln-223]: Step 3 of Sign in to HomePass IOS
+2023-11-22 19:02:59 [INFO   ][ln-243]: Trying to Detect HomePass Would Like to Send You Notifications
+2023-11-22 19:03:55 [INFO   ][ln-340]: Test completed
+2023-11-22 19:04:00 [DEBUG  ][ln-980]: teardown_method
+2023-11-22 19:04:00 [DEBUG  ][ln-974]: teardown_class
+2023-11-22 19:04:36 [INFO   ][ln-47 ]: Start to load config file
+2023-11-22 19:04:36 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-ios+4@plume.com', 'pwd': 'plume1234', 'devuserid': '653f108a396de2000acd43d4', 'sn': 'KD909A0084', 'devid': '60B4F7F504D2', 'mac': '60:B4:F7:F5:04:D2', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'HomePas_version': {'Previous': '3.129.0', 'OLD': '3.125.0'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-11-22 19:04:36 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-11-22 19:04:36 [DEBUG  ][ln-977]: ======================================== Star to run: <test_devstatus_func> ========================================
+2023-11-22 19:04:36 [INFO   ][ln-111]: ####################################################################
+
+2023-11-22 19:04:36 [INFO   ][ln-112]: # thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-11-22 19:04:36 [INFO   ][ln-113]: # ---------------------------------------------------------------- #)
+
+2023-11-22 19:04:36 [INFO   ][ln-114]: #  Test case : ( /pwb/GetDeviceStatusByUser #)
+
+2023-11-22 19:04:36 [INFO   ][ln-115]: ####################################################################)
+
+2023-11-22 19:04:36 [INFO   ][ln-217]: PlumeCloudLogin
+2023-11-22 19:04:42 [INFO   ][ln-117]: Step 1 :  PlumeCloudLogin
+
+2023-11-22 19:04:42 [INFO   ][ln-121]: pcB4gmCM25nIAaVELVPUYrqMB2YlRhtD8QvGkDhJSOLj2h63LPA0Qm03mpfqi64g
+2023-11-22 19:04:42 [INFO   ][ln-124]: 653f108a396de2000acd43d4
+2023-11-22 19:04:42 [INFO   ][ln-125]: 
+
+2023-11-22 19:04:42 [INFO   ][ln-126]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-11-22 19:04:42 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-11-22 19:04:46 [INFO   ][ln-131]: eyJraWQiOiJ1cy13ZXN0LTI0IiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6Y2U2ZjQwNzgtYzFkNC00MmI5LTk4ZjgtMGZmN2Y0MzVkZTgyIiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6cGNCNGdtQ00yNW5JQWFWRUxWUFVZcnFNQjJZbFJodEQ4UXZHa0RoSlNPTGoyaDYzTFBBMFFtMDNtcGZxaTY0ZyJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE3MDA3Mzc0ODQsImlhdCI6MTcwMDY1MTA4NH0.RWEEOAhlDPJodAmKs5xYnb2Gp32gdsoixfLPnIM07RKGeWwwSk-THpf5w7W3OKxxZu8SgAV5zRSj5i16fLSX62Fqio9pV9bls3Ad_EIfkzHpzEOs3u4KeebLpe1FfYhNWhhhfaHMhphn7TeUui8vqNXtnnzJQgNZarJYN_ylI7GZlX8X1yzcHVzyF5FCpJzP3yEsBtm69F9_avYumdKngiEbj4zZiTc_ZN-I3El9ivGpwmbyD8VRiYzxtwIRt_ND8rN1pxQmKtjmcnPLuFf-r7OIhLr6fqh_P_SnoDuGRR86SFVwsMoPfVN3N7fGWZVXrELL8n1XZiYMMcNxjV92fg
+2023-11-22 19:04:46 [INFO   ][ln-132]: 
+
+2023-11-22 19:04:49 [INFO   ][ln-134]: Step 3 : UnRegisterDevice SN
+
+2023-11-22 19:04:49 [INFO   ][ln-64 ]: KD909A0084
+2023-11-22 19:04:49 [INFO   ][ln-364]: RegisterDevice
+2023-11-22 19:04:56 [INFO   ][ln-136]: 
+
+2023-11-22 19:05:00 [INFO   ][ln-138]: #####################################
+2023-11-22 19:05:00 [INFO   ][ln-139]: Step 4 : To Do API Test : GetDeviceStatusByUser
+
+2023-11-22 19:05:00 [INFO   ][ln-855]: UnregisterDevice
+2023-11-22 19:05:03 [INFO   ][ln-141]: {'data': {'unregisterResult': 'Success'}, 'result': {'code': 201000, 'message': 'Successfully.'}}
+2023-11-22 19:05:06 [DEBUG  ][ln-980]: teardown_method
+2023-11-22 19:05:06 [DEBUG  ][ln-974]: teardown_class
+2023-11-22 19:05:15 [INFO   ][ln-47 ]: Start to load config file
+2023-11-22 19:05:15 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-ios+4@plume.com', 'pwd': 'plume1234', 'devuserid': '653f108a396de2000acd43d4', 'sn': 'KD909A0084', 'devid': '60B4F7F504D2', 'mac': '60:B4:F7:F5:04:D2', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'HomePas_version': {'Previous': '3.129.0', 'OLD': '3.125.0'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-11-22 19:05:16 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-11-22 19:05:16 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-11-22 19:05:16 [INFO   ][ln-259]: #########################################################################
+
+2023-11-22 19:05:16 [INFO   ][ln-260]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-11-22 19:05:16 [INFO   ][ln-261]: # ---------------------------------------------------------------- #)
+
+2023-11-22 19:05:16 [INFO   ][ln-304]: {'build': {'time': 'Nov 14 2023 15:15:57', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'os': {'testmanagerdVersion': 65535, 'name': 'iOS', 'sdkVersion': '17.0', 'version': '16.6'}, 'device': 'iphone', 'ios': {'ip': '169.254.160.10'}, 'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'ready': True, 'sessionId': None}
+2023-11-22 19:05:21 [INFO   ][ln-314]: Size(width=390, height=844)
+2023-11-22 19:05:24 [INFO   ][ln-75 ]: homepass-icon is displayed
+2023-11-22 19:05:26 [INFO   ][ln-170]: Step 1of Sign in HomePassIOS
+2023-11-22 19:05:26 [INFO   ][ln-223]: Step 3 of Sign in to HomePass IOS
+2023-11-22 19:05:26 [INFO   ][ln-243]: Trying to Detect HomePass Would Like to Send You Notifications
+2023-11-22 19:06:08 [INFO   ][ln-340]: Test completed
+2023-11-22 19:06:14 [DEBUG  ][ln-980]: teardown_method
+2023-11-22 19:06:14 [DEBUG  ][ln-974]: teardown_class
+2023-11-22 19:09:14 [INFO   ][ln-47 ]: Start to load config file
+2023-11-22 19:09:14 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-ios+4@plume.com', 'pwd': 'plume1234', 'devuserid': '653f108a396de2000acd43d4', 'sn': 'KD909A0084', 'devid': '60B4F7F504D2', 'mac': '60:B4:F7:F5:04:D2', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'HomePas_version': {'Previous': '3.129.0', 'OLD': '3.125.0'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-11-22 19:09:14 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-11-22 19:09:14 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-11-22 19:09:14 [INFO   ][ln-260]: #########################################################################
+
+2023-11-22 19:09:14 [INFO   ][ln-261]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-11-22 19:09:14 [INFO   ][ln-262]: # ---------------------------------------------------------------- #)
+
+2023-11-22 19:09:14 [INFO   ][ln-305]: {'build': {'time': 'Nov 14 2023 15:15:57', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'os': {'testmanagerdVersion': 65535, 'name': 'iOS', 'sdkVersion': '17.0', 'version': '16.6'}, 'device': 'iphone', 'ios': {'ip': '169.254.160.10'}, 'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'ready': True, 'sessionId': None}
+2023-11-22 19:09:20 [INFO   ][ln-315]: Size(width=390, height=844)
+2023-11-22 19:09:23 [INFO   ][ln-75 ]: homepass-icon is displayed
+2023-11-22 19:09:25 [INFO   ][ln-171]: Step 1of Sign in HomePassIOS
+2023-11-22 19:09:25 [INFO   ][ln-224]: Step 3 of Sign in to HomePass IOS
+2023-11-22 19:09:25 [INFO   ][ln-244]: Trying to Detect HomePass Would Like to Send You Notifications
+2023-11-22 19:10:07 [INFO   ][ln-341]: Test completed
+2023-11-22 19:10:12 [DEBUG  ][ln-980]: teardown_method
+2023-11-22 19:10:12 [DEBUG  ][ln-974]: teardown_class
+2023-11-22 19:11:56 [INFO   ][ln-47 ]: Start to load config file
+2023-11-22 19:11:56 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-ios+4@plume.com', 'pwd': 'plume1234', 'devuserid': '653f108a396de2000acd43d4', 'sn': 'KD909A0084', 'devid': '60B4F7F504D2', 'mac': '60:B4:F7:F5:04:D2', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'HomePas_version': {'Previous': '3.129.0', 'OLD': '3.125.0'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-11-22 19:11:56 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-11-22 19:11:56 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-11-22 19:11:56 [INFO   ][ln-260]: #########################################################################
+
+2023-11-22 19:11:56 [INFO   ][ln-261]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-11-22 19:11:56 [INFO   ][ln-262]: # ---------------------------------------------------------------- #)
+
+2023-11-22 19:11:56 [INFO   ][ln-305]: {'build': {'time': 'Nov 14 2023 15:15:57', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'os': {'testmanagerdVersion': 65535, 'name': 'iOS', 'sdkVersion': '17.0', 'version': '16.6'}, 'device': 'iphone', 'ios': {'ip': '169.254.160.10'}, 'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'ready': True, 'sessionId': None}
+2023-11-22 19:12:02 [INFO   ][ln-315]: Size(width=390, height=844)
+2023-11-22 19:12:05 [INFO   ][ln-75 ]: homepass-icon is displayed
+2023-11-22 19:12:07 [INFO   ][ln-171]: Step 1of Sign in HomePassIOS
+2023-11-22 19:12:07 [INFO   ][ln-224]: Step 3 of Sign in to HomePass IOS
+2023-11-22 19:12:07 [INFO   ][ln-244]: Trying to Detect HomePass Would Like to Send You Notifications
+2023-11-22 19:13:05 [INFO   ][ln-341]: Test completed
+2023-11-22 19:13:10 [DEBUG  ][ln-980]: teardown_method
+2023-11-22 19:13:10 [DEBUG  ][ln-974]: teardown_class
+2023-11-22 19:13:53 [INFO   ][ln-47 ]: Start to load config file
+2023-11-22 19:13:53 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-ios+4@plume.com', 'pwd': 'plume1234', 'devuserid': '653f108a396de2000acd43d4', 'sn': 'KD909A0084', 'devid': '60B4F7F504D2', 'mac': '60:B4:F7:F5:04:D2', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'HomePas_version': {'Previous': '3.129.0', 'OLD': '3.125.0'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-11-22 19:13:53 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-11-22 19:13:53 [DEBUG  ][ln-977]: ======================================== Star to run: <test_devstatus_func> ========================================
+2023-11-22 19:13:53 [INFO   ][ln-111]: ####################################################################
+
+2023-11-22 19:13:53 [INFO   ][ln-112]: # thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-11-22 19:13:53 [INFO   ][ln-113]: # ---------------------------------------------------------------- #)
+
+2023-11-22 19:13:53 [INFO   ][ln-114]: #  Test case : ( /pwb/GetDeviceStatusByUser #)
+
+2023-11-22 19:13:53 [INFO   ][ln-115]: ####################################################################)
+
+2023-11-22 19:13:53 [INFO   ][ln-217]: PlumeCloudLogin
+2023-11-22 19:13:57 [INFO   ][ln-117]: Step 1 :  PlumeCloudLogin
+
+2023-11-22 19:13:57 [INFO   ][ln-121]: 31G5PZYQdo1YPZPOIDmbxar7TJPCwRfD4qnCAuAXsU3hiZ1pjkmBufBGPnQ9UInB
+2023-11-22 19:13:57 [INFO   ][ln-124]: 653f108a396de2000acd43d4
+2023-11-22 19:13:57 [INFO   ][ln-125]: 
+
+2023-11-22 19:13:57 [INFO   ][ln-126]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-11-22 19:13:57 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-11-22 19:14:01 [INFO   ][ln-131]: eyJraWQiOiJ1cy13ZXN0LTI0IiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6YWY4MTk2OTctYmE5YS00ZDk0LWI1MGEtNDkxMzRmYTJhMGNmIiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6MzFHNVBaWVFkbzFZUFpQT0lEbWJ4YXI3VEpQQ3dSZkQ0cW5DQXVBWHNVM2hpWjFwamttQnVmQkdQblE5VUluQiJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE3MDA3MzgwMzksImlhdCI6MTcwMDY1MTYzOX0.V_e7oOZjSflUiS6-OITurlEKFRrgBrFUnZ5ddVu8MRtja4MvvYtgngDo81Gvmc9MebZHiiYRTLp78eiHpEPFCC8MpxxHMVwi4MKxUaQrz8QF42jJ4EF8cO2fbEkv2l0NhZ9kwBHSLIT9CsCcIl7XxSpAsJRO9Vl_3KCJALgFhL59CoUCHjXlngTwR6OogLxGaYdahlnEtcXO1uAbyJkMSqpszJjqOcxQzsR51E0ktZzG0kH_O63MLvcZjmEAr_agRoOrvJ2FSDDPbliOxGmo7lf90CD3b_7ekwYD4QLZ9APFmvoNnkVJdJk8wmT7b6URsh9IZSGLgQ3Z5FhhIEVfwA
+2023-11-22 19:14:01 [INFO   ][ln-132]: 
+
+2023-11-22 19:14:04 [INFO   ][ln-134]: Step 3 : UnRegisterDevice SN
+
+2023-11-22 19:14:04 [INFO   ][ln-64 ]: KD909A0084
+2023-11-22 19:14:04 [INFO   ][ln-364]: RegisterDevice
+2023-11-22 19:14:07 [INFO   ][ln-136]: 
+
+2023-11-22 19:14:10 [INFO   ][ln-138]: #####################################
+2023-11-22 19:14:10 [INFO   ][ln-139]: Step 4 : To Do API Test : GetDeviceStatusByUser
+
+2023-11-22 19:14:10 [INFO   ][ln-855]: UnregisterDevice
+2023-11-22 19:14:14 [INFO   ][ln-141]: {'data': {'unregisterResult': 'Success'}, 'result': {'code': 201000, 'message': 'Successfully.'}}
+2023-11-22 19:14:17 [DEBUG  ][ln-980]: teardown_method
+2023-11-22 19:14:17 [DEBUG  ][ln-974]: teardown_class
+2023-11-22 19:14:40 [INFO   ][ln-47 ]: Start to load config file
+2023-11-22 19:14:40 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-ios+4@plume.com', 'pwd': 'plume1234', 'devuserid': '653f108a396de2000acd43d4', 'sn': 'KD909A0084', 'devid': '60B4F7F504D2', 'mac': '60:B4:F7:F5:04:D2', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'HomePas_version': {'Previous': '3.129.0', 'OLD': '3.125.0'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-11-22 19:14:40 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-11-22 19:14:40 [DEBUG  ][ln-977]: ======================================== Star to run: <test_devstatus_func> ========================================
+2023-11-22 19:14:40 [INFO   ][ln-111]: ####################################################################
+
+2023-11-22 19:14:40 [INFO   ][ln-112]: # thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-11-22 19:14:40 [INFO   ][ln-113]: # ---------------------------------------------------------------- #)
+
+2023-11-22 19:14:40 [INFO   ][ln-114]: #  Test case : ( /pwb/GetDeviceStatusByUser #)
+
+2023-11-22 19:14:40 [INFO   ][ln-115]: ####################################################################)
+
+2023-11-22 19:14:40 [INFO   ][ln-217]: PlumeCloudLogin
+2023-11-22 19:14:43 [INFO   ][ln-117]: Step 1 :  PlumeCloudLogin
+
+2023-11-22 19:14:43 [INFO   ][ln-121]: S6I07kIEPI8dBhfCPLjGqbndPEo9RMlK6hg4Dt6BEM75LCOJNijmoeHmOQiWd7qA
+2023-11-22 19:14:43 [INFO   ][ln-124]: 653f108a396de2000acd43d4
+2023-11-22 19:14:43 [INFO   ][ln-125]: 
+
+2023-11-22 19:14:43 [INFO   ][ln-126]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-11-22 19:14:43 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-11-22 19:14:46 [INFO   ][ln-131]: eyJraWQiOiJ1cy13ZXN0LTI0IiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6NDY2MzVmNzItOTcwOC00YjExLTlkMDEtNTljYzExYzFmMzBmIiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6UzZJMDdrSUVQSThkQmhmQ1BMakdxYm5kUEVvOVJNbEs2aGc0RHQ2QkVNNzVMQ09KTmlqbW9lSG1PUWlXZDdxQSJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE3MDA3MzgwODQsImlhdCI6MTcwMDY1MTY4NH0.B1JOq5gbYGRHx-kzkGzwJ37G2wl_2eM6YJki-iS31sFAwlD_DESq4cJw30nJRnCSOhv7Lw2Qsj1jGvlYrUAHt3rMFzKZWZ3pvCHQE_lI3AntvlAYnthL-yRHDIkcYRhHE-KVi5hvykGET5SQYp3_TK9LV476Cexm9YAmYieF_a2ymdZr8ItFBfQ5dmFDH1ssQOd9B7hp2HgZwx-mrq_snCTRy4xCdbk0EWywvHc3VqpQXmOfdqF9Al9QHpaO9L0HbL3qTMczOYiSj55gv9kXt4RfRGJbMewxzO6upnTTlLKhLdpfz3sqSHwiDsOmpKII7lNdDCadkVWObUoE5pzaAg
+2023-11-22 19:14:46 [INFO   ][ln-132]: 
+
+2023-11-22 19:14:49 [INFO   ][ln-134]: Step 3 : UnRegisterDevice SN
+
+2023-11-22 19:14:49 [INFO   ][ln-64 ]: KD909A0084
+2023-11-22 19:14:49 [INFO   ][ln-364]: RegisterDevice
+2023-11-22 19:14:52 [INFO   ][ln-136]: 
+
+2023-11-22 19:14:55 [INFO   ][ln-138]: #####################################
+2023-11-22 19:14:55 [INFO   ][ln-139]: Step 4 : To Do API Test : GetDeviceStatusByUser
+
+2023-11-22 19:14:55 [INFO   ][ln-855]: UnregisterDevice
+2023-11-22 19:14:58 [INFO   ][ln-141]: {'data': {'unregisterResult': 'Success'}, 'result': {'code': 201000, 'message': 'Successfully.'}}
+2023-11-22 19:15:01 [DEBUG  ][ln-980]: teardown_method
+2023-11-22 19:15:01 [DEBUG  ][ln-974]: teardown_class
+2023-11-22 19:16:04 [INFO   ][ln-47 ]: Start to load config file
+2023-11-22 19:16:04 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-ios+4@plume.com', 'pwd': 'plume1234', 'devuserid': '653f108a396de2000acd43d4', 'sn': 'KD909A0084', 'devid': '60B4F7F504D2', 'mac': '60:B4:F7:F5:04:D2', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'HomePas_version': {'Previous': '3.129.0', 'OLD': '3.125.0'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-11-22 19:16:05 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-11-22 19:16:05 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-11-22 19:16:05 [INFO   ][ln-260]: #########################################################################
+
+2023-11-22 19:16:05 [INFO   ][ln-261]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-11-22 19:16:05 [INFO   ][ln-262]: # ---------------------------------------------------------------- #)
+
+2023-11-22 19:16:05 [INFO   ][ln-305]: {'build': {'time': 'Nov 14 2023 15:15:57', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'os': {'testmanagerdVersion': 65535, 'name': 'iOS', 'sdkVersion': '17.0', 'version': '16.6'}, 'device': 'iphone', 'ios': {'ip': '169.254.160.10'}, 'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'ready': True, 'sessionId': None}
+2023-11-22 19:16:10 [INFO   ][ln-315]: Size(width=390, height=844)
+2023-11-22 19:16:13 [INFO   ][ln-75 ]: homepass-icon is displayed
+2023-11-22 19:16:15 [INFO   ][ln-171]: Step 1of Sign in HomePassIOS
+2023-11-22 19:16:15 [INFO   ][ln-224]: Step 3 of Sign in to HomePass IOS
+2023-11-22 19:16:15 [INFO   ][ln-244]: Trying to Detect HomePass Would Like to Send You Notifications
+2023-11-22 19:17:12 [INFO   ][ln-341]: Test completed
+2023-11-22 19:17:17 [DEBUG  ][ln-980]: teardown_method
+2023-11-22 19:17:17 [DEBUG  ][ln-974]: teardown_class

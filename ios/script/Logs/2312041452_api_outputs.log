@@ -1,0 +1,162 @@
+2023-12-04 14:53:08: -----------Request----------->
+POST https://thrive-dog1-usw2-api.data.plume.tech/pwb/PlumeCloudLogin
+
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+accept: application/json
+Connection: keep-alive
+Content-Type: application/json
+Content-Length: 73
+
+{
+    "email": "thrive-ios+4@plume.com",
+    "password": "plume1234",
+    "ttl": 3600
+}
+
+2023-12-04 14:53:08: <-----------Response-----------
+Status code: 200, elapsed seconds: 1.003156
+
+Date: Mon, 04 Dec 2023 06:53:06 GMT
+Content-Type: application/json
+Content-Length: 729
+Connection: keep-alive
+x-amzn-RequestId: bdee9095-6b7d-49e2-b502-d4be156754a8
+Access-Control-Allow-Origin: *
+x-amz-apigw-id: PZ-U4EluvHcEgVQ=
+X-Amzn-Trace-Id: Root=1-656d7752-354ccc5c43ac3c785b9d7c64;Sampled=0;lineage=7fdd2b1e:0
+
+{
+    "data": {
+        "id": "sLIb2xNNdxkGdqeDQVy4qBsEcsVFyPKVQ7avzMyheYAs9wLw2Nm8ymkfmkCBWSV7",
+        "ttl": 3600,
+        "created": "2023-12-04T06:53:06.337Z",
+        "userId": "653f108a396de2000acd43d4",
+        "expireAt": "2023-12-04T07:53:06.337Z",
+        "user": {
+            "id": "653f108a396de2000acd43d4",
+            "accountId": "3b2c42d4-7cee-4756-b4bd-491cacc1ae57",
+            "anonymous": false,
+            "autoProvisioned": false,
+            "name": "thrive-ios+4",
+            "locked": false,
+            "partnerId": "mobile_qa_test",
+            "acceptLanguage": "en-US",
+            "preferredLanguage": "en",
+            "source": "customCreate",
+            "createdAt": "2023-10-30T02:10:18.214Z",
+            "provisioningSsoAuditTrail": false,
+            "_version": "1.0.0",
+            "email": "thrive-ios+4@plume.com",
+            "emailVerified": true,
+            "firstKnownLoginTimestamp": "2023-10-30T02:15:53.570Z"
+        }
+    },
+    "result": {
+        "code": 201000,
+        "message": "Successfully."
+    }
+}
+
+2023-12-04 14:53:11: -----------Request----------->
+POST https://thrive-dog1-usw2-api.data.plume.tech/pwb/AuthenticateWithPlumeToken
+
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+accept: application/json
+Connection: keep-alive
+Content-Type: application/json
+Content-Length: 121
+
+{
+    "accessToken": "sLIb2xNNdxkGdqeDQVy4qBsEcsVFyPKVQ7avzMyheYAs9wLw2Nm8ymkfmkCBWSV7",
+    "userId": "653f108a396de2000acd43d4"
+}
+
+2023-12-04 14:53:11: <-----------Response-----------
+Status code: 200, elapsed seconds: 1.23907
+
+Date: Mon, 04 Dec 2023 06:53:09 GMT
+Content-Type: application/json
+Content-Length: 3824
+Connection: keep-alive
+x-amzn-RequestId: 79f80907-b698-489f-8cb5-d60a5e87feaf
+Access-Control-Allow-Origin: *
+x-amz-apigw-id: PZ-VWGHUvHcEm4A=
+X-Amzn-Trace-Id: Root=1-656d7755-67513b9e0801d85b6356a533;Sampled=0;lineage=144e69e0:0
+
+{
+    "data": {
+        "email": "thrive-ios+4@plume.com",
+        "userGroup": "admin",
+        "userName": "thrive-ios+4",
+        "userId": "653f108a396de2000acd43d4",
+        "accessToken": "eyJraWQiOiJ1cy13ZXN0LTI0IiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6NmQ0ZDUwNTctMDhkNC00OWZhLTkwZDgtYjdjNTg0M2YxMjI4IiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6c0xJYjJ4Tk5keGtHZHFlRFFWeTRxQnNFY3NWRnlQS1ZRN2F2ek15aGVZQXM5d0x3Mk5tOHlta2Zta0NCV1NWNyJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE3MDE3NTkxODksImlhdCI6MTcwMTY3Mjc4OX0.dLBfXVJ-RemqotCCUyX53c-__ciSCsdtMyBHkfT6xJNOvAYtOyjxhvnbQUqS3l0OH6VP-vbSHCCidY6uvkvEJ8ztDnG5s-ZwSSlOmSbT-CE0rCTWOA2Jpy8hU8yaH7uV2FNmIRHQrSIrY7RMAA-Yw23wimIG0CftAQKsrAbF5G19461djMf-h46gOTOdtVqRBXVhQYUBt5i3VbdmYz6CujTTu4NQwUFVBoBiYgdZ6gw6SeQWOXbY-rH5j21igY-SyZ8z-VrNtRYLbov3UMVpwdxm7ibqM-3RTKd1Yb0JHewgOo78ALCQwXJBJMC7UI_h73xm88OT5xrXrxx3FK6Tfg",
+        "idToken": "eyJraWQiOiJJZGVudGl0eVRva2VuU2lnbktleSIsImFsZyI6IlJTNTEyIn0%3D.eyJpc3MiOiJhd3MtbGFtYmRhIiwiZXhwIjoxNzE3MjI0Nzg5LCJzdWIiOiJpZC10b2tlbiIsImF1ZCI6InJpbmciLCJqdGkiOiJjMmVkMThiMS1hZWViLTRhMDgtYWY1Mi1iMzI2ZTJkZjk2YWQiLCJ1c2VySWQiOiI2NTNmMTA4YTM5NmRlMjAwMGFjZDQzZDQiLCJlbWFpbCI6InRocml2ZS1pb3MrNEBwbHVtZS5jb20iLCJnZW5kZXIiOiIiLCJiaXJ0aGRhdGUiOiIifQ%3D%3D.h3fmGn%2BH343EpX9u%2F%2BRgS9ZTcWinrg1alo5xZrs53B4NiRAtMxJIoh0Xs2dI4SaS4D14eR9U4VyTub%2FsNiQs75QEAWw%2FSpKDGcdABGTITvNpUGcj6%2Fsxar7ZTaqxGhxgOnkf%2FaRH2GMIU85D%2FdoJvAmf7tz%2B5OTDQn8lrxeTDMRiIqs4Q6gjFOKwUQncKH%2BvvScSP4b2XZMQrkcVfT1%2BwBBou8eMObswhUwYbCaZtNYqyzql%2FWdGb2%2FtLRyv1bADy7SNFGuuFK30JV%2BmP6e5eh5FQsQCzpj%2Fw%2F%2Ba3PT%2BSY0JeTYNLljoWxBYNbnurwcH5m6yzO0o9P1BiMInlxbw3S20NB6K4qKQEJ%2F%2FpnMxypI6e4rwpNGBHMRvKi1Ov9EFTsJiPIeoTVyiIlOFw2%2F8K2QWoJQuv8QfvASVf7JT4buySAecneHlx9hNTq2HXvfM5qdi5jMwtLCzJQVLIYjvwOOeWiMS0CjL7cvTvrf3cmiLzd7C7yXqc4R3qRIEnt6pJur8I%2BNLYdQepD8mi%2BnwNJYi9PhKHWA35GgSX5JO0BgV5mYdXIezr0YaD8iT%2BXi2SfzXodUQXCn5ZeUw56YYvuV0ToO7He2kMILeQK4frUIHLcF67xWxIdzHSB7aaExtqwrelFrNnN1x0SZFWfGAYgX2CYk9fxLbVn3V16QWqlc%3D",
+        "refreshToken": "eyJraWQiOiJSZWZyZXNoVG9rZW5TaWduS2V5IiwiY3R5IjoiSldUIiwiZW5jIjoiQTI1NkdDTSIsImFsZyI6IlJTNTEyIn0%3D.AQICAHgg7rlLlhJZMilo20zyx9NECjg%2F8q0XYyoRMcHYs4Nh4AGnjMGB32oyFVwMu2ZUo3MgAAABUTCCAU0GCSqGSIb3DQEHBqCCAT4wggE6AgEAMIIBMwYJKoZIhvcNAQcBMB4GCWCGSAFlAwQBLjARBAzStL8Cfr2HVAdSSMcCARCAggEEtf0b1xORABuENC5igEhxN4qvbYBVzhkjfPUEn5MwV%2BC7q0ASj89AHHAH3k9sWgkb1iCpUUUuORve5cq%2FngGrp3do4bxyzk5Hm%2BUp8TaI040cKjwOAM7clf6DAzXIKCFeKCBaldQTHUpliducKO9l%2Ff0NCeSgSu%2Bas1YCQaCA5OckWxJySIM4Xmg75wnTpzRtEeTAnx2M51FdC96QGwFgQ4XAfK9fa89xaqwj1aEZrN34ZLst99sr0hsLKG3j9fVSqppYbXhM4zAzqIyH1%2BKnq%2Fn3WNB%2FT7fadgbijXiHuJAAjmy6XVA7XefFuFO5zszJt9nUiyPk6F3thMzJmeVvcmRYjmI%3D.GNgKZVhRo1xV3JaulVqdPNjC%2BDtMKv8PSjmQQab8SUaTFEMSwSkGIULxhfigPYJ%2B41zCpLAXeaJNSoEkVJbWRJ%2BxoFXxs1YL7ofMJZi%2FEWEZOIxhJVjXNc6hIBSLNJ4nj%2FC6t8JDKFfHEbrfDNcS61YxIjKmm5%2FFHeMB6mdJuj0NTffPzxQTi63ocg4m4BpTGcN9sD%2BsbT0ejdziwnfhNH6XLZMMHs9vl4poEUsZ0Tim9XghlAdRPN1wisLfvioh94kTyhr6NkRQRwLHPxPhaUjLr4UFeRqtkRAhXo0Ob1fcj4UEjCCAWfdN1hKOqg%2F6DypVROBuv3Tm9f7GtHhiYnxza3RWyub5l3UppW3WwgPIiiVZA%2BHLUXFV0gNveVoybfYrzW2D7%2FZLWz02KNipym4Mk6S5GXGgTuFeSF7KfOAiMnmgtngFkUcCPpSbu8TzE%2Fn%2BNrCQxK9LdJ%2FtbxFlmm9QrCa4bFTs9b8iDGtr2XW0E0QV9D4Rv%2FVXJ145qZqOuzuXYnikdNzZYeQ%2BsRXEYIadp527XjWYeieq0NsZvLiZtQx%2FPY1aZHcFCYOWcaAH4QhEVYm0LrsuLgO9lqRRrmO%2FEXLYMMb34BIyBnP4AS6L1q5Ghdo0POU4u3IDIrqzRjXv9F3SbFQSRlieZ02jos%2BWOGX1PbQBSN22UO%2B%2Froo%3D",
+        "identityId": "us-west-2:6d4d5057-08d4-49fa-90d8-b7c5843f1228"
+    }
+}
+
+2023-12-04 14:53:16: -----------Request----------->
+POST https://thrive-dog1-usw2-api.data.plume.tech/pwb/GetFitnessActivityList
+
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+accept: application/json
+Connection: keep-alive
+Authorization: Bearer eyJraWQiOiJ1cy13ZXN0LTI0IiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6NmQ0ZDUwNTctMDhkNC00OWZhLTkwZDgtYjdjNTg0M2YxMjI4IiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6c0xJYjJ4Tk5keGtHZHFlRFFWeTRxQnNFY3NWRnlQS1ZRN2F2ek15aGVZQXM5d0x3Mk5tOHlta2Zta0NCV1NWNyJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE3MDE3NTkxODksImlhdCI6MTcwMTY3Mjc4OX0.dLBfXVJ-RemqotCCUyX53c-__ciSCsdtMyBHkfT6xJNOvAYtOyjxhvnbQUqS3l0OH6VP-vbSHCCidY6uvkvEJ8ztDnG5s-ZwSSlOmSbT-CE0rCTWOA2Jpy8hU8yaH7uV2FNmIRHQrSIrY7RMAA-Yw23wimIG0CftAQKsrAbF5G19461djMf-h46gOTOdtVqRBXVhQYUBt5i3VbdmYz6CujTTu4NQwUFVBoBiYgdZ6gw6SeQWOXbY-rH5j21igY-SyZ8z-VrNtRYLbov3UMVpwdxm7ibqM-3RTKd1Yb0JHewgOo78ALCQwXJBJMC7UI_h73xm88OT5xrXrxx3FK6Tfg
+Content-Type: application/json
+Content-Length: 117
+
+{
+    "userId": "653f108a396de2000acd43d4",
+    "startTime": 1701619200,
+    "endTime": 1701705599,
+    "pageSize": 5,
+    "startKey": ""
+}
+
+2023-12-04 14:53:16: <-----------Response-----------
+Status code: 200, elapsed seconds: 2.605775
+
+Date: Mon, 04 Dec 2023 06:53:14 GMT
+Content-Type: application/json
+Content-Length: 522
+Connection: keep-alive
+x-amzn-RequestId: 90b38b49-fc5f-4e55-a25a-62546ff0eb72
+Access-Control-Allow-Origin: *
+x-amz-apigw-id: PZ-V3FLGvHcEA5Q=
+X-Amzn-Trace-Id: Root=1-656d7758-020d083a79db1d8109c579ef;Sampled=0;lineage=557b233b:0
+
+{
+    "data": {
+        "startTime": 1701619200,
+        "endTime": 1701705599,
+        "userId": "653f108a396de2000acd43d4",
+        "activitiesList": [
+            {
+                "activityId": "activity_653f108a396de2000acd43d460:b4:f7:f5:04:d2_1701654752",
+                "userId": "653f108a396de2000acd43d4",
+                "fitnessActivityTypeId": 1,
+                "userConfirmation": "Unkown",
+                "manualActivity": false,
+                "state": "completed",
+                "startTimeStamp": 1701654752,
+                "duration": 431,
+                "stepCount": 557,
+                "highHrRate": 129,
+                "lowHrRate": 81,
+                "avgHrRate": 112,
+                "highSpo2": 100,
+                "lowSpo2": 100,
+                "avgSpo2": 100
+            }
+        ]
+    },
+    "result": {
+        "code": 201000,
+        "message": "Successfully."
+    }
+}
+

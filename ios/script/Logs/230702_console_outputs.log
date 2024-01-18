@@ -1,0 +1,170 @@
+2023-07-02 08:14:17 [INFO   ][ln-47 ]: Start to load config file
+2023-07-02 08:14:17 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+4@plume.com', 'pwd': 'plume1234', 'devuserid': '64895a7f924521000b2d7ac7', 'sn': 'KD8F00003C', 'devid': '60B4F7B306AD', 'mac': '60:B4:F7:B3:06:AD', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-07-02 08:14:18 [DEBUG  ][ln-779]: ======================================== Star to run: <TestAPI> ========================================
+2023-07-02 08:14:18 [DEBUG  ][ln-785]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-02 08:14:18 [INFO   ][ln-162]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.66.31'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': 'C70702ED-6F4F-4C79-BF10-E78C3334881B'}
+2023-07-02 08:14:23 [INFO   ][ln-172]: Size(width=390, height=844)
+2023-07-02 08:14:36 [INFO   ][ln-200]: The Readiness score get from HomePASS IOS is : 
+2023-07-02 08:14:36 [INFO   ][ln-202]: 10
+2023-07-02 08:14:54 [INFO   ][ln-264]: #########################################################################
+
+2023-07-02 08:14:54 [INFO   ][ln-265]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-02 08:14:54 [INFO   ][ln-266]: # ---------------------------------------------------------------- #)
+
+2023-07-02 08:14:54 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-02 08:14:58 [INFO   ][ln-268]: Step 1 :  PlumeCloudLogin
+
+2023-07-02 08:14:58 [INFO   ][ln-303]: e4yhzXyxIK9YFvpyBeoLdmgkKQTYm7tClr4qXdd82wGQF7tVNaDbUFSKHNeMImaI
+2023-07-02 08:14:58 [INFO   ][ln-306]: 64895a7f924521000b2d7ac7
+2023-07-02 08:14:58 [INFO   ][ln-307]: 
+
+2023-07-02 08:14:58 [INFO   ][ln-308]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-02 08:14:58 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-02 08:15:03 [INFO   ][ln-313]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6ZTE2OTIwZDAtMzQ2Ni00MGU4LWE4YmUtMGIwZDFkYzk3NzkwIiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6ZTR5aHpYeXhJSzlZRnZweUJlb0xkbWdrS1FUWW03dENscjRxWGRkODJ3R1FGN3RWTmFEYlVGU0tITmVNSW1hSSJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODgzNDMzMDAsImlhdCI6MTY4ODI1NjkwMH0.YVFezpqL7-COyJGW47GoEXKowS2-tXmj8AwwvR1mQ0eWPDt5jSYFILIaACO8nFkDdz6_p5Hdy5_GovDnNA9NqWIFRxtBzvILrqdq_IA59nZsQf-80aT32i_7jMmvH87hNaQqVcbRheJS9bPv0f7Wqy03rqmG7mTS_uI-ENRvxGtP3a-G8fWMWrBpf6b4uz8bd3iV_7Iu313Fk_o5WxgceLkj5nuYYrZCo-k7Sj9QDHF7Ne0uFeN7VaCmSozZ13VxMSdHZ7LeSIWr4PHYSuFBjnchxXYOAZhzyFaT4TYGllEEU7HvGpgpc7vsbaP2h1mZiu0ly-SJLQ6IKg19phh7yA
+2023-07-02 08:15:03 [INFO   ][ln-314]: 
+
+2023-07-02 08:15:03 [INFO   ][ln-317]: 2023
+2023-07-02 08:15:03 [INFO   ][ln-318]: 7
+2023-07-02 08:15:03 [INFO   ][ln-319]: 2
+2023-07-02 08:15:03 [INFO   ][ln-321]: 2023-07-02 00:00:00
+2023-07-02 08:15:03 [INFO   ][ln-90 ]: 1688227200
+2023-07-02 08:15:03 [INFO   ][ln-91 ]: 1688310000
+2023-07-02 08:15:03 [INFO   ][ln-480]: GetReadinessInsightSummary
+2023-07-02 08:15:03 [INFO   ][ln-499]: GetReadinessInsightSummary
+2023-07-02 08:15:06 [INFO   ][ln-329]: ####################################
+2023-07-02 08:15:06 [INFO   ][ln-330]: [{'userId': '64895a7f924521000b2d7ac7', 'startpDate': 1688227200, 'interval': 'week', 'avgReadinessScore': 0, 'maxReadinessScore': 0, 'minReadinessScore': 0, 'avgHrvScore': 0, 'maxHrvScore': 0, 'minHrvScore': 0, 'avgStressScore': 0, 'maxStressScore': 0, 'minStressScore': 0}]
+2023-07-02 08:15:06 [INFO   ][ln-331]: ####################################
+2023-07-02 08:15:06 [INFO   ][ln-333]: The avgReadinessScore get from Backend API : 
+2023-07-02 08:15:06 [INFO   ][ln-334]: 0
+2023-07-02 08:15:06 [INFO   ][ln-342]: Test completed
+2023-07-02 08:15:06 [DEBUG  ][ln-788]: teardown_method
+2023-07-02 08:15:06 [DEBUG  ][ln-782]: teardown_class
+2023-07-02 08:17:52 [INFO   ][ln-47 ]: Start to load config file
+2023-07-02 08:17:52 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+4@plume.com', 'pwd': 'plume1234', 'devuserid': '64895a7f924521000b2d7ac7', 'sn': 'KD8F00003C', 'devid': '60B4F7B306AD', 'mac': '60:B4:F7:B3:06:AD', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-07-02 08:17:52 [DEBUG  ][ln-779]: ======================================== Star to run: <TestAPI> ========================================
+2023-07-02 08:17:52 [DEBUG  ][ln-785]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-02 08:17:52 [INFO   ][ln-162]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.66.31'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': 'C70702ED-6F4F-4C79-BF10-E78C3334881B'}
+2023-07-02 08:17:57 [INFO   ][ln-172]: Size(width=390, height=844)
+2023-07-02 08:18:10 [INFO   ][ln-200]: The L1 Readiness score get from HomePASS IOS is : 
+2023-07-02 08:18:10 [INFO   ][ln-202]: 10
+2023-07-02 08:18:29 [INFO   ][ln-264]: #########################################################################
+
+2023-07-02 08:18:29 [INFO   ][ln-265]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-02 08:18:29 [INFO   ][ln-266]: # ---------------------------------------------------------------- #)
+
+2023-07-02 08:18:29 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-02 08:18:32 [INFO   ][ln-268]: Step 1 :  PlumeCloudLogin
+
+2023-07-02 08:18:32 [INFO   ][ln-303]: TVLNq1jnv1mEbOAamJF5sbZctIkQDBCF8tHBDC6nIzVEKmlm83FN9ympcBaUM2qk
+2023-07-02 08:18:32 [INFO   ][ln-306]: 64895a7f924521000b2d7ac7
+2023-07-02 08:18:32 [INFO   ][ln-307]: 
+
+2023-07-02 08:18:32 [INFO   ][ln-308]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-02 08:18:32 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-02 08:18:35 [INFO   ][ln-313]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6MzhjM2YyMjAtYWI1Zi00ODg4LWFlZmMtNjMyM2ZlNGFiZTE2IiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6VFZMTnExam52MW1FYk9BYW1KRjVzYlpjdElrUURCQ0Y4dEhCREM2bkl6VkVLbWxtODNGTjl5bXBjQmFVTTJxayJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODgzNDM1MTMsImlhdCI6MTY4ODI1NzExM30.eVYSYKB20dlM_q9sh3ORXtNXLSHjLxL3JjGzGPo66KJKfzS8zm0UES8Vuh6lCBGqzsgPE6sDLUeeuJMREPW1qdKTjVGBfcbFOJ_LjXd97SQdjqcAxaJ3C8RxAh_if8LtaGktUb0fSZxjW4r-f_aPt_78mCQ_oG4utyvzKZ9yMjbrWMLVSGYXOtYyVp6_8EOZmCe90btirxVXWUpLWMBpA5lpV49O4Y7h66xK8Ryq_QmwcE67-OWi8S2LXHcj7MnKQQPaNatY0XjbzbWbJxLPoV7BUlMJZwYlfVcfYpL6JN47yH2kzCfmk5ULMcWQEPVR6bsdp07u3rs1zJ50N8-uag
+2023-07-02 08:18:35 [INFO   ][ln-314]: 
+
+2023-07-02 08:18:35 [INFO   ][ln-317]: 2023
+2023-07-02 08:18:35 [INFO   ][ln-318]: 7
+2023-07-02 08:18:35 [INFO   ][ln-319]: 2
+2023-07-02 08:18:35 [INFO   ][ln-321]: 2023-07-02 00:00:00
+2023-07-02 08:18:35 [INFO   ][ln-90 ]: 1688227200
+2023-07-02 08:18:35 [INFO   ][ln-91 ]: 1688310000
+2023-07-02 08:18:35 [INFO   ][ln-480]: GetReadinessInsightSummary
+2023-07-02 08:18:35 [INFO   ][ln-499]: GetReadinessInsightSummary
+2023-07-02 08:18:38 [INFO   ][ln-329]: ####################################
+2023-07-02 08:18:38 [INFO   ][ln-330]: [{'userId': '64895a7f924521000b2d7ac7', 'startpDate': 1688227200, 'interval': 'week', 'avgReadinessScore': 0, 'maxReadinessScore': 0, 'minReadinessScore': 0, 'avgHrvScore': 0, 'maxHrvScore': 0, 'minHrvScore': 0, 'avgStressScore': 0, 'maxStressScore': 0, 'minStressScore': 0}]
+2023-07-02 08:18:38 [INFO   ][ln-331]: ####################################
+2023-07-02 08:18:38 [INFO   ][ln-333]: The avgReadinessScore get from Backend API : 
+2023-07-02 08:18:38 [INFO   ][ln-334]: 0
+2023-07-02 08:18:38 [INFO   ][ln-342]: Test completed
+2023-07-02 08:18:38 [DEBUG  ][ln-788]: teardown_method
+2023-07-02 08:18:38 [DEBUG  ][ln-782]: teardown_class
+2023-07-02 08:22:35 [INFO   ][ln-47 ]: Start to load config file
+2023-07-02 08:22:35 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+4@plume.com', 'pwd': 'plume1234', 'devuserid': '64895a7f924521000b2d7ac7', 'sn': 'KD8F00003C', 'devid': '60B4F7B306AD', 'mac': '60:B4:F7:B3:06:AD', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-07-02 08:22:36 [DEBUG  ][ln-779]: ======================================== Star to run: <TestAPI> ========================================
+2023-07-02 08:22:36 [DEBUG  ][ln-785]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-02 08:22:36 [INFO   ][ln-162]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.66.31'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': 'C70702ED-6F4F-4C79-BF10-E78C3334881B'}
+2023-07-02 08:22:41 [INFO   ][ln-172]: Size(width=390, height=844)
+2023-07-02 08:22:54 [INFO   ][ln-201]: The L1 Readiness score get from HomePASS IOS is : 10
+2023-07-02 08:23:13 [INFO   ][ln-221]: #########################################################################
+
+2023-07-02 08:23:13 [INFO   ][ln-222]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-02 08:23:13 [INFO   ][ln-223]: # ---------------------------------------------------------------- #)
+
+2023-07-02 08:23:13 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-02 08:23:16 [INFO   ][ln-225]: Step 1 :  PlumeCloudLogin
+
+2023-07-02 08:23:16 [INFO   ][ln-260]: AbAWMAd6TrZv0LJ60TrTU1dAJDY82WEURDWOzwWZ16cDpyvGLmWtgXTwq84Mf54r
+2023-07-02 08:23:16 [INFO   ][ln-263]: 64895a7f924521000b2d7ac7
+2023-07-02 08:23:16 [INFO   ][ln-264]: 
+
+2023-07-02 08:23:16 [INFO   ][ln-265]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-02 08:23:16 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-02 08:23:19 [INFO   ][ln-270]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6NzNkNWY3NDYtOWQ2Ny00MDM0LWI0MDgtZGJmZjY2YWI4YTYyIiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6QWJBV01BZDZUclp2MExKNjBUclRVMWRBSkRZODJXRVVSRFdPendXWjE2Y0RweXZHTG1XdGdYVHdxODRNZjU0ciJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODgzNDM3OTcsImlhdCI6MTY4ODI1NzM5N30.LmEq90bPeZS-VshUcrAXikbSWngN7oxm3R_UW49kKwSffLbL8VkbYKUFsfApVspR5ipi49lZGO740Ynus2kIZcoKP7l_bC-D8QQF2qFG5fhurUzjwQEjPRUuJaGVZ3jVIxKbn2wK6rd4PiFHs2TpiWvhkdOMkNiruEHwl_QnZT1NG93r6mj_wxbmIn7_z95QF2LVOyNUFF3mBF8PiFdEJDDu7gxEKG4R3jFWVLzo3gXlzW1z2TTtTMK6Pb0Y_C5K8DpAwxjqg5A-Pk9C9gvQv_oKJsaTYn0vZ5cuOePRotverxGd04fl03B2pz5VnbNXxcjxy9lr0FqGJgGOCoRDOw
+2023-07-02 08:23:19 [INFO   ][ln-271]: 
+
+2023-07-02 08:23:19 [INFO   ][ln-274]: 2023
+2023-07-02 08:23:19 [INFO   ][ln-275]: 7
+2023-07-02 08:23:19 [INFO   ][ln-276]: 2
+2023-07-02 08:23:19 [INFO   ][ln-278]: 2023-07-02 00:00:00
+2023-07-02 08:23:19 [INFO   ][ln-90 ]: 1688227200
+2023-07-02 08:23:19 [INFO   ][ln-91 ]: 1688310000
+2023-07-02 08:23:19 [INFO   ][ln-480]: GetReadinessInsightSummary
+2023-07-02 08:23:19 [INFO   ][ln-499]: GetReadinessInsightSummary
+2023-07-02 08:23:22 [INFO   ][ln-286]: ####################################
+2023-07-02 08:23:22 [INFO   ][ln-287]: [{'userId': '64895a7f924521000b2d7ac7', 'startpDate': 1688227200, 'interval': 'week', 'avgReadinessScore': 0, 'maxReadinessScore': 0, 'minReadinessScore': 0, 'avgHrvScore': 0, 'maxHrvScore': 0, 'minHrvScore': 0, 'avgStressScore': 0, 'maxStressScore': 0, 'minStressScore': 0}]
+2023-07-02 08:23:22 [INFO   ][ln-288]: ####################################
+2023-07-02 08:23:22 [INFO   ][ln-290]: The avgReadinessScore get from Backend API : 
+2023-07-02 08:23:22 [INFO   ][ln-291]: 0
+2023-07-02 08:23:22 [INFO   ][ln-299]: Test completed
+2023-07-02 08:23:22 [DEBUG  ][ln-788]: teardown_method
+2023-07-02 08:23:22 [DEBUG  ][ln-782]: teardown_class
+2023-07-02 08:46:22 [INFO   ][ln-47 ]: Start to load config file
+2023-07-02 08:46:22 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+4@plume.com', 'pwd': 'plume1234', 'devuserid': '64895a7f924521000b2d7ac7', 'sn': 'KD8F00003C', 'devid': '60B4F7B306AD', 'mac': '60:B4:F7:B3:06:AD', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-07-02 08:46:22 [DEBUG  ][ln-779]: ======================================== Star to run: <TestAPI> ========================================
+2023-07-02 08:46:22 [DEBUG  ][ln-785]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-02 08:46:22 [INFO   ][ln-162]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.66.31'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': 'C70702ED-6F4F-4C79-BF10-E78C3334881B'}
+2023-07-02 08:46:27 [INFO   ][ln-172]: Size(width=390, height=844)
+2023-07-02 08:46:40 [INFO   ][ln-201]: The L1 Readiness score get from HomePASS IOS is : 10
+2023-07-02 08:46:59 [INFO   ][ln-221]: #########################################################################
+
+2023-07-02 08:46:59 [INFO   ][ln-222]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-02 08:46:59 [INFO   ][ln-223]: # ---------------------------------------------------------------- #)
+
+2023-07-02 08:46:59 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-02 08:47:03 [INFO   ][ln-225]: Step 1 :  PlumeCloudLogin
+
+2023-07-02 08:47:03 [INFO   ][ln-260]: 1wCI0KH6Rjj3rOb2a4UtVD278SfHWwAxpdYzIPds4EJU16vIiSWMtTNAaW9G1Quv
+2023-07-02 08:47:03 [INFO   ][ln-263]: 64895a7f924521000b2d7ac7
+2023-07-02 08:47:03 [INFO   ][ln-264]: 
+
+2023-07-02 08:47:03 [INFO   ][ln-265]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-02 08:47:03 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-02 08:47:07 [INFO   ][ln-270]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6YzFmYjgxMTgtMjY0MC00NjQxLTkwNTctYTRlMDM0MjA4MzRhIiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6MXdDSTBLSDZSamozck9iMmE0VXRWRDI3OFNmSFd3QXhwZFl6SVBkczRFSlUxNnZJaVNXTXRUTkFhVzlHMVF1diJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODgzNDUyMjQsImlhdCI6MTY4ODI1ODgyNH0.cr_5Aex7grA_rJOudQyx05rGq1_OWj4qez7IiE0hGZhWGWqVppZZIrtGxSG7Yrvt6EfVEBRnxbjoZrvoSvW1hYYPdVv5UDgdQNIUnpTiO1LB1iwpCAJqQufoVkH7YH8j8WKxoacc62y0ewAJtfzaIKaaxxhAl2-HwxJr1RR6tucrgVeg9rplK8PkaawZsT79H2k5heRNQTt1U3di-pRIGqWDxrV1zdcaQqJJ2sWxUa4oQcAjP1xO1nO5IsYARNOZ3gC34me_RzDwwr10HsjfbRYEbie9-X6cYBpbw0rlXguL8bHV9DnBB1-0DxiP8_MFKM7HSLq0b8O2ebMhaLB5OA
+2023-07-02 08:47:07 [INFO   ][ln-271]: 
+
+2023-07-02 08:47:07 [INFO   ][ln-274]: 2023
+2023-07-02 08:47:07 [INFO   ][ln-275]: 7
+2023-07-02 08:47:07 [INFO   ][ln-276]: 2
+2023-07-02 08:47:07 [INFO   ][ln-278]: 2023-07-02 00:00:00
+2023-07-02 08:47:07 [INFO   ][ln-90 ]: 1688227200
+2023-07-02 08:47:07 [INFO   ][ln-91 ]: 1688310000
+2023-07-02 08:47:07 [INFO   ][ln-480]: GetReadinessInsightSummary
+2023-07-02 08:47:07 [INFO   ][ln-499]: GetReadinessInsightSummary
+2023-07-02 08:47:11 [INFO   ][ln-286]: ####################################
+2023-07-02 08:47:11 [INFO   ][ln-287]: [{'userId': '64895a7f924521000b2d7ac7', 'startpDate': 1688227200, 'interval': 'week', 'avgReadinessScore': 10, 'maxReadinessScore': 10, 'minReadinessScore': 10, 'avgHrvScore': 68, 'maxHrvScore': 69, 'minHrvScore': 69, 'avgStressScore': 1, 'maxStressScore': 1, 'minStressScore': 1}]
+2023-07-02 08:47:11 [INFO   ][ln-288]: ####################################
+2023-07-02 08:47:11 [INFO   ][ln-290]: The avgReadinessScore get from Backend API : 
+2023-07-02 08:47:11 [INFO   ][ln-291]: 10
+2023-07-02 08:47:11 [INFO   ][ln-299]: Test completed
+2023-07-02 08:47:11 [DEBUG  ][ln-788]: teardown_method
+2023-07-02 08:47:11 [DEBUG  ][ln-782]: teardown_class

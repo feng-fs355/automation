@@ -1,0 +1,1215 @@
+2023-07-19 10:07:51 [INFO   ][ln-47 ]: Start to load config file
+2023-07-19 10:07:51 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+4@plume.com', 'pwd': 'plume1234', 'devuserid': '64895a7f924521000b2d7ac7', 'sn': 'KD8F00003C', 'devid': '60B4F7B306AD', 'mac': '60:B4:F7:B3:06:AD', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-07-19 10:07:52 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-07-19 10:07:52 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-19 10:07:52 [INFO   ][ln-154]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.13.151'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': None}
+2023-07-19 10:07:57 [INFO   ][ln-165]: Size(width=390, height=844)
+2023-07-19 10:08:31 [INFO   ][ln-200]: #########################################################################
+
+2023-07-19 10:08:31 [INFO   ][ln-201]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-19 10:08:31 [INFO   ][ln-202]: # ---------------------------------------------------------------- #)
+
+2023-07-19 10:08:31 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-19 10:08:35 [INFO   ][ln-204]: Step 1 :  PlumeCloudLogin
+
+2023-07-19 10:08:35 [INFO   ][ln-208]: uy0h5NoYtVxox3rk7SGVnyYptS2XEpDd63UAo2FYOSKwCqPNYQ8EWwtJgQPegJPh
+2023-07-19 10:08:35 [INFO   ][ln-211]: 64895a7f924521000b2d7ac7
+2023-07-19 10:08:35 [INFO   ][ln-212]: 
+
+2023-07-19 10:08:35 [INFO   ][ln-213]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-19 10:08:35 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-19 10:08:39 [INFO   ][ln-218]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6YjNjYmMyYjYtOWVkMC00NTE1LTlkNTMtY2MyMGI1MTlkZjhiIiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6dXkwaDVOb1l0VnhveDNyazdTR1ZueVlwdFMyWEVwRGQ2M1VBbzJGWU9TS3dDcVBOWVE4RVd3dEpnUVBlZ0pQaCJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODk4MTg5MTYsImlhdCI6MTY4OTczMjUxNn0.Kq7lsPd8W_ekxTAfA8seM75vYxzqxa1JBGO1OVbeFq8_nd8lS2rUy8NzND4DVgZILmBgWwZO_sMsb9923BS2C4QtpFhmb002IDDR3nheBVDY2y_RljtzrGudmUrXgP1qSAIK5GXytGuOkxE7QLuFbkWs08oqFdNitHBdCznE8qPOe8cpb-Cw6y0DMqwDqKO-UCfj7qDreUAkLqcbl5aSuxWJtxg1kvDbf1tH1EbkCsLSxsO4H8ywnJy509V7SjGd94XckbSahIJaP3Uxf8hjWCYhW3a-AzoIt2o-33kpCxBQ3aD2s3dQXeuNrvCPLBHcl_3XiPGA_jHGF5TL5n1QlA
+2023-07-19 10:08:39 [INFO   ][ln-219]: 
+
+2023-07-19 10:08:39 [INFO   ][ln-301]: 2023
+2023-07-19 10:08:39 [INFO   ][ln-302]: 7
+2023-07-19 10:08:39 [INFO   ][ln-303]: 19
+2023-07-19 10:08:39 [INFO   ][ln-305]: 2023-07-19 00:00:00
+2023-07-19 10:08:39 [INFO   ][ln-96 ]: 1689696000
+2023-07-19 10:08:39 [INFO   ][ln-97 ]: 1689778800
+2023-07-19 10:08:39 [INFO   ][ln-474]: GetFallEventSummary
+2023-07-19 10:08:39 [INFO   ][ln-491]: GetFallEventSummary
+2023-07-19 10:08:45 [INFO   ][ln-312]: {'userId': '64895a7f924521000b2d7ac7', 'startTime': 1689696000, 'endTime': 1689782399, 'utcTimeOffset': 8, 'fallCountList': []}
+2023-07-19 10:08:45 [INFO   ][ln-314]: ####################################
+2023-07-19 10:08:45 [INFO   ][ln-315]: []
+2023-07-19 10:08:45 [INFO   ][ln-316]: ####################################
+2023-07-19 10:08:45 [INFO   ][ln-318]: The fallCount get from Backend API : 
+2023-07-19 10:08:45 [DEBUG  ][ln-980]: teardown_method
+2023-07-19 10:08:45 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-19 10:08:45 [INFO   ][ln-154]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.13.151'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': '79895733-0432-4723-BE88-AC658FDE093B'}
+2023-07-19 10:08:51 [INFO   ][ln-165]: Size(width=390, height=844)
+2023-07-19 10:09:26 [INFO   ][ln-200]: #########################################################################
+
+2023-07-19 10:09:26 [INFO   ][ln-201]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-19 10:09:26 [INFO   ][ln-202]: # ---------------------------------------------------------------- #)
+
+2023-07-19 10:09:26 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-19 10:09:28 [INFO   ][ln-204]: Step 1 :  PlumeCloudLogin
+
+2023-07-19 10:09:28 [INFO   ][ln-208]: dUYuEzpTrtGGh6ioy6quLBdvGgEhxVeVrKu6anSOR6dJkS8NPHEddXShqFJOcTbg
+2023-07-19 10:09:28 [INFO   ][ln-211]: 64895a7f924521000b2d7ac7
+2023-07-19 10:09:28 [INFO   ][ln-212]: 
+
+2023-07-19 10:09:28 [INFO   ][ln-213]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-19 10:09:28 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-19 10:09:31 [INFO   ][ln-218]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6ZmE0NWUxMmYtMTg5Ny00YTg2LThhZDItODAzZGM1OTdkMDc3IiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6ZFVZdUV6cFRydEdHaDZpb3k2cXVMQmR2R2dFaHhWZVZyS3U2YW5TT1I2ZEprUzhOUEhFZGRYU2hxRkpPY1RiZyJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODk4MTg5NjksImlhdCI6MTY4OTczMjU2OX0.Zoa6YmdOsuoGd1k_F2hPCVdd6HKv9P5jHMNx5qdn0q39WGfVACmrfQlXBk7s1Hl5WJ0VfcKNMlOZr05laE_uI8qQb_Yp5kocnMv3lK4sZEbs1p4iYOQ6Snv1dj79Grq4bM31lQBZ32NujTSVA8NToWq6UnfVOIKfV0O8CfVY4w1gKYCIdTGool-Jd5OXOJnN04U5sx1WZzkPGiK-CcjTVKcoCgXnnb1wxgDJd8hoQqp_EYqbhhThGE5tGdfwb5wpaUsA2pwt5et2kSnmF3cENaO8v6lAtEHgbL1Q9Go8kQP6VcSVkOIvMTRjp0lYIiwFlKqWUUBrrQNYgkgej0dg-Q
+2023-07-19 10:09:31 [INFO   ][ln-219]: 
+
+2023-07-19 10:09:32 [INFO   ][ln-301]: 2023
+2023-07-19 10:09:32 [INFO   ][ln-302]: 7
+2023-07-19 10:09:32 [INFO   ][ln-303]: 19
+2023-07-19 10:09:32 [INFO   ][ln-305]: 2023-07-19 00:00:00
+2023-07-19 10:09:32 [INFO   ][ln-96 ]: 1689696000
+2023-07-19 10:09:32 [INFO   ][ln-97 ]: 1689778800
+2023-07-19 10:09:32 [INFO   ][ln-474]: GetFallEventSummary
+2023-07-19 10:09:32 [INFO   ][ln-491]: GetFallEventSummary
+2023-07-19 10:09:35 [INFO   ][ln-312]: {'userId': '64895a7f924521000b2d7ac7', 'startTime': 1689696000, 'endTime': 1689782399, 'utcTimeOffset': 8, 'fallCountList': []}
+2023-07-19 10:09:35 [INFO   ][ln-314]: ####################################
+2023-07-19 10:09:35 [INFO   ][ln-315]: []
+2023-07-19 10:09:35 [INFO   ][ln-316]: ####################################
+2023-07-19 10:09:35 [INFO   ][ln-318]: The fallCount get from Backend API : 
+2023-07-19 10:09:35 [DEBUG  ][ln-980]: teardown_method
+2023-07-19 10:09:35 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-19 10:09:35 [INFO   ][ln-154]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.13.151'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': '79895733-0432-4723-BE88-AC658FDE093B'}
+2023-07-19 10:09:41 [INFO   ][ln-165]: Size(width=390, height=844)
+2023-07-19 10:10:16 [INFO   ][ln-200]: #########################################################################
+
+2023-07-19 10:10:16 [INFO   ][ln-201]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-19 10:10:16 [INFO   ][ln-202]: # ---------------------------------------------------------------- #)
+
+2023-07-19 10:10:16 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-19 10:10:18 [INFO   ][ln-204]: Step 1 :  PlumeCloudLogin
+
+2023-07-19 10:10:18 [INFO   ][ln-208]: meqdm2iqCTFgb3gqUpmjbVxGXg9Wd5jqbzU1BE2CeMsEbPhF75wGHqMXrmR92Nm1
+2023-07-19 10:10:18 [INFO   ][ln-211]: 64895a7f924521000b2d7ac7
+2023-07-19 10:10:18 [INFO   ][ln-212]: 
+
+2023-07-19 10:10:18 [INFO   ][ln-213]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-19 10:10:18 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-19 10:10:21 [INFO   ][ln-218]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6MzI4MmQzZDktZDczNC00ZDZjLWJjZGMtMDg1NTNlZTU5NDg2IiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6bWVxZG0yaXFDVEZnYjNncVVwbWpiVnhHWGc5V2Q1anFielUxQkUyQ2VNc0ViUGhGNzV3R0hxTVhybVI5Mk5tMSJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODk4MTkwMTksImlhdCI6MTY4OTczMjYxOX0.cxhJWHxEtNgZRQwTzZggYp5Qno2JkBPpR02yrUkiyuzwOgfQPAAFtL7x7uGBTLlfFCy06ywA6qeO_M4vEme2Sdn1HZlJWCimMAZr4kOZ8OcrAL09UcWhet76KYGWlDyC5_swB5r2b0zXZwmjfMFoO6ZlVo6_-jvVAiRPxnIbapQVmbJBAIitS_RG1LNEieSC7xQCtwl7VBPqpPvxkddY8WkP4QiNiehH-3QPBI8HsWxQnxqpoAGAI6peY0LPQJJu2NWDMf_CVH7PU0Ynp_p1kORsjgoW7BuA5cW36xMuJ3Br3kOWzWoRK9fv1rtYZmlfNImNyXH7eeMjuZ3ViJhX3w
+2023-07-19 10:10:21 [INFO   ][ln-219]: 
+
+2023-07-19 10:10:21 [INFO   ][ln-301]: 2023
+2023-07-19 10:10:21 [INFO   ][ln-302]: 7
+2023-07-19 10:10:21 [INFO   ][ln-303]: 19
+2023-07-19 10:10:21 [INFO   ][ln-305]: 2023-07-19 00:00:00
+2023-07-19 10:10:21 [INFO   ][ln-96 ]: 1689696000
+2023-07-19 10:10:21 [INFO   ][ln-97 ]: 1689778800
+2023-07-19 10:10:21 [INFO   ][ln-474]: GetFallEventSummary
+2023-07-19 10:10:21 [INFO   ][ln-491]: GetFallEventSummary
+2023-07-19 10:10:25 [INFO   ][ln-312]: {'userId': '64895a7f924521000b2d7ac7', 'startTime': 1689696000, 'endTime': 1689782399, 'utcTimeOffset': 8, 'fallCountList': []}
+2023-07-19 10:10:25 [INFO   ][ln-314]: ####################################
+2023-07-19 10:10:25 [INFO   ][ln-315]: []
+2023-07-19 10:10:25 [INFO   ][ln-316]: ####################################
+2023-07-19 10:10:25 [INFO   ][ln-318]: The fallCount get from Backend API : 
+2023-07-19 10:10:25 [DEBUG  ][ln-980]: teardown_method
+2023-07-19 10:10:25 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-19 10:10:25 [INFO   ][ln-154]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.13.151'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': '79895733-0432-4723-BE88-AC658FDE093B'}
+2023-07-19 10:10:30 [INFO   ][ln-165]: Size(width=390, height=844)
+2023-07-19 10:11:05 [INFO   ][ln-200]: #########################################################################
+
+2023-07-19 10:11:05 [INFO   ][ln-201]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-19 10:11:05 [INFO   ][ln-202]: # ---------------------------------------------------------------- #)
+
+2023-07-19 10:11:05 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-19 10:11:08 [INFO   ][ln-204]: Step 1 :  PlumeCloudLogin
+
+2023-07-19 10:11:08 [INFO   ][ln-208]: UBbkah5eLlhoi90zSq3G6AWxfjYnhivCHkmXMlhIHBFvdT5NcWmX7qz0PFkw7wbU
+2023-07-19 10:11:08 [INFO   ][ln-211]: 64895a7f924521000b2d7ac7
+2023-07-19 10:11:08 [INFO   ][ln-212]: 
+
+2023-07-19 10:11:08 [INFO   ][ln-213]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-19 10:11:08 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-19 10:11:11 [INFO   ][ln-218]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6M2Y2OTI1NGYtNGQ5OC00ZjBjLTg4OTAtNzUxMjY2MzBjYWVjIiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6VUJia2FoNWVMbGhvaTkwelNxM0c2QVd4ZmpZbmhpdkNIa21YTWxoSUhCRnZkVDVOY1dtWDdxejBQRmt3N3diVSJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODk4MTkwNjgsImlhdCI6MTY4OTczMjY2OH0.D3T7X0lHIoi-vwUMneiP1tkDKlZfR339N7Z_CAM9d_Z9laN1c8Ek3iHDJZ1CzqHGM6Y-O0LLkIFLSfgeJ8C-c51HLIk2kkzg5kf4kzdugjKMF-1DK0hJD-IIJPU8uqHLGnuMY1Uzgh9EwfHYMicapkGZlhnH8yHuTXcbkXziEWi6KWEUyKmEU6mY5dLzlvDENyDUxdN-344-movtWvrVjsJC2Ixe9KqMtSUJ1JqH4PnP0wPUHW110zQHWErSLV7dlzFqw7rAll1AXiahzdGobbhDG-GQga5SM1NaOjZmLJ-os2WNjAMAIRAkR-fNCI6jndeX6u3BWqQ1zOEvFa4GQw
+2023-07-19 10:11:11 [INFO   ][ln-219]: 
+
+2023-07-19 10:11:11 [INFO   ][ln-301]: 2023
+2023-07-19 10:11:11 [INFO   ][ln-302]: 7
+2023-07-19 10:11:11 [INFO   ][ln-303]: 19
+2023-07-19 10:11:11 [INFO   ][ln-305]: 2023-07-19 00:00:00
+2023-07-19 10:11:11 [INFO   ][ln-96 ]: 1689696000
+2023-07-19 10:11:11 [INFO   ][ln-97 ]: 1689778800
+2023-07-19 10:11:11 [INFO   ][ln-474]: GetFallEventSummary
+2023-07-19 10:11:11 [INFO   ][ln-491]: GetFallEventSummary
+2023-07-19 10:11:14 [INFO   ][ln-312]: {'userId': '64895a7f924521000b2d7ac7', 'startTime': 1689696000, 'endTime': 1689782399, 'utcTimeOffset': 8, 'fallCountList': []}
+2023-07-19 10:11:14 [INFO   ][ln-314]: ####################################
+2023-07-19 10:11:14 [INFO   ][ln-315]: []
+2023-07-19 10:11:14 [INFO   ][ln-316]: ####################################
+2023-07-19 10:11:14 [INFO   ][ln-318]: The fallCount get from Backend API : 
+2023-07-19 10:11:14 [DEBUG  ][ln-980]: teardown_method
+2023-07-19 10:11:14 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-19 10:11:14 [INFO   ][ln-154]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.13.151'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': '79895733-0432-4723-BE88-AC658FDE093B'}
+2023-07-19 10:11:19 [INFO   ][ln-165]: Size(width=390, height=844)
+2023-07-19 10:11:56 [INFO   ][ln-200]: #########################################################################
+
+2023-07-19 10:11:56 [INFO   ][ln-201]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-19 10:11:56 [INFO   ][ln-202]: # ---------------------------------------------------------------- #)
+
+2023-07-19 10:11:56 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-19 10:11:58 [INFO   ][ln-204]: Step 1 :  PlumeCloudLogin
+
+2023-07-19 10:11:58 [INFO   ][ln-208]: txgfQvrX8OOuxWAwxNXDQkjaFjgu3UHG3g5wx4L2QbBHFVkUqtCfEIBGgUYgfbcX
+2023-07-19 10:11:58 [INFO   ][ln-211]: 64895a7f924521000b2d7ac7
+2023-07-19 10:11:58 [INFO   ][ln-212]: 
+
+2023-07-19 10:11:58 [INFO   ][ln-213]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-19 10:11:58 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-19 10:12:01 [INFO   ][ln-218]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6M2ZlMjg3MjgtYTZjMS00MjUwLWI1ZjUtNDcwNDNkODU1ODJjIiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6dHhnZlF2clg4T091eFdBd3hOWERRa2phRmpndTNVSEczZzV3eDRMMlFiQkhGVmtVcXRDZkVJQkdnVVlnZmJjWCJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODk4MTkxMTksImlhdCI6MTY4OTczMjcxOX0.dZHs9uMwfxZ0Ew6ACvYpUSMwFgUN0lujOGJ8bKVEeDAkJgcqp9ZnNcTd-DII-MlcC8KVsEVEaY6GFqoZp9YSWAgBDFiPG-8kQBRYzIhh7Xs1NT-jcrZ020lLzurW_l4w9WffxS3oWHEfIKW7ar3_NaGpb4Npg5zXvBt0TmDAPXsbc1keu0-Yb_LhNKk-kuzCH_3ywTkvJ23pOSZndJqKS1Eq_8vVjvq_ZRbvNVFvhtr-Djl4vgG5tLqpB2dmpOsYYMuZ5_hb3DI13u-R9jT9mhEfC2-3smzMltJK4kdPHZM57TB2Jil5ZCvN5AEEIJRUVU7tk8OtezVGrLOP79DihA
+2023-07-19 10:12:01 [INFO   ][ln-219]: 
+
+2023-07-19 10:12:02 [INFO   ][ln-301]: 2023
+2023-07-19 10:12:02 [INFO   ][ln-302]: 7
+2023-07-19 10:12:02 [INFO   ][ln-303]: 19
+2023-07-19 10:12:02 [INFO   ][ln-305]: 2023-07-19 00:00:00
+2023-07-19 10:12:02 [INFO   ][ln-96 ]: 1689696000
+2023-07-19 10:12:02 [INFO   ][ln-97 ]: 1689778800
+2023-07-19 10:12:02 [INFO   ][ln-474]: GetFallEventSummary
+2023-07-19 10:12:02 [INFO   ][ln-491]: GetFallEventSummary
+2023-07-19 10:12:05 [INFO   ][ln-312]: {'userId': '64895a7f924521000b2d7ac7', 'startTime': 1689696000, 'endTime': 1689782399, 'utcTimeOffset': 8, 'fallCountList': []}
+2023-07-19 10:12:05 [INFO   ][ln-314]: ####################################
+2023-07-19 10:12:05 [INFO   ][ln-315]: []
+2023-07-19 10:12:05 [INFO   ][ln-316]: ####################################
+2023-07-19 10:12:05 [INFO   ][ln-318]: The fallCount get from Backend API : 
+2023-07-19 10:12:05 [DEBUG  ][ln-980]: teardown_method
+2023-07-19 10:12:05 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-19 10:12:05 [INFO   ][ln-154]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.13.151'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': '79895733-0432-4723-BE88-AC658FDE093B'}
+2023-07-19 10:12:11 [INFO   ][ln-165]: Size(width=390, height=844)
+2023-07-19 10:12:45 [INFO   ][ln-200]: #########################################################################
+
+2023-07-19 10:12:45 [INFO   ][ln-201]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-19 10:12:45 [INFO   ][ln-202]: # ---------------------------------------------------------------- #)
+
+2023-07-19 10:12:45 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-19 10:12:48 [INFO   ][ln-204]: Step 1 :  PlumeCloudLogin
+
+2023-07-19 10:12:48 [INFO   ][ln-208]: 6Sfvyk97AiyZOc07qsFkr7jG3FGRhR65IQ4nOil8rSjW19wOQytQQ7PAXg9Djnxz
+2023-07-19 10:12:48 [INFO   ][ln-211]: 64895a7f924521000b2d7ac7
+2023-07-19 10:12:48 [INFO   ][ln-212]: 
+
+2023-07-19 10:12:48 [INFO   ][ln-213]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-19 10:12:48 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-19 10:12:51 [INFO   ][ln-218]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6ZWNiMGZmMDktYWNkMS00NmYxLWEyYjctNzNjMDE0YTkwMmU3IiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6NlNmdnlrOTdBaXlaT2MwN3FzRmtyN2pHM0ZHUmhSNjVJUTRuT2lsOHJTalcxOXdPUXl0UVE3UEFYZzlEam54eiJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODk4MTkxNjksImlhdCI6MTY4OTczMjc2OX0.VH0zvJZw2n0oPGYlCDjbWH41skPgSkaEt_0IAe4i-yIteDwc-VyG7BDTN0VaonIhOUbk8B3IQOLuVuxP_bsjJt1a_E_oSB6hICAg_8tMPssAmn7ryTgNYnMCbYapv53Mr3f1ySHKReeFR52_6Zh2dXggFayeMEI0EaDsutLVuysbUw4TsfY-Ru1tS9SBZnGAv2MtstzLIz1L96mq0uskcLCHR_pVbVHeQlvx5uTRarIUZZW4IRnNmNUI2msuABdRcEEcj39QFHOu8edA-dUg6WOQyjrtbBY4l46G0wuVsxaS-dDNUQHy0sNg5jGBgdwJbu_KRV3rdisZ-AfCUCqk4w
+2023-07-19 10:12:51 [INFO   ][ln-219]: 
+
+2023-07-19 10:12:51 [INFO   ][ln-301]: 2023
+2023-07-19 10:12:51 [INFO   ][ln-302]: 7
+2023-07-19 10:12:51 [INFO   ][ln-303]: 19
+2023-07-19 10:12:51 [INFO   ][ln-305]: 2023-07-19 00:00:00
+2023-07-19 10:12:51 [INFO   ][ln-96 ]: 1689696000
+2023-07-19 10:12:51 [INFO   ][ln-97 ]: 1689778800
+2023-07-19 10:12:51 [INFO   ][ln-474]: GetFallEventSummary
+2023-07-19 10:12:51 [INFO   ][ln-491]: GetFallEventSummary
+2023-07-19 10:12:54 [INFO   ][ln-312]: {'userId': '64895a7f924521000b2d7ac7', 'startTime': 1689696000, 'endTime': 1689782399, 'utcTimeOffset': 8, 'fallCountList': []}
+2023-07-19 10:12:54 [INFO   ][ln-314]: ####################################
+2023-07-19 10:12:54 [INFO   ][ln-315]: []
+2023-07-19 10:12:54 [INFO   ][ln-316]: ####################################
+2023-07-19 10:12:54 [INFO   ][ln-318]: The fallCount get from Backend API : 
+2023-07-19 10:12:54 [DEBUG  ][ln-980]: teardown_method
+2023-07-19 10:12:54 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-19 10:12:54 [INFO   ][ln-154]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.13.151'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': '79895733-0432-4723-BE88-AC658FDE093B'}
+2023-07-19 10:13:01 [INFO   ][ln-165]: Size(width=390, height=844)
+2023-07-19 10:13:35 [INFO   ][ln-200]: #########################################################################
+
+2023-07-19 10:13:35 [INFO   ][ln-201]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-19 10:13:35 [INFO   ][ln-202]: # ---------------------------------------------------------------- #)
+
+2023-07-19 10:13:35 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-19 10:13:38 [INFO   ][ln-204]: Step 1 :  PlumeCloudLogin
+
+2023-07-19 10:13:38 [INFO   ][ln-208]: qNO7lt1A6egKad3uXtynwJVziOkMTwhySf9GKIvlbn4TQ1Oc1lTBikql1ahkWklE
+2023-07-19 10:13:38 [INFO   ][ln-211]: 64895a7f924521000b2d7ac7
+2023-07-19 10:13:38 [INFO   ][ln-212]: 
+
+2023-07-19 10:13:38 [INFO   ][ln-213]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-19 10:13:38 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-19 10:13:41 [INFO   ][ln-218]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6ZWQ5YjMzNDMtYWQzYy00ODdhLWI5M2MtODc1NjAyMTYzNmRmIiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6cU5PN2x0MUE2ZWdLYWQzdVh0eW53SlZ6aU9rTVR3aHlTZjlHS0l2bGJuNFRRMU9jMWxUQmlrcWwxYWhrV2tsRSJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODk4MTkyMTksImlhdCI6MTY4OTczMjgxOX0.RS0yep5MaQOYLRYjlhfTxyQLEx03iXiQ0eueCd5qqITO_-T5zsrLj-U3-wRvMhg_5nh4srdekGAZIyVL_qCV5djUsdHEXPpBdI9m_myDpI3RSuPJYZ5S4lLhHW5Z7EE5Dvv7umAHlvszK40HysD4lltisc-LpN2jrOz0_dmcfOzISjLHI7pG9zlJ3yJ3gFVLFIpWx8rsxazL7HOmQ1s3eRwPOhsf8iHnYhV7nfurFfPzA0J6vWxNG54IlyRnkrrZGUWDRBtJP20JV0t5ToCbMXawluoo9kddmEOq1l0WxA0w1Wjfuy-9ZLpPcByoxBjDPNPmO2A-3Bre9ytRLEM_Yg
+2023-07-19 10:13:41 [INFO   ][ln-219]: 
+
+2023-07-19 10:13:41 [INFO   ][ln-301]: 2023
+2023-07-19 10:13:41 [INFO   ][ln-302]: 7
+2023-07-19 10:13:41 [INFO   ][ln-303]: 19
+2023-07-19 10:13:41 [INFO   ][ln-305]: 2023-07-19 00:00:00
+2023-07-19 10:13:41 [INFO   ][ln-96 ]: 1689696000
+2023-07-19 10:13:41 [INFO   ][ln-97 ]: 1689778800
+2023-07-19 10:13:41 [INFO   ][ln-474]: GetFallEventSummary
+2023-07-19 10:13:41 [INFO   ][ln-491]: GetFallEventSummary
+2023-07-19 10:13:44 [INFO   ][ln-312]: {'userId': '64895a7f924521000b2d7ac7', 'startTime': 1689696000, 'endTime': 1689782399, 'utcTimeOffset': 8, 'fallCountList': []}
+2023-07-19 10:13:44 [INFO   ][ln-314]: ####################################
+2023-07-19 10:13:44 [INFO   ][ln-315]: []
+2023-07-19 10:13:44 [INFO   ][ln-316]: ####################################
+2023-07-19 10:13:44 [INFO   ][ln-318]: The fallCount get from Backend API : 
+2023-07-19 10:13:44 [DEBUG  ][ln-980]: teardown_method
+2023-07-19 10:13:44 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-19 10:13:44 [INFO   ][ln-154]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.13.151'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': '79895733-0432-4723-BE88-AC658FDE093B'}
+2023-07-19 10:13:50 [INFO   ][ln-165]: Size(width=390, height=844)
+2023-07-19 10:14:25 [INFO   ][ln-200]: #########################################################################
+
+2023-07-19 10:14:25 [INFO   ][ln-201]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-19 10:14:25 [INFO   ][ln-202]: # ---------------------------------------------------------------- #)
+
+2023-07-19 10:14:25 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-19 10:14:28 [INFO   ][ln-204]: Step 1 :  PlumeCloudLogin
+
+2023-07-19 10:14:28 [INFO   ][ln-208]: QIfaN63hVSv4hTHc1tiM8sB1NZ5wcGEBllkiAWfDw6bJIKxytiAtGL3zlv7BDfAB
+2023-07-19 10:14:28 [INFO   ][ln-211]: 64895a7f924521000b2d7ac7
+2023-07-19 10:14:28 [INFO   ][ln-212]: 
+
+2023-07-19 10:14:28 [INFO   ][ln-213]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-19 10:14:28 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-19 10:14:31 [INFO   ][ln-218]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6ODE3MTU2OTgtNTRhYy00MjYzLWI5NWMtMDRmYTU3MmYwMmY2IiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6UUlmYU42M2hWU3Y0aFRIYzF0aU04c0IxTlo1d2NHRUJsbGtpQVdmRHc2YkpJS3h5dGlBdEdMM3psdjdCRGZBQiJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODk4MTkyNjksImlhdCI6MTY4OTczMjg2OX0.GO-r5K5bNOab_sD5j422GDFxc6hkG6OnXPWDuCMsR7qrO4czpmkVIsbkCuC1dpZk8QUxh_tv69WgYMBdhzfGDeHp-lKZZ-na7AYbxgk8LFiMsDUeL7PmqIee8GzhqI4cUmqaJxZIqL85kNaV6-T0bUuMSVltba5XLa4ZhUAc-4udt5GZrlX7wMAXO9MmQBWEyXV_w5RlWJBhhqljpslR8OUQOTm7L_yNYeeXkTQ1aZi6ZbLndiYizZD0sFaCS0YldbTh8QEPnOyHV_uyrbhaH7MjY8LMFKAFtI1x1cLU_wPUIBXL0Ox-_HW2ZKpDb3nLAQqth_Oxb4W7xelRaXDHAg
+2023-07-19 10:14:31 [INFO   ][ln-219]: 
+
+2023-07-19 10:14:31 [INFO   ][ln-301]: 2023
+2023-07-19 10:14:31 [INFO   ][ln-302]: 7
+2023-07-19 10:14:31 [INFO   ][ln-303]: 19
+2023-07-19 10:14:31 [INFO   ][ln-305]: 2023-07-19 00:00:00
+2023-07-19 10:14:31 [INFO   ][ln-96 ]: 1689696000
+2023-07-19 10:14:31 [INFO   ][ln-97 ]: 1689778800
+2023-07-19 10:14:31 [INFO   ][ln-474]: GetFallEventSummary
+2023-07-19 10:14:31 [INFO   ][ln-491]: GetFallEventSummary
+2023-07-19 10:14:34 [INFO   ][ln-312]: {'userId': '64895a7f924521000b2d7ac7', 'startTime': 1689696000, 'endTime': 1689782399, 'utcTimeOffset': 8, 'fallCountList': []}
+2023-07-19 10:14:34 [INFO   ][ln-314]: ####################################
+2023-07-19 10:14:34 [INFO   ][ln-315]: []
+2023-07-19 10:14:34 [INFO   ][ln-316]: ####################################
+2023-07-19 10:14:34 [INFO   ][ln-318]: The fallCount get from Backend API : 
+2023-07-19 10:14:34 [DEBUG  ][ln-980]: teardown_method
+2023-07-19 10:14:34 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-19 10:14:34 [INFO   ][ln-154]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.13.151'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': '79895733-0432-4723-BE88-AC658FDE093B'}
+2023-07-19 10:14:40 [INFO   ][ln-165]: Size(width=390, height=844)
+2023-07-19 10:15:15 [INFO   ][ln-200]: #########################################################################
+
+2023-07-19 10:15:15 [INFO   ][ln-201]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-19 10:15:15 [INFO   ][ln-202]: # ---------------------------------------------------------------- #)
+
+2023-07-19 10:15:15 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-19 10:15:18 [INFO   ][ln-204]: Step 1 :  PlumeCloudLogin
+
+2023-07-19 10:15:18 [INFO   ][ln-208]: Gbfwxw2VwVxRGPFJ1RIAB5maUqTDi8EiNRyCPfAzTv0SiJ0wkUVYl613DmsQlFoY
+2023-07-19 10:15:18 [INFO   ][ln-211]: 64895a7f924521000b2d7ac7
+2023-07-19 10:15:18 [INFO   ][ln-212]: 
+
+2023-07-19 10:15:18 [INFO   ][ln-213]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-19 10:15:18 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-19 10:15:21 [INFO   ][ln-218]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6Y2YwNzJjYmYtOTE3MS00YWRlLTg5YjktNGM3OGYwNDM5ZmMxIiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6R2Jmd3h3MlZ3VnhSR1BGSjFSSUFCNW1hVXFURGk4RWlOUnlDUGZBelR2MFNpSjB3a1VWWWw2MTNEbXNRbEZvWSJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODk4MTkzMTgsImlhdCI6MTY4OTczMjkxOH0.ebmwSIQPljzzWdt7E2Q1cpkzG4KphP1zE2bE4d6YF9mynjaJ4lxWGF8I7HJ7ltpaV5Zzq7RUFD9FUBWQeORz-dmCyG6jWUxcwS1zG84hdCKWKgfA17Hvj7wd2TtUtMWqrC8CDwyy_51Lk_yzH-sMUwX815pp5gqzrBiXpuMiZkc3x8PjuLvUyjz2ytPDyEWnnXaD-ssYx9dp_fPpYk8q766fN3J58N7KLeErChAr0DUI71yuRqz62n8cAic9C2y2PAmuHkV19ed-KN8v3zXXmqPUpwk2Tn6gyGH2JVjN7wbumpmwbK8Jx17JllwMh24d8UYH90iXIiYBJ42dK4no5g
+2023-07-19 10:15:21 [INFO   ][ln-219]: 
+
+2023-07-19 10:15:21 [INFO   ][ln-301]: 2023
+2023-07-19 10:15:21 [INFO   ][ln-302]: 7
+2023-07-19 10:15:21 [INFO   ][ln-303]: 19
+2023-07-19 10:15:21 [INFO   ][ln-305]: 2023-07-19 00:00:00
+2023-07-19 10:15:21 [INFO   ][ln-96 ]: 1689696000
+2023-07-19 10:15:21 [INFO   ][ln-97 ]: 1689778800
+2023-07-19 10:15:21 [INFO   ][ln-474]: GetFallEventSummary
+2023-07-19 10:15:21 [INFO   ][ln-491]: GetFallEventSummary
+2023-07-19 10:15:24 [INFO   ][ln-312]: {'userId': '64895a7f924521000b2d7ac7', 'startTime': 1689696000, 'endTime': 1689782399, 'utcTimeOffset': 8, 'fallCountList': []}
+2023-07-19 10:15:24 [INFO   ][ln-314]: ####################################
+2023-07-19 10:15:24 [INFO   ][ln-315]: []
+2023-07-19 10:15:24 [INFO   ][ln-316]: ####################################
+2023-07-19 10:15:24 [INFO   ][ln-318]: The fallCount get from Backend API : 
+2023-07-19 10:15:24 [DEBUG  ][ln-980]: teardown_method
+2023-07-19 10:15:24 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-19 10:15:24 [INFO   ][ln-154]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.13.151'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': '79895733-0432-4723-BE88-AC658FDE093B'}
+2023-07-19 10:15:29 [INFO   ][ln-165]: Size(width=390, height=844)
+2023-07-19 10:16:04 [INFO   ][ln-200]: #########################################################################
+
+2023-07-19 10:16:04 [INFO   ][ln-201]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-19 10:16:04 [INFO   ][ln-202]: # ---------------------------------------------------------------- #)
+
+2023-07-19 10:16:04 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-19 10:16:07 [INFO   ][ln-204]: Step 1 :  PlumeCloudLogin
+
+2023-07-19 10:16:07 [INFO   ][ln-208]: iYVE94DXslh5Hm3I5zgAP2tryfSqCV8VpwexhGjmloaFEnVX08BVAvQ62SmXV4ot
+2023-07-19 10:16:07 [INFO   ][ln-211]: 64895a7f924521000b2d7ac7
+2023-07-19 10:16:07 [INFO   ][ln-212]: 
+
+2023-07-19 10:16:07 [INFO   ][ln-213]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-19 10:16:07 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-19 10:16:10 [INFO   ][ln-218]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6N2U0MDYwZTMtMWQ4MC00Zjk4LTg4ODgtZGNmZjc5N2I3ZTVlIiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6aVlWRTk0RFhzbGg1SG0zSTV6Z0FQMnRyeWZTcUNWOFZwd2V4aEdqbWxvYUZFblZYMDhCVkF2UTYyU21YVjRvdCJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODk4MTkzNjgsImlhdCI6MTY4OTczMjk2OH0.A75DMzh5TxV0yw6RvERtZw6K3iaxvL7mPrHP7k1R1Lcb8fPOkjbsmdM2a2hoWycv4hCmtEc3gKBLZzF8lQivISh7GloRKvVfHbLyCOiKcVnM5-Dxt2Gnwn3zgdhiS_Sh-K3YfUdixfM6YMvi3bzxwqo20cpe2DKux-on8KKqt5daio26TrVDC-YG_oEFr1PKIKWEfOkBf1UIpBgG4Xcaty51RVZ1mmNsY8_QIaU7utock4uLIobDJd75_0WvkWEIqcdUJo6n9Cf-ffm29HCTmZLqsYzpPuCXi3q9lXuNqlLBxWvL5i-196c3Yo6lV6-MlS2kjvS2UkYGBVfhuTo9aw
+2023-07-19 10:16:10 [INFO   ][ln-219]: 
+
+2023-07-19 10:16:10 [INFO   ][ln-301]: 2023
+2023-07-19 10:16:10 [INFO   ][ln-302]: 7
+2023-07-19 10:16:10 [INFO   ][ln-303]: 19
+2023-07-19 10:16:10 [INFO   ][ln-305]: 2023-07-19 00:00:00
+2023-07-19 10:16:10 [INFO   ][ln-96 ]: 1689696000
+2023-07-19 10:16:10 [INFO   ][ln-97 ]: 1689778800
+2023-07-19 10:16:10 [INFO   ][ln-474]: GetFallEventSummary
+2023-07-19 10:16:10 [INFO   ][ln-491]: GetFallEventSummary
+2023-07-19 10:16:13 [INFO   ][ln-312]: {'userId': '64895a7f924521000b2d7ac7', 'startTime': 1689696000, 'endTime': 1689782399, 'utcTimeOffset': 8, 'fallCountList': []}
+2023-07-19 10:16:13 [INFO   ][ln-314]: ####################################
+2023-07-19 10:16:13 [INFO   ][ln-315]: []
+2023-07-19 10:16:13 [INFO   ][ln-316]: ####################################
+2023-07-19 10:16:13 [INFO   ][ln-318]: The fallCount get from Backend API : 
+2023-07-19 10:16:13 [DEBUG  ][ln-980]: teardown_method
+2023-07-19 10:16:13 [DEBUG  ][ln-974]: teardown_class
+2023-07-19 10:45:02 [INFO   ][ln-47 ]: Start to load config file
+2023-07-19 10:45:02 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+4@plume.com', 'pwd': 'plume1234', 'devuserid': '64895a7f924521000b2d7ac7', 'sn': 'KD8F00003C', 'devid': '60B4F7B306AD', 'mac': '60:B4:F7:B3:06:AD', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-07-19 10:45:02 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-07-19 10:45:02 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-19 10:45:02 [INFO   ][ln-154]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.13.151'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': '79895733-0432-4723-BE88-AC658FDE093B'}
+2023-07-19 10:45:08 [INFO   ][ln-165]: Size(width=390, height=844)
+2023-07-19 10:45:42 [INFO   ][ln-200]: #########################################################################
+
+2023-07-19 10:45:42 [INFO   ][ln-201]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-19 10:45:42 [INFO   ][ln-202]: # ---------------------------------------------------------------- #)
+
+2023-07-19 10:45:42 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-19 10:45:45 [INFO   ][ln-204]: Step 1 :  PlumeCloudLogin
+
+2023-07-19 10:45:45 [INFO   ][ln-208]: Mo9cfbRtDbNF3OcTo5y4i4fZH5f7HaBDIm11wdFbXr1cGlzp2bpmOTmxeXZEVDBK
+2023-07-19 10:45:45 [INFO   ][ln-211]: 64895a7f924521000b2d7ac7
+2023-07-19 10:45:45 [INFO   ][ln-212]: 
+
+2023-07-19 10:45:45 [INFO   ][ln-213]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-19 10:45:45 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-19 10:45:48 [INFO   ][ln-218]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6MjgzMTg1YjgtNjNiNS00MzVjLWEyM2ItNGFhM2I5MWEzNzdkIiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6TW85Y2ZiUnREYk5GM09jVG81eTRpNGZaSDVmN0hhQkRJbTExd2RGYlhyMWNHbHpwMmJwbU9UbXhlWFpFVkRCSyJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODk4MjExNDYsImlhdCI6MTY4OTczNDc0Nn0.XHMUPmRrcMkZMgeJloxqiphytlfzINBA654ZjtdAhMKjFVcVZ9mHAh714LygxmNLL6F0Kwi0YV7iQAedlOAYuvQKkH8JTTc6ZkoN6EqsqtO-fZjDu7rTshPa6YDfXUIn7ok_qnU1AQEdjkNCXLUSJk-_pZrDxGFSMkBuQa30BUhmIbdNAwrtmJsrtP-deFU9YjcJHEXuewWV2_bCJ3qdLuYJEpZtA6OlUb7bLGPkAJiQRu23HI10Zw5zuNQJlKJ3uXvRI05tP_E-zQP2DoXkUKrAkd3I3QKGhKFk0YvZt_TVBJPeJexyENzXfTNEom9rhMovDFukqeQ-_F9Gt11zfA
+2023-07-19 10:45:48 [INFO   ][ln-219]: 
+
+2023-07-19 10:45:48 [INFO   ][ln-301]: 2023
+2023-07-19 10:45:48 [INFO   ][ln-302]: 7
+2023-07-19 10:45:48 [INFO   ][ln-303]: 19
+2023-07-19 10:45:48 [INFO   ][ln-305]: 2023-07-19 00:00:00
+2023-07-19 10:45:48 [INFO   ][ln-96 ]: 1689696000
+2023-07-19 10:45:48 [INFO   ][ln-97 ]: 1689778800
+2023-07-19 10:45:48 [INFO   ][ln-474]: GetFallEventSummary
+2023-07-19 10:45:48 [INFO   ][ln-491]: GetFallEventSummary
+2023-07-19 10:45:54 [INFO   ][ln-312]: {'userId': '64895a7f924521000b2d7ac7', 'startTime': 1689696000, 'endTime': 1689782399, 'utcTimeOffset': 8, 'fallCountList': []}
+2023-07-19 10:45:54 [INFO   ][ln-314]: ####################################
+2023-07-19 10:45:54 [INFO   ][ln-315]: []
+2023-07-19 10:45:54 [INFO   ][ln-316]: ####################################
+2023-07-19 10:45:54 [INFO   ][ln-318]: The fallCount get from Backend API : 
+2023-07-19 10:45:54 [DEBUG  ][ln-980]: teardown_method
+2023-07-19 10:45:54 [DEBUG  ][ln-974]: teardown_class
+2023-07-19 10:46:30 [INFO   ][ln-47 ]: Start to load config file
+2023-07-19 10:46:30 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+4@plume.com', 'pwd': 'plume1234', 'devuserid': '64895a7f924521000b2d7ac7', 'sn': 'KD8F00003C', 'devid': '60B4F7B306AD', 'mac': '60:B4:F7:B3:06:AD', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-07-19 10:46:30 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-07-19 10:46:30 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-19 10:46:30 [INFO   ][ln-154]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.13.151'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': '79895733-0432-4723-BE88-AC658FDE093B'}
+2023-07-19 10:46:36 [INFO   ][ln-165]: Size(width=390, height=844)
+2023-07-19 10:47:10 [INFO   ][ln-200]: #########################################################################
+
+2023-07-19 10:47:10 [INFO   ][ln-201]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-19 10:47:10 [INFO   ][ln-202]: # ---------------------------------------------------------------- #)
+
+2023-07-19 10:47:10 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-19 10:47:13 [INFO   ][ln-204]: Step 1 :  PlumeCloudLogin
+
+2023-07-19 10:47:13 [INFO   ][ln-208]: kqDqo1xQJwfCNoWFqr2RTBXILv90tW8mCEjCKeRDCiphQjqUF3Qg9NL8Nki5Aa9V
+2023-07-19 10:47:13 [INFO   ][ln-211]: 64895a7f924521000b2d7ac7
+2023-07-19 10:47:13 [INFO   ][ln-212]: 
+
+2023-07-19 10:47:13 [INFO   ][ln-213]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-19 10:47:13 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-19 10:47:16 [INFO   ][ln-218]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6Mjc5NjU5MDUtMDE0Zi00MGYxLWE2NGQtM2QwOThhNmMwOGUwIiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6a3FEcW8xeFFKd2ZDTm9XRnFyMlJUQlhJTHY5MHRXOG1DRWpDS2VSRENpcGhRanFVRjNRZzlOTDhOa2k1QWE5ViJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODk4MjEyMzQsImlhdCI6MTY4OTczNDgzNH0.Ni3JqPKu8DDJ_Y5OqxV44kh1K-k4C_NFKtQl-UYN4B_ELAE3A9pNwASlet9V3jOGOEFgf_mWhIiEsEQH3xLz-gEM2SAUFP6tb4RULdwOidRytpqfQH34U74ZhYHSSNhfYswayUZ0SFD5DXSBRVmJbuD0frNADqw3CNTihZ6Uhx1HnLRD90On-HuoXka0RMz551h8Kgb9R7G8j82sr6kc9_nOsgqubbYAqpYO-04fXgWnnW3PYEbowb-tIW0ytdMGIT1v4PRFKs_ML9RaHQL5QVK4_VdqnTAXqyRudc7rVACp7E9uRvQpt192p0yQ8LpvgLMjb6lr0hP0S3EBwGhK1g
+2023-07-19 10:47:16 [INFO   ][ln-219]: 
+
+2023-07-19 10:47:16 [INFO   ][ln-301]: 2023
+2023-07-19 10:47:16 [INFO   ][ln-302]: 7
+2023-07-19 10:47:16 [INFO   ][ln-303]: 19
+2023-07-19 10:47:16 [INFO   ][ln-305]: 2023-07-19 00:00:00
+2023-07-19 10:47:16 [INFO   ][ln-96 ]: 1689696000
+2023-07-19 10:47:16 [INFO   ][ln-97 ]: 1689778800
+2023-07-19 10:47:16 [INFO   ][ln-474]: GetFallEventSummary
+2023-07-19 10:47:16 [INFO   ][ln-491]: GetFallEventSummary
+2023-07-19 10:47:20 [INFO   ][ln-312]: {'userId': '64895a7f924521000b2d7ac7', 'startTime': 1689696000, 'endTime': 1689782399, 'utcTimeOffset': 8, 'fallCountList': []}
+2023-07-19 10:47:20 [INFO   ][ln-314]: ####################################
+2023-07-19 10:47:20 [INFO   ][ln-315]: []
+2023-07-19 10:47:20 [INFO   ][ln-316]: ####################################
+2023-07-19 10:47:20 [INFO   ][ln-318]: The fallCount get from Backend API : 
+2023-07-19 10:47:20 [DEBUG  ][ln-980]: teardown_method
+2023-07-19 10:47:20 [DEBUG  ][ln-974]: teardown_class
+2023-07-19 11:15:09 [INFO   ][ln-47 ]: Start to load config file
+2023-07-19 11:15:09 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+4@plume.com', 'pwd': 'plume1234', 'devuserid': '64895a7f924521000b2d7ac7', 'sn': 'KD8F00003C', 'devid': '60B4F7B306AD', 'mac': '60:B4:F7:B3:06:AD', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-07-19 11:15:09 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-07-19 11:15:09 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-19 11:15:09 [INFO   ][ln-197]: #########################################################################
+
+2023-07-19 11:15:09 [INFO   ][ln-198]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-19 11:15:09 [INFO   ][ln-199]: # ---------------------------------------------------------------- #)
+
+2023-07-19 11:15:09 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-19 11:15:13 [INFO   ][ln-201]: Step 1 :  PlumeCloudLogin
+
+2023-07-19 11:15:13 [INFO   ][ln-206]: YxFBKUIWbjESVEW9ookKLN1ICDY1ScX7z6fYJDTiffumeIC1AtquhDVi49YLbFP2
+2023-07-19 11:15:13 [INFO   ][ln-209]: 64895a7f924521000b2d7ac7
+2023-07-19 11:15:13 [INFO   ][ln-210]: 
+
+2023-07-19 11:15:13 [INFO   ][ln-211]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-19 11:15:13 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-19 11:15:17 [INFO   ][ln-216]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6OWFmNTM0MTUtMWYzZi00ZWE3LTkyOTItNjg5NTM3OWJiYjY2IiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6WXhGQktVSVdiakVTVkVXOW9va0tMTjFJQ0RZMVNjWDd6NmZZSkRUaWZmdW1lSUMxQXRxdWhEVmk0OVlMYkZQMiJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODk4MjI5MTUsImlhdCI6MTY4OTczNjUxNX0.TimPMar2ug0ZOf5BqLB90hpc8ykPTHOuASjjQi3z4XHNfUChVv3QBGr25s-xg8aLvKYUx7xixqx5KkCaoNvjFj6KN0kU6WyZljT4Tdao7Fkm3FfxibGcehJBzM4oE2vpahbgfvQtAJmAhNuSGG7xe-H1hHI_p6rBk2nw1sP1e3KzhjhMEjFV0omS9-n6E6Z9z5d4vq3pvJsVG3dp0ly7Ty6MkgQkkOTAe_SiYvf-G3NPVmxRUms-KQd4EcLayv9f0BkPywG0MpfO7DpflY8_apbGLIDuN7OP3T61M_tI5cFeUPxNmhfPXNOsDOrSE_fpDAJrJF32QrH8woHVMxOC5A
+2023-07-19 11:15:17 [INFO   ][ln-217]: 
+
+2023-07-19 11:15:17 [INFO   ][ln-220]: 2023
+2023-07-19 11:15:17 [INFO   ][ln-221]: 7
+2023-07-19 11:15:17 [INFO   ][ln-222]: 19
+2023-07-19 11:15:17 [INFO   ][ln-224]: 2023-07-19 00:00:00
+2023-07-19 11:15:17 [INFO   ][ln-104]: 1689696000
+2023-07-19 11:15:17 [INFO   ][ln-105]: 1689778800
+2023-07-19 11:15:17 [INFO   ][ln-721]: GetFitnessInsightSummary
+2023-07-19 11:15:17 [INFO   ][ln-740]: GetFitnessInsightSummary
+2023-07-19 11:15:23 [INFO   ][ln-232]: ####################################
+2023-07-19 11:15:23 [INFO   ][ln-233]: [{'userId': '64895a7f924521000b2d7ac7', 'intervalStartTime': 1689696000, 'interval': 'day', 'stepCount': 860, 'activeMinutes': 11, 'highHrRate': 123, 'lowHrRate': 53, 'avgHrRate': 70, 'highSpo2': 100, 'lowSpo2': 97, 'avgSpo2': 99}]
+2023-07-19 11:15:23 [INFO   ][ln-234]: ####################################
+2023-07-19 11:15:23 [INFO   ][ln-237]: The STEPS get from Backend API : 
+2023-07-19 11:15:23 [INFO   ][ln-238]: 860
+2023-07-19 11:15:23 [INFO   ][ln-240]: The Activie Mins get from Backend API : 
+2023-07-19 11:15:23 [INFO   ][ln-241]: 11
+2023-07-19 11:15:23 [INFO   ][ln-129]: 1689696000
+2023-07-19 11:15:23 [INFO   ][ln-130]: 1689778800
+2023-07-19 11:15:23 [INFO   ][ln-572]: GetFitnessActivityList
+2023-07-19 11:15:23 [INFO   ][ln-591]: GetFitnessActivityList
+2023-07-19 11:15:27 [INFO   ][ln-248]: ####################################
+2023-07-19 11:15:27 [INFO   ][ln-249]: [{'activityId': 'activity_64895a7f924521000b2d7ac7kd90300027_1689723054', 'userId': '64895a7f924521000b2d7ac7', 'fitnessActivityTypeId': 1, 'userConfirmation': 'Unkown', 'manualActivity': False, 'state': 'completed', 'startTimeStamp': 1689723054, 'duration': 691, 'stepCount': 478, 'highHrRate': 103, 'lowHrRate': 81, 'avgHrRate': 92, 'highSpo2': 99, 'lowSpo2': 99, 'avgSpo2': 99}]
+2023-07-19 11:15:27 [INFO   ][ln-250]: ####################################
+2023-07-19 11:15:27 [INFO   ][ln-254]: The WALK Duration get from Backend API : 
+2023-07-19 11:15:27 [INFO   ][ln-255]: 691 secs
+2023-07-19 11:15:27 [INFO   ][ln-257]: 11.516666666666667 min
+2023-07-19 11:15:27 [INFO   ][ln-260]: The highHrRate_API Rate get from Backend API : 
+2023-07-19 11:15:27 [INFO   ][ln-261]: 103
+2023-07-19 11:15:27 [INFO   ][ln-263]: The lowHrRate_API Rate get from Backend API : 
+2023-07-19 11:15:27 [INFO   ][ln-264]: 81
+2023-07-19 11:15:27 [INFO   ][ln-273]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.13.151'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': '79895733-0432-4723-BE88-AC658FDE093B'}
+2023-07-19 11:15:33 [INFO   ][ln-283]: Size(width=390, height=844)
+2023-07-19 11:15:52 [INFO   ][ln-307]: ##################################################################
+
+
+2023-07-19 11:15:52 [INFO   ][ln-308]: PASS : L1_APP STEPS count / Frontend and Backend are the same 
+
+
+2023-07-19 11:15:52 [INFO   ][ln-309]: ##################################################################
+
+
+2023-07-19 11:15:52 [INFO   ][ln-321]: ##################################################################
+
+
+2023-07-19 11:15:52 [INFO   ][ln-322]: PASS : L1_Active Minutes  / Frontend and Backend are the same 
+
+
+2023-07-19 11:15:52 [INFO   ][ln-323]: ##################################################################
+
+
+2023-07-19 11:15:52 [INFO   ][ln-338]: #######################################################################################
+
+
+2023-07-19 11:15:52 [INFO   ][ln-339]: PASS : L1_WALK Minutes, High and Low Heart rate  / Frontend and Backend are the same 
+
+
+2023-07-19 11:15:52 [INFO   ][ln-340]: #######################################################################################
+
+
+2023-07-19 11:16:09 [INFO   ][ln-361]: Test completed
+2023-07-19 11:16:17 [DEBUG  ][ln-980]: teardown_method
+2023-07-19 11:16:17 [DEBUG  ][ln-974]: teardown_class
+2023-07-19 12:15:46 [INFO   ][ln-47 ]: Start to load config file
+2023-07-19 12:15:46 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+4@plume.com', 'pwd': 'plume1234', 'devuserid': '64895a7f924521000b2d7ac7', 'sn': 'KD8F00003C', 'devid': '60B4F7B306AD', 'mac': '60:B4:F7:B3:06:AD', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-07-19 12:15:46 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-07-19 12:15:46 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-19 12:15:46 [INFO   ][ln-154]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.13.151'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': None}
+2023-07-19 12:15:51 [INFO   ][ln-165]: Size(width=390, height=844)
+2023-07-19 12:16:03 [DEBUG  ][ln-980]: teardown_method
+2023-07-19 12:16:03 [DEBUG  ][ln-974]: teardown_class
+2023-07-19 17:01:12 [INFO   ][ln-47 ]: Start to load config file
+2023-07-19 17:01:12 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+4@plume.com', 'pwd': 'plume1234', 'devuserid': '64895a7f924521000b2d7ac7', 'sn': 'KD8F00003C', 'devid': '60B4F7B306AD', 'mac': '60:B4:F7:B3:06:AD', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-07-19 17:01:12 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-07-19 17:01:12 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-19 17:01:12 [INFO   ][ln-197]: #########################################################################
+
+2023-07-19 17:01:12 [INFO   ][ln-198]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-19 17:01:12 [INFO   ][ln-199]: # ---------------------------------------------------------------- #)
+
+2023-07-19 17:01:12 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-19 17:01:16 [INFO   ][ln-201]: Step 1 :  PlumeCloudLogin
+
+2023-07-19 17:01:16 [INFO   ][ln-206]: zxwFGjMN1dld53ozgF0JpP5crp7yIPhxPfBCqVUfwjR25B120iESQmTUDgVFEEtc
+2023-07-19 17:01:16 [INFO   ][ln-209]: 64895a7f924521000b2d7ac7
+2023-07-19 17:01:16 [INFO   ][ln-210]: 
+
+2023-07-19 17:01:16 [INFO   ][ln-211]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-19 17:01:16 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-19 17:01:20 [INFO   ][ln-216]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6NzY4ZGM5NWMtMTkwYy00MTNiLTliNmItZjVhYjRmM2FjM2VhIiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6enh3RkdqTU4xZGxkNTNvemdGMEpwUDVjcnA3eUlQaHhQZkJDcVZVZndqUjI1QjEyMGlFU1FtVFVEZ1ZGRUV0YyJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODk4NDM2NzcsImlhdCI6MTY4OTc1NzI3N30.f1629ZOOysoR-HAklJ1Z55cY6kJCQSotfXMig8q3KxXxO0bKsEdCjHoxlCIs7Z7Fcd87tQvpgrcSVbDL08kiQBuJvB_TcIMBP7Ma70k0tBhSN1ZhoiBwQwfC4eqhD6CwsgNZNUyFIMUMa8OEljYIA_eWguaBtWvv2nmIYCsosCr4TQUdGPz6kFBKsxdJy1wQ860WDj3nDXHFHv0Axyy6zcbMIsKlbTXdWMWlPxkyY4ICPCS5bh6Ly3yTBhWsHdY0ICycIosn6SvZXvrofq4oX1SvAw8QihxDOq0H96RFgCEopnTbtdbWUQjBFvhkPBzWaDfkIi7JuDUb-hSEJVz3Lw
+2023-07-19 17:01:20 [INFO   ][ln-217]: 
+
+2023-07-19 17:01:20 [INFO   ][ln-220]: 2023
+2023-07-19 17:01:20 [INFO   ][ln-221]: 7
+2023-07-19 17:01:20 [INFO   ][ln-222]: 19
+2023-07-19 17:01:20 [INFO   ][ln-224]: 2023-07-19 00:00:00
+2023-07-19 17:01:20 [INFO   ][ln-104]: 1689696000
+2023-07-19 17:01:20 [INFO   ][ln-105]: 1689778800
+2023-07-19 17:01:20 [INFO   ][ln-721]: GetFitnessInsightSummary
+2023-07-19 17:01:20 [INFO   ][ln-740]: GetFitnessInsightSummary
+2023-07-19 17:01:23 [INFO   ][ln-232]: ####################################
+2023-07-19 17:01:23 [INFO   ][ln-233]: [{'userId': '64895a7f924521000b2d7ac7', 'intervalStartTime': 1689696000, 'interval': 'day', 'stepCount': 860, 'activeMinutes': 11, 'highHrRate': 123, 'lowHrRate': 53, 'avgHrRate': 70, 'highSpo2': 100, 'lowSpo2': 97, 'avgSpo2': 99}]
+2023-07-19 17:01:23 [INFO   ][ln-234]: ####################################
+2023-07-19 17:01:23 [INFO   ][ln-237]: The STEPS get from Backend API : 
+2023-07-19 17:01:23 [INFO   ][ln-238]: 860
+2023-07-19 17:01:23 [INFO   ][ln-240]: The Activie Mins get from Backend API : 
+2023-07-19 17:01:23 [INFO   ][ln-241]: 11
+2023-07-19 17:01:23 [INFO   ][ln-129]: 1689696000
+2023-07-19 17:01:23 [INFO   ][ln-130]: 1689778800
+2023-07-19 17:01:23 [INFO   ][ln-572]: GetFitnessActivityList
+2023-07-19 17:01:23 [INFO   ][ln-591]: GetFitnessActivityList
+2023-07-19 17:01:26 [INFO   ][ln-248]: ####################################
+2023-07-19 17:01:26 [INFO   ][ln-249]: [{'activityId': 'activity_64895a7f924521000b2d7ac7kd90300027_1689723054', 'userId': '64895a7f924521000b2d7ac7', 'fitnessActivityTypeId': 1, 'userConfirmation': 'Unkown', 'manualActivity': False, 'state': 'completed', 'startTimeStamp': 1689723054, 'duration': 691, 'stepCount': 478, 'highHrRate': 103, 'lowHrRate': 81, 'avgHrRate': 92, 'highSpo2': 99, 'lowSpo2': 99, 'avgSpo2': 99}]
+2023-07-19 17:01:26 [INFO   ][ln-250]: ####################################
+2023-07-19 17:01:26 [INFO   ][ln-254]: The WALK Duration get from Backend API : 
+2023-07-19 17:01:26 [INFO   ][ln-255]: 691 secs
+2023-07-19 17:01:26 [INFO   ][ln-257]: 11.516666666666667 min
+2023-07-19 17:01:26 [INFO   ][ln-260]: The highHrRate_API Rate get from Backend API : 
+2023-07-19 17:01:26 [INFO   ][ln-261]: 103
+2023-07-19 17:01:26 [INFO   ][ln-263]: The lowHrRate_API Rate get from Backend API : 
+2023-07-19 17:01:26 [INFO   ][ln-264]: 81
+2023-07-19 17:01:26 [INFO   ][ln-273]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.13.151'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': '8244009B-1807-4B33-85FE-32C839F8C057'}
+2023-07-19 17:01:31 [INFO   ][ln-283]: Size(width=390, height=844)
+2023-07-19 17:01:50 [INFO   ][ln-311]: ##################################################################
+
+
+2023-07-19 17:01:50 [INFO   ][ln-312]: FAIL : L1_APP STEPS count / Frontend and Backend are  not equal
+
+
+2023-07-19 17:01:50 [INFO   ][ln-313]: ##################################################################
+
+
+2023-07-19 17:01:54 [DEBUG  ][ln-980]: teardown_method
+2023-07-19 17:01:54 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-19 17:01:54 [INFO   ][ln-197]: #########################################################################
+
+2023-07-19 17:01:54 [INFO   ][ln-198]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-19 17:01:54 [INFO   ][ln-199]: # ---------------------------------------------------------------- #)
+
+2023-07-19 17:01:54 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-19 17:01:57 [INFO   ][ln-201]: Step 1 :  PlumeCloudLogin
+
+2023-07-19 17:01:57 [INFO   ][ln-206]: 2E4FgV1AI7UakPCKihrreSKyUgb8scMGrSuvxR1sIwUAwRDBeTLWS3OVnVPEagKV
+2023-07-19 17:01:57 [INFO   ][ln-209]: 64895a7f924521000b2d7ac7
+2023-07-19 17:01:57 [INFO   ][ln-210]: 
+
+2023-07-19 17:01:57 [INFO   ][ln-211]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-19 17:01:57 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-19 17:02:00 [INFO   ][ln-216]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6YTMwNDA2MTItZGZmOS00Mzc0LTkwZTgtMjQ2Y2I0ODgxYjliIiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6MkU0RmdWMUFJN1Vha1BDS2locnJlU0t5VWdiOHNjTUdyU3V2eFIxc0l3VUF3UkRCZVRMV1MzT1ZuVlBFYWdLViJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODk4NDM3MTcsImlhdCI6MTY4OTc1NzMxN30.X-dPlqW5Aa7RtHjJgKtZxCHK9J4U7PDQlsgzvYZ97O5UzD0vOqDvas5ohYgEuN33i3LPdg6f8omVJQRJQtDBxIQXGGR5WsCzpL1JrOix-xINaFObrrvqOM3IpzDhkrsCa8CoMvlqo7VDKQRy-hsHSs-YaLWdj3Kp8395kmt5-9kqxL3UnZaH3JbngKYsu40ers-eRBUdTjYcUpJMbckEpEnm7w7oI-4Q31JwCLhFzE-qE4zJp5cCDU75U4Ip4e2vylkPrVNdNQWuDkAYMYsBxHWtx9hsrFjGN7M0s0Av3kzE8geaRfgq9k9pomKY7fyX9BKbiiXw9jn4wCdGeHuJCw
+2023-07-19 17:02:00 [INFO   ][ln-217]: 
+
+2023-07-19 17:02:00 [INFO   ][ln-220]: 2023
+2023-07-19 17:02:00 [INFO   ][ln-221]: 7
+2023-07-19 17:02:00 [INFO   ][ln-222]: 19
+2023-07-19 17:02:00 [INFO   ][ln-224]: 2023-07-19 00:00:00
+2023-07-19 17:02:00 [INFO   ][ln-104]: 1689696000
+2023-07-19 17:02:00 [INFO   ][ln-105]: 1689778800
+2023-07-19 17:02:00 [INFO   ][ln-721]: GetFitnessInsightSummary
+2023-07-19 17:02:00 [INFO   ][ln-740]: GetFitnessInsightSummary
+2023-07-19 17:02:03 [INFO   ][ln-232]: ####################################
+2023-07-19 17:02:03 [INFO   ][ln-233]: [{'userId': '64895a7f924521000b2d7ac7', 'intervalStartTime': 1689696000, 'interval': 'day', 'stepCount': 860, 'activeMinutes': 11, 'highHrRate': 123, 'lowHrRate': 53, 'avgHrRate': 70, 'highSpo2': 100, 'lowSpo2': 97, 'avgSpo2': 99}]
+2023-07-19 17:02:03 [INFO   ][ln-234]: ####################################
+2023-07-19 17:02:03 [INFO   ][ln-237]: The STEPS get from Backend API : 
+2023-07-19 17:02:03 [INFO   ][ln-238]: 860
+2023-07-19 17:02:03 [INFO   ][ln-240]: The Activie Mins get from Backend API : 
+2023-07-19 17:02:03 [INFO   ][ln-241]: 11
+2023-07-19 17:02:03 [INFO   ][ln-129]: 1689696000
+2023-07-19 17:02:03 [INFO   ][ln-130]: 1689778800
+2023-07-19 17:02:03 [INFO   ][ln-572]: GetFitnessActivityList
+2023-07-19 17:02:03 [INFO   ][ln-591]: GetFitnessActivityList
+2023-07-19 17:02:06 [INFO   ][ln-248]: ####################################
+2023-07-19 17:02:06 [INFO   ][ln-249]: [{'activityId': 'activity_64895a7f924521000b2d7ac7kd90300027_1689723054', 'userId': '64895a7f924521000b2d7ac7', 'fitnessActivityTypeId': 1, 'userConfirmation': 'Unkown', 'manualActivity': False, 'state': 'completed', 'startTimeStamp': 1689723054, 'duration': 691, 'stepCount': 478, 'highHrRate': 103, 'lowHrRate': 81, 'avgHrRate': 92, 'highSpo2': 99, 'lowSpo2': 99, 'avgSpo2': 99}]
+2023-07-19 17:02:06 [INFO   ][ln-250]: ####################################
+2023-07-19 17:02:06 [INFO   ][ln-254]: The WALK Duration get from Backend API : 
+2023-07-19 17:02:06 [INFO   ][ln-255]: 691 secs
+2023-07-19 17:02:06 [INFO   ][ln-257]: 11.516666666666667 min
+2023-07-19 17:02:06 [INFO   ][ln-260]: The highHrRate_API Rate get from Backend API : 
+2023-07-19 17:02:06 [INFO   ][ln-261]: 103
+2023-07-19 17:02:06 [INFO   ][ln-263]: The lowHrRate_API Rate get from Backend API : 
+2023-07-19 17:02:06 [INFO   ][ln-264]: 81
+2023-07-19 17:02:06 [INFO   ][ln-273]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.13.151'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': '8244009B-1807-4B33-85FE-32C839F8C057'}
+2023-07-19 17:02:11 [INFO   ][ln-283]: Size(width=390, height=844)
+2023-07-19 17:02:27 [INFO   ][ln-311]: ##################################################################
+
+
+2023-07-19 17:02:27 [INFO   ][ln-312]: FAIL : L1_APP STEPS count / Frontend and Backend are  not equal
+
+
+2023-07-19 17:02:27 [INFO   ][ln-313]: ##################################################################
+
+
+2023-07-19 17:02:31 [DEBUG  ][ln-980]: teardown_method
+2023-07-19 17:02:31 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-19 17:02:31 [INFO   ][ln-197]: #########################################################################
+
+2023-07-19 17:02:31 [INFO   ][ln-198]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-19 17:02:31 [INFO   ][ln-199]: # ---------------------------------------------------------------- #)
+
+2023-07-19 17:02:31 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-19 17:02:34 [INFO   ][ln-201]: Step 1 :  PlumeCloudLogin
+
+2023-07-19 17:02:34 [INFO   ][ln-206]: AJojAM2cuarvRaPZnwx79y26yIHGMDCnQ9lrROGjj65IN3ZXRbEzdiQtjfHGeaDQ
+2023-07-19 17:02:34 [INFO   ][ln-209]: 64895a7f924521000b2d7ac7
+2023-07-19 17:02:34 [INFO   ][ln-210]: 
+
+2023-07-19 17:02:34 [INFO   ][ln-211]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-19 17:02:34 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-19 17:02:38 [INFO   ][ln-216]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6MDMyMmNhMjgtMjUyMy00MGMzLWI4N2EtNTg1Njk1ZTQ2YzkzIiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6QUpvakFNMmN1YXJ2UmFQWm53eDc5eTI2eUlIR01EQ25ROWxyUk9Hamo2NUlOM1pYUmJFemRpUXRqZkhHZWFEUSJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODk4NDM3NTUsImlhdCI6MTY4OTc1NzM1NX0.Q5XHp8194WLTLLyajxpytAig9Lk4d9h24JawOSVkR9bDejOFcZrU1WDiWOMRcWecTeqgPLiZziEfvspdJowNiYkSWJX0vDMtmoMamKM_2T9RPqvNJZOUs89LFNaKuAabrLD-1gzSLPoAsDOma0-_Yy0_QDnnVdr435MldnVwdpwliRKEfc59Cmw_B5G0yUR2XfehpqwKXeD-x-6RRQ8vM_mql0dqRFHEUXU6LLIwXAIIy-GSxEIE8gIRHsdF1PVfTB0NDVgbi7M1hW3NnDRMv5p6s51-2lHqymQv8zZi9uQg1CjLJzEe3zdfDWuASTXrzCblpCwS_rTbzkkBSWLaVA
+2023-07-19 17:02:38 [INFO   ][ln-217]: 
+
+2023-07-19 17:02:38 [INFO   ][ln-220]: 2023
+2023-07-19 17:02:38 [INFO   ][ln-221]: 7
+2023-07-19 17:02:38 [INFO   ][ln-222]: 19
+2023-07-19 17:02:38 [INFO   ][ln-224]: 2023-07-19 00:00:00
+2023-07-19 17:02:38 [INFO   ][ln-104]: 1689696000
+2023-07-19 17:02:38 [INFO   ][ln-105]: 1689778800
+2023-07-19 17:02:38 [INFO   ][ln-721]: GetFitnessInsightSummary
+2023-07-19 17:02:38 [INFO   ][ln-740]: GetFitnessInsightSummary
+2023-07-19 17:02:41 [INFO   ][ln-232]: ####################################
+2023-07-19 17:02:41 [INFO   ][ln-233]: [{'userId': '64895a7f924521000b2d7ac7', 'intervalStartTime': 1689696000, 'interval': 'day', 'stepCount': 860, 'activeMinutes': 11, 'highHrRate': 123, 'lowHrRate': 53, 'avgHrRate': 70, 'highSpo2': 100, 'lowSpo2': 97, 'avgSpo2': 99}]
+2023-07-19 17:02:41 [INFO   ][ln-234]: ####################################
+2023-07-19 17:02:41 [INFO   ][ln-237]: The STEPS get from Backend API : 
+2023-07-19 17:02:41 [INFO   ][ln-238]: 860
+2023-07-19 17:02:41 [INFO   ][ln-240]: The Activie Mins get from Backend API : 
+2023-07-19 17:02:41 [INFO   ][ln-241]: 11
+2023-07-19 17:02:41 [INFO   ][ln-129]: 1689696000
+2023-07-19 17:02:41 [INFO   ][ln-130]: 1689778800
+2023-07-19 17:02:41 [INFO   ][ln-572]: GetFitnessActivityList
+2023-07-19 17:02:41 [INFO   ][ln-591]: GetFitnessActivityList
+2023-07-19 17:02:43 [INFO   ][ln-248]: ####################################
+2023-07-19 17:02:43 [INFO   ][ln-249]: [{'activityId': 'activity_64895a7f924521000b2d7ac7kd90300027_1689723054', 'userId': '64895a7f924521000b2d7ac7', 'fitnessActivityTypeId': 1, 'userConfirmation': 'Unkown', 'manualActivity': False, 'state': 'completed', 'startTimeStamp': 1689723054, 'duration': 691, 'stepCount': 478, 'highHrRate': 103, 'lowHrRate': 81, 'avgHrRate': 92, 'highSpo2': 99, 'lowSpo2': 99, 'avgSpo2': 99}]
+2023-07-19 17:02:43 [INFO   ][ln-250]: ####################################
+2023-07-19 17:02:43 [INFO   ][ln-254]: The WALK Duration get from Backend API : 
+2023-07-19 17:02:43 [INFO   ][ln-255]: 691 secs
+2023-07-19 17:02:43 [INFO   ][ln-257]: 11.516666666666667 min
+2023-07-19 17:02:43 [INFO   ][ln-260]: The highHrRate_API Rate get from Backend API : 
+2023-07-19 17:02:43 [INFO   ][ln-261]: 103
+2023-07-19 17:02:43 [INFO   ][ln-263]: The lowHrRate_API Rate get from Backend API : 
+2023-07-19 17:02:43 [INFO   ][ln-264]: 81
+2023-07-19 17:02:43 [INFO   ][ln-273]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.13.151'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': '8244009B-1807-4B33-85FE-32C839F8C057'}
+2023-07-19 17:02:47 [INFO   ][ln-283]: Size(width=390, height=844)
+2023-07-19 17:03:07 [INFO   ][ln-311]: ##################################################################
+
+
+2023-07-19 17:03:07 [INFO   ][ln-312]: FAIL : L1_APP STEPS count / Frontend and Backend are  not equal
+
+
+2023-07-19 17:03:07 [INFO   ][ln-313]: ##################################################################
+
+
+2023-07-19 17:03:10 [DEBUG  ][ln-980]: teardown_method
+2023-07-19 17:03:10 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-19 17:03:10 [INFO   ][ln-197]: #########################################################################
+
+2023-07-19 17:03:10 [INFO   ][ln-198]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-19 17:03:10 [INFO   ][ln-199]: # ---------------------------------------------------------------- #)
+
+2023-07-19 17:03:10 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-19 17:03:13 [INFO   ][ln-201]: Step 1 :  PlumeCloudLogin
+
+2023-07-19 17:03:13 [INFO   ][ln-206]: f0nyQ8NaGX70WanqZgsRHKAF8zKdv2Zm1pWioNOYnph0Bsb9Ew4ZSu4QkVLiTtmH
+2023-07-19 17:03:13 [INFO   ][ln-209]: 64895a7f924521000b2d7ac7
+2023-07-19 17:03:13 [INFO   ][ln-210]: 
+
+2023-07-19 17:03:13 [INFO   ][ln-211]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-19 17:03:13 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-19 17:03:16 [INFO   ][ln-216]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6N2UzZTQ1OTAtY2MzMS00N2Y3LWE5NzktNGY2N2NhMDc1NWVmIiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6ZjBueVE4TmFHWDcwV2FucVpnc1JIS0FGOHpLZHYyWm0xcFdpb05PWW5waDBCc2I5RXc0WlN1NFFrVkxpVHRtSCJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODk4NDM3OTMsImlhdCI6MTY4OTc1NzM5M30.GybFcTf7XUXHwqqswFiqzwU9js7SyqmDKPQXPUasv-JGr5VF1dLpohyKrUxn3PYzoLv4EyU3sOR8Uz1FW5hn876NCNyJQSZQm-h92GArZ4aX2xvb5alAY3aA9sTfd0nYB9g11uSnP8HMNQCMcp3boQz8pQEVPmop46f3PU8Bvga-3xgvR27zh5vx9c7rAHKWCkhaZE2xXkFZIUdB-U4FzeZpEfbfr6kaKELRqtO40LGvYynTg4DsrwFBO90Eck9ZzlnkshRAwsGYR6w4UP3WSnP7PYOq_h4QBVJSvtaKaDan8uvJoq9qt2_iTmubJ1XgTP5mMeV0HOwbNL7LMbRlNA
+2023-07-19 17:03:16 [INFO   ][ln-217]: 
+
+2023-07-19 17:03:16 [INFO   ][ln-220]: 2023
+2023-07-19 17:03:16 [INFO   ][ln-221]: 7
+2023-07-19 17:03:16 [INFO   ][ln-222]: 19
+2023-07-19 17:03:16 [INFO   ][ln-224]: 2023-07-19 00:00:00
+2023-07-19 17:03:16 [INFO   ][ln-104]: 1689696000
+2023-07-19 17:03:16 [INFO   ][ln-105]: 1689778800
+2023-07-19 17:03:16 [INFO   ][ln-721]: GetFitnessInsightSummary
+2023-07-19 17:03:16 [INFO   ][ln-740]: GetFitnessInsightSummary
+2023-07-19 17:03:19 [INFO   ][ln-232]: ####################################
+2023-07-19 17:03:19 [INFO   ][ln-233]: [{'userId': '64895a7f924521000b2d7ac7', 'intervalStartTime': 1689696000, 'interval': 'day', 'stepCount': 860, 'activeMinutes': 11, 'highHrRate': 123, 'lowHrRate': 53, 'avgHrRate': 70, 'highSpo2': 100, 'lowSpo2': 97, 'avgSpo2': 99}]
+2023-07-19 17:03:19 [INFO   ][ln-234]: ####################################
+2023-07-19 17:03:19 [INFO   ][ln-237]: The STEPS get from Backend API : 
+2023-07-19 17:03:19 [INFO   ][ln-238]: 860
+2023-07-19 17:03:19 [INFO   ][ln-240]: The Activie Mins get from Backend API : 
+2023-07-19 17:03:19 [INFO   ][ln-241]: 11
+2023-07-19 17:03:19 [INFO   ][ln-129]: 1689696000
+2023-07-19 17:03:19 [INFO   ][ln-130]: 1689778800
+2023-07-19 17:03:19 [INFO   ][ln-572]: GetFitnessActivityList
+2023-07-19 17:03:19 [INFO   ][ln-591]: GetFitnessActivityList
+2023-07-19 17:03:22 [INFO   ][ln-248]: ####################################
+2023-07-19 17:03:22 [INFO   ][ln-249]: [{'activityId': 'activity_64895a7f924521000b2d7ac7kd90300027_1689723054', 'userId': '64895a7f924521000b2d7ac7', 'fitnessActivityTypeId': 1, 'userConfirmation': 'Unkown', 'manualActivity': False, 'state': 'completed', 'startTimeStamp': 1689723054, 'duration': 691, 'stepCount': 478, 'highHrRate': 103, 'lowHrRate': 81, 'avgHrRate': 92, 'highSpo2': 99, 'lowSpo2': 99, 'avgSpo2': 99}]
+2023-07-19 17:03:22 [INFO   ][ln-250]: ####################################
+2023-07-19 17:03:22 [INFO   ][ln-254]: The WALK Duration get from Backend API : 
+2023-07-19 17:03:22 [INFO   ][ln-255]: 691 secs
+2023-07-19 17:03:22 [INFO   ][ln-257]: 11.516666666666667 min
+2023-07-19 17:03:22 [INFO   ][ln-260]: The highHrRate_API Rate get from Backend API : 
+2023-07-19 17:03:22 [INFO   ][ln-261]: 103
+2023-07-19 17:03:22 [INFO   ][ln-263]: The lowHrRate_API Rate get from Backend API : 
+2023-07-19 17:03:22 [INFO   ][ln-264]: 81
+2023-07-19 17:03:22 [INFO   ][ln-273]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.13.151'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': '8244009B-1807-4B33-85FE-32C839F8C057'}
+2023-07-19 17:03:27 [INFO   ][ln-283]: Size(width=390, height=844)
+2023-07-19 17:03:43 [INFO   ][ln-311]: ##################################################################
+
+
+2023-07-19 17:03:43 [INFO   ][ln-312]: FAIL : L1_APP STEPS count / Frontend and Backend are  not equal
+
+
+2023-07-19 17:03:43 [INFO   ][ln-313]: ##################################################################
+
+
+2023-07-19 17:03:47 [DEBUG  ][ln-980]: teardown_method
+2023-07-19 17:03:47 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-19 17:03:47 [INFO   ][ln-197]: #########################################################################
+
+2023-07-19 17:03:47 [INFO   ][ln-198]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-19 17:03:47 [INFO   ][ln-199]: # ---------------------------------------------------------------- #)
+
+2023-07-19 17:03:47 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-19 17:03:49 [INFO   ][ln-201]: Step 1 :  PlumeCloudLogin
+
+2023-07-19 17:03:49 [INFO   ][ln-206]: GWSLg6LBfL7Fz0yl9a5TlbfuKcIFDXeAo9tXVsg8R2Hvop3JK1HzI8fvAqxe9Cy8
+2023-07-19 17:03:49 [INFO   ][ln-209]: 64895a7f924521000b2d7ac7
+2023-07-19 17:03:49 [INFO   ][ln-210]: 
+
+2023-07-19 17:03:49 [INFO   ][ln-211]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-19 17:03:49 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-19 17:03:52 [INFO   ][ln-216]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6ODM1Njc0NWYtMTMwZS00NjMxLTgxMTYtOWQyZDk1YWVmNzYwIiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6R1dTTGc2TEJmTDdGejB5bDlhNVRsYmZ1S2NJRkRYZUFvOXRYVnNnOFIySHZvcDNKSzFIekk4ZnZBcXhlOUN5OCJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODk4NDM4MzAsImlhdCI6MTY4OTc1NzQzMH0.FDmexiNvAfUSk2UJVailMPSajYROm-nbI1AiXHe27BBP5hntjxe0jpjFB0DwCOoQF59ttbhJqK2I1b4HDjuvnmuodB0GhlivZr8zQ7T2DFX_6PzT15-hsQ_Hyo3is3dzwTP_HSUB-Q9ZgIeCAojv-ckm2rRWCfo8JRrDELUr7_RHj6UjzCWJ3DeSHq_ZLcdHCZf8vbr19rBVhUHqkB1TmRiA78aHeXmIbe2s7-lDop2kM2Omsr5lLaWNC98nsAsNOsrWBzcZ99u-GiJBlBtJ82F8cFj3ln9K-cfAxN4vtNKO_grWdGf9dlAaBPgGW7Wb6Z18dUo1YZvZDPJXuKurKg
+2023-07-19 17:03:52 [INFO   ][ln-217]: 
+
+2023-07-19 17:03:52 [INFO   ][ln-220]: 2023
+2023-07-19 17:03:52 [INFO   ][ln-221]: 7
+2023-07-19 17:03:52 [INFO   ][ln-222]: 19
+2023-07-19 17:03:52 [INFO   ][ln-224]: 2023-07-19 00:00:00
+2023-07-19 17:03:52 [INFO   ][ln-104]: 1689696000
+2023-07-19 17:03:52 [INFO   ][ln-105]: 1689778800
+2023-07-19 17:03:52 [INFO   ][ln-721]: GetFitnessInsightSummary
+2023-07-19 17:03:52 [INFO   ][ln-740]: GetFitnessInsightSummary
+2023-07-19 17:03:55 [INFO   ][ln-232]: ####################################
+2023-07-19 17:03:55 [INFO   ][ln-233]: [{'userId': '64895a7f924521000b2d7ac7', 'intervalStartTime': 1689696000, 'interval': 'day', 'stepCount': 860, 'activeMinutes': 11, 'highHrRate': 123, 'lowHrRate': 53, 'avgHrRate': 70, 'highSpo2': 100, 'lowSpo2': 97, 'avgSpo2': 99}]
+2023-07-19 17:03:55 [INFO   ][ln-234]: ####################################
+2023-07-19 17:03:55 [INFO   ][ln-237]: The STEPS get from Backend API : 
+2023-07-19 17:03:55 [INFO   ][ln-238]: 860
+2023-07-19 17:03:55 [INFO   ][ln-240]: The Activie Mins get from Backend API : 
+2023-07-19 17:03:55 [INFO   ][ln-241]: 11
+2023-07-19 17:03:55 [INFO   ][ln-129]: 1689696000
+2023-07-19 17:03:55 [INFO   ][ln-130]: 1689778800
+2023-07-19 17:03:55 [INFO   ][ln-572]: GetFitnessActivityList
+2023-07-19 17:03:55 [INFO   ][ln-591]: GetFitnessActivityList
+2023-07-19 17:03:58 [INFO   ][ln-248]: ####################################
+2023-07-19 17:03:58 [INFO   ][ln-249]: [{'activityId': 'activity_64895a7f924521000b2d7ac7kd90300027_1689723054', 'userId': '64895a7f924521000b2d7ac7', 'fitnessActivityTypeId': 1, 'userConfirmation': 'Unkown', 'manualActivity': False, 'state': 'completed', 'startTimeStamp': 1689723054, 'duration': 691, 'stepCount': 478, 'highHrRate': 103, 'lowHrRate': 81, 'avgHrRate': 92, 'highSpo2': 99, 'lowSpo2': 99, 'avgSpo2': 99}]
+2023-07-19 17:03:58 [INFO   ][ln-250]: ####################################
+2023-07-19 17:03:58 [INFO   ][ln-254]: The WALK Duration get from Backend API : 
+2023-07-19 17:03:58 [INFO   ][ln-255]: 691 secs
+2023-07-19 17:03:58 [INFO   ][ln-257]: 11.516666666666667 min
+2023-07-19 17:03:58 [INFO   ][ln-260]: The highHrRate_API Rate get from Backend API : 
+2023-07-19 17:03:58 [INFO   ][ln-261]: 103
+2023-07-19 17:03:58 [INFO   ][ln-263]: The lowHrRate_API Rate get from Backend API : 
+2023-07-19 17:03:58 [INFO   ][ln-264]: 81
+2023-07-19 17:03:58 [INFO   ][ln-273]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.13.151'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': '8244009B-1807-4B33-85FE-32C839F8C057'}
+2023-07-19 17:04:02 [INFO   ][ln-283]: Size(width=390, height=844)
+2023-07-19 17:04:21 [INFO   ][ln-311]: ##################################################################
+
+
+2023-07-19 17:04:21 [INFO   ][ln-312]: FAIL : L1_APP STEPS count / Frontend and Backend are  not equal
+
+
+2023-07-19 17:04:21 [INFO   ][ln-313]: ##################################################################
+
+
+2023-07-19 17:04:25 [DEBUG  ][ln-980]: teardown_method
+2023-07-19 17:04:25 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-19 17:04:25 [INFO   ][ln-197]: #########################################################################
+
+2023-07-19 17:04:25 [INFO   ][ln-198]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-19 17:04:25 [INFO   ][ln-199]: # ---------------------------------------------------------------- #)
+
+2023-07-19 17:04:25 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-19 17:04:29 [INFO   ][ln-201]: Step 1 :  PlumeCloudLogin
+
+2023-07-19 17:04:29 [INFO   ][ln-206]: lfU5fSHGFDOfatBr0nZTkxJ0GjLZW37SZWl5uTz3ZxpPIuRCWV9BIF7jzZFcQGhD
+2023-07-19 17:04:29 [INFO   ][ln-209]: 64895a7f924521000b2d7ac7
+2023-07-19 17:04:29 [INFO   ][ln-210]: 
+
+2023-07-19 17:04:29 [INFO   ][ln-211]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-19 17:04:29 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-19 17:04:32 [INFO   ][ln-216]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6MGJiMDI2NTItZjAwYy00MjI4LWIzNGItOTc1ZTQ4Y2FkMTEzIiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6bGZVNWZTSEdGRE9mYXRCcjBuWlRreEowR2pMWlczN1NaV2w1dVR6M1p4cFBJdVJDV1Y5QklGN2p6WkZjUUdoRCJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODk4NDM4NjksImlhdCI6MTY4OTc1NzQ2OX0.ZO4O2X_CwvbzdMvYeOCBsfEaPXveLX4RUCO6uoxFC3XZZqtncqAwxYdDEujd6nfCPWB07tHIkqVFmUFrH4uh3V0m09QFlE0_H10OrO9tpX6dOE6V8YGOLJ_6Sy_dHs4K3Wu1lgCDJSTXMfsizKsuRtUSsxiZkCjovNn3GOWPvTIEEop-3wTBcvCBZy49f-XSehMqjuSrubynHvGV2pW7PllM9WQp916JIQIJj_ZT0vUTCbmdZRXqvVTNVYWC9Uwq4T1bh-_rv-jzQgjyKvW0_tMwtU_eQd7AStqfQuAk7LwifsgJ60osC8krC7nG2abM9UsKpASBTd4eVCeNjEiGtQ
+2023-07-19 17:04:32 [INFO   ][ln-217]: 
+
+2023-07-19 17:04:32 [INFO   ][ln-220]: 2023
+2023-07-19 17:04:32 [INFO   ][ln-221]: 7
+2023-07-19 17:04:32 [INFO   ][ln-222]: 19
+2023-07-19 17:04:32 [INFO   ][ln-224]: 2023-07-19 00:00:00
+2023-07-19 17:04:32 [INFO   ][ln-104]: 1689696000
+2023-07-19 17:04:32 [INFO   ][ln-105]: 1689778800
+2023-07-19 17:04:32 [INFO   ][ln-721]: GetFitnessInsightSummary
+2023-07-19 17:04:32 [INFO   ][ln-740]: GetFitnessInsightSummary
+2023-07-19 17:04:35 [INFO   ][ln-232]: ####################################
+2023-07-19 17:04:35 [INFO   ][ln-233]: [{'userId': '64895a7f924521000b2d7ac7', 'intervalStartTime': 1689696000, 'interval': 'day', 'stepCount': 860, 'activeMinutes': 11, 'highHrRate': 123, 'lowHrRate': 53, 'avgHrRate': 70, 'highSpo2': 100, 'lowSpo2': 97, 'avgSpo2': 99}]
+2023-07-19 17:04:35 [INFO   ][ln-234]: ####################################
+2023-07-19 17:04:35 [INFO   ][ln-237]: The STEPS get from Backend API : 
+2023-07-19 17:04:35 [INFO   ][ln-238]: 860
+2023-07-19 17:04:35 [INFO   ][ln-240]: The Activie Mins get from Backend API : 
+2023-07-19 17:04:35 [INFO   ][ln-241]: 11
+2023-07-19 17:04:35 [INFO   ][ln-129]: 1689696000
+2023-07-19 17:04:35 [INFO   ][ln-130]: 1689778800
+2023-07-19 17:04:35 [INFO   ][ln-572]: GetFitnessActivityList
+2023-07-19 17:04:35 [INFO   ][ln-591]: GetFitnessActivityList
+2023-07-19 17:04:38 [INFO   ][ln-248]: ####################################
+2023-07-19 17:04:38 [INFO   ][ln-249]: [{'activityId': 'activity_64895a7f924521000b2d7ac7kd90300027_1689723054', 'userId': '64895a7f924521000b2d7ac7', 'fitnessActivityTypeId': 1, 'userConfirmation': 'Unkown', 'manualActivity': False, 'state': 'completed', 'startTimeStamp': 1689723054, 'duration': 691, 'stepCount': 478, 'highHrRate': 103, 'lowHrRate': 81, 'avgHrRate': 92, 'highSpo2': 99, 'lowSpo2': 99, 'avgSpo2': 99}]
+2023-07-19 17:04:38 [INFO   ][ln-250]: ####################################
+2023-07-19 17:04:38 [INFO   ][ln-254]: The WALK Duration get from Backend API : 
+2023-07-19 17:04:38 [INFO   ][ln-255]: 691 secs
+2023-07-19 17:04:38 [INFO   ][ln-257]: 11.516666666666667 min
+2023-07-19 17:04:38 [INFO   ][ln-260]: The highHrRate_API Rate get from Backend API : 
+2023-07-19 17:04:38 [INFO   ][ln-261]: 103
+2023-07-19 17:04:38 [INFO   ][ln-263]: The lowHrRate_API Rate get from Backend API : 
+2023-07-19 17:04:38 [INFO   ][ln-264]: 81
+2023-07-19 17:04:38 [INFO   ][ln-273]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.13.151'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': '8244009B-1807-4B33-85FE-32C839F8C057'}
+2023-07-19 17:04:43 [INFO   ][ln-283]: Size(width=390, height=844)
+2023-07-19 17:04:59 [INFO   ][ln-311]: ##################################################################
+
+
+2023-07-19 17:04:59 [INFO   ][ln-312]: FAIL : L1_APP STEPS count / Frontend and Backend are  not equal
+
+
+2023-07-19 17:04:59 [INFO   ][ln-313]: ##################################################################
+
+
+2023-07-19 17:05:02 [DEBUG  ][ln-980]: teardown_method
+2023-07-19 17:05:02 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-19 17:05:02 [INFO   ][ln-197]: #########################################################################
+
+2023-07-19 17:05:02 [INFO   ][ln-198]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-19 17:05:02 [INFO   ][ln-199]: # ---------------------------------------------------------------- #)
+
+2023-07-19 17:05:02 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-19 17:05:05 [INFO   ][ln-201]: Step 1 :  PlumeCloudLogin
+
+2023-07-19 17:05:05 [INFO   ][ln-206]: sa8YQBRGmt2nbHIvJUqG1nBFOS4KmJSRjZIT2HQy6wJCk9QlNaYtXfh6bTdFDxlb
+2023-07-19 17:05:05 [INFO   ][ln-209]: 64895a7f924521000b2d7ac7
+2023-07-19 17:05:05 [INFO   ][ln-210]: 
+
+2023-07-19 17:05:05 [INFO   ][ln-211]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-19 17:05:05 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-19 17:05:08 [INFO   ][ln-216]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6ODllYTIyMjItZTk4OS00MjY4LWE2NjYtZGIyYjhmOGQzMGRkIiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6c2E4WVFCUkdtdDJuYkhJdkpVcUcxbkJGT1M0S21KU1JqWklUMkhReTZ3SkNrOVFsTmFZdFhmaDZiVGRGRHhsYiJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODk4NDM5MDYsImlhdCI6MTY4OTc1NzUwNn0.KeRk3ylgTG8WI5a3ub0HVfpseDfas4TX2auVRg1FVA75C23AdM_71KxBWdfrsZs13z4_Uz--5xJIT4cjg5CmZiNF9RcZS0VZ7Syluo-60QD7aSBnG2dv76hb14wa_QWG2syNy5Ka_wLJtUXnMj3YVtXk0_A_c7CuFpmsgHJKjcZRIttBzDAofk3rEKswz8QaDmu-C1Tj5tGSHJBHlsZC2pq9G0SLlEh_EjLVsS91CSSOyIKO4OlGsokNlmucAYxm6QKbwfrcZs4bH8f3Yi2LX-hBQ5NgJrY5XzKQQD-YhsXEwO2exjh0nwkweRtk0AN8SQqLLIsJOk9mX5-AY9-SLQ
+2023-07-19 17:05:08 [INFO   ][ln-217]: 
+
+2023-07-19 17:05:08 [INFO   ][ln-220]: 2023
+2023-07-19 17:05:08 [INFO   ][ln-221]: 7
+2023-07-19 17:05:08 [INFO   ][ln-222]: 19
+2023-07-19 17:05:08 [INFO   ][ln-224]: 2023-07-19 00:00:00
+2023-07-19 17:05:08 [INFO   ][ln-104]: 1689696000
+2023-07-19 17:05:08 [INFO   ][ln-105]: 1689778800
+2023-07-19 17:05:08 [INFO   ][ln-721]: GetFitnessInsightSummary
+2023-07-19 17:05:08 [INFO   ][ln-740]: GetFitnessInsightSummary
+2023-07-19 17:05:11 [INFO   ][ln-232]: ####################################
+2023-07-19 17:05:11 [INFO   ][ln-233]: [{'userId': '64895a7f924521000b2d7ac7', 'intervalStartTime': 1689696000, 'interval': 'day', 'stepCount': 860, 'activeMinutes': 11, 'highHrRate': 123, 'lowHrRate': 53, 'avgHrRate': 70, 'highSpo2': 100, 'lowSpo2': 97, 'avgSpo2': 99}]
+2023-07-19 17:05:11 [INFO   ][ln-234]: ####################################
+2023-07-19 17:05:11 [INFO   ][ln-237]: The STEPS get from Backend API : 
+2023-07-19 17:05:11 [INFO   ][ln-238]: 860
+2023-07-19 17:05:11 [INFO   ][ln-240]: The Activie Mins get from Backend API : 
+2023-07-19 17:05:11 [INFO   ][ln-241]: 11
+2023-07-19 17:05:11 [INFO   ][ln-129]: 1689696000
+2023-07-19 17:05:11 [INFO   ][ln-130]: 1689778800
+2023-07-19 17:05:11 [INFO   ][ln-572]: GetFitnessActivityList
+2023-07-19 17:05:11 [INFO   ][ln-591]: GetFitnessActivityList
+2023-07-19 17:05:15 [INFO   ][ln-248]: ####################################
+2023-07-19 17:05:15 [INFO   ][ln-249]: [{'activityId': 'activity_64895a7f924521000b2d7ac7kd90300027_1689723054', 'userId': '64895a7f924521000b2d7ac7', 'fitnessActivityTypeId': 1, 'userConfirmation': 'Unkown', 'manualActivity': False, 'state': 'completed', 'startTimeStamp': 1689723054, 'duration': 691, 'stepCount': 478, 'highHrRate': 103, 'lowHrRate': 81, 'avgHrRate': 92, 'highSpo2': 99, 'lowSpo2': 99, 'avgSpo2': 99}]
+2023-07-19 17:05:15 [INFO   ][ln-250]: ####################################
+2023-07-19 17:05:15 [INFO   ][ln-254]: The WALK Duration get from Backend API : 
+2023-07-19 17:05:15 [INFO   ][ln-255]: 691 secs
+2023-07-19 17:05:15 [INFO   ][ln-257]: 11.516666666666667 min
+2023-07-19 17:05:15 [INFO   ][ln-260]: The highHrRate_API Rate get from Backend API : 
+2023-07-19 17:05:15 [INFO   ][ln-261]: 103
+2023-07-19 17:05:15 [INFO   ][ln-263]: The lowHrRate_API Rate get from Backend API : 
+2023-07-19 17:05:15 [INFO   ][ln-264]: 81
+2023-07-19 17:05:15 [INFO   ][ln-273]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.13.151'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': '8244009B-1807-4B33-85FE-32C839F8C057'}
+2023-07-19 17:05:18 [INFO   ][ln-283]: Size(width=390, height=844)
+2023-07-19 17:05:38 [INFO   ][ln-311]: ##################################################################
+
+
+2023-07-19 17:05:38 [INFO   ][ln-312]: FAIL : L1_APP STEPS count / Frontend and Backend are  not equal
+
+
+2023-07-19 17:05:38 [INFO   ][ln-313]: ##################################################################
+
+
+2023-07-19 17:05:42 [DEBUG  ][ln-980]: teardown_method
+2023-07-19 17:05:42 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-19 17:05:42 [INFO   ][ln-197]: #########################################################################
+
+2023-07-19 17:05:42 [INFO   ][ln-198]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-19 17:05:42 [INFO   ][ln-199]: # ---------------------------------------------------------------- #)
+
+2023-07-19 17:05:42 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-19 17:05:44 [INFO   ][ln-201]: Step 1 :  PlumeCloudLogin
+
+2023-07-19 17:05:44 [INFO   ][ln-206]: NPQ0SEBc3Icnn0hschEmWCjqXLoMWfCBxCh9MGAa6P2KEWGqYUxiAD0F4PYOGIdj
+2023-07-19 17:05:44 [INFO   ][ln-209]: 64895a7f924521000b2d7ac7
+2023-07-19 17:05:44 [INFO   ][ln-210]: 
+
+2023-07-19 17:05:44 [INFO   ][ln-211]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-19 17:05:44 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-19 17:05:47 [INFO   ][ln-216]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6Njc2N2FjNzItZGU4My00MGM0LWExNzktNDBjNzRmMDBhYjE5IiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6TlBRMFNFQmMzSWNubjBoc2NoRW1XQ2pxWExvTVdmQ0J4Q2g5TUdBYTZQMktFV0dxWVV4aUFEMEY0UFlPR0lkaiJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODk4NDM5NDUsImlhdCI6MTY4OTc1NzU0NX0.JIAhpNAVBG0EB-QRRKbl6AtpMv6ofXKCTF0r_4x6_O9P2bIenEJ5pHv4h1Pt_NdY-qQH632Tga4K0-qV21K4kJZreSKrPiLOLZdLccFnZ8aHw6QknZtKZk4PzFNkVLrJlH18ZQx47LuUoxo5oviBT6rILb_oU-pQ5iMRideMtqXDjmNevX-jPEs4KLEywHwHCEGVpY9cjajnlb-gUbWsSh0jtFaz2ySQGpS_hxix_SCW2lar4Qj0TOClskTY6i2xJ8oQVnxx-8zrvZOEX0Wt0ib6CjUX_aB_WCjAJ_dIGQ85ZjU9RN9D2c_zUd_Rzmqh4eJdrxGye2xxN04oLtcN7Q
+2023-07-19 17:05:47 [INFO   ][ln-217]: 
+
+2023-07-19 17:05:47 [INFO   ][ln-220]: 2023
+2023-07-19 17:05:47 [INFO   ][ln-221]: 7
+2023-07-19 17:05:47 [INFO   ][ln-222]: 19
+2023-07-19 17:05:47 [INFO   ][ln-224]: 2023-07-19 00:00:00
+2023-07-19 17:05:47 [INFO   ][ln-104]: 1689696000
+2023-07-19 17:05:47 [INFO   ][ln-105]: 1689778800
+2023-07-19 17:05:47 [INFO   ][ln-721]: GetFitnessInsightSummary
+2023-07-19 17:05:47 [INFO   ][ln-740]: GetFitnessInsightSummary
+2023-07-19 17:05:50 [INFO   ][ln-232]: ####################################
+2023-07-19 17:05:50 [INFO   ][ln-233]: [{'userId': '64895a7f924521000b2d7ac7', 'intervalStartTime': 1689696000, 'interval': 'day', 'stepCount': 860, 'activeMinutes': 11, 'highHrRate': 123, 'lowHrRate': 53, 'avgHrRate': 70, 'highSpo2': 100, 'lowSpo2': 97, 'avgSpo2': 99}]
+2023-07-19 17:05:50 [INFO   ][ln-234]: ####################################
+2023-07-19 17:05:50 [INFO   ][ln-237]: The STEPS get from Backend API : 
+2023-07-19 17:05:50 [INFO   ][ln-238]: 860
+2023-07-19 17:05:50 [INFO   ][ln-240]: The Activie Mins get from Backend API : 
+2023-07-19 17:05:50 [INFO   ][ln-241]: 11
+2023-07-19 17:05:50 [INFO   ][ln-129]: 1689696000
+2023-07-19 17:05:50 [INFO   ][ln-130]: 1689778800
+2023-07-19 17:05:50 [INFO   ][ln-572]: GetFitnessActivityList
+2023-07-19 17:05:50 [INFO   ][ln-591]: GetFitnessActivityList
+2023-07-19 17:05:53 [INFO   ][ln-248]: ####################################
+2023-07-19 17:05:53 [INFO   ][ln-249]: [{'activityId': 'activity_64895a7f924521000b2d7ac7kd90300027_1689723054', 'userId': '64895a7f924521000b2d7ac7', 'fitnessActivityTypeId': 1, 'userConfirmation': 'Unkown', 'manualActivity': False, 'state': 'completed', 'startTimeStamp': 1689723054, 'duration': 691, 'stepCount': 478, 'highHrRate': 103, 'lowHrRate': 81, 'avgHrRate': 92, 'highSpo2': 99, 'lowSpo2': 99, 'avgSpo2': 99}]
+2023-07-19 17:05:53 [INFO   ][ln-250]: ####################################
+2023-07-19 17:05:53 [INFO   ][ln-254]: The WALK Duration get from Backend API : 
+2023-07-19 17:05:53 [INFO   ][ln-255]: 691 secs
+2023-07-19 17:05:53 [INFO   ][ln-257]: 11.516666666666667 min
+2023-07-19 17:05:53 [INFO   ][ln-260]: The highHrRate_API Rate get from Backend API : 
+2023-07-19 17:05:53 [INFO   ][ln-261]: 103
+2023-07-19 17:05:53 [INFO   ][ln-263]: The lowHrRate_API Rate get from Backend API : 
+2023-07-19 17:05:53 [INFO   ][ln-264]: 81
+2023-07-19 17:05:53 [INFO   ][ln-273]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.13.151'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': '8244009B-1807-4B33-85FE-32C839F8C057'}
+2023-07-19 17:05:58 [INFO   ][ln-283]: Size(width=390, height=844)
+2023-07-19 17:06:15 [INFO   ][ln-311]: ##################################################################
+
+
+2023-07-19 17:06:15 [INFO   ][ln-312]: FAIL : L1_APP STEPS count / Frontend and Backend are  not equal
+
+
+2023-07-19 17:06:15 [INFO   ][ln-313]: ##################################################################
+
+
+2023-07-19 17:06:18 [DEBUG  ][ln-980]: teardown_method
+2023-07-19 17:06:18 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-19 17:06:18 [INFO   ][ln-197]: #########################################################################
+
+2023-07-19 17:06:18 [INFO   ][ln-198]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-19 17:06:18 [INFO   ][ln-199]: # ---------------------------------------------------------------- #)
+
+2023-07-19 17:06:18 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-19 17:06:21 [INFO   ][ln-201]: Step 1 :  PlumeCloudLogin
+
+2023-07-19 17:06:21 [INFO   ][ln-206]: sftxl5efVuOo5TUtAj8EgOMF3IiS4tamWBI5kH4DyLq2saGn0w0gFxonRQLlcyOK
+2023-07-19 17:06:21 [INFO   ][ln-209]: 64895a7f924521000b2d7ac7
+2023-07-19 17:06:21 [INFO   ][ln-210]: 
+
+2023-07-19 17:06:21 [INFO   ][ln-211]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-19 17:06:21 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-19 17:06:24 [INFO   ][ln-216]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6YTQ5NjE5OTgtMjgwYy00Y2QzLTgyODMtMTNjNzBjMDM2YmJhIiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6c2Z0eGw1ZWZWdU9vNVRVdEFqOEVnT01GM0lpUzR0YW1XQkk1a0g0RHlMcTJzYUduMHcwZ0Z4b25SUUxsY3lPSyJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODk4NDM5ODEsImlhdCI6MTY4OTc1NzU4MX0.Kjz4qHYqwEz13C4KxqfYhVmdjK0zVV6tu9IaDG6idf6Y-z9PMWTm2qr6RMwMAINf45wKVoNRXTxph-IyNMDCSnX3msgFH37eFXRCidkU1V_YFqBujeb48YNsL0Du8y_3zVuuOOc04RWAldWDlpkFV9D1bexQ6kuWpcPqIeBCcADzgG2qLpXqythIe5zMPfBbhMDLAifeuDT8qwFPpP6L-6IkmN6LcnTG2D7UViRdOWATBQA54l5e5lqoM6_dA1cEMlEpVL0DxB7JHZGYsGx6ueP2e2Wr0jkKcfULqMxUaJJ07jeXRChZX8eMEiZTzDHPhGlWhxzQmvos7f8zyL8D9w
+2023-07-19 17:06:24 [INFO   ][ln-217]: 
+
+2023-07-19 17:06:24 [INFO   ][ln-220]: 2023
+2023-07-19 17:06:24 [INFO   ][ln-221]: 7
+2023-07-19 17:06:24 [INFO   ][ln-222]: 19
+2023-07-19 17:06:24 [INFO   ][ln-224]: 2023-07-19 00:00:00
+2023-07-19 17:06:24 [INFO   ][ln-104]: 1689696000
+2023-07-19 17:06:24 [INFO   ][ln-105]: 1689778800
+2023-07-19 17:06:24 [INFO   ][ln-721]: GetFitnessInsightSummary
+2023-07-19 17:06:24 [INFO   ][ln-740]: GetFitnessInsightSummary
+2023-07-19 17:06:27 [INFO   ][ln-232]: ####################################
+2023-07-19 17:06:27 [INFO   ][ln-233]: [{'userId': '64895a7f924521000b2d7ac7', 'intervalStartTime': 1689696000, 'interval': 'day', 'stepCount': 860, 'activeMinutes': 11, 'highHrRate': 123, 'lowHrRate': 53, 'avgHrRate': 70, 'highSpo2': 100, 'lowSpo2': 97, 'avgSpo2': 99}]
+2023-07-19 17:06:27 [INFO   ][ln-234]: ####################################
+2023-07-19 17:06:27 [INFO   ][ln-237]: The STEPS get from Backend API : 
+2023-07-19 17:06:27 [INFO   ][ln-238]: 860
+2023-07-19 17:06:27 [INFO   ][ln-240]: The Activie Mins get from Backend API : 
+2023-07-19 17:06:27 [INFO   ][ln-241]: 11
+2023-07-19 17:06:27 [INFO   ][ln-129]: 1689696000
+2023-07-19 17:06:27 [INFO   ][ln-130]: 1689778800
+2023-07-19 17:06:27 [INFO   ][ln-572]: GetFitnessActivityList
+2023-07-19 17:06:27 [INFO   ][ln-591]: GetFitnessActivityList
+2023-07-19 17:06:30 [INFO   ][ln-248]: ####################################
+2023-07-19 17:06:30 [INFO   ][ln-249]: [{'activityId': 'activity_64895a7f924521000b2d7ac7kd90300027_1689723054', 'userId': '64895a7f924521000b2d7ac7', 'fitnessActivityTypeId': 1, 'userConfirmation': 'Unkown', 'manualActivity': False, 'state': 'completed', 'startTimeStamp': 1689723054, 'duration': 691, 'stepCount': 478, 'highHrRate': 103, 'lowHrRate': 81, 'avgHrRate': 92, 'highSpo2': 99, 'lowSpo2': 99, 'avgSpo2': 99}]
+2023-07-19 17:06:30 [INFO   ][ln-250]: ####################################
+2023-07-19 17:06:30 [INFO   ][ln-254]: The WALK Duration get from Backend API : 
+2023-07-19 17:06:30 [INFO   ][ln-255]: 691 secs
+2023-07-19 17:06:30 [INFO   ][ln-257]: 11.516666666666667 min
+2023-07-19 17:06:30 [INFO   ][ln-260]: The highHrRate_API Rate get from Backend API : 
+2023-07-19 17:06:30 [INFO   ][ln-261]: 103
+2023-07-19 17:06:30 [INFO   ][ln-263]: The lowHrRate_API Rate get from Backend API : 
+2023-07-19 17:06:30 [INFO   ][ln-264]: 81
+2023-07-19 17:06:30 [INFO   ][ln-273]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.13.151'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': '8244009B-1807-4B33-85FE-32C839F8C057'}
+2023-07-19 17:06:33 [INFO   ][ln-283]: Size(width=390, height=844)
+2023-07-19 17:06:53 [INFO   ][ln-311]: ##################################################################
+
+
+2023-07-19 17:06:53 [INFO   ][ln-312]: FAIL : L1_APP STEPS count / Frontend and Backend are  not equal
+
+
+2023-07-19 17:06:53 [INFO   ][ln-313]: ##################################################################
+
+
+2023-07-19 17:06:57 [DEBUG  ][ln-980]: teardown_method
+2023-07-19 17:06:57 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-19 17:06:57 [INFO   ][ln-197]: #########################################################################
+
+2023-07-19 17:06:57 [INFO   ][ln-198]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-19 17:06:57 [INFO   ][ln-199]: # ---------------------------------------------------------------- #)
+
+2023-07-19 17:06:57 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-19 17:06:59 [INFO   ][ln-201]: Step 1 :  PlumeCloudLogin
+
+2023-07-19 17:06:59 [INFO   ][ln-206]: RAsttY46cFEnP0TJroFK0WVcKFS2Vyy4O048vsLbkSWlQPm4hKmD6cFKe7YWnpID
+2023-07-19 17:06:59 [INFO   ][ln-209]: 64895a7f924521000b2d7ac7
+2023-07-19 17:06:59 [INFO   ][ln-210]: 
+
+2023-07-19 17:06:59 [INFO   ][ln-211]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-19 17:06:59 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-19 17:07:02 [INFO   ][ln-216]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6NDljNmQwZjQtODM1Ny00N2EwLThjMzgtYjQ5NDE4Y2VhZGUzIiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6UkFzdHRZNDZjRkVuUDBUSnJvRkswV1ZjS0ZTMlZ5eTRPMDQ4dnNMYmtTV2xRUG00aEttRDZjRktlN1lXbnBJRCJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODk4NDQwMjAsImlhdCI6MTY4OTc1NzYyMH0.U5B0J9LypdawCPB3RzrORWMT_TFt9YeGsNarqRjT5DuHB9l_lVA6uX1l2iBXt8LvwjlPYI0nyR_zsn10hpbRZCFASKPr7QF4fuzJaTNsF--UUJv7HCfqHta7k8LIHV4uuBNOz0RnKxHy0_LX9JD3GVuXTIv_k_tzPg8ipyf5kyuUa7dNptIKwgI1bU1WQ4AfJBaBzD8eM8SeADqodWD_XZNYgE06zLR_1TBIF17jkNfHDq90niezA4pGWc0NyvNHiruHV_XPg7p74svYu1tSJgL_zjEUrdnKmOPumz3at7vmcBMpEmJSIF9Ww10FY2IzCukXzsbdRWVWxeXoVs6BNw
+2023-07-19 17:07:02 [INFO   ][ln-217]: 
+
+2023-07-19 17:07:02 [INFO   ][ln-220]: 2023
+2023-07-19 17:07:02 [INFO   ][ln-221]: 7
+2023-07-19 17:07:02 [INFO   ][ln-222]: 19
+2023-07-19 17:07:02 [INFO   ][ln-224]: 2023-07-19 00:00:00
+2023-07-19 17:07:02 [INFO   ][ln-104]: 1689696000
+2023-07-19 17:07:02 [INFO   ][ln-105]: 1689778800
+2023-07-19 17:07:02 [INFO   ][ln-721]: GetFitnessInsightSummary
+2023-07-19 17:07:02 [INFO   ][ln-740]: GetFitnessInsightSummary
+2023-07-19 17:07:05 [INFO   ][ln-232]: ####################################
+2023-07-19 17:07:05 [INFO   ][ln-233]: [{'userId': '64895a7f924521000b2d7ac7', 'intervalStartTime': 1689696000, 'interval': 'day', 'stepCount': 860, 'activeMinutes': 11, 'highHrRate': 123, 'lowHrRate': 53, 'avgHrRate': 70, 'highSpo2': 100, 'lowSpo2': 97, 'avgSpo2': 99}]
+2023-07-19 17:07:05 [INFO   ][ln-234]: ####################################
+2023-07-19 17:07:05 [INFO   ][ln-237]: The STEPS get from Backend API : 
+2023-07-19 17:07:05 [INFO   ][ln-238]: 860
+2023-07-19 17:07:05 [INFO   ][ln-240]: The Activie Mins get from Backend API : 
+2023-07-19 17:07:05 [INFO   ][ln-241]: 11
+2023-07-19 17:07:05 [INFO   ][ln-129]: 1689696000
+2023-07-19 17:07:05 [INFO   ][ln-130]: 1689778800
+2023-07-19 17:07:05 [INFO   ][ln-572]: GetFitnessActivityList
+2023-07-19 17:07:05 [INFO   ][ln-591]: GetFitnessActivityList
+2023-07-19 17:07:08 [INFO   ][ln-248]: ####################################
+2023-07-19 17:07:08 [INFO   ][ln-249]: [{'activityId': 'activity_64895a7f924521000b2d7ac7kd90300027_1689723054', 'userId': '64895a7f924521000b2d7ac7', 'fitnessActivityTypeId': 1, 'userConfirmation': 'Unkown', 'manualActivity': False, 'state': 'completed', 'startTimeStamp': 1689723054, 'duration': 691, 'stepCount': 478, 'highHrRate': 103, 'lowHrRate': 81, 'avgHrRate': 92, 'highSpo2': 99, 'lowSpo2': 99, 'avgSpo2': 99}]
+2023-07-19 17:07:08 [INFO   ][ln-250]: ####################################
+2023-07-19 17:07:08 [INFO   ][ln-254]: The WALK Duration get from Backend API : 
+2023-07-19 17:07:08 [INFO   ][ln-255]: 691 secs
+2023-07-19 17:07:08 [INFO   ][ln-257]: 11.516666666666667 min
+2023-07-19 17:07:08 [INFO   ][ln-260]: The highHrRate_API Rate get from Backend API : 
+2023-07-19 17:07:08 [INFO   ][ln-261]: 103
+2023-07-19 17:07:08 [INFO   ][ln-263]: The lowHrRate_API Rate get from Backend API : 
+2023-07-19 17:07:08 [INFO   ][ln-264]: 81
+2023-07-19 17:07:08 [INFO   ][ln-273]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.13.151'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': '8244009B-1807-4B33-85FE-32C839F8C057'}
+2023-07-19 17:07:13 [INFO   ][ln-283]: Size(width=390, height=844)
+2023-07-19 17:07:30 [INFO   ][ln-311]: ##################################################################
+
+
+2023-07-19 17:07:30 [INFO   ][ln-312]: FAIL : L1_APP STEPS count / Frontend and Backend are  not equal
+
+
+2023-07-19 17:07:30 [INFO   ][ln-313]: ##################################################################
+
+
+2023-07-19 17:07:33 [DEBUG  ][ln-980]: teardown_method
+2023-07-19 17:07:33 [DEBUG  ][ln-974]: teardown_class
+2023-07-19 17:13:23 [INFO   ][ln-47 ]: Start to load config file
+2023-07-19 17:13:23 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+4@plume.com', 'pwd': 'plume1234', 'devuserid': '64895a7f924521000b2d7ac7', 'sn': 'KD8F00003C', 'devid': '60B4F7B306AD', 'mac': '60:B4:F7:B3:06:AD', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Thrive Ring', 'Test_Strategy': 'Dogfood Cloud test', 'FirmwareURL': 'https://jenkins-common.sso.plume.tech/common-plume-jenkins/job/ESW', 'DevVersion': 'Will provide by Jenkins'}, 'sleep': {'begin': '2022-12-03 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-03 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-03 11:00', 'totalrunning': 90}}
+2023-07-19 17:13:23 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-07-19 17:13:23 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-07-19 17:13:23 [INFO   ][ln-197]: #########################################################################
+
+2023-07-19 17:13:23 [INFO   ][ln-198]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-07-19 17:13:23 [INFO   ][ln-199]: # ---------------------------------------------------------------- #)
+
+2023-07-19 17:13:23 [INFO   ][ln-217]: PlumeCloudLogin
+2023-07-19 17:13:26 [INFO   ][ln-201]: Step 1 :  PlumeCloudLogin
+
+2023-07-19 17:13:26 [INFO   ][ln-206]: GOMdGuh0GDj5RJR3sD9ElVw6D10GfqDwA9FExhcqEcDnyFkzStypYVzzuLCbSn6Y
+2023-07-19 17:13:26 [INFO   ][ln-209]: 64895a7f924521000b2d7ac7
+2023-07-19 17:13:26 [INFO   ][ln-210]: 
+
+2023-07-19 17:13:26 [INFO   ][ln-211]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-07-19 17:13:26 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-07-19 17:13:29 [INFO   ][ln-216]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6MDc4MmI0MzAtNjhkOC00MTExLWExNjYtYWVlMTkyNWUwOTkzIiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6R09NZEd1aDBHRGo1UkpSM3NEOUVsVnc2RDEwR2ZxRHdBOUZFeGhjcUVjRG55Rmt6U3R5cFlWenp1TENiU242WSJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2ODk4NDQ0MDcsImlhdCI6MTY4OTc1ODAwN30.D73LrvAhOEbNT4Xw3W9lbhobZHblm5ODoJxGLfFC5CBa4WYYDwixkVe5KrymtkiUXDKLFO_Epckeu1pEXXad_6MokjtgIm3TWtQiOQ9SGYIi424mSt0z4LYVbwP93iBKTZ8tZJ4_B9DPMMPRyBtT2TX0QI5eOIovWFCUVanEQ5o8TWHCq9Ew9qkcQWiTOmVVsK5fRsaLDAdjD9B2udB5iU3K6wlbLZ9IqR1K8KJVX-82WdVDI3Brp-tp-KwZskcLbqHEWCZGlGtGhTHnK22rCNDk4pknV3nS-S6UFyWci94fyJ2tRgTM0QQnCFKJZ6Nc7sK0WuFqxcGGprP93O80ew
+2023-07-19 17:13:29 [INFO   ][ln-217]: 
+
+2023-07-19 17:13:29 [INFO   ][ln-220]: 2023
+2023-07-19 17:13:29 [INFO   ][ln-221]: 7
+2023-07-19 17:13:29 [INFO   ][ln-222]: 19
+2023-07-19 17:13:29 [INFO   ][ln-224]: 2023-07-19 00:00:00
+2023-07-19 17:13:29 [INFO   ][ln-104]: 1689696000
+2023-07-19 17:13:29 [INFO   ][ln-105]: 1689778800
+2023-07-19 17:13:29 [INFO   ][ln-721]: GetFitnessInsightSummary
+2023-07-19 17:13:29 [INFO   ][ln-740]: GetFitnessInsightSummary
+2023-07-19 17:13:33 [INFO   ][ln-232]: ####################################
+2023-07-19 17:13:33 [INFO   ][ln-233]: [{'userId': '64895a7f924521000b2d7ac7', 'intervalStartTime': 1689696000, 'interval': 'day', 'stepCount': 860, 'activeMinutes': 11, 'highHrRate': 123, 'lowHrRate': 53, 'avgHrRate': 70, 'highSpo2': 100, 'lowSpo2': 97, 'avgSpo2': 99}]
+2023-07-19 17:13:33 [INFO   ][ln-234]: ####################################
+2023-07-19 17:13:33 [INFO   ][ln-237]: The STEPS get from Backend API : 
+2023-07-19 17:13:33 [INFO   ][ln-238]: 860
+2023-07-19 17:13:33 [INFO   ][ln-240]: The Activie Mins get from Backend API : 
+2023-07-19 17:13:33 [INFO   ][ln-241]: 11
+2023-07-19 17:13:33 [INFO   ][ln-129]: 1689696000
+2023-07-19 17:13:33 [INFO   ][ln-130]: 1689778800
+2023-07-19 17:13:33 [INFO   ][ln-572]: GetFitnessActivityList
+2023-07-19 17:13:33 [INFO   ][ln-591]: GetFitnessActivityList
+2023-07-19 17:13:37 [INFO   ][ln-248]: ####################################
+2023-07-19 17:13:37 [INFO   ][ln-249]: [{'activityId': 'activity_64895a7f924521000b2d7ac7kd90300027_1689723054', 'userId': '64895a7f924521000b2d7ac7', 'fitnessActivityTypeId': 1, 'userConfirmation': 'Unkown', 'manualActivity': False, 'state': 'completed', 'startTimeStamp': 1689723054, 'duration': 691, 'stepCount': 478, 'highHrRate': 103, 'lowHrRate': 81, 'avgHrRate': 92, 'highSpo2': 99, 'lowSpo2': 99, 'avgSpo2': 99}]
+2023-07-19 17:13:37 [INFO   ][ln-250]: ####################################
+2023-07-19 17:13:37 [INFO   ][ln-254]: The WALK Duration get from Backend API : 
+2023-07-19 17:13:37 [INFO   ][ln-255]: 691 secs
+2023-07-19 17:13:37 [INFO   ][ln-257]: 11.516666666666667 min
+2023-07-19 17:13:37 [INFO   ][ln-260]: The highHrRate_API Rate get from Backend API : 
+2023-07-19 17:13:37 [INFO   ][ln-261]: 103
+2023-07-19 17:13:37 [INFO   ][ln-263]: The lowHrRate_API Rate get from Backend API : 
+2023-07-19 17:13:37 [INFO   ][ln-264]: 81
+2023-07-19 17:13:37 [INFO   ][ln-273]: {'message': 'WebDriverAgent is ready to accept commands', 'state': 'success', 'os': {'testmanagerdVersion': 28, 'name': 'iOS', 'sdkVersion': '16.4', 'version': '16.5.1'}, 'ios': {'ip': '169.254.13.151'}, 'ready': True, 'build': {'time': 'Jun 19 2023 14:58:11', 'productBundleIdentifier': 'com.facebook.WebDriverAgentRunner'}, 'sessionId': '8244009B-1807-4B33-85FE-32C839F8C057'}
+2023-07-19 17:13:42 [INFO   ][ln-283]: Size(width=390, height=844)
+2023-07-19 17:13:59 [INFO   ][ln-311]: ##################################################################
+
+
+2023-07-19 17:13:59 [INFO   ][ln-312]: FAIL : L1_APP STEPS count / Frontend and Backend are  not equal
+
+
+2023-07-19 17:13:59 [INFO   ][ln-313]: ##################################################################
+
+
+2023-07-19 17:14:02 [DEBUG  ][ln-980]: teardown_method
+2023-07-19 17:14:02 [DEBUG  ][ln-974]: teardown_class

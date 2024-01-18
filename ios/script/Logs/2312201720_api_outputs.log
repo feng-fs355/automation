@@ -1,0 +1,60 @@
+2023-12-20 17:20:51: -----------Request----------->
+POST https://thrive-dog1-usw2-api.data.plume.tech/pwb/PlumeCloudLogin
+
+User-Agent: python-requests/2.31.0
+Accept-Encoding: gzip, deflate
+accept: application/json
+Connection: keep-alive
+Content-Type: application/json
+Content-Length: 73
+
+{
+    "email": "thrive-ios+4@plume.com",
+    "password": "plume1234",
+    "ttl": 3600
+}
+
+2023-12-20 17:20:51: <-----------Response-----------
+Status code: 200, elapsed seconds: 2.744557
+
+Date: Wed, 20 Dec 2023 09:20:49 GMT
+Content-Type: application/json
+Content-Length: 729
+Connection: keep-alive
+x-amzn-RequestId: 2a394f84-dddd-4708-9440-9cf48e51c634
+Access-Control-Allow-Origin: *
+x-amz-apigw-id: QPC9mFN1PHcEJww=
+X-Amzn-Trace-Id: Root=1-6582b1f0-645dd0177d1fdd0c74aa2eb8;Sampled=0;lineage=7fdd2b1e:0
+
+{
+    "data": {
+        "id": "9ohiF7tJMHJeM1NU1rQp6wueMCYC3VZJanHhKYRmKl61fm3bS7B4nLomNG67nzF1",
+        "ttl": 3600,
+        "created": "2023-12-20T09:20:49.532Z",
+        "userId": "653f108a396de2000acd43d4",
+        "expireAt": "2023-12-20T10:20:49.532Z",
+        "user": {
+            "id": "653f108a396de2000acd43d4",
+            "accountId": "3b2c42d4-7cee-4756-b4bd-491cacc1ae57",
+            "anonymous": false,
+            "autoProvisioned": false,
+            "name": "thrive-ios+4",
+            "locked": false,
+            "partnerId": "mobile_qa_test",
+            "acceptLanguage": "en-US",
+            "preferredLanguage": "en",
+            "source": "customCreate",
+            "createdAt": "2023-10-30T02:10:18.214Z",
+            "provisioningSsoAuditTrail": false,
+            "_version": "1.0.0",
+            "email": "thrive-ios+4@plume.com",
+            "emailVerified": true,
+            "firstKnownLoginTimestamp": "2023-10-30T02:15:53.570Z"
+        }
+    },
+    "result": {
+        "code": 201000,
+        "message": "Successfully."
+    }
+}
+

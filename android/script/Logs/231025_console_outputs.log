@@ -1,0 +1,211 @@
+2023-10-25 10:06:51 [INFO   ][ln-47 ]: Start to load config file
+2023-10-25 10:06:51 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+3@plume.com', 'pwd': 'plume1234', 'devuserid': '6489599c9a2357000b2dc384', 'sn': 'kd8c0000c6', 'devid': '60B4F7B307B5', 'mac': '60:B4:F7:B3:07:B5', 'androiddev1': 'HQ635T08E6', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-10-25 10:06:51 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-10-25 10:06:51 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-10-25 10:06:51 [INFO   ][ln-306]: #########################################################################
+
+2023-10-25 10:06:51 [INFO   ][ln-307]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-10-25 10:06:51 [INFO   ][ln-308]: # ---------------------------------------------------------------- #)
+
+2023-10-25 10:06:51 [INFO   ][ln-217]: PlumeCloudLogin
+2023-10-25 10:06:55 [INFO   ][ln-310]: Step 1 :  PlumeCloudLogin
+
+2023-10-25 10:06:55 [INFO   ][ln-314]: OKFhfHpcWeBYUG8ZaE8q4OBZjpYY1Vski1GbjCfFAhmGngG6Dy2nUNURHrJN0SGe
+2023-10-25 10:06:55 [INFO   ][ln-317]: 6489599c9a2357000b2dc384
+2023-10-25 10:06:55 [INFO   ][ln-318]: 
+
+2023-10-25 10:06:55 [INFO   ][ln-319]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-10-25 10:06:55 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-10-25 10:07:00 [INFO   ][ln-324]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6YWI2MzczMWEtM2JkMy00YTIyLTgxZTctNzg3OGJlODgzOTZlIiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6T0tGaGZIcGNXZUJZVUc4WmFFOHE0T0JaanBZWTFWc2tpMUdiakNmRkFobUduZ0c2RHkyblVOVVJIckpOMFNHZSJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2OTgyODYwMTgsImlhdCI6MTY5ODE5OTYxOH0.W3J6i8sXx9vaDvibSuU4pkybTTvtUyu55rvad79Dg6IL2zPfQO-3ZgJC-Bvkhb8_i4sG2IHfFoAhFUn1f2AI4JR1IIuBLl-Cyd58Kkv8G_-dVGGsyDDbgxTTqzBGUW6YfLXnq3KVM72wliQHDHZYPb8s-KnmcIRFLf84AVFvJ5zJ8PFccPmKSSoWBpanHCbZ74Q980rmR_OmuSeok8lHObAkScY11pCK8Anlf8QFd6Ox_IULvTTzR-yUg_6-ZhRxwtUhCKnkfR_AeujSE9GHWTwQofH8iJc_slYLup9hosC1aAo2Xdsx2kCqy1eOYEtempmRUDTz8OO1eTjZV4v4Jg
+2023-10-25 10:07:00 [INFO   ][ln-325]: 
+
+2023-10-25 10:07:00 [INFO   ][ln-328]: 2023
+2023-10-25 10:07:00 [INFO   ][ln-329]: 10
+2023-10-25 10:07:00 [INFO   ][ln-330]: 25
+2023-10-25 10:07:00 [INFO   ][ln-332]: 2023-10-25 00:00:00
+2023-10-25 10:07:00 [INFO   ][ln-137]: 1698163200
+2023-10-25 10:07:00 [INFO   ][ln-138]: 1698246000
+2023-10-25 10:07:00 [INFO   ][ln-522]: GetDailySleepInsightList
+2023-10-25 10:07:00 [INFO   ][ln-542]: GetDailySleepInsightList
+2023-10-25 10:07:01 [DEBUG  ][ln-980]: teardown_method
+2023-10-25 10:07:01 [DEBUG  ][ln-974]: teardown_class
+2023-10-25 10:07:20 [INFO   ][ln-47 ]: Start to load config file
+2023-10-25 10:07:20 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+3@plume.com', 'pwd': 'plume1234', 'devuserid': '6489599c9a2357000b2dc384', 'sn': 'kd8c0000c6', 'devid': '60B4F7B307B5', 'mac': '60:B4:F7:B3:07:B5', 'androiddev1': 'HQ635T08E6', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-10-25 10:07:20 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-10-25 10:07:20 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-10-25 10:07:20 [INFO   ][ln-306]: #########################################################################
+
+2023-10-25 10:07:20 [INFO   ][ln-307]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-10-25 10:07:20 [INFO   ][ln-308]: # ---------------------------------------------------------------- #)
+
+2023-10-25 10:07:20 [INFO   ][ln-217]: PlumeCloudLogin
+2023-10-25 10:07:23 [INFO   ][ln-310]: Step 1 :  PlumeCloudLogin
+
+2023-10-25 10:07:23 [INFO   ][ln-314]: fLzGTMtXdYbze6vpm5HTQsdigzJfUJt72QDHGWtHSjvoH17eCvPPaPYcZKHMmc3e
+2023-10-25 10:07:23 [INFO   ][ln-317]: 6489599c9a2357000b2dc384
+2023-10-25 10:07:23 [INFO   ][ln-318]: 
+
+2023-10-25 10:07:23 [INFO   ][ln-319]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-10-25 10:07:23 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-10-25 10:07:26 [INFO   ][ln-324]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6MmUyYzY3OWQtMTFmZC00NzhjLWI4ZTctNGJlYzdjNWE0MWI0IiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6Zkx6R1RNdFhkWWJ6ZTZ2cG01SFRRc2RpZ3pKZlVKdDcyUURIR1d0SFNqdm9IMTdlQ3ZQUGFQWWNaS0hNbWMzZSJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2OTgyODYwNDMsImlhdCI6MTY5ODE5OTY0M30.dQsLU70MeMPvMLt_QrQq6Gx6_tmHtBF8BBM4ZbZSkVunou0wWArZjX70a8TWpNSozh2JNUtWKed-GyMYl6bu6FV1NSmQ9ddP4HZ6-vikIJGw_wHCzLEerz6ntSRhNtjZh9ZOOJoDwyShB7vQlaIu0skRs08Sd9XN-ArHnsdkqXc_Fhv4mX5v8EmAiHJ0w6gZvYHjjr83qsqgBzDNEMFJpcvuyWLnKRKFqd3j6OXQryZq_-VOnu763YHEj3MMzWttJmFp9mQv_2HonNUlAXW9LzCWnlH6b1JwRGc_Vq8wM9DDArRf0RrsqySe5hydFbqgYkn0Jl9RVcw9-0EV9xhNDw
+2023-10-25 10:07:26 [INFO   ][ln-325]: 
+
+2023-10-25 10:07:26 [INFO   ][ln-328]: 2023
+2023-10-25 10:07:26 [INFO   ][ln-329]: 10
+2023-10-25 10:07:26 [INFO   ][ln-330]: 25
+2023-10-25 10:07:26 [INFO   ][ln-332]: 2023-10-25 00:00:00
+2023-10-25 10:07:26 [INFO   ][ln-137]: 1698163200
+2023-10-25 10:07:26 [INFO   ][ln-138]: 1698246000
+2023-10-25 10:07:26 [INFO   ][ln-522]: GetDailySleepInsightList
+2023-10-25 10:07:26 [INFO   ][ln-542]: GetDailySleepInsightList
+2023-10-25 10:07:35 [INFO   ][ln-351]: ##############################################################################################
+
+2023-10-25 10:07:35 [INFO   ][ln-352]: #  Test case : ( THRIV-1369: test-6057-HomePass_L1_Sleep into jenkins        (HomePass App)  #)
+
+2023-10-25 10:07:35 [INFO   ][ln-353]: ##############################################################################################)
+
+2023-10-25 10:08:00 [DEBUG  ][ln-980]: teardown_method
+2023-10-25 10:08:00 [DEBUG  ][ln-974]: teardown_class
+2023-10-25 10:12:02 [INFO   ][ln-47 ]: Start to load config file
+2023-10-25 10:12:02 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+3@plume.com', 'pwd': 'plume1234', 'devuserid': '6489599c9a2357000b2dc384', 'sn': 'kd8c0000c6', 'devid': '60B4F7B307B5', 'mac': '60:B4:F7:B3:07:B5', 'androiddev1': 'HQ635T08E6', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-10-25 10:12:02 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-10-25 10:12:02 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-10-25 10:12:02 [INFO   ][ln-306]: #########################################################################
+
+2023-10-25 10:12:02 [INFO   ][ln-307]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-10-25 10:12:02 [INFO   ][ln-308]: # ---------------------------------------------------------------- #)
+
+2023-10-25 10:12:02 [INFO   ][ln-217]: PlumeCloudLogin
+2023-10-25 10:12:05 [DEBUG  ][ln-980]: teardown_method
+2023-10-25 10:12:05 [DEBUG  ][ln-974]: teardown_class
+2023-10-25 10:12:15 [INFO   ][ln-47 ]: Start to load config file
+2023-10-25 10:12:15 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+3@plume.com', 'pwd': 'plume1234', 'devuserid': '6489599c9a2357000b2dc384', 'sn': 'kd8c0000c6', 'devid': '60B4F7B307B5', 'mac': '60:B4:F7:B3:07:B5', 'androiddev1': 'HQ635T08E6', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-10-25 10:12:15 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-10-25 10:12:15 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-10-25 10:12:15 [INFO   ][ln-281]: #########################################################################
+
+2023-10-25 10:12:15 [INFO   ][ln-282]: # API Clous URL (URL:thrive-dog1-usw2-api.data.plume.tech/ #)
+
+2023-10-25 10:12:15 [INFO   ][ln-283]: # ---------------------------------------------------------------- #)
+
+2023-10-25 10:12:15 [INFO   ][ln-217]: PlumeCloudLogin
+2023-10-25 10:12:17 [INFO   ][ln-285]: Step 1 :  PlumeCloudLogin
+
+2023-10-25 10:12:17 [INFO   ][ln-289]: EHYAp7WSjG76tBqLDLGXdjejtujdoKFM4aC7zNmod6ha9NbHcqdZLQQeayPD0yCO
+2023-10-25 10:12:17 [INFO   ][ln-292]: 6489599c9a2357000b2dc384
+2023-10-25 10:12:17 [INFO   ][ln-293]: 
+
+2023-10-25 10:12:17 [INFO   ][ln-294]: Step 2 :  AuthenticateWithPlumeToken
+
+2023-10-25 10:12:17 [INFO   ][ln-136]: AuthenticateWithPlumeToken
+2023-10-25 10:12:21 [INFO   ][ln-299]: eyJraWQiOiJ1cy13ZXN0LTIzIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6ZjYzZTljZWQtNzIxYy00NmNmLWE0NmQtNjNlMTE5ODdjNDM5IiwiYXVkIjoidXMtd2VzdC0yOjU2YzQyNDM5LWJlMmMtNDUyMy04YmUwLTEwYjU4ODVlYTczMyIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzM6RUhZQXA3V1NqRzc2dEJxTERMR1hkamVqdHVqZG9LRk00YUM3ek5tb2Q2aGE5TmJIY3FkWkxRUWVheVBEMHlDTyJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjoxNDMwODk2MTA0ODI6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo1NmM0MjQzOS1iZTJjLTQ1MjMtOGJlMC0xMGI1ODg1ZWE3MzMiLCJleHAiOjE2OTgyODYzMzksImlhdCI6MTY5ODE5OTkzOX0.I0uuqb3FChnQinbLz3D4w4aGJdvZZjFFtB5PUF0Fe-D1MepRLUSlCzQNWPWVZyUJMbrshSn7NAetnCRvoz5_UmUt8i25NrBzzQViV5yZR8mN1AxqxInaepU5HhKy2zOohKz3n2vQ-umIdpkuDhhSCWvwvycgFHvnJ9dNbgxRdlV7D7ICe_6Ap_CkFSbmKifZFwaRffwU2kHuML1aGVgWPZLnazjfLD_0quNzpEbq2QRQCiImd5ZQjAcD_JzUZaZt-OiDTunw7eWsJokME9WEMmlDaBEDN9C-3ws8E58PPZ2LH3qf_er-egKAOZf1L4J1IOsdMpIVHCwX7Tilvyn29A
+2023-10-25 10:12:21 [INFO   ][ln-300]: 
+
+2023-10-25 10:12:21 [INFO   ][ln-303]: 2023
+2023-10-25 10:12:21 [INFO   ][ln-304]: 10
+2023-10-25 10:12:21 [INFO   ][ln-305]: 25
+2023-10-25 10:12:21 [INFO   ][ln-307]: 2023-10-25 00:00:00
+2023-10-25 10:12:21 [DEBUG  ][ln-980]: teardown_method
+2023-10-25 10:12:21 [DEBUG  ][ln-974]: teardown_class
+2023-10-25 10:21:15 [INFO   ][ln-47 ]: Start to load config file
+2023-10-25 10:21:15 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+3@plume.com', 'pwd': 'plume1234', 'devuserid': '6489599c9a2357000b2dc384', 'sn': 'kd8c0000c6', 'devid': '60B4F7B307B5', 'mac': '60:B4:F7:B3:07:B5', 'androiddev1': 'HQ635T08E6', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-10-25 10:21:15 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-10-25 10:21:15 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-10-25 10:21:15 [INFO   ][ln-233]: 2023
+2023-10-25 10:21:15 [INFO   ][ln-234]: 10
+2023-10-25 10:21:15 [INFO   ][ln-235]: 25
+2023-10-25 10:21:15 [INFO   ][ln-237]: 2023-10-25 00:00:00
+2023-10-25 10:21:21 [INFO   ][ln-255]: ################################################################################################
+
+2023-10-25 10:21:21 [INFO   ][ln-256]: #  Test case : THRIV-2580 :  [Thrive Automation][script] Trigger FireBase in the Android phone #     (FireBase App)  #)
+
+2023-10-25 10:21:21 [INFO   ][ln-257]: ################################################################################################)
+
+2023-10-25 10:21:44 [DEBUG  ][ln-189]: Failed to lanch the App Tester APP!
+2023-10-25 10:21:44 [INFO   ][ln-87 ]: time.struct_time(tm_year=2023, tm_mon=10, tm_mday=25, tm_hour=2, tm_min=21, tm_sec=44, tm_wday=2, tm_yday=298, tm_isdst=0)
+2023-10-25 10:21:44 [INFO   ][ln-88 ]: 
+
+
+2023-10-25 10:21:44 [INFO   ][ln-91 ]: 2023
+2023-10-25 10:21:44 [INFO   ][ln-92 ]: 10
+2023-10-25 10:21:44 [INFO   ][ln-93 ]: 25
+2023-10-25 10:21:44 [INFO   ][ln-96 ]: ************************************************
+
+
+2023-10-25 10:23:02 [INFO   ][ln-306]: For Trigger Apptester --> PASS
+2023-10-25 10:23:03 [INFO   ][ln-309]: Test completed
+2023-10-25 10:23:03 [INFO   ][ln-310]: Test completed
+2023-10-25 10:23:03 [DEBUG  ][ln-980]: teardown_method
+2023-10-25 10:23:03 [DEBUG  ][ln-974]: teardown_class
+2023-10-25 10:23:55 [INFO   ][ln-47 ]: Start to load config file
+2023-10-25 10:23:55 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+3@plume.com', 'pwd': 'plume1234', 'devuserid': '6489599c9a2357000b2dc384', 'sn': 'kd8c0000c6', 'devid': '60B4F7B307B5', 'mac': '60:B4:F7:B3:07:B5', 'androiddev1': 'HQ635T08E6', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-10-25 10:23:55 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-10-25 10:23:55 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-10-25 10:23:55 [INFO   ][ln-235]: 2023
+2023-10-25 10:23:55 [INFO   ][ln-236]: 10
+2023-10-25 10:23:55 [INFO   ][ln-237]: 25
+2023-10-25 10:23:55 [INFO   ][ln-239]: 2023-10-25 00:00:00
+2023-10-25 10:24:01 [INFO   ][ln-257]: ################################################################################################
+
+2023-10-25 10:24:01 [INFO   ][ln-258]: #  Test case : THRIV-2580 :  [Thrive Automation][script] Trigger FireBase in the Android phone #     (FireBase App)  #)
+
+2023-10-25 10:24:01 [INFO   ][ln-259]: ################################################################################################)
+
+2023-10-25 10:24:25 [DEBUG  ][ln-191]: Failed to lanch the App Tester APP!
+2023-10-25 10:24:25 [INFO   ][ln-87 ]: time.struct_time(tm_year=2023, tm_mon=10, tm_mday=25, tm_hour=2, tm_min=24, tm_sec=25, tm_wday=2, tm_yday=298, tm_isdst=0)
+2023-10-25 10:24:25 [INFO   ][ln-88 ]: 
+
+
+2023-10-25 10:24:25 [INFO   ][ln-91 ]: 2023
+2023-10-25 10:24:25 [INFO   ][ln-92 ]: 10
+2023-10-25 10:24:25 [INFO   ][ln-93 ]: 25
+2023-10-25 10:24:25 [INFO   ][ln-96 ]: ************************************************
+
+
+2023-10-25 10:25:17 [DEBUG  ][ln-980]: teardown_method
+2023-10-25 10:25:17 [DEBUG  ][ln-974]: teardown_class
+2023-10-25 10:29:32 [INFO   ][ln-47 ]: Start to load config file
+2023-10-25 10:29:32 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+3@plume.com', 'pwd': 'plume1234', 'devuserid': '6489599c9a2357000b2dc384', 'sn': 'kd8c0000c6', 'devid': '60B4F7B307B5', 'mac': '60:B4:F7:B3:07:B5', 'androiddev1': 'HQ635T08E6', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-10-25 10:29:32 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-10-25 10:29:32 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-10-25 10:29:32 [INFO   ][ln-235]: 2023
+2023-10-25 10:29:32 [INFO   ][ln-236]: 10
+2023-10-25 10:29:32 [INFO   ][ln-237]: 25
+2023-10-25 10:29:32 [INFO   ][ln-239]: 2023-10-25 00:00:00
+2023-10-25 10:29:38 [INFO   ][ln-257]: ################################################################################################
+
+2023-10-25 10:29:38 [INFO   ][ln-258]: #  Test case : THRIV-2580 :  [Thrive Automation][script] Trigger FireBase in the Android phone #     (FireBase App)  #)
+
+2023-10-25 10:29:38 [INFO   ][ln-259]: ################################################################################################)
+
+2023-10-25 10:30:02 [DEBUG  ][ln-187]: Lanch the App Tester APP successfully.
+2023-10-25 10:30:49 [INFO   ][ln-308]: For Trigger Apptester --> PASS
+2023-10-25 10:30:50 [INFO   ][ln-311]: Test completed
+2023-10-25 10:30:50 [INFO   ][ln-312]: Test completed
+2023-10-25 10:30:50 [DEBUG  ][ln-980]: teardown_method
+2023-10-25 10:30:50 [DEBUG  ][ln-974]: teardown_class
+2023-10-25 10:33:28 [INFO   ][ln-47 ]: Start to load config file
+2023-10-25 10:33:28 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'thrive-dog1-usw2-api.data.plume.tech'}, 'userinfo': {'usrid': 'thrive-android+3@plume.com', 'pwd': 'plume1234', 'devuserid': '6489599c9a2357000b2dc384', 'sn': 'kd8c0000c6', 'devid': '60B4F7B307B5', 'mac': '60:B4:F7:B3:07:B5', 'androiddev1': 'HQ635T08E6', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'Deity Ring', 'DevVersion': 'FW v0xFF.2.11', 'FirmwareURL': 'https://drive.google.com/file/d/1VftYP92ntZ5uynnjqGla0O9qDrT7XeXj/view?usp=sharing'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2023-10-25 10:33:28 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2023-10-25 10:33:28 [DEBUG  ][ln-977]: ======================================== Star to run: <test_beacon_func> ========================================
+2023-10-25 10:33:28 [INFO   ][ln-235]: 2023
+2023-10-25 10:33:28 [INFO   ][ln-236]: 10
+2023-10-25 10:33:28 [INFO   ][ln-237]: 25
+2023-10-25 10:33:28 [INFO   ][ln-239]: 2023-10-25 00:00:00
+2023-10-25 10:33:34 [INFO   ][ln-257]: ################################################################################################
+
+2023-10-25 10:33:34 [INFO   ][ln-258]: #  Test case : THRIV-2580 :  [Thrive Automation][script] Trigger FireBase in the Android phone #     (FireBase App)  #)
+
+2023-10-25 10:33:34 [INFO   ][ln-259]: ################################################################################################)
+
+2023-10-25 10:33:58 [DEBUG  ][ln-187]: Lanch the App Tester APP successfully.
+2023-10-25 10:34:45 [INFO   ][ln-308]: For Trigger Apptester --> PASS
+2023-10-25 10:34:46 [INFO   ][ln-311]: Test completed
+2023-10-25 10:34:46 [INFO   ][ln-312]: Test completed
+2023-10-25 10:34:46 [DEBUG  ][ln-980]: teardown_method
+2023-10-25 10:34:46 [DEBUG  ][ln-974]: teardown_class

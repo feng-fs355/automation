@@ -1,0 +1,195 @@
+2022-10-19 16:46:56: -----------Request----------->
+POST https://staging-rest.pwb.plume-dev.com/pwb/PlumeCloudLogin
+
+User-Agent: python-requests/2.28.1
+Accept-Encoding: gzip, deflate
+accept: application/json
+Connection: keep-alive
+Content-Type: application/json
+Content-Length: 70
+
+{
+    "email": "mhsieh@plume.com",
+    "password": "Pa@ubntubnt1",
+    "ttl": 3600
+}
+
+2022-10-19 16:46:56: <-----------Response-----------
+Status code: 200, elapsed seconds: 1.267774
+
+Date: Wed, 19 Oct 2022 08:46:54 GMT
+Content-Type: application/json
+Content-Length: 842
+Connection: keep-alive
+x-amzn-RequestId: ea881616-3850-4d0e-8e2d-903c1f5fa1d5
+Access-Control-Allow-Origin: *
+x-amz-apigw-id: aPnrsEIovHcFvng=
+X-Amzn-Trace-Id: Root=1-634fb97d-6fb8cacd38abfed86bfe9ddd;Sampled=0
+
+{
+    "data": {
+        "id": "VxaJYuky1pDyVcW9xl2SPG2xicHXGKDLaVaGAtiyb1yyECehaau6Y0YIGmgBest0",
+        "ttl": 3600,
+        "created": "2022-10-19T08:46:53.973Z",
+        "userId": "62e89e5391a0ca000a6d18b7",
+        "expireAt": "2022-10-19T09:46:53.973Z",
+        "user": {
+            "id": "62e89e5391a0ca000a6d18b7",
+            "accountId": "c005cb5c-f714-4a68-b035-4a1318ba16e3",
+            "anonymous": false,
+            "autoProvisioned": false,
+            "name": "mhsieh",
+            "locked": false,
+            "partnerId": "mobile_qa_test",
+            "acceptLanguage": "en-US",
+            "preferredLanguage": "en",
+            "source": "accountWebsite",
+            "createdAt": "2022-08-02T03:47:31.250Z",
+            "_version": "1.0.0",
+            "email": "mhsieh@plume.com",
+            "emailVerified": true,
+            "loginFailure": [
+                1666081703191,
+                1665452487929,
+                1665452476193,
+                1665452331346,
+                1663023296863,
+                1662984974989,
+                1659496797154,
+                1659412081355,
+                1659412069223,
+                1659412064629
+            ],
+            "firstKnownLoginTimestamp": "2022-08-02T03:49:15.981Z"
+        }
+    },
+    "result": {
+        "code": 201000,
+        "message": "Successfully."
+    }
+}
+
+2022-10-19 16:46:59: -----------Request----------->
+POST https://staging-rest.pwb.plume-dev.com/pwb/AuthenticateWithPlumeToken
+
+User-Agent: python-requests/2.28.1
+Accept-Encoding: gzip, deflate
+accept: application/json
+Connection: keep-alive
+Content-Type: application/json
+Content-Length: 121
+
+{
+    "accessToken": "VxaJYuky1pDyVcW9xl2SPG2xicHXGKDLaVaGAtiyb1yyECehaau6Y0YIGmgBest0",
+    "userId": "62e89e5391a0ca000a6d18b7"
+}
+
+2022-10-19 16:46:59: <-----------Response-----------
+Status code: 200, elapsed seconds: 0.86652
+
+Date: Wed, 19 Oct 2022 08:46:57 GMT
+Content-Type: application/json
+Content-Length: 3622
+Connection: keep-alive
+x-amzn-RequestId: 138d7bd6-84c1-40b2-a734-90c68a0a54f6
+Access-Control-Allow-Origin: *
+x-amz-apigw-id: aPnsMHuSvHcFzXg=
+X-Amzn-Trace-Id: Root=1-634fb981-267561cb2acbcfaf278ba41e;Sampled=0
+
+{
+    "data": {
+        "email": "mhsieh@plume.com",
+        "userGroup": "admin",
+        "userName": "mhsieh",
+        "userId": "62e89e5391a0ca000a6d18b7",
+        "accessToken": "eyJraWQiOiJ1cy13ZXN0LTIxIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6NjJjZTI3NTktNmI1ZC00NjZlLWJkNzgtMDUyMDczZWZkMDljIiwiYXVkIjoidXMtd2VzdC0yOjlmYWY4OTA4LTBhZGYtNDcyYy1hNTRkLThjOTAyZjk0ZDVhZiIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo5ZmFmODkwOC0wYWRmLTQ3MmMtYTU0ZC04YzkwMmY5NGQ1YWY6VnhhSll1a3kxcER5VmNXOXhsMlNQRzJ4aWNIWEdLRExhVmFHQXRpeWIxeXlFQ2VoYWF1NlkwWUlHbWdCZXN0MCJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjo2NDM3OTUwNzc3MTU6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo5ZmFmODkwOC0wYWRmLTQ3MmMtYTU0ZC04YzkwMmY5NGQ1YWYiLCJleHAiOjE2NjYyNTU2MTcsImlhdCI6MTY2NjE2OTIxN30.QHFY1AsJ-Gvhy2ZjZYDxNiUBlkKhbcShb8U3y_LR19WLKWgDHpSJN0ywSAFO8Jc0k00svQbJXMK_fJf6p4fHl1rGfsPBsAczRqbyAWRPs9vwR_AAdB6A6C8yXdPZs370gs0rLTLqm6O4ehQynsz8m1h5uX7c5SGsSa965Rz4KdFUkYsAILJDw_BnqesE3DW3pVSlWupfBoL-MIf5ESueljDPuAh4hTF2RrXFA7cQzzgOg6QQ22QDN04aX3zODdPw33SrzFEeebKkVzUj2wD8to5W2p6_JzNTL6eA4XRImFxeS4Gp6aBQdXp11glozzjLTdyvWEhm071ZPigvJ79gPw",
+        "idToken": "eyJraWQiOiJ1cy13ZXN0LTIxIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6NjJjZTI3NTktNmI1ZC00NjZlLWJkNzgtMDUyMDczZWZkMDljIiwiYXVkIjoidXMtd2VzdC0yOjlmYWY4OTA4LTBhZGYtNDcyYy1hNTRkLThjOTAyZjk0ZDVhZiIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo5ZmFmODkwOC0wYWRmLTQ3MmMtYTU0ZC04YzkwMmY5NGQ1YWY6VnhhSll1a3kxcER5VmNXOXhsMlNQRzJ4aWNIWEdLRExhVmFHQXRpeWIxeXlFQ2VoYWF1NlkwWUlHbWdCZXN0MCJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjo2NDM3OTUwNzc3MTU6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo5ZmFmODkwOC0wYWRmLTQ3MmMtYTU0ZC04YzkwMmY5NGQ1YWYiLCJleHAiOjE2NjYyNTU2MTcsImlhdCI6MTY2NjE2OTIxN30.QHFY1AsJ-Gvhy2ZjZYDxNiUBlkKhbcShb8U3y_LR19WLKWgDHpSJN0ywSAFO8Jc0k00svQbJXMK_fJf6p4fHl1rGfsPBsAczRqbyAWRPs9vwR_AAdB6A6C8yXdPZs370gs0rLTLqm6O4ehQynsz8m1h5uX7c5SGsSa965Rz4KdFUkYsAILJDw_BnqesE3DW3pVSlWupfBoL-MIf5ESueljDPuAh4hTF2RrXFA7cQzzgOg6QQ22QDN04aX3zODdPw33SrzFEeebKkVzUj2wD8to5W2p6_JzNTL6eA4XRImFxeS4Gp6aBQdXp11glozzjLTdyvWEhm071ZPigvJ79gPw",
+        "refreshToken": "eyJraWQiOiJ1cy13ZXN0LTIxIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6NjJjZTI3NTktNmI1ZC00NjZlLWJkNzgtMDUyMDczZWZkMDljIiwiYXVkIjoidXMtd2VzdC0yOjlmYWY4OTA4LTBhZGYtNDcyYy1hNTRkLThjOTAyZjk0ZDVhZiIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo5ZmFmODkwOC0wYWRmLTQ3MmMtYTU0ZC04YzkwMmY5NGQ1YWY6VnhhSll1a3kxcER5VmNXOXhsMlNQRzJ4aWNIWEdLRExhVmFHQXRpeWIxeXlFQ2VoYWF1NlkwWUlHbWdCZXN0MCJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjo2NDM3OTUwNzc3MTU6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo5ZmFmODkwOC0wYWRmLTQ3MmMtYTU0ZC04YzkwMmY5NGQ1YWYiLCJleHAiOjE2NjYyNTU2MTcsImlhdCI6MTY2NjE2OTIxN30.QHFY1AsJ-Gvhy2ZjZYDxNiUBlkKhbcShb8U3y_LR19WLKWgDHpSJN0ywSAFO8Jc0k00svQbJXMK_fJf6p4fHl1rGfsPBsAczRqbyAWRPs9vwR_AAdB6A6C8yXdPZs370gs0rLTLqm6O4ehQynsz8m1h5uX7c5SGsSa965Rz4KdFUkYsAILJDw_BnqesE3DW3pVSlWupfBoL-MIf5ESueljDPuAh4hTF2RrXFA7cQzzgOg6QQ22QDN04aX3zODdPw33SrzFEeebKkVzUj2wD8to5W2p6_JzNTL6eA4XRImFxeS4Gp6aBQdXp11glozzjLTdyvWEhm071ZPigvJ79gPw",
+        "identityId": "us-west-2:62ce2759-6b5d-466e-bd78-052073efd09c"
+    }
+}
+
+2022-10-19 16:47:02: -----------Request----------->
+POST https://staging-rest.pwb.plume-dev.com/pwb/RegisterDevice
+
+User-Agent: python-requests/2.28.1
+Accept-Encoding: gzip, deflate
+accept: application/json
+Connection: keep-alive
+Authorization: Bearer eyJraWQiOiJ1cy13ZXN0LTIxIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6NjJjZTI3NTktNmI1ZC00NjZlLWJkNzgtMDUyMDczZWZkMDljIiwiYXVkIjoidXMtd2VzdC0yOjlmYWY4OTA4LTBhZGYtNDcyYy1hNTRkLThjOTAyZjk0ZDVhZiIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo5ZmFmODkwOC0wYWRmLTQ3MmMtYTU0ZC04YzkwMmY5NGQ1YWY6VnhhSll1a3kxcER5VmNXOXhsMlNQRzJ4aWNIWEdLRExhVmFHQXRpeWIxeXlFQ2VoYWF1NlkwWUlHbWdCZXN0MCJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjo2NDM3OTUwNzc3MTU6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo5ZmFmODkwOC0wYWRmLTQ3MmMtYTU0ZC04YzkwMmY5NGQ1YWYiLCJleHAiOjE2NjYyNTU2MTcsImlhdCI6MTY2NjE2OTIxN30.QHFY1AsJ-Gvhy2ZjZYDxNiUBlkKhbcShb8U3y_LR19WLKWgDHpSJN0ywSAFO8Jc0k00svQbJXMK_fJf6p4fHl1rGfsPBsAczRqbyAWRPs9vwR_AAdB6A6C8yXdPZs370gs0rLTLqm6O4ehQynsz8m1h5uX7c5SGsSa965Rz4KdFUkYsAILJDw_BnqesE3DW3pVSlWupfBoL-MIf5ESueljDPuAh4hTF2RrXFA7cQzzgOg6QQ22QDN04aX3zODdPw33SrzFEeebKkVzUj2wD8to5W2p6_JzNTL6eA4XRImFxeS4Gp6aBQdXp11glozzjLTdyvWEhm071ZPigvJ79gPw
+Content-Type: application/json
+Content-Length: 99
+
+{
+    "userId": "62e89e5391a0ca000a6d18b7",
+    "deviceId": "60B4F7B30695",
+    "subscriptionId": "kd8b000x19a"
+}
+
+2022-10-19 16:47:02: <-----------Response-----------
+Status code: 200, elapsed seconds: 1.156312
+
+Date: Wed, 19 Oct 2022 08:47:00 GMT
+Content-Type: application/json
+Content-Length: 5456
+Connection: keep-alive
+x-amzn-RequestId: 926afd22-98ed-4b42-b8ad-875ee98735ea
+Access-Control-Allow-Origin: *
+x-amz-apigw-id: aPnspFHnvHcF8zA=
+X-Amzn-Trace-Id: Root=1-634fb983-277c05846e6df8d43666c3a1;Sampled=0
+
+{
+    "data": {
+        "registerStatus": "Success",
+        "certificate": "-----BEGIN CERTIFICATE-----\nMIIDWjCCAkKgAwIBAgIVANlavc3W31skq5wLygOcqL8DwJtiMA0GCSqGSIb3DQEB\nCwUAME0xSzBJBgNVBAsMQkFtYXpvbiBXZWIgU2VydmljZXMgTz1BbWF6b24uY29t\nIEluYy4gTD1TZWF0dGxlIFNUPVdhc2hpbmd0b24gQz1VUzAeFw0yMjEwMTkwODQ1\nMDBaFw00OTEyMzEyMzU5NTlaMB4xHDAaBgNVBAMME0FXUyBJb1QgQ2VydGlmaWNh\ndGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDCx4SjiSGYvKOyfhAr\nOmQ1MfJ4AvklKBKqaEiWNoD3Ms7XTOp7Ba9V04aoQGhlmyzB82gXFrVy2j7Oqj3Z\nBPejx2fIOKcs3NFubLnhKzO92ATC1+pk1FDqTz6/7VE9FG5TsWaS3AOef2PS1QXa\nLPg6q1g9IgMGTheD05nQG7g1hU9sdpeWDOqcGq58t1jz1W+fZ9BRqJE6KtU3skW1\nNgbb5dGGTzg75pkL0BNMzDp92mKCb+DAvGcF6TpvF9ayI7AWHQ4ZnjEbYp38AiiZ\njOz4/uVGnfL8Hh+YFUeNnX8T/RhwaPQ3ec+m/I92ayE/+bqPyvs4BOLydC9KYL4d\nakLTAgMBAAGjYDBeMB8GA1UdIwQYMBaAFADBtAFnMkeXhrAgYHzb6YdKLmMwMB0G\nA1UdDgQWBBQSIbDG+i/WJ3OLs/6xRcVPu4U9RTAMBgNVHRMBAf8EAjAAMA4GA1Ud\nDwEB/wQEAwIHgDANBgkqhkiG9w0BAQsFAAOCAQEAN4YK8oWexTcUedAy6rRJ8CSE\n60loZhdLm+JACvn3MrABrne/IN8mMpt9VtcBe83IPfqGhrs+2eF+pxGaYZoq5IJy\ni/504HOIquqPuaFoqmcIU/ebQx6k6Yjav+Jp6cTsKS9GR0X3PUap+LGCVLmSu5Yu\nosbdTo8hsdutS8FvuLXlOuH7+2SwhkiSOm4d+TZCxkj9vuR/YPadUDvs4jeLr3z7\nnV0lgZB11L+m175ueeL1b7ssqcTdcNjkAl5LqReSSoBTMhDHvXxo4W0UZsCT6ZkJ\nr1y4YG/y8+EUih90oQsX7R+jgD8Sf5alm5BqrW8WIiKt2RFwTTBlp3ZYwd6nOQ==\n-----END CERTIFICATE-----\n",
+        "publicKey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwseEo4khmLyjsn4QKzpk\nNTHyeAL5JSgSqmhIljaA9zLO10zqewWvVdOGqEBoZZsswfNoFxa1cto+zqo92QT3\no8dnyDinLNzRbmy54SszvdgEwtfqZNRQ6k8+v+1RPRRuU7FmktwDnn9j0tUF2iz4\nOqtYPSIDBk4Xg9OZ0Bu4NYVPbHaXlgzqnBqufLdY89Vvn2fQUaiROirVN7JFtTYG\n2+XRhk84O+aZC9ATTMw6fdpigm/gwLxnBek6bxfWsiOwFh0OGZ4xG2Kd/AIomYzs\n+P7lRp3y/B4fmBVHjZ1/E/0YcGj0N3nPpvyPdmshP/m6j8r7OATi8nQvSmC+HWpC\n0wIDAQAB\n-----END PUBLIC KEY-----\n",
+        "privateKey": "-----BEGIN RSA PRIVATE KEY-----\nMIIEpAIBAAKCAQEAwseEo4khmLyjsn4QKzpkNTHyeAL5JSgSqmhIljaA9zLO10zq\newWvVdOGqEBoZZsswfNoFxa1cto+zqo92QT3o8dnyDinLNzRbmy54SszvdgEwtfq\nZNRQ6k8+v+1RPRRuU7FmktwDnn9j0tUF2iz4OqtYPSIDBk4Xg9OZ0Bu4NYVPbHaX\nlgzqnBqufLdY89Vvn2fQUaiROirVN7JFtTYG2+XRhk84O+aZC9ATTMw6fdpigm/g\nwLxnBek6bxfWsiOwFh0OGZ4xG2Kd/AIomYzs+P7lRp3y/B4fmBVHjZ1/E/0YcGj0\nN3nPpvyPdmshP/m6j8r7OATi8nQvSmC+HWpC0wIDAQABAoIBAAl9YQf6sWlYn30d\nyTnh8WnqEg8ozeyyhB5LUGYJJ8Vjc1JoC/CMeVtsH95orO1uXwLgEg017Qc4fODi\nyHqfVFVlbLgDkpmL9KQ1peTDjxTLxoebr27ULVENJViCfnfEXA+1z/KNx5tcR4fJ\nGyzjDgEFwhnQY2dWPK0OjSrnftUUoOSXHl0+Cpr/gA4DS2OD3Qki9RrsPX0ttRim\nUuhqzv0BwbTGvtvBMhsAwyhrfrkq+VHFyFWzS2+Y0mGJRrXv/2yU6Y8V/TalEMAz\naAGygGOmFjrNzChW8B407n4fgfUpMyz+TYzsH3sgiUwyeTbbDrzenny/zhexUYOc\ndXrZF5kCgYEA4IR6MNw1Rc4YJvyE1aXH/r9vWOKtPyj3RSwqRo+nwU2FQPOa4yKY\nvXoEKDR4d/T6JWa5Bj1A+SfIQ5Px05hvaGOIpeipt7W5MWcOEKPOcEMfeb2iVuYs\nIsCdVxlosSLEin2xUpWQf7PtBWCeXptlPBLxhWeEIa17oGMitUFlUEUCgYEA3heH\nbdUmTtqCPpSIq1PilUZGYKxeTd1P7DfVpFQpDs+pEPimu1zOtfOKe3ntr2ZYOOEZ\nD096YD8ezSLaToc/RnLQNOEObVHqkzR9atpdES7mPqVIVzQ+cDPTmpTq9NqZTJb1\nUqRDPJtteIxRQdrWRT+RHQfhdYtAdX5Lfyx4NDcCgYA0jw7DzWkzNDH3PnoiQbL1\n8f6xAi+ob4CjUtl6tzqASBN/xwdlUL4M7Tl36ACjpFfC1a9OxJwnN6bsGwArlq3N\n9C8TF8pTVVlLNWLXhmFXan890qTkTvHaGNk8gJg/j3IPMamHObggDRDZh2rLnvkt\n/QlJP5hxAdnFDDAd2ndLOQKBgQDNv2p9e9vzbUcABsbeQeZFeEc2xDjRVdf29Hr9\ns+IdkJAF4vVD2mS995MxdPGXbu8IMrDumCi9BXzZehJYcb9S2oa8lkqxSBRSr2wJ\nE6bohlRTcPeloga+F6VPLerFT8Z5R9iZ6QdJHIy8AvI8WinrGUqsZGKgbJMYxhnX\nBTGO3QKBgQCZ1GluqCp/NQTS5aRiOFvkb2aT8dNuyMUc4LXpC33QLwE12pey4EQ7\n1Lqnw73TOkGpSb4Mt6u/WGYGqtLvHc/Xdx1LyHbbet+nDW+JQx7OSRY36NRvJtwi\nrS+kJ69mJzWXFkZYzFXOLux0BjjSuSnLkPCBE7O2SmEJh2Pu5/6hFw==\n-----END RSA PRIVATE KEY-----\n",
+        "rsaRootCert": "-----BEGIN CERTIFICATE-----\nMIIDQTCCAimgAwIBAgITBmyfz5m/jAo54vB4ikPmljZbyjANBgkqhkiG9w0BAQsF\nADA5MQswCQYDVQQGEwJVUzEPMA0GA1UEChMGQW1hem9uMRkwFwYDVQQDExBBbWF6\nb24gUm9vdCBDQSAxMB4XDTE1MDUyNjAwMDAwMFoXDTM4MDExNzAwMDAwMFowOTEL\nMAkGA1UEBhMCVVMxDzANBgNVBAoTBkFtYXpvbjEZMBcGA1UEAxMQQW1hem9uIFJv\nb3QgQ0EgMTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALJ4gHHKeNXj\nca9HgFB0fW7Y14h29Jlo91ghYPl0hAEvrAIthtOgQ3pOsqTQNroBvo3bSMgHFzZM\n9O6II8c+6zf1tRn4SWiw3te5djgdYZ6k/oI2peVKVuRF4fn9tBb6dNqcmzU5L/qw\nIFAGbHrQgLKm+a/sRxmPUDgH3KKHOVj4utWp+UhnMJbulHheb4mjUcAwhmahRWa6\nVOujw5H5SNz/0egwLX0tdHA114gk957EWW67c4cX8jJGKLhD+rcdqsq08p8kDi1L\n93FcXmn/6pUCyziKrlA4b9v7LWIbxcceVOF34GfID5yHI9Y/QCB/IIDEgEw+OyQm\njgSubJrIqg0CAwEAAaNCMEAwDwYDVR0TAQH/BAUwAwEB/zAOBgNVHQ8BAf8EBAMC\nAYYwHQYDVR0OBBYEFIQYzIU07LwMlJQuCFmcx7IQTgoIMA0GCSqGSIb3DQEBCwUA\nA4IBAQCY8jdaQZChGsV2USggNiMOruYou6r4lK5IpDB/G/wkjUu0yKGX9rbxenDI\nU5PMCCjjmCXPI6T53iHTfIUJrU6adTrCC2qJeHZERxhlbI1Bjjt/msv0tadQ1wUs\nN+gDS63pYaACbvXy8MWy7Vu33PqUXHeeE6V/Uq2V8viTO96LXFvKWlJbYK8U90vv\no/ufQJVtMVT8QtPHRh8jrdkPSHCa2XV4cdFyQzR1bldZwgJcJmApzyMZFo6IQ6XU\n5MsI+yMRQ+hDKXJioaldXgjUkK642M4UwtBV8ob2xJNDd2ZhwLnoQdeXeGADbkpy\nrqXRfboQnoZsG4q5WTP468SQvvG5\n-----END CERTIFICATE-----\n",
+        "eccRootCert": "-----BEGIN CERTIFICATE-----\nMIIBtjCCAVugAwIBAgITBmyf1XSXNmY/Owua2eiedgPySjAKBggqhkjOPQQDAjA5\nMQswCQYDVQQGEwJVUzEPMA0GA1UEChMGQW1hem9uMRkwFwYDVQQDExBBbWF6b24g\nUm9vdCBDQSAzMB4XDTE1MDUyNjAwMDAwMFoXDTQwMDUyNjAwMDAwMFowOTELMAkG\nA1UEBhMCVVMxDzANBgNVBAoTBkFtYXpvbjEZMBcGA1UEAxMQQW1hem9uIFJvb3Qg\nQ0EgMzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABCmXp8ZBf8ANm+gBG1bG8lKl\nui2yEujSLtf6ycXYqm0fc4E7O5hrOXwzpcVOho6AF2hiRVd9RFgdszflZwjrZt6j\nQjBAMA8GA1UdEwEB/wQFMAMBAf8wDgYDVR0PAQH/BAQDAgGGMB0GA1UdDgQWBBSr\nttvXBp43rDCGB5Fwx5zEGbF4wDAKBggqhkjOPQQDAgNJADBGAiEA4IWSoxe3jfkr\nBqWTrBqYaGFy+uGh0PsceGCmQ5nFuMQCIQCcAu/xlJyzlvnrxir4tiz+OpAUFteM\nYyRIHN8wfdVoOw==\n-----END CERTIFICATE-----\n"
+    },
+    "result": {
+        "code": 201000,
+        "message": "Successfully."
+    }
+}
+
+2022-10-19 16:47:05: -----------Request----------->
+POST https://staging-rest.pwb.plume-dev.com/pwb/UploadFile
+
+User-Agent: python-requests/2.28.1
+Accept-Encoding: gzip, deflate
+accept: application/json
+Connection: keep-alive
+Authorization: Bearer eyJraWQiOiJ1cy13ZXN0LTIxIiwidHlwIjoiSldTIiwiYWxnIjoiUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6NjJjZTI3NTktNmI1ZC00NjZlLWJkNzgtMDUyMDczZWZkMDljIiwiYXVkIjoidXMtd2VzdC0yOjlmYWY4OTA4LTBhZGYtNDcyYy1hNTRkLThjOTAyZjk0ZDVhZiIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo5ZmFmODkwOC0wYWRmLTQ3MmMtYTU0ZC04YzkwMmY5NGQ1YWY6VnhhSll1a3kxcER5VmNXOXhsMlNQRzJ4aWNIWEdLRExhVmFHQXRpeWIxeXlFQ2VoYWF1NlkwWUlHbWdCZXN0MCJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjo2NDM3OTUwNzc3MTU6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo5ZmFmODkwOC0wYWRmLTQ3MmMtYTU0ZC04YzkwMmY5NGQ1YWYiLCJleHAiOjE2NjYyNTU2MTcsImlhdCI6MTY2NjE2OTIxN30.QHFY1AsJ-Gvhy2ZjZYDxNiUBlkKhbcShb8U3y_LR19WLKWgDHpSJN0ywSAFO8Jc0k00svQbJXMK_fJf6p4fHl1rGfsPBsAczRqbyAWRPs9vwR_AAdB6A6C8yXdPZs370gs0rLTLqm6O4ehQynsz8m1h5uX7c5SGsSa965Rz4KdFUkYsAILJDw_BnqesE3DW3pVSlWupfBoL-MIf5ESueljDPuAh4hTF2RrXFA7cQzzgOg6QQ22QDN04aX3zODdPw33SrzFEeebKkVzUj2wD8to5W2p6_JzNTL6eA4XRImFxeS4Gp6aBQdXp11glozzjLTdyvWEhm071ZPigvJ79gPw
+Content-Type: application/json
+Content-Length: 167
+
+{
+    "userId": "62e89e5391a0ca000a6d18b7",
+    "fileName": "62e89e5391a0ca000a6d18b7-60B4F7B30695-android-1666169204.json",
+    "fileType": "application/json",
+    "dataType": "json"
+}
+
+2022-10-19 16:47:05: <-----------Response-----------
+Status code: 200, elapsed seconds: 0.934599
+
+Date: Wed, 19 Oct 2022 08:47:03 GMT
+Content-Type: application/json
+Content-Length: 1374
+Connection: keep-alive
+x-amzn-RequestId: ad29ec01-4f21-4ac8-a9c7-9568ff7ef715
+Access-Control-Allow-Origin: *
+x-amz-apigw-id: aPntIEvmvHcFgIQ=
+X-Amzn-Trace-Id: Root=1-634fb987-114bbc6b0fd909dc2c10c5f2;Sampled=0
+
+{
+    "data": {
+        "url": "https://staging-plume-pwb-data.s3.us-west-2.amazonaws.com/json/62e89e5391a0ca000a6d18b7/20221019/62e89e5391a0ca000a6d18b7-60B4F7B30695-android-1666169204.json?AWSAccessKeyId=ASIAZLZJNJJJZ4ALKH6P&Content-Type=application%2Fjson&Expires=1666255623&Signature=xG5oXRK%2Bpk%2FqjxXeVmu%2BVrjJKQ4%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEGkaCXVzLXdlc3QtMiJIMEYCIQDpuaI%2FAw%2BSIPwlfeDtqX5yF%2BMyp4wHiGFV1%2BhWMVzubQIhAN9qWp4WUqE4LLqYGu462rthCEqvPUOdUmr2C%2FxPp27xKqcDCEIQARoMNjQzNzk1MDc3NzE1IgxFOwaO6%2FDfBX%2Bb%2FlUqhAN0eUncmbsTyT6kqImmOUhxvkaM%2B%2FcJ%2BrsZqRjawlkl0hlGTeIXjtkYHUMwyo87w6wj%2FfnXXERUkU5sodHY9jwEixokOHxsKnB%2FSFwABwT7ggzmq00Nsn1TP9o3DxpK7mfCPkZqSenHnOMbGgj1JvNcC6LAzlbnIz1JaPWwSmgYUrMydeDiyLhZeimRKefPqXr%2FfwVGiWQJ3jR6HhZPRyj9SiDJVNwgjjWKSbs%2F5WA1hxy%2BS%2FmEu3JjTumLCZT9nqAqC6U%2FSICiR3L2WuG%2FwKQF4vwrNnwPkOJ6EwBgcxFpmcOpVjYkaj3HdRXwGGA5MU5yO7Ld3F%2B05wT6oQaS7jq4GY5NBXBfYLUuA3tg5gdoOAFfGtYBBBBnEypfc5lLuUzq%2FKYQmc2Xvu%2BdyiX%2FhFyCDHwnMy%2BNhk7nOXYLTJZCyF%2Bz%2B2xsCQ3NBs1qWeC1zrbpp8UhOKYfdx5NitmeyRlyOuInZa2Ll6d5Ql18YA7yJAC6mtv5%2FAyD3uccT1OSqD%2BaRyMcMP3wvpoGOpwBpTHl3dXG2k5KuTW0YHLIJiQDUKKiKuWU4d%2FXvRD4jmlCZ9G0prYLow1qV%2Fy6UhI4ZN0Eb%2BKb8l66RjCM2ucvT0El61mJVb5vQg0uzglynCBEaZbtxtfIVhagIr3%2FLhSzWwWqtx1J9icmEXqEmzd7j1uzzCPzWs2RFUrB0qynOj%2FG%2BQWmxCP2v6p7iSooS0Nya3Rn%2FbW3j2ocjqAe"
+    },
+    "result": {
+        "code": 201000,
+        "message": "Successfully."
+    }
+}
+

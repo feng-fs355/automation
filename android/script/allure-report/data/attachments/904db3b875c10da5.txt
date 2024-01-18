@@ -1,0 +1,31 @@
+* daemon not running; starting now at tcp:5037
+* daemon started successfully
+[W 231027 12:52:53 __init__:218] [pid:1111] atx-agent has something wrong, auto recovering
+[D 231027 12:52:53 __init__:317] [pid:1111] [HQ635T08E6] device HQ635T08E6 is online
+[I 231027 12:52:53 init:156] uiautomator2 version: 2.16.25
+[D 231027 12:52:53 init:167] Shell: ('/data/local/tmp/atx-agent', 'server', '--stop')
+[D 231027 12:52:54 init:295] Real version: [0, 10, 0], Expect version: [0, 10, 0]
+[D 231027 12:52:54 init:167] Shell: ('/data/local/tmp/atx-agent', 'server', '--nouia', '-d', '--addr', '127.0.0.1:7912')
+[I 231027 12:52:54 init:350] Check atx-agent version
+[D 231027 12:52:54 init:359] Forward: local:tcp:49264 -> remote:tcp:7912
+[D 231027 12:52:54 init:359] Forward: local:tcp:49264 -> remote:tcp:7912
+[D 231027 12:52:54 init:362] atx-agent version 0.10.0
+[D 231027 12:52:54 init:366] device wlan ip: 192.168.233.7
+[D 231027 12:52:54 __init__:661] [pid:1111] [HQ635T08E6] kill process(ps): uiautomator
+[D 231027 12:52:56 __init__:682] [pid:1111] [HQ635T08E6] uiautomator-v2 is starting ... left: 40.0s
+[D 231027 12:52:57 __init__:682] [pid:1111] [HQ635T08E6] uiautomator-v2 is starting ... left: 39.0s
+[D 231027 12:52:58 __init__:682] [pid:1111] [HQ635T08E6] uiautomator-v2 is starting ... left: 38.0s
+[D 231027 12:52:59 __init__:682] [pid:1111] [HQ635T08E6] uiautomator-v2 is starting ... left: 36.9s
+[D 231027 12:53:00 __init__:682] [pid:1111] [HQ635T08E6] uiautomator-v2 is starting ... left: 35.9s
+[D 231027 12:53:01 __init__:682] [pid:1111] [HQ635T08E6] uiautomator-v2 is starting ... left: 34.9s
+[D 231027 12:53:02 __init__:682] [pid:1111] [HQ635T08E6] uiautomator-v2 is starting ... left: 33.9s
+[D 231027 12:53:03 __init__:682] [pid:1111] [HQ635T08E6] uiautomator-v2 is starting ... left: 32.8s
+[D 231027 12:53:03 __init__:696] [pid:1111] [HQ635T08E6] show float window
+[D 231027 12:53:04 __init__:682] [pid:1111] [HQ635T08E6] uiautomator-v2 is starting ... left: 31.6s
+[D 231027 12:53:05 __init__:682] [pid:1111] [HQ635T08E6] uiautomator-v2 is starting ... left: 30.5s
+[D 231027 12:53:06 __init__:682] [pid:1111] [HQ635T08E6] uiautomator-v2 is starting ... left: 29.5s
+[D 231027 12:53:07 __init__:682] [pid:1111] [HQ635T08E6] uiautomator-v2 is starting ... left: 28.5s
+[D 231027 12:53:08 __init__:682] [pid:1111] [HQ635T08E6] uiautomator-v2 is starting ... left: 27.5s
+[D 231027 12:53:09 __init__:682] [pid:1111] [HQ635T08E6] uiautomator-v2 is starting ... left: 26.4s
+[D 231027 12:53:10 __init__:682] [pid:1111] [HQ635T08E6] uiautomator-v2 is starting ... left: 25.4s
+[I 231027 12:53:10 __init__:643] [pid:1111] [HQ635T08E6] uiautomator back to normal
