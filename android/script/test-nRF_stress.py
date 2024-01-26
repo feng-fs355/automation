@@ -37,7 +37,8 @@ Commanduuid = (configure['userinfo']['Commanduuid'])
 Datauuid = (configure['userinfo']['Datauuid'])
 ResponseUUID = (configure['userinfo']['ResponseUUID'])
 macaddr = (configure['userinfo']['mac'])
-DEV = (configure['userinfo']['androiddev1'])
+#DEV = (configure['userinfo']['androiddev1'])
+DEV = 'd38c1487'
 timeout= 20.0  
 root_path = os.path.dirname(os.path.realpath(__file__))
 
@@ -172,6 +173,8 @@ class TestAPI(TestAPIWrap):
         time.sleep(1)
         d.press("home")
         print(d.info)    
+       
+        """
         # Lanch nRF app
         checkpoint = PWBFunc().nRF_app(d)
         if checkpoint != True:
@@ -187,3 +190,4 @@ class TestAPI(TestAPIWrap):
         # adb shell am force-stop no.nordicsemi.android.mcp
         cmd = 'adb shell am force-stop no.nordicsemi.android.mcp'
         command = os.popen(cmd)
+        """
