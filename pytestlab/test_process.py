@@ -44,6 +44,7 @@ def test_nasaapod():
     print(apikey)
     result = JSONGet(f'/planetary/apod',apikey,None)
     print("Picture URL:", result["url"])
+    # Open image through Web-Browser
     webbrowser.open(result["url"])
 
 def test_nasaMarsWeather():
