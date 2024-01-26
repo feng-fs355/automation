@@ -9,20 +9,9 @@ import time
 import toml
 import shutil
 import allure
+import webbrowser
 root_path = os.path.dirname(os.path.realpath(__file__))
 
-def test_strip():
-    a = " Hello, World! "
-    print(a.strip())  # returns "Hello, World!"
-def test_helo():
-    a = "Hello, PYTEST"
-    print(a.lower())
-def test_replace():
-    a = "Hello, World!"
-    print(a.replace("H", "J"))
-def test_bool():
-    print(bool("Hello"))
-    print(bool(15))
 def test_clients():
     #/api/gen/clients
     print("Step 1 :  /api/gen/clients")
@@ -30,11 +19,11 @@ def test_clients():
 
 def test_clientlanguage():
     # /api/gen/clients/{language}
-    print("Step 2 : /api/gen/clients/{language}",None)
+    print("Step 2 : /api/gen/clients/{language}",None,None)
     language = ('ada', 'android', 'apex')
     for item in language:
         time.sleep(1)
-        result = JSONGet(f'/api/gen/clients/{item}',None)
+        result = JSONGet(f'/api/gen/clients/{item}',None, None)
         Data = result['sortParamsByRequiredFlag']
         OPT = Data['opt']
         print(f"opt is : {OPT} ")
@@ -52,6 +41,16 @@ def test_nasaapod():
     # API : /planetary/apod
     # get config from config.ini
     apikey = (configure['userinfo']['api_key'])
-    result = JSONGet(f'/planetary/apod',apikey)
+    print(apikey)
+    result = JSONGet(f'/planetary/apod',apikey,None)
+    print("Picture URL:", result["url"])
+    webbrowser.open(result["url"])
 
-
+def test_nasaMarsWeather():
+    #  InSight: Mars Weather Service API
+    querykey = '&feedtype=json&ver=1.0'
+    apikey = (configure['userinfo']['api_key'])
+    result = JSONGet(f'/insight_weather/', apikey, querykey)
+    Data = result['validity_checks']
+    print(Data)
+    
