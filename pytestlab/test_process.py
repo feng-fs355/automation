@@ -53,4 +53,6 @@ def test_nasaMarsWeather():
     result = JSONGet(f'/insight_weather/', apikey, querykey)
     Data = result['validity_checks']
     print(Data)
-    
+def test_showtime():
+    current = time.localtime()
+    print(current)

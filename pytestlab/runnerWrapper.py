@@ -146,7 +146,7 @@ def GeneralGet(url, auth=None):
     return resp.json()
 
 
-def JSONGet(url, auth=None):
+def JSONGet(url, auth=None , query=None):
 
     logging.info(url)
     if auth == None:
@@ -154,36 +154,45 @@ def JSONGet(url, auth=None):
             f_url = 'https://%s%s' % (configure['dut']['ip1'], url)
         except:
             f_url = 'https://%s%s' % (configure['dut']['ip1'], url)
-    else:
+    if auth != None or query != None:
         try:
             f_url = 'https://%s%s' % (configure['dut']['ip2'], url)
         except:
             f_url = 'https://%s%s' % (configure['dut']['ip2'], url)
-
-    print(f_url)
-
     # ------------------------------------------------------------------------------------------------------
-
+    print(f_url)
     headers = {"Accept": "application/json"}
 
-    params = {
+    params1 = {
         "api_key": auth
     }
-
-    if auth != None:
+    params = {
+        "api_key": auth,
+        "feedtype": 'json',
+        "ver": '1.0'
+    }
+    if auth != None and query == None:
        print(auth)
        # API with Params
        # Send HTTP get
-       response = requests.get(f_url, params=params)
-
+       response = requests.get(f_url,params=params1)
        # return
        data = response.json()
+       return data
 
-       # show picture url
-       print("Picture URL:", data["url"])
-    else:
+    if auth != None and query != None:
+        # Only for nasa mars weather query
+        print(auth)
+        # API with Params
+        # Send HTTP get
+        #f_url = f_url + '/&feedtype=json&ver=1.0'
+        response = requests.get(f_url,params=params)
+        print(response)
+        # return
+        data = response.json()
+        return data
+    if auth == None:
         response = requests.get(f_url, headers=headers)
-
         if response.status_code == 200:
             # The request was successful
             json_data = response.json()
