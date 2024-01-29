@@ -12,50 +12,31 @@ import allure
 import webbrowser
 
 root_path = os.path.dirname(os.path.realpath(__file__))
-
-@pytest.mark.parametrize('user, password',
-                         [('min', 'abcdefgh'),
-                          ('tom', 'a123456a'),
-                          ('luke', "21880377"),
-                          ('zeno-number1', "a4fruch11")])
-def test_passwd_md5(user, password):
-    # command example : echo -n a4fruch11 | md5sum
-    db = {
-        'min': 'e8dc4081b13434b45189a720b77b6818',
-        'tom': '1702a132e769a623c1adb78353fc9503',
-        'luke': 'f544e1cd917e141842393d9d6a2874c4',
-        'zeno-number1': 'c0ff63591a87ad0d45d8ab93fdaa67fa'
-    }
-    import hashlib
-    assert hashlib.md5(password.encode()).hexdigest() == db[user]
-
-def test_nasaapod():
-    # API : /planetary/apod
+###########################################################
+@pytest.fixture()
+def apikey_data():
     # get config from config.ini
-    apikey = (configure['userinfo']['api_key'])
-    print(apikey)
-    result = JSONGet(f'/planetary/apod',apikey,None)
+     print(f"Get API Key from Config.ini / Call Nasa func",end="")
+     apikey = (configure['userinfo']['api_key'])
+     return apikey
+def test_nasaapod(apikey_data):
+    # API : /planetary/apod
+    result = JSONGet(f'/planetary/apod',apikey_data,None)
     print("Picture URL:", result["url"])
     # Open image through Web-Browser
     webbrowser.open(result["url"])
-
-def test_nasaMarsWeather():
+def test_nasaMarsWeather(apikey_data):
     #  InSight: Mars Weather Service API
     querykey = '&feedtype=json&ver=1.0'
-    apikey = (configure['userinfo']['api_key'])
-    result = JSONGet(f'/insight_weather/', apikey, querykey)
+    result = JSONGet(f'/insight_weather/', apikey_data, querykey)
     Data = result['validity_checks']
     print(Data)
-
-def test_showtime():
-    current = time.localtime()
-    print(current)
-
+##################################################################
 def test_clients():
     #/api/gen/clients
     # https://api.openapi-generator.tech/api/gen/clients
     print("Step 1 :  /api/gen/clients")
-    return GeneralGet('/api/gen/clients')
+    assert GeneralGet('/api/gen/clients')
 
 def test_clientlanguage():
     # /api/gen/clients/{language}
@@ -78,3 +59,22 @@ def test_clientlanguage():
         print((f"default is : {DEFAULT} "))
         ENUM = Data['enum']
         print((f"ENUM is : {ENUM} "))
+
+@pytest.mark.parametrize('user, password',
+                         [('min', 'abcdefgh'),
+                          ('tom', 'a123456a'),
+                          ('luke', "21880377"),
+                          ('zeno-number1', "a4fruch11")])
+def test_passwd_md5(user, password):
+    # command example : echo -n a4fruch11 | md5sum
+    db = {
+        'min': 'e8dc4081b13434b45189a720b77b6818',
+        'tom': '1702a132e769a623c1adb78353fc9503',
+        'luke': 'f544e1cd917e141842393d9d6a2874c4',
+        'zeno-number1': 'c0ff63591a87ad0d45d8ab93fdaa67fa'
+    }
+    import hashlib
+    assert hashlib.md5(password.encode()).hexdigest() == db[user]
+def test_showtime():
+    current = time.localtime()
+    print(current)
