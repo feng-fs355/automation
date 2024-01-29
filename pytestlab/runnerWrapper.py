@@ -210,16 +210,16 @@ def telHasText(text, cliOutput):
 
 class TestAPIWrap:
     def setup_class(cls):
-        logdef.debug('%s Star to run: <%s> %s' % ('=' * 40, cls.__name__, '=' * 40))
+        logging.debug('%s Star to run: <%s> %s' % ('=' * 40, cls.__name__, '=' * 40))
 
     def teardown_class(cls):
-        logdef.debug('teardown_class')
+        logging.debug('teardown_class')
 
     def setup_method(self, method):
-        logdef.debug('%s Star to run: <%s> %s' % ('=' * 40, method.__name__, '=' * 40))
+        logging.debug('%s Star to run: <%s> %s' % ('=' * 40, method.__name__, '=' * 40))
 
     def teardown_method(self, method):
-        logdef.debug('teardown_method')
+        logging.debug('teardown_method')
 
 if __name__ != '__main__':
     setupLog()
