@@ -70,7 +70,7 @@ def pretty_print_request_json(request):
     #  Reference : https://stackoverflow.com/questions/33054527/typeerror-a-bytes-like-object-is-required-not-str-when-writing-to-a-file-in
     body = request.body.decode('utf8').replace('true', 'True', 3).replace('false', 'False', 3)
     #------------------------------------------------------------------------------------------
-    logapi.info('{}\n{}\n\n{}\n\n{}\n'.format(
+    logging.info('{}\n{}\n\n{}\n\n{}\n'.format(
         '-----------Request----------->',
         request.method + ' ' + request.url,
         '\n'.join('{}: {}'.format(k, v) for k, v in request.headers.items()),
@@ -90,7 +90,7 @@ def pretty_print_response_json(response):
     # if .json() fails, ValueError is raised.
     except ValueError:
         resp_body = response.text
-    logapi.info('{}\n{}\n\n{}\n\n{}\n'.format(
+    logging.info('{}\n{}\n\n{}\n\n{}\n'.format(
         '<-----------Response-----------',
         'Status code: %s, elapsed seconds: %s' % (str(response.status_code), esec),
         '\n'.join('{}: {}'.format(k, v) for k, v in response.headers.items()),
@@ -99,7 +99,7 @@ def pretty_print_response_json(response):
 
 
 def print_request(request):
-    logapi.info('{}\n{}\n\n{}\n\n{}\n'.format(
+    logging.info('{}\n{}\n\n{}\n\n{}\n'.format(
         '-----------Request----------->',
         request.method + ' ' + request.url,
         '\n'.join('{}: {}'.format(k, v) for k, v in request.headers.items()),
@@ -136,7 +136,7 @@ def GeneralGet(url, auth=None):
         resp = requests.get(f_url)
         time.sleep(2)
     except Exception as ex:
-        logapi.error('requests.get() failed with exception: %s' % str(ex))
+        logging.error('requests.get() failed with exception: %s' % str(ex))
         return None
 
     try:
@@ -210,16 +210,16 @@ def telHasText(text, cliOutput):
 
 class TestAPIWrap:
     def setup_class(cls):
-        logdef.debug('%s Star to run: <%s> %s' % ('=' * 40, cls.__name__, '=' * 40))
+        logging.debug('%s Star to run: <%s> %s' % ('=' * 40, cls.__name__, '=' * 40))
 
     def teardown_class(cls):
-        logdef.debug('teardown_class')
+        logging.debug('teardown_class')
 
     def setup_method(self, method):
-        logdef.debug('%s Star to run: <%s> %s' % ('=' * 40, method.__name__, '=' * 40))
+        logging.debug('%s Star to run: <%s> %s' % ('=' * 40, method.__name__, '=' * 40))
 
     def teardown_method(self, method):
-        logdef.debug('teardown_method')
+        logging.debug('teardown_method')
 
 if __name__ != '__main__':
     setupLog()
