@@ -1,0 +1,35 @@
+Tc（Traffic Control）是用於配置Linux系統中的網絡流量控制的工具。它可以用來限制帶寬、延遲、丟包等。以下是一個簡單的tc配置示例，用於限制網絡接口的出口帶寬。
+
+假設你要限制網絡接口eth0的出口帶寬為1Mbps，延遲為50ms，丟包率為1%。以下是一個基本的tc配置：
+
+# 清除之前的配置
+sudo tc qdisc del dev eth0 root
+
+# 添加根隊列
+sudo tc qdisc add dev eth0 root handle 1: htb default 10
+
+# 設置帶寬和延遲
+sudo tc class add dev eth0 parent 1: classid 1:1 htb rate 1mbit ceil 1mbit
+sudo tc qdisc add dev eth0 parent 1:1 handle 10: netem delay 50ms loss 1%
+
+# 標記數據包
+sudo iptables -t mangle -A OUTPUT -o eth0 -j MARK --set-mark 1
+
+# 將標記的數據包映射到隊列
+sudo tc filter add dev eth0 parent 1: protocol ip prio 1 handle 1 fw flowid 1:1
+
+上述程式碼的作用是：
+
+刪除eth0網絡接口的現有tc配置。
+添加一個根隊列，用於管理子隊列。
+在子隊列中設置帶寬和延遲。
+使用iptables標記出口數據包。
+使用tc filter將標記的數據包映射到相應的隊列。
+請注意，這只是一個簡單的示例。實際使用中，你可能需要根據具體需求進行更複雜的配置。tc的用法很靈活，可以根據具體情況進行不同的設置。
+
+
+
+
+
+
+
