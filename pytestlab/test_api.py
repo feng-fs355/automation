@@ -13,6 +13,27 @@ import webbrowser
 
 root_path = os.path.dirname(os.path.realpath(__file__))
 ###########################################################
+def myfunc(n):
+  return lambda a : a * n
+def test_mydoubler():
+  mydoubler = myfunc(2)
+  print(f'{mydoubler(11)}  ', end="")
+  print(f'{mydoubler(22)}  ', end="")
+  print(f'{mydoubler(33)}  ', end="")
+
+thisdict = {
+  "brand": "Ford",
+  "electric": False,
+  "year": 1964,
+  "colors": ["red", "white", "blue"]
+}
+print(thisdict)
+@pytest.fixture()
+def hello():
+    return 123
+def test_string(hello):
+    assert hello == 123, "fixture should return 123"
+
 @pytest.fixture()
 def apikey_data():
     # get config from config.ini
@@ -32,6 +53,7 @@ def test_nasaMarsWeather(apikey_data):
     Data = result['validity_checks']
     print(Data)
 ##################################################################
+"""
 def test_clients():
     #/api/gen/clients
     # https://api.openapi-generator.tech/api/gen/clients
@@ -59,7 +81,7 @@ def test_clientlanguage():
         print((f"default is : {DEFAULT} "))
         ENUM = Data['enum']
         print((f"ENUM is : {ENUM} "))
-
+"""
 @pytest.mark.parametrize('user, password',
                          [('min', 'abcdefgh'),
                           ('tom', 'a123456a'),
@@ -75,6 +97,3 @@ def test_passwd_md5(user, password):
     }
     import hashlib
     assert hashlib.md5(password.encode()).hexdigest() == db[user]
-def test_showtime():
-    current = time.localtime()
-    print(current)
