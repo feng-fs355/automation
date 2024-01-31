@@ -1,4 +1,16 @@
-import pytest
+
+
+
+def main():
+    x = int(input("what is x? "))
+    print("x square is", square(x))
+def square(n):
+    return n * n
+if __name__=="__main__":
+    main()
+
+
+"""
 def myfunc(n):
   return lambda a : a * n
 def test_mydoubler():
@@ -20,3 +32,4 @@ def hello():
     return 123
 def test_string(hello):
     assert hello == 123, "fixture should return 123"
+"""
