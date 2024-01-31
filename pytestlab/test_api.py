@@ -1,10 +1,7 @@
 from runnerWrapper import *
 import pytest
 import logging
-import random
 import os
-import re
-import calendar
 import time
 import toml
 import shutil
@@ -13,8 +10,6 @@ import webbrowser
 
 root_path = os.path.dirname(os.path.realpath(__file__))
 ###########################################################
-
-
 
 @pytest.fixture()
 def apikey_data():
