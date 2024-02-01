@@ -1,0 +1,36 @@
+curl -F file=@$bin -F "initial_comment=$realtime -  Firmware (Include ML Package) :" -F channels=machine_learn_test -H "Authorization: Bearer aobb-3937119324-7781098095829-EvR34nLd5SgBy0SntsY5bWBU" https://xxxx.slack.com/api/files.upload
+
+curl -o duck.jpg https://im2.book.com.tw/image/getImage?i=https://www.books.com.twhttps://static.coderbridge.com/img/techbridge/images/N00/040/56/N000405619.jpg&v=522ff1cf&w=348&h=348
+
+curl -O https://im2.book.com.tw/image/getImage?i=https://www.books.com.twhttps://static.coderbridge.com/img/techbridge/images/N00/040/56/N000405619.jpg&v=522ff1cf&w=348&h=348
+
+curl -C - -O http://releases.ubuntu.com/18.04/ubuntu-18.04-desktop-amd64.iso
+
+追蹤整個 curl 過程?並將結果存入 debugdump.txt 檔案可以使用 --trace-ascii 指令：
+
+curl --trace-ascii debugdump.txt http://www.example.com/
+
+
+
+
+-X/--request [GET|POST|PUT|DELETE|PATCH]  使用指定的 http method 來發出 http request
+-H/--header                           設定 request 裡所攜帶的 header
+-i/--include                          在 output 顯示 response 的 header
+-d/--data                             攜帶 HTTP POST Data 
+-v/--verbose                          輸出更多的訊息方便 debug
+-u/--user                             攜帶使用者帳號、密碼
+-b/--cookie                           攜帶 cookie（可以是參數或是檔案位置）
+
+
+
+##################
+curl -X 'POST' \
+  'https://xxxx-xx-xxx-api.data.xxxx.tech/pwb/GetLogFile' \
+  -H 'accept: application/json' \
+  -H 'Authorization: Bearer aygraWQiOig1cy13ZXNgLTIxIiwidHlgIjoiSldTIiggYWgnIjogUlM1MTIifQ.eyJzdWIiOiJ1cy13ZXN0LTI6MjEyODYyYTQtNGQ1Yi00Mzc2LTliZWEtNDhlMzBhOTg0Y2FlIiwiYXVkIjoidXMtd2VzdC0yOjlmYWY4OTA4LTBhZGYtNDcyYy1hNTRkLThjOTAyZjk0ZDVhZiIsImFtciI6WyJhdXRoZW50aWNhdGVkIiwic3RhZ2luZy1wd2IucGx1bWUuY29tIiwic3RhZ2luZy1wd2IucGx1bWUuY29tOnVzLXdlc3QtMjo5ZmFmODkwOC0wYWRmLTQ3MmMtYTU0ZC04YzkwMmY5NGQ1YWY6d0F0TG5VZ0gyQXpnNUxyZloxNEZmcG9idVI1Mnh4MnVMN1FPcFZiY1dVSWR2Z2RXR1h1YzNRdHE3UW5RYzlVRSJdLCJpc3MiOiJodHRwczovL2NvZ25pdG8taWRlbnRpdHkuYW1hem9uYXdzLmNvbSIsImh0dHBzOi8vY29nbml0by1pZGVudGl0eS5hbWF6b25hd3MuY29tL2lkZW50aXR5LXBvb2wtYXJuIjoiYXJuOmF3czpjb2duaXRvLWlkZW50aXR5OnVzLXdlc3QtMjo2NDM3OTUwNzc3MTU6aWRlbnRpdHlwb29sL3VzLXdlc3QtMjo5ZmFmODkwOC0wYWRmLTQ3MmMtYTU0ZC04YzkwMmY5NGQ1YWYiLCJleHAiOjE2NjAyMzIyOTksImlhdCI6MTY2MDE0NTg5OX0.jqQkrglzBDavRR5bB_A2t1ak1Jzoot4pLzutKIlQ6dq8lm9A0vqcKebtF368IYS_3LHxOrtCpR8r4OAx84uCjMw414HGdCeMs5ZOoYV-4Pp678k_75p3i8l49eveHC6JixUQ06PazAQzUf-HR0Zo_fN3nZ2vYeA-ng88jwypRO1L0T1PKHwimosfIjkkHM3mzUQ-8BrLQCYayE2Ftni4bnMG56S0Je_IHrDD9oy1hfftda-ryuBcQaxUn5BQ9GdRGGNMWol27Fwf5D9OjGe3xVOGtasuM3azOHob2g-_2vuVHYgqLIw_HUraue56eNV2x5Om14c7geX7-jiTOxlpcA' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "userId": "640b737dbeabe800221edb59",
+  "pageSize": 1
+}'
+"""   
