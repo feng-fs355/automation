@@ -13,22 +13,27 @@ root_path = os.path.dirname(os.path.realpath(__file__))
 
 @pytest.fixture()
 def apikey_data():
-    # get config from config.ini
-     print(f"Get API Key from Config.ini / Call Nasa func",end="")
-     apikey = (configure['userinfo']['api_key'])
-     return apikey
+  # get config from config.ini
+  print(f"Get API Key from Config.ini / Call Nasa func", end="")
+  apikey = (configure['userinfo']['api_key'])
+  return apikey
+
 def test_nasaapod(apikey_data):
-    # API : /planetary/apod
-    result = JSONGet(f'/planetary/apod',apikey_data,None)
-    print("Picture URL:", result["url"])
-    # Open image through Web-Browser
-    webbrowser.open(result["url"])
+  # API : /planetary/apod
+  result = JSONGet(f'/planetary/apod', apikey_data, None)
+  print("Picture URL:", result["url"])
+  # Open image through Web-Browser
+  webbrowser.open(result["url"])
+
 def test_nasaMarsWeather(apikey_data):
-    #  InSight: Mars Weather Service API
-    querykey = '&feedtype=json&ver=1.0'
-    result = JSONGet(f'/insight_weather/', apikey_data, querykey)
-    Data = result['validity_checks']
-    print(Data)
+  #  InSight: Mars Weather Service API
+  querykey = '&feedtype=json&ver=1.0'
+  result = JSONGet(f'/insight_weather/', apikey_data, querykey)
+  Data = result['validity_checks']
+  print(Data)
+#Use the Person class to create an object, and then execute the printname method:
+
+
 ##################################################################
 """
 def test_clients():
