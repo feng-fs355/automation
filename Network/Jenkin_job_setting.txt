@@ -1,0 +1,22 @@
+
+sudo -i
+ 
+
+cd /
+
+cd /home/pi/Documents/20221114/staging
+
+
+python3 -m pytest -vv test-1012-decrypted_BLE_BATT.py --alluredir=./allure-results/ 
+
+
+
+
+(1)Check out the firmware source code from a version control system (e.g. Git)
+
+(2)Compile the firmware code using a toolchain (e.g. GCC)
+
+(3)Deploy the firmware to the target hardware
+
+(4)Run tests on the firmware to ensure it meets your quality standards
+
