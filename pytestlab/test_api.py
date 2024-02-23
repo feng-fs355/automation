@@ -63,7 +63,7 @@ def test_clientlanguage():
         print((f"default is : {DEFAULT} "))
         ENUM = Data['enum']
         print((f"ENUM is : {ENUM} "))
-"""
+
 @pytest.mark.parametrize('user, password',
                          [('min', 'abcdefgh'),
                           ('tom', 'a123456a'),
@@ -79,3 +79,6 @@ def test_passwd_md5(user, password):
     }
     import hashlib
     assert hashlib.md5(password.encode()).hexdigest() == db[user]
+"""
+
+

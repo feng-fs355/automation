@@ -1,0 +1,37 @@
+pipeline {
+  agent any
+  stages {
+    stage('Checkout Scm') {
+      steps {
+        git(branch: '+refs/pull/*:refs/remotes/origin/pr/*', credentialsId: 'f711a59c-2fca-430d-9d25-7cbf68cd6913', url: 'https://github.com/feng-fs355/automation.git')
+      }
+    }
+
+    stage('Shell script 0') {
+      steps {
+        sh '''export PATH="/usr/local/Android-SDK/platform-tools/:$PATH"
+export PATH="/usr/local/bin/node-v14.7.0-linux-x64/bin/:$PATH"
+adb devices
+#pip3 install -U weditor
+cd /
+cd /var/lib/jenkins/workspace/NASA/pytestlab
+pwd
+ls -al
+#pip install allure-pytest
+#pip install toml 
+#python test_api.py
+#python --version
+Echo "NASA Cloud API example"
+python -m pytest -vv test_api.py --alluredir=./allure-results
+'''
+      }
+    }
+
+  }
+  post {
+    always {
+      echo 'No converter for Publisher: ru.yandex.qatools.allure.jenkins.AllureReportPublisher'
+    }
+
+  }
+}
