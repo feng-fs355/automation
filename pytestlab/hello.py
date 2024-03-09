@@ -81,6 +81,37 @@
 
 #print(newlist)
 
+#thislist = [100, 50, 65, 82, 23]
+#thislist.sort()
+#print(thislist) 
+
+"""
+my_list = [77, 77, 1, 2, 2, 3, 4, 4, 5, 'FF', "123", "FF",0XAF,0XAB,0XAF]
+duplicates = []
+
+for item in my_list:
+    if my_list.count(item) > 1 and item not in duplicates:
+        duplicates.append(item)
+
+print("重複值:", duplicates)
+
+# 將所有元素轉換成字符串後再進行排序
+duplicates = [str(item) for item in duplicates]
+duplicates.sort()
+
+print("排序後的重複值:", duplicates)
+"""
+
+def myfunc(n):
+  return abs(n - 50)
+
 thislist = [100, 50, 65, 82, 23]
-thislist.sort()
+
+thislist.sort(key = myfunc)
+
 print(thislist)
+
+
+
+
+
