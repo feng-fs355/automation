@@ -1,0 +1,31 @@
+Install and uninstall software using Windows CLI
+Installing VLC
+
+There are alternatives to manually downloading and running installers when you need to install or manage programs on Windows. To install or remove programs, you need administrative privileges. So, open Windows Powershell by searching for it in the Windows start menu, then right-click it and select "Run as Administrator".
+
+In the Windows Powershell terminal, enter the following commands to download and install VLC media player.
+
+$VLC_URL = "https://get.videolan.org/vlc/last/win64/"
+Copied!
+$GET_HTML = Invoke-WebRequest $VLC_URL
+Copied!
+$FILE = $GET_HTML.Links | Select-Object @{Label='href';Expression={@{$true=$_.href}[$_.href.EndsWith('win64.exe')]}} | Select-Object -ExpandProperty href
+Copied!
+$URL = ($VLC_URL+$FILE)
+Copied!
+$DOWNLOAD_DIR = "C:\users\qwiklabs\Downloads\"
+Copied!
+$OUTPUT_FILE = ($DOWNLOAD_DIR+$FILE)
+Copied!
+(new-object System.Net.WebClient).DownloadFile($URL, $OUTPUT_FILE)
+Copied!
+cmd.exe /c $OUTPUT_FILE /S
+Copied!
+Once the installation process is successfully completed, verify that VLC has successfully been installed with the following command:
+
+Get-Package -Name *vlc*
+Copied!
+Name              Version  Source  ProviderName
+----              -------  ------  ------------
+VLC media player  3.0.16           Programs
+Click Check my progress to verify the objective.
