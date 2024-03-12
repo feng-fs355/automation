@@ -1,0 +1,26 @@
+command : lsblk
+
+sda      8:0    0 465.8G  0 disk 
+├─sda1   8:1    0   512M  0 part /boot/efi
+├─sda2   8:2    0     1K  0 part 
+└─sda5   8:5    0 465.3G  0 part /
+sdc      8:32   1   7.4G  0 disk 
+└─sdc4   8:36   1   7.4G  0 part /media/idltest/DATA
+
+/etc/fstab
+
+(base) idltest@idltest-ThinkPad-X201:/$ cat /etc/fstab
+# /etc/fstab: static file system information.
+#
+# Use 'blkid' to print the universally unique identifier for a
+# device; this may be used with UUID= as a more robust way to name devices
+# that works even if disks are added and removed. See fstab(5).
+#
+# <file system> <mount point>   <type>  <options>       <dump>  <pass>
+# / was on /dev/sda5 during installation
+UUID=343c8bf5-f8b1-4416-b17d-20effa1ac15d /               ext4    errors=remount-ro 0       1
+# /boot/efi was on /dev/sda1 during installation
+UUID=AAC1-EBD4  /boot/efi       vfat    umask=0077      0       1
+/swapfile 
+
+
