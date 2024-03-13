@@ -1,0 +1,10 @@
+PowerShell 7.4.1
+PS C:\Users\MinFeng> Get-Process | Sort CPU -descending | Select -first 3 -Property ID,ProcessName,CPU
+
+   Id ProcessName     CPU
+   -- -----------     ---
+ 4804 Surfshark   4896.73
+14172 chrome      3260.88
+16036 chrome      1443.56
+
+PS C:\Users\MinFeng>
