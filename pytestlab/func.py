@@ -1,38 +1,19 @@
-
-
-
-
-
-
-#def main():
-#    x = int(input("what is x? "))
-#    print("x square is", square(x))
-#def square(n):
-#    return n * n
-#if __name__=="__main__":
-#    main()
-
-
-"""
-def myfunc(n):
-  return lambda a : a * n
-def test_mydoubler():
-  mydoubler = myfunc(2)
-  print(f'{mydoubler(11)}  ', end="")
-  print(f'{mydoubler(22)}  ', end="")
-  print(f'{mydoubler(33)}  ', end="")
-
-thisdict = {
-  "brand": "Ford",
-  "electric": False,
-  "year": 1964,
-  "colors": ["red", "white", "blue"]
-}
-print(thisdict)
-
-@pytest.fixture()
-def hello():
-    return 123
-def test_string(hello):
-    assert hello == 123, "fixture should return 123"
-"""
+import csv
+import secrets
+import subprocess
+from pathlib import Path
+cwd = Path.cwd() / "drive/MyDrive/Colab Notebooks"
+with open(cwd / "data/users_in.csv", "r") as file_input, open(cwd / "data/users_out.csv", "w") as file_output:
+     reader = csv.DictReader(file_input)
+     writer = csv.DictWriter(file_output,fieldnames=reader.fieldnames)
+writer.writeheader()
+for user in reader:
+     user["password"] = secrets.token_hex(8)
+      useradd_cmd = ["/sbin/useradd",
+                       "-c", user["real_name"],
+                       "-m",
+                       "-G", "users",
+                       "-p", user["password"],
+                       user["username"]]
+        subprocess.run(useradd_cmd, check=True)
+writer.writerow(user)   

@@ -1,0 +1,23 @@
+net share <ShareName>
+net share <ShareName>=<drive>:<DirectoryPath> [/grant:<user>,{read | change |full}] [/users:<number> | /unlimited] [/remark:<text>] [/cache:{manual | documents | programs | BranchCache |none} ]
+net share [/users:<number> | /unlimited] [/remark:<text>] [/cache:{manual | documents | programs | BranchCache |none} ]
+net share {<ShareName> | <DeviceName> | <drive>:<DirectoryPath>} /delete
+net share <ShareName> \\<ComputerName> /delete
+
+
+Examples
+To display information about shared resources on the local computer, type:
+
+         net share       
+
+To share a computer's C:\Data directory with the share name DataShare and include a remark, type:
+
+         net share DataShare=c:\Data /remark:"For department 123."       
+
+To stop sharing the DataShare folder you created in the previous example, type:
+
+         net share DataShare /delete       
+
+To share a computer's C:\Art List directory with the share name List, type:
+
+         net share list="c:\Art List"       

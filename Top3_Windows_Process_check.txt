@@ -8,3 +8,14 @@ PS C:\Users\MinFeng> Get-Process | Sort CPU -descending | Select -first 3 -Prope
 16036 chrome      1443.56
 
 PS C:\Users\MinFeng>
+
+
+Which of the following PowerShell commands will tell you which process on your system is using the most CPU resources?
+
+
+Get-Process | Sort CPU -descending | Select -first 1 -Property ID,ProcessName,CPU 
+
+
+
+
+Get-Process -Name "totally_not_malicious"GF
