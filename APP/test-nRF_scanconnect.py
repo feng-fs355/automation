@@ -28,13 +28,10 @@ from allure_commons.types import AttachmentType
 from asyncore import loop
 import platform
 import datetime
-
-global DEV
-
 # Releate to pytest.fixture
 from math_utils import add, subtract
 
-
+global DEV
 
 logging.basicConfig()
 logging.getLogger('pygatt').setLevel(logging.DEBUG)
@@ -204,6 +201,9 @@ class TestAPI(TestAPIWrap):
         BLE beacon scan via Android Phone (Nordic App)
 
         """
+        global checkpoint
+        global d # get android phone serial number
+        d = Device(DEV)      
         # Re-initial adb interface
         cmd = 'adb kill-server'
         #command = subprocess.run([sys.executable, "-c", "print(cmd)"])
@@ -220,9 +220,15 @@ class TestAPI(TestAPIWrap):
         logdef.info("##################################################################)\n") 
         logdef.info("##################################################################")
         print(f'Scan \"BLE devices\"')
-        global checkpoint
-        global d # get android phone serial number
-        d = Device(DEV)        
+        ##d.screen_on() # turn on the screen
+        # unlock screen
+        ##d.unlock()
+        # swipe from point(x0, y0) to point(x1, y1) then to point(x2, y2)
+        # time will speed 0.2s bwtween two points
+        # unlock security pad
+
+        ##d.swipe_points([(240, 1194), (865, 1184), (815, 1815), (260, 1817)],0.2)
+        
         time.sleep(1)
         d.screen_on()
         time.sleep(1)
@@ -247,6 +253,7 @@ class TestAPI(TestAPIWrap):
         #time.sleep(1)
         # Tap scanner page
         #PWBFunc().Scanner_tap(d)
+        d.info.get('screenOn') 
         print("Done")
         logdef.info("Done")
         # adb shell am force-stop no.nordicsemi.android.mcp
