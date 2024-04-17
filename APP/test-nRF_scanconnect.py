@@ -49,6 +49,7 @@ class PWBFunc:
 
     def __init__(self):
         os.popen("adb devices")
+    
     def device_setting(self,d):   # device setting page for device 1
         info=d.info
         width=info['displayWidth']
@@ -191,9 +192,17 @@ class PWBFunc:
         result = math_func.product('Hello ')
         assert result == 'Hello Hello '
         assert type(result) is str
-        assert 'Hello' in result        
+        assert 'Hello' in result
+    
+    def test_2_script(self):
+        print("hihihihi")
+        assert 2 == 2                
 
 class TestAPI(TestAPIWrap):
+
+    def test_1_script(self):
+        print("hihihihi")
+        assert 1 == 1
  
     def test_android_func(self):
 
