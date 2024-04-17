@@ -31,6 +31,11 @@ import datetime
 
 global DEV
 
+# Releate to pytest.fixture
+from math_utils import add, subtract
+
+
+
 logging.basicConfig()
 logging.getLogger('pygatt').setLevel(logging.DEBUG)
 # get config from config.ini
@@ -39,6 +44,7 @@ Datauuid = (configure['userinfo']['Datauuid'])
 ResponseUUID = (configure['userinfo']['ResponseUUID'])
 macaddr = (configure['userinfo']['mac'])
 DEV = (configure['userinfo']['androiddev1'])
+version_info = (configure['userinfo']['version'])
 timeout= 20.0  
 root_path = os.path.dirname(os.path.realpath(__file__))
 
@@ -166,6 +172,29 @@ class PWBFunc:
     def test_uppercase():
         assert 'hello'.upper() == 'HELLO'
 
+    @pytest.mark.skipif(float(version_info) > (3.3), reason='do not run this version add test')        
+    def test_partol(self):
+        print('test partol func')
+    
+    @pytest.fixture
+    def number():
+        return 10
+
+    def test_addition(number):
+        result = add(number, 5)
+        assert result == 15
+
+    def test_subtraction(number):
+        result = subtract(number, 5)
+        assert result == 5
+
+    @pytest.mark.skip(reason="do not run number product test")
+    def test_product_strings():
+        assert math_func.product('Hello ', 3) == 'Hello Hello Hello '
+        result = math_func.product('Hello ')
+        assert result == 'Hello Hello '
+        assert type(result) is str
+        assert 'Hello' in result        
 
 class TestAPI(TestAPIWrap):
  
