@@ -1,0 +1,56 @@
+在計算機網路中，路由表（Route Table）是一個用來指導數據包（Data Packet）在網路中傳輸的重要元件。它包含了路由器（Router）或主機上的路由信息，這些信息用於決定數據包應該通往何處。以下是一個簡易的教學，介紹如何理解和使用路由表。
+
+1. 路由表的基本概念：
+目的地網路（Destination Network）： 指的是數據包要到達的目標網路的地址範圍。
+
+下一跳（Next Hop）： 表示數據包應該通往的下一個路由器或主機的地址。如果目的地就在本地網路上，下一跳通常是目的地的實際地址。
+
+介面（Interface）： 是指數據包通過的物理或邏輯接口，以到達下一跳。
+
+2. 查看路由表：
+在不同的作業系統中，查看路由表的方法可能有所不同。
+
+
+2. 查看路由表：
+在不同的作業系統中，查看路由表的方法可能有所不同。
+
+Windows：
+
+route print
+
+Linux：
+
+route -n
+
+MacOS：
+
+netstat -nr
+
+3. 添加或修改路由：
+要添加或修改路由，通常使用以下命令：
+
+Windows：
+
+route add <destination_network> mask <subnet_mask> <next_hop> metric <metric_value>
+
+Linux：
+
+sudo route add -net <destination_network> netmask <subnet_mask> gw <next_hop>
+
+MacOS：
+
+sudo route add -net <destination_network> <next_hop>
+
+4. 刪除路由：
+要刪除路由，通常使用以下命令：
+
+Windows：
+route delete <destination_network>
+
+Linux：
+
+sudo route del -net <destination_network> netmask <subnet_mask>
+
+MacOs:
+
+sudo route delete <destination_network>
