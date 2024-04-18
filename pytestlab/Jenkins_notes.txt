@@ -1,0 +1,7 @@
+
+
+git clone -v https://github.com/feng-fs355/automation.git
+
+##This problem was due to permissions issues. The following command fixed it:
+
+chown -R jenkins /var/lib/jenkins/workspace
