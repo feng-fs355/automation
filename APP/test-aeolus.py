@@ -46,7 +46,7 @@ timeout= 20.0
 root_path = os.path.dirname(os.path.realpath(__file__))
 
 cmd = 'adb kill-server'
-#command = subprocess.run([sys.executable, "-c", "print(cmd)"])
+#command = subprocess.run([sys.executable, "-c", "logdef.info(cmd)"])
 command = os.popen(cmd)
 time.sleep(1.5)
 cmd = 'adb start-server'
@@ -55,9 +55,9 @@ time.sleep(1.5)
 cmd = 'adb devices'
 command = os.popen(cmd)
 time.sleep(1.5) 
-print("##################################################################\n")
-print("#  Test case : ( aeolus Lanch app unit test  #)\n")        
-print("##################################################################)\n") 
+logdef.info("##################################################################\n")
+logdef.info("#  Test case : ( aeolus Lanch app unit test  #)\n")        
+logdef.info("##################################################################)\n") 
 
 
 class PWBFunc:
@@ -68,23 +68,23 @@ class PWBFunc:
         Height=info['displayHeight']
         return width,Height        
     def swipeUp(self,d): # big swipe up function for device 1
-        print("swipeUp feature\n")
+        logdef.info("swipeUp feature\n")
         l=self.device_setting(d)
         width= l[0]
         Height= l[1]    
-        print(width)
-        print(Height)
+        logdef.info(width)
+        logdef.info(Height)
         x1 = width * 0.5    
         y1 = Height * 0.9  
         y2 = Height * 0.1        
         d.swipe(x1, y1, x1, y2)
     def swipeRight(self,d): # big swipe up function for device 1
-        print("swipeRight feature\n")
+        logdef.info("swipeRight feature\n")
         l=self.device_setting(d)
         width= l[0]
         Height= l[1]    
-        print(width)
-        print(Height)
+        logdef.info(width)
+        logdef.info(Height)
         x1 = width * 0.1
         x2 = width * 0.7     
         y1 = Height * 0.6
@@ -92,12 +92,12 @@ class PWBFunc:
         d.swipe(x1, y1, x2, y2)    
 
     def swipeleft(self,d):  # big swipe swipe function for device 1
-        print("swipeleft feature\n")
+        logdef.info("swipeleft feature\n")
         l=self.device_setting(d)
         width= l[0]
         Height= l[1]    
-        print(width)
-        print(Height)
+        logdef.info(width)
+        logdef.info(Height)
         x1 = width * 0.7
         x2 = width * 0.1     
         y1 = Height * 0.6
@@ -106,12 +106,12 @@ class PWBFunc:
     
 
     def swipeDown(self,d):  # big swipe swipe function for device 1
-        print("swipeDown feature\n")
+        logdef.info("swipeDown feature\n")
         l=self.device_setting(d)
         width= l[0]
         Height= l[1]    
-        print(width)
-        print(Height)
+        logdef.info(width)
+        logdef.info(Height)
         x1 = width * 0.5      
         y1 = Height * 0.25
         y2 = Height * 0.75
@@ -140,7 +140,7 @@ class TestAPI(TestAPIWrap):
     d = Device(DEV)  
 
     cmd = 'adb kill-server'
-    #command = subprocess.run([sys.executable, "-c", "print(cmd)"])
+    #command = subprocess.run([sys.executable, "-c", "logdef.info(cmd)"])
     command = os.popen(cmd)
     time.sleep(1.5)
     cmd = 'adb start-server'
@@ -153,7 +153,7 @@ class TestAPI(TestAPIWrap):
 
     def test_inittest(self):
 
-        print("Test Aeolus has been bring up")
+        logdef.info("Test Aeolus has been bring up")
         # adb shell am force-stop com.aeolusbot.instant
         cmd = 'adb shell am force-stop com.aeolusbot.instant'
         command = os.popen(cmd)           
@@ -161,7 +161,7 @@ class TestAPI(TestAPIWrap):
         d.screen_on()
         time.sleep(1)
         d.press("home")
-        print(d.info)    
+        logdef.info(d.info)    
         # Lanch nRF app
         checkpoint = PWBFunc().aeolus_instant(d)
         if checkpoint != True:
@@ -180,7 +180,7 @@ class TestAPI(TestAPIWrap):
         time.sleep(1)   
         # entry password
         password = PWBFunc().generate_password(10)
-        print("Generated Password:", password)          
+        logdef.info("Generated Password:", password)          
         if d(text="Password").exists:
            d(text="Password").click()
            cmd = 'adb shell input text '+str(password)
@@ -198,18 +198,20 @@ class TestAPI(TestAPIWrap):
            time.sleep(1)
            d.screenshot("login.png")
            time.sleep(2)
+           allure.attach.file('./login.png' , attachment_type=allure.attachment_type.PNG)                  
         if d(text="Login Failed",resourceId="android:id/alertTitle").exists:
            d.screenshot("./login-Fail.png")
            time.sleep(2)
            image = cv2.imread('./login-Fail.png')        
            text = pytesseract.image_to_string(image)
            text = str(text)
-           print("pytesseract.image_to_string"+str(image))
+           logdef.info("pytesseract.image_to_string"+str(image))
            if str('Your server address is incorrect') in text:
-              print("Login Failed\n")
-              print(text)
+              logdef.info("Login Failed\n")
+              allure.attach.file('./login-Fail.png' , attachment_type=allure.attachment_type.PNG)
+              logdef.info(text)
              
-        print("Done for test")
+        logdef.info("Done for test")
         logdef.info("test completed")
         # adb shell am force-stop com.aeolusbot.instant
         cmd = 'adb shell am force-stop com.aeolusbot.instant'

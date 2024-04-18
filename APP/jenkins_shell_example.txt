@@ -1,0 +1,14 @@
+export PATH="/usr/local/Android-SDK/platform-tools/:$PATH"
+export PATH="/usr/local/bin/node-v14.7.0-linux-x64/bin/:$PATH"
+adb devices
+#pip3 install -U weditor
+cd /
+cd /var/lib/jenkins/workspace/NASA/pytestlab
+pwd
+ls -al
+#pip install allure-pytest
+#pip install toml 
+#python test_api.py
+#python --version
+echo "NASA Cloud API example"
+python -m pytest -vv test_api.py --alluredir=./allure-results
