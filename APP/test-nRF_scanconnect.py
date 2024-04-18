@@ -46,6 +46,9 @@ version_info = (configure['userinfo']['version'])
 timeout= 20.0  
 root_path = os.path.dirname(os.path.realpath(__file__))
 
+
+
+
 class PWBFunc:
 
     def __init__(self):
@@ -202,6 +205,9 @@ class PWBFunc:
 
 class TestAPI(TestAPIWrap):
 
+
+
+
     global checkpoint
     global d # get android phone serial number
     d = Device(DEV)  
@@ -219,7 +225,6 @@ class TestAPI(TestAPIWrap):
     print("##################################################################\n")
     print("#  Test case : ( BLE beacon scan via Android Phone (Nordic App)  #)\n")        
     print("##################################################################)\n") 
-
 
 
     def test_android_func(self):
