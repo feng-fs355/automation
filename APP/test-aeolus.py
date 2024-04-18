@@ -198,7 +198,8 @@ class TestAPI(TestAPIWrap):
            time.sleep(1)
            d.screenshot("login.png")
            time.sleep(2)
-           allure.attach.file('./login.png' , attachment_type=allure.attachment_type.PNG)                  
+           allure.attach.file('login.png' , attachment_type=allure.attachment_type.PNG)                  
+           time.sleep(2)
         if d(text="Login Failed",resourceId="android:id/alertTitle").exists:
            d.screenshot("./login-Fail.png")
            time.sleep(2)
@@ -208,8 +209,9 @@ class TestAPI(TestAPIWrap):
            logdef.info("pytesseract.image_to_string"+str(image))
            if str('Your server address is incorrect') in text:
               logdef.info("Login Failed\n")
-              allure.attach.file('./login-Fail.png' , attachment_type=allure.attachment_type.PNG)
+              allure.attach.file('login-Fail.png' , attachment_type=allure.attachment_type.PNG)
               logdef.info(text)
+              time.sleep(2)
              
         logdef.info("Done for test")
         logdef.info("test completed")
