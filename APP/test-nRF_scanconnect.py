@@ -31,6 +31,7 @@ import datetime
 # Releate to pytest.fixture
 from math_utils import add, subtract
 
+
 global DEV
 
 logging.basicConfig()
@@ -87,15 +88,14 @@ class PWBFunc:
            return True
 
     def SCAN(self,d):
-        with allure.step('look for target device'):
-            if d(text="STOP SCANNING",className="android.widget.Button",resourceId="no.nordicsemi.android.mcp:id/action_scan_stop").exists:
-               d(text="STOP SCANNING",className="android.widget.Button",resourceId="no.nordicsemi.android.mcp:id/action_scan_start").click()
-      
-            
-            elif d(text='SCAN',className="android.widget.Button",resourceId="no.nordicsemi.android.mcp:id/action_scan_start").exists:
-               d(text="SCAN",className="android.widget.Button",resourceId="no.nordicsemi.android.mcp:id/action_scan_start").click()
-            else:
-               pass   
+        #with allure.step('look for target device'):
+        if d(text="STOP SCANNING",className="android.widget.Button",resourceId="no.nordicsemi.android.mcp:id/action_scan_stop").exists:
+           d(text="STOP SCANNING",className="android.widget.Button",resourceId="no.nordicsemi.android.mcp:id/action_scan_start").click()
+         
+        elif d(text='SCAN',className="android.widget.Button",resourceId="no.nordicsemi.android.mcp:id/action_scan_start").exists:
+           d(text="SCAN",className="android.widget.Button",resourceId="no.nordicsemi.android.mcp:id/action_scan_start").click()
+        else:
+           pass   
 
     def TARGET(self,d):
         d.screenshot("TARGET.png") # default format="pillow"            
@@ -119,16 +119,16 @@ class PWBFunc:
            d(text="STOP SCANNING",className="android.widget.Button",resourceId="no.nordicsemi.android.mcp:id/action_scan_stop").click()
            time.sleep(2)        
 
-        text_names = ["MinFeng-945108100-13-04D4", "MinFeng-945108100-13-02FF","MinFeng-000000000-13-05BC","MinFeng-000000000-13-04F4"]
+        ##text_names = ["MinFeng-945108100-13-04D4", "MinFeng-945108100-13-02FF","MinFeng-000000000-13-05BC","MinFeng-000000000-13-04F4"]
 
 
-        for text in text_names:
+        ##for text in text_names:
 
-            elements = d(text=text,className="android.widget.TextView",resourceId="no.nordicsemi.android.mcp:id/display_name").right(text="CONNECT",className="android.widget.TextView",packageName="no.nordicsemi.android.mcp")
+        ##    elements = d(text=text,className="android.widget.TextView",resourceId="no.nordicsemi.android.mcp:id/display_name").right(text="CONNECT",className="android.widget.TextView",packageName="no.nordicsemi.android.mcp")
 
-            for element in elements:
-                if element.exists:
-                   element.click()
+        ##    for element in elements:
+        ##        if element.exists:
+        ##           element.click()
 
     def DISCONNECT(self,d):
         # press DISCONNECT button 
@@ -198,46 +198,35 @@ class PWBFunc:
         print("hihihihi")
         assert 2 == 2                
 
+
+
 class TestAPI(TestAPIWrap):
 
-    def test_1_script(self):
-        print("hihihihi")
-        assert 1 == 1
- 
+    global checkpoint
+    global d # get android phone serial number
+    d = Device(DEV)  
+
+    cmd = 'adb kill-server'
+    #command = subprocess.run([sys.executable, "-c", "print(cmd)"])
+    command = os.popen(cmd)
+    time.sleep(1.5)
+    cmd = 'adb start-server'
+    command = os.popen(cmd)
+    time.sleep(1.5)        
+    cmd = 'adb devices'
+    command = os.popen(cmd)
+    time.sleep(1.5) 
+    print("##################################################################\n")
+    print("#  Test case : ( BLE beacon scan via Android Phone (Nordic App)  #)\n")        
+    print("##################################################################)\n") 
+
+
+
     def test_android_func(self):
 
-        """
-        BLE beacon scan via Android Phone (Nordic App)
 
-        """
-        global checkpoint
-        global d # get android phone serial number
-        d = Device(DEV)      
-        # Re-initial adb interface
-        cmd = 'adb kill-server'
-        #command = subprocess.run([sys.executable, "-c", "print(cmd)"])
-        command = os.popen(cmd)
-        time.sleep(1.5)
-        cmd = 'adb start-server'
-        command = os.popen(cmd)
-        time.sleep(1.5)        
-        cmd = 'adb devices'
-        command = os.popen(cmd)
-        time.sleep(1.5) 
-        logdef.info("##################################################################\n")
-        logdef.info("#  Test case : ( BLE beacon scan via Android Phone (Nordic App)  #)\n")        
-        logdef.info("##################################################################)\n") 
-        logdef.info("##################################################################")
         print(f'Scan \"BLE devices\"')
-        ##d.screen_on() # turn on the screen
-        # unlock screen
-        ##d.unlock()
-        # swipe from point(x0, y0) to point(x1, y1) then to point(x2, y2)
-        # time will speed 0.2s bwtween two points
-        # unlock security pad
-
-        ##d.swipe_points([(240, 1194), (865, 1184), (815, 1815), (260, 1817)],0.2)
-        
+        print("Test Android func has been bring up")
         time.sleep(1)
         d.screen_on()
         time.sleep(1)
@@ -247,10 +236,36 @@ class TestAPI(TestAPIWrap):
         checkpoint = PWBFunc().nRF_app(d)
         if checkpoint != True:
             os.system("adb -s "+(DEV)+" shell am start -n no.nordicsemi.android.mcp/.MainActivity")
-        time.sleep(2)
+        time.sleep(5)
         # Click Scan button
         PWBFunc().SCAN(d)
-        time.sleep(2)
+        time.sleep(3)        
+        PWBFunc().STOP_SCAN(d)
+   
+        # teardown
+        d.info.get('screenOn') 
+        print("Done for test")
+        logdef.info("test completed")
+        # adb shell am force-stop no.nordicsemi.android.mcp
+        cmd = 'adb shell am force-stop no.nordicsemi.android.mcp'
+        command = os.popen(cmd)        
+ 
+    ##def test_android_func(self):
+
+        """
+        BLE beacon scan via Android Phone (Nordic App)
+
+        """     
+
+        ##d.screen_on() # turn on the screen
+        # unlock screen
+        ##d.unlock()
+        # swipe from point(x0, y0) to point(x1, y1) then to point(x2, y2)
+        # time will speed 0.2s bwtween two points
+        # unlock security pad
+
+        ##d.swipe_points([(240, 1194), (865, 1184), (815, 1815), (260, 1817)],0.2)
+
         # Search Target and STOP SCANNING ,then click connect button
         #PWBFunc().TARGET(d)
         #time.sleep(5)
@@ -262,9 +277,3 @@ class TestAPI(TestAPIWrap):
         #time.sleep(1)
         # Tap scanner page
         #PWBFunc().Scanner_tap(d)
-        d.info.get('screenOn') 
-        print("Done")
-        logdef.info("Done")
-        # adb shell am force-stop no.nordicsemi.android.mcp
-        cmd = 'adb shell am force-stop no.nordicsemi.android.mcp'
-        command = os.popen(cmd)
