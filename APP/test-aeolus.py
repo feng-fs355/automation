@@ -139,16 +139,16 @@ class TestAPI(TestAPIWrap):
     global d # get android phone serial number
     d = Device(DEV)  
 
-    cmd = 'adb kill-server'
+    #cmd = 'adb kill-server'
     #command = subprocess.run([sys.executable, "-c", "logdef.info(cmd)"])
-    command = os.popen(cmd)
-    time.sleep(2)
-    cmd = 'adb start-server'
-    command = os.popen(cmd)
-    time.sleep(2)        
-    cmd = 'adb devices'
-    command = os.popen(cmd)
-    time.sleep(4)   
+    #command = os.popen(cmd)
+    #time.sleep(2)
+    #cmd = 'adb start-server'
+    #command = os.popen(cmd)
+    #time.sleep(2)        
+    #cmd = 'adb devices'
+    #command = os.popen(cmd)
+    #time.sleep(4)   
 
 
     def test_inittest(self):
