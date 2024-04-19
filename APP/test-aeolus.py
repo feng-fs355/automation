@@ -180,7 +180,8 @@ class TestAPI(TestAPIWrap):
         time.sleep(1)   
         # entry password
         password = PWBFunc().generate_password(10)
-        logdef.info("Generated Password:", password)          
+        print("Generated Password: "+str(password))
+        time.sleep(1)          
         if d(text="Password").exists:
            d(text="Password").click()
            cmd = 'adb shell input text '+str(password)
