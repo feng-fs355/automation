@@ -142,13 +142,13 @@ class TestAPI(TestAPIWrap):
     cmd = 'adb kill-server'
     #command = subprocess.run([sys.executable, "-c", "logdef.info(cmd)"])
     command = os.popen(cmd)
-    time.sleep(1.5)
+    time.sleep(2)
     cmd = 'adb start-server'
     command = os.popen(cmd)
-    time.sleep(1.5)        
+    time.sleep(2)        
     cmd = 'adb devices'
     command = os.popen(cmd)
-    time.sleep(1.5)   
+    time.sleep(4)   
 
 
     def test_inittest(self):
@@ -157,9 +157,11 @@ class TestAPI(TestAPIWrap):
         # adb shell am force-stop com.aeolusbot.instant
         cmd = 'adb shell am force-stop com.aeolusbot.instant'
         command = os.popen(cmd)           
-        time.sleep(1)
+        time.sleep(3)
+        d.debug = True
+        time.sleep(2)
         d.screen_on()
-        time.sleep(1)
+        time.sleep(3)
         d.press("home")
         logdef.info(d.info)    
         # Lanch nRF app
