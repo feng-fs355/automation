@@ -215,7 +215,6 @@ class TestAPI(TestAPIWrap):
               allure.attach.file('login-Fail.png' , attachment_type=allure.attachment_type.PNG)
               logdef.info(text)
               time.sleep(2)
-             
         logdef.info("Done for test")
         logdef.info("test completed")
         # adb shell am force-stop com.aeolusbot.instant
