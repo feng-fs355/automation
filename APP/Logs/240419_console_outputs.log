@@ -273,3 +273,318 @@
 2024-04-19 10:03:12 [INFO   ][ln-218]: test completed
 2024-04-19 10:03:12 [DEBUG  ][ln-980]: teardown_method
 2024-04-19 10:03:12 [DEBUG  ][ln-974]: teardown_class
+2024-04-19 11:03:43 [INFO   ][ln-47 ]: Start to load config file
+2024-04-19 11:03:43 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'th-dog-u2-api.data1.abc.tech'}, 'userinfo': {'usrid': 'feng038100@gmail.com', 'pwd': 'feng1234', 'devuserid': '6489599c9a2357000b2dc384', 'HW': 'DEV', 'sn': 'kd8c0000c6', 'devid': '66B3F7B307B5', 'mac': '66:B3:F7:B3:07:B5', 'version': '3.5', 'androiddev1': 'd38c1487', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'testapk': {'pythonfile': 'test.pu'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'health Robot', 'DevVersion': 'FW v0xFF.2.11'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2024-04-19 11:03:51 [INFO   ][ln-58 ]: ##################################################################
+
+2024-04-19 11:03:51 [INFO   ][ln-59 ]: #  Test case : ( aeolus Lanch app unit test  #)
+
+2024-04-19 11:03:51 [INFO   ][ln-60 ]: ##################################################################)
+
+2024-04-19 11:03:51 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2024-04-19 11:03:51 [DEBUG  ][ln-977]: ======================================== Star to run: <test_inittest> ========================================
+2024-04-19 11:03:51 [INFO   ][ln-156]: Test Aeolus has been bring up
+2024-04-19 11:04:01 [DEBUG  ][ln-980]: teardown_method
+2024-04-19 11:04:01 [DEBUG  ][ln-974]: teardown_class
+2024-04-19 11:04:34 [INFO   ][ln-47 ]: Start to load config file
+2024-04-19 11:04:34 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'th-dog-u2-api.data1.abc.tech'}, 'userinfo': {'usrid': 'feng038100@gmail.com', 'pwd': 'feng1234', 'devuserid': '6489599c9a2357000b2dc384', 'HW': 'DEV', 'sn': 'kd8c0000c6', 'devid': '66B3F7B307B5', 'mac': '66:B3:F7:B3:07:B5', 'version': '3.5', 'androiddev1': 'd38c1487', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'testapk': {'pythonfile': 'test.pu'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'health Robot', 'DevVersion': 'FW v0xFF.2.11'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2024-04-19 11:04:39 [INFO   ][ln-58 ]: ##################################################################
+
+2024-04-19 11:04:39 [INFO   ][ln-59 ]: #  Test case : ( aeolus Lanch app unit test  #)
+
+2024-04-19 11:04:39 [INFO   ][ln-60 ]: ##################################################################)
+
+2024-04-19 11:04:39 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2024-04-19 11:04:39 [DEBUG  ][ln-977]: ======================================== Star to run: <test_inittest> ========================================
+2024-04-19 11:04:39 [INFO   ][ln-156]: Test Aeolus has been bring up
+2024-04-19 11:04:47 [INFO   ][ln-166]: {'currentPackageName': 'com.oppo.launcher', 'displayHeight': 2132, 'displayRotation': 0, 'displaySizeDpX': 360, 'displaySizeDpY': 780, 'displayWidth': 1080, 'productName': 'RMX1971', 'screenOn': True, 'sdkInt': 30, 'naturalOrientation': True}
+2024-04-19 11:04:56 [INFO   ][ln-95 ]: swipeleft feature
+
+2024-04-19 11:04:56 [INFO   ][ln-99 ]: 1080
+2024-04-19 11:04:56 [INFO   ][ln-100]: 2132
+2024-04-19 11:05:28 [INFO   ][ln-212]: pytesseract.image_to_string[[[47 47 47]
+  [47 47 47]
+  [47 47 47]
+  ...
+  [47 47 47]
+  [47 47 47]
+  [47 47 47]]
+
+ [[47 47 47]
+  [47 47 47]
+  [47 47 47]
+  ...
+  [47 47 47]
+  [47 47 47]
+  [47 47 47]]
+
+ [[47 47 47]
+  [47 47 47]
+  [47 47 47]
+  ...
+  [47 47 47]
+  [47 47 47]
+  [47 47 47]]
+
+ ...
+
+ [[96 94 93]
+  [96 94 93]
+  [96 94 93]
+  ...
+  [96 94 93]
+  [96 94 93]
+  [96 94 93]]
+
+ [[96 94 93]
+  [96 94 93]
+  [96 94 93]
+  ...
+  [96 94 93]
+  [96 94 93]
+  [96 94 93]]
+
+ [[96 94 93]
+  [96 94 93]
+  [96 94 93]
+  ...
+  [96 94 93]
+  [96 94 93]
+  [96 94 93]]]
+2024-04-19 11:05:28 [INFO   ][ln-219]: Done for test
+2024-04-19 11:05:28 [INFO   ][ln-220]: test completed
+2024-04-19 11:05:28 [DEBUG  ][ln-980]: teardown_method
+2024-04-19 11:05:28 [DEBUG  ][ln-974]: teardown_class
+2024-04-19 11:13:30 [INFO   ][ln-47 ]: Start to load config file
+2024-04-19 11:13:30 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'th-dog-u2-api.data1.abc.tech'}, 'userinfo': {'usrid': 'feng038100@gmail.com', 'pwd': 'feng1234', 'devuserid': '6489599c9a2357000b2dc384', 'HW': 'DEV', 'sn': 'kd8c0000c6', 'devid': '66B3F7B307B5', 'mac': '66:B3:F7:B3:07:B5', 'version': '3.5', 'androiddev1': 'd38c1487', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'testapk': {'pythonfile': 'test.pu'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'health Robot', 'DevVersion': 'FW v0xFF.2.11'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2024-04-19 11:13:34 [INFO   ][ln-58 ]: ##################################################################
+
+2024-04-19 11:13:34 [INFO   ][ln-59 ]: #  Test case : ( aeolus Lanch app unit test  #)
+
+2024-04-19 11:13:34 [INFO   ][ln-60 ]: ##################################################################)
+
+2024-04-19 11:13:34 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2024-04-19 11:13:34 [DEBUG  ][ln-977]: ======================================== Star to run: <test_inittest> ========================================
+2024-04-19 11:13:34 [INFO   ][ln-156]: Test Aeolus has been bring up
+2024-04-19 11:13:44 [INFO   ][ln-166]: {'currentPackageName': 'com.oppo.launcher', 'displayHeight': 2132, 'displayRotation': 0, 'displaySizeDpX': 360, 'displaySizeDpY': 780, 'displayWidth': 1080, 'productName': 'RMX1971', 'screenOn': True, 'sdkInt': 30, 'naturalOrientation': True}
+2024-04-19 11:13:48 [INFO   ][ln-95 ]: swipeleft feature
+
+2024-04-19 11:13:48 [INFO   ][ln-99 ]: 1080
+2024-04-19 11:13:48 [INFO   ][ln-100]: 2132
+2024-04-19 11:14:18 [INFO   ][ln-212]: pytesseract.image_to_string[[[47 47 47]
+  [47 47 47]
+  [47 47 47]
+  ...
+  [47 47 47]
+  [47 47 47]
+  [47 47 47]]
+
+ [[47 47 47]
+  [47 47 47]
+  [47 47 47]
+  ...
+  [47 47 47]
+  [47 47 47]
+  [47 47 47]]
+
+ [[47 47 47]
+  [47 47 47]
+  [47 47 47]
+  ...
+  [47 47 47]
+  [47 47 47]
+  [47 47 47]]
+
+ ...
+
+ [[96 94 93]
+  [96 94 93]
+  [96 94 93]
+  ...
+  [96 94 93]
+  [96 94 93]
+  [96 94 93]]
+
+ [[96 94 93]
+  [96 94 93]
+  [96 94 93]
+  ...
+  [96 94 93]
+  [96 94 93]
+  [96 94 93]]
+
+ [[96 94 93]
+  [96 94 93]
+  [96 94 93]
+  ...
+  [96 94 93]
+  [96 94 93]
+  [96 94 93]]]
+2024-04-19 11:14:18 [INFO   ][ln-219]: Done for test
+2024-04-19 11:14:18 [INFO   ][ln-220]: test completed
+2024-04-19 11:14:18 [DEBUG  ][ln-980]: teardown_method
+2024-04-19 11:14:18 [DEBUG  ][ln-974]: teardown_class
+2024-04-19 16:19:49 [INFO   ][ln-47 ]: Start to load config file
+2024-04-19 16:19:49 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'th-dog-u2-api.data1.abc.tech'}, 'userinfo': {'usrid': 'feng038100@gmail.com', 'pwd': 'feng1234', 'devuserid': '6489599c9a2357000b2dc384', 'HW': 'DEV', 'sn': 'kd8c0000c6', 'devid': '66B3F7B307B5', 'mac': '66:B3:F7:B3:07:B5', 'version': '3.5', 'androiddev1': 'd38c1487', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'testapk': {'pythonfile': 'test.pu'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'health Robot', 'DevVersion': 'FW v0xFF.2.11'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2024-04-19 16:20:05 [INFO   ][ln-58 ]: ##################################################################
+
+2024-04-19 16:20:05 [INFO   ][ln-59 ]: #  Test case : ( aeolus Lanch app unit test  #)
+
+2024-04-19 16:20:05 [INFO   ][ln-60 ]: ##################################################################)
+
+2024-04-19 16:20:05 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2024-04-19 16:20:05 [DEBUG  ][ln-977]: ======================================== Star to run: <test_inittest> ========================================
+2024-04-19 16:20:05 [INFO   ][ln-156]: Test Aeolus has been bring up
+2024-04-19 16:20:07 [DEBUG  ][ln-980]: teardown_method
+2024-04-19 16:20:07 [DEBUG  ][ln-974]: teardown_class
+2024-04-19 16:20:16 [INFO   ][ln-47 ]: Start to load config file
+2024-04-19 16:20:16 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'th-dog-u2-api.data1.abc.tech'}, 'userinfo': {'usrid': 'feng038100@gmail.com', 'pwd': 'feng1234', 'devuserid': '6489599c9a2357000b2dc384', 'HW': 'DEV', 'sn': 'kd8c0000c6', 'devid': '66B3F7B307B5', 'mac': '66:B3:F7:B3:07:B5', 'version': '3.5', 'androiddev1': 'd38c1487', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'testapk': {'pythonfile': 'test.pu'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'health Robot', 'DevVersion': 'FW v0xFF.2.11'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2024-04-19 16:20:20 [INFO   ][ln-58 ]: ##################################################################
+
+2024-04-19 16:20:20 [INFO   ][ln-59 ]: #  Test case : ( aeolus Lanch app unit test  #)
+
+2024-04-19 16:20:20 [INFO   ][ln-60 ]: ##################################################################)
+
+2024-04-19 16:20:20 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2024-04-19 16:20:20 [DEBUG  ][ln-977]: ======================================== Star to run: <test_inittest> ========================================
+2024-04-19 16:20:20 [INFO   ][ln-156]: Test Aeolus has been bring up
+2024-04-19 16:20:34 [DEBUG  ][ln-980]: teardown_method
+2024-04-19 16:20:34 [DEBUG  ][ln-974]: teardown_class
+2024-04-19 16:20:45 [INFO   ][ln-47 ]: Start to load config file
+2024-04-19 16:20:45 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'th-dog-u2-api.data1.abc.tech'}, 'userinfo': {'usrid': 'feng038100@gmail.com', 'pwd': 'feng1234', 'devuserid': '6489599c9a2357000b2dc384', 'HW': 'DEV', 'sn': 'kd8c0000c6', 'devid': '66B3F7B307B5', 'mac': '66:B3:F7:B3:07:B5', 'version': '3.5', 'androiddev1': 'd38c1487', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'testapk': {'pythonfile': 'test.pu'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'health Robot', 'DevVersion': 'FW v0xFF.2.11'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2024-04-19 16:20:50 [INFO   ][ln-58 ]: ##################################################################
+
+2024-04-19 16:20:50 [INFO   ][ln-59 ]: #  Test case : ( aeolus Lanch app unit test  #)
+
+2024-04-19 16:20:50 [INFO   ][ln-60 ]: ##################################################################)
+
+2024-04-19 16:20:50 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2024-04-19 16:20:50 [DEBUG  ][ln-977]: ======================================== Star to run: <test_inittest> ========================================
+2024-04-19 16:20:50 [INFO   ][ln-156]: Test Aeolus has been bring up
+2024-04-19 16:21:00 [INFO   ][ln-166]: {'currentPackageName': 'com.oppo.launcher', 'displayHeight': 2132, 'displayRotation': 0, 'displaySizeDpX': 360, 'displaySizeDpY': 780, 'displayWidth': 1080, 'productName': 'RMX1971', 'screenOn': True, 'sdkInt': 30, 'naturalOrientation': True}
+2024-04-19 16:21:04 [INFO   ][ln-95 ]: swipeleft feature
+
+2024-04-19 16:21:04 [INFO   ][ln-99 ]: 1080
+2024-04-19 16:21:04 [INFO   ][ln-100]: 2132
+2024-04-19 16:21:31 [INFO   ][ln-212]: pytesseract.image_to_string[[[47 47 47]
+  [47 47 47]
+  [47 47 47]
+  ...
+  [47 47 47]
+  [47 47 47]
+  [47 47 47]]
+
+ [[47 47 47]
+  [47 47 47]
+  [47 47 47]
+  ...
+  [47 47 47]
+  [47 47 47]
+  [47 47 47]]
+
+ [[47 47 47]
+  [47 47 47]
+  [47 47 47]
+  ...
+  [47 47 47]
+  [47 47 47]
+  [47 47 47]]
+
+ ...
+
+ [[96 94 93]
+  [96 94 93]
+  [96 94 93]
+  ...
+  [96 94 93]
+  [96 94 93]
+  [96 94 93]]
+
+ [[96 94 93]
+  [96 94 93]
+  [96 94 93]
+  ...
+  [96 94 93]
+  [96 94 93]
+  [96 94 93]]
+
+ [[96 94 93]
+  [96 94 93]
+  [96 94 93]
+  ...
+  [96 94 93]
+  [96 94 93]
+  [96 94 93]]]
+2024-04-19 16:21:31 [INFO   ][ln-219]: Done for test
+2024-04-19 16:21:31 [INFO   ][ln-220]: test completed
+2024-04-19 16:21:31 [DEBUG  ][ln-980]: teardown_method
+2024-04-19 16:21:31 [DEBUG  ][ln-974]: teardown_class
+2024-04-19 16:22:51 [INFO   ][ln-47 ]: Start to load config file
+2024-04-19 16:22:51 [DEBUG  ][ln-49 ]: config.ini: {'dut': {'ip': 'th-dog-u2-api.data1.abc.tech'}, 'userinfo': {'usrid': 'feng038100@gmail.com', 'pwd': 'feng1234', 'devuserid': '6489599c9a2357000b2dc384', 'HW': 'DEV', 'sn': 'kd8c0000c6', 'devid': '66B3F7B307B5', 'mac': '66:B3:F7:B3:07:B5', 'version': '3.5', 'androiddev1': 'd38c1487', 'Commanduuid': '00004652-08c2-11e1-9073-0e8ac72e0011', 'Datauuid': '00004652-08c2-11e1-9073-0e8ac72e0013', 'ResponseUUID': '00004652-08c2-11e1-9073-0e8ac72e0012'}, 'testapk': {'pythonfile': 'test.pu'}, 'unixtime': {'adddays': 0, 'addhours': 1, 'addsecs': 30}, 'allurewiget': {'Device': 'health Robot', 'DevVersion': 'FW v0xFF.2.11'}, 'sleep': {'begin': '2022-12-12 23:00', 'totalsleep': 360}, 'walking': {'begin': '2022-12-13 10:00', 'totalwalking': 90}, 'running': {'begin': '2022-12-13 11:00', 'totalrunning': 90}}
+2024-04-19 16:22:56 [INFO   ][ln-58 ]: ##################################################################
+
+2024-04-19 16:22:56 [INFO   ][ln-59 ]: #  Test case : ( aeolus Lanch app unit test  #)
+
+2024-04-19 16:22:56 [INFO   ][ln-60 ]: ##################################################################)
+
+2024-04-19 16:22:56 [DEBUG  ][ln-971]: ======================================== Star to run: <TestAPI> ========================================
+2024-04-19 16:22:56 [DEBUG  ][ln-977]: ======================================== Star to run: <test_inittest> ========================================
+2024-04-19 16:22:56 [INFO   ][ln-156]: Test Aeolus has been bring up
+2024-04-19 16:23:05 [INFO   ][ln-166]: {'currentPackageName': 'com.oppo.launcher', 'displayHeight': 2132, 'displayRotation': 0, 'displaySizeDpX': 360, 'displaySizeDpY': 780, 'displayWidth': 1080, 'productName': 'RMX1971', 'screenOn': True, 'sdkInt': 30, 'naturalOrientation': True}
+2024-04-19 16:23:09 [INFO   ][ln-95 ]: swipeleft feature
+
+2024-04-19 16:23:09 [INFO   ][ln-99 ]: 1080
+2024-04-19 16:23:09 [INFO   ][ln-100]: 2132
+2024-04-19 16:23:39 [INFO   ][ln-212]: pytesseract.image_to_string[[[47 47 47]
+  [47 47 47]
+  [47 47 47]
+  ...
+  [47 47 47]
+  [47 47 47]
+  [47 47 47]]
+
+ [[47 47 47]
+  [47 47 47]
+  [47 47 47]
+  ...
+  [47 47 47]
+  [47 47 47]
+  [47 47 47]]
+
+ [[47 47 47]
+  [47 47 47]
+  [47 47 47]
+  ...
+  [47 47 47]
+  [47 47 47]
+  [47 47 47]]
+
+ ...
+
+ [[96 94 93]
+  [96 94 93]
+  [96 94 93]
+  ...
+  [96 94 93]
+  [96 94 93]
+  [96 94 93]]
+
+ [[96 94 93]
+  [96 94 93]
+  [96 94 93]
+  ...
+  [96 94 93]
+  [96 94 93]
+  [96 94 93]]
+
+ [[96 94 93]
+  [96 94 93]
+  [96 94 93]
+  ...
+  [96 94 93]
+  [96 94 93]
+  [96 94 93]]]
+2024-04-19 16:23:39 [INFO   ][ln-219]: Done for test
+2024-04-19 16:23:39 [INFO   ][ln-220]: test completed
+2024-04-19 16:23:39 [DEBUG  ][ln-980]: teardown_method
+2024-04-19 16:23:39 [DEBUG  ][ln-974]: teardown_class
